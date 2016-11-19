@@ -14,7 +14,7 @@ This is a random text containing a [link to Jekyll](http://jekyllrb.com).
 
 ##### This is supposed to check UTF-8
 
-Za¿ó³æ gêœl¹ jaŸñ.
+ZaÅ¼Ã³Å‚Ä‡ gÄ™Å›lÄ… jaÅºÅ„.
 
 ##### This is supposed to check the table syntax. Because tables.
 
