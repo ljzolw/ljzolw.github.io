@@ -4,25 +4,25 @@ title: "First (test) post"
 date: 2016-11-19
 ---
 
-# Testing #
-## Headers ##
-### In syntax ###
-#### I know ####
-##### Or so I think #####
+# Testing #  
+## Headers ##  
+### In syntax ###  
+#### I know ####  
+##### Or so I think #####  
 
 This is a random text containing a [link to Jekyll](http://jekyllrb.com).
 
-##### This is supposed to check UTF-8 #####
+##### This is supposed to check UTF-8 #####  
 
 Zażółć gęślą jaźń.
 
-##### This is supposed to check the table syntax. Because tables. #####
+##### This is supposed to check the table syntax. Because tables. #####  
 
 |  SCA |  SCD |  SCF |  KNO |  CRF |  SPN |  FRT |  NMB |
 |:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|
 |  -2  |   0  |   0  |   2  |   0  |   2  |  -1  |  -1  |
 
-##### Let's see a deeply nested list #####
+##### Let's see a deeply nested list #####  
 
 1. High
     1. Med
@@ -37,7 +37,7 @@ Zażółć gęślą jaźń.
             3. Test 3
             4. Test 4
 
-##### Let's see newlines. #####
+##### Let's see newlines. #####  
 
 This should be a first line (no 2space).
 This should be a second line (no 2space).
