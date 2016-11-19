@@ -1,13 +1,11 @@
 ﻿---
 layout: default
-title: Blog
+title: Archive
 ---
 
 <h1>{{ page.title }}</h1>
 <ul class="posts">
-
-  {% for post in site.posts %}
-    <a href="{{ post.url }}" title="{{ post.title }}" class="excerpt-link">{{ post.title }}
-  {% endfor %}
-    
+    <ul>
+        <li><a href="/2016/11/19/first-post">Testing kramdown syntax</a></li>
+    </ul>
 </ul>
