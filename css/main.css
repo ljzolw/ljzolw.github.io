@@ -1,5 +1,5 @@
 html {
-    background-color:#fafafa
+    background-color:#eaeaea
 }
 body {
     margin: 40px auto;
@@ -12,6 +12,7 @@ nav ul, footer ul {
     font-weight: bold;
 }
 nav ul li, footer ul li {
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
     display: inline;
     margin-right: 20px;
 }
@@ -45,4 +46,9 @@ ul.posts {
 
 ul.posts li {
     list-style: none;
+}
+
+img.resize{
+    max-width:100px;
+    height: auto;
 }
