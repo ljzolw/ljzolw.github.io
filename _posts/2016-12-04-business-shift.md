@@ -28,8 +28,6 @@ date: 2016-12-04
     3. why it is worth it to explain your business to programmers instead of giving them tasks
     4. why everything slows down with time and gets more expensive
 
-Anyway, for TL;DR feel free to jump to conclusions. In case you disagree with reasoning, you can always read the post ;-).
-
 ### Creation of the world
 
 ##### The domain
@@ -192,6 +190,7 @@ I believe it is impossible to accurately predict 100% of the functionalities you
 The business need which finally pushed us to move from the wiki to the static generator was creation of the locations. Imagine – every city, every district, every notable building - they should have their own ‘profiles’ with the information in which stories they took place and which characters were present there (and what happened there, of course).
 
 But this means that every time we make a story we have to generate or re-generate:
+
 * about 10 character profiles
 * about 10 location profiles
 * 3 master lists (profiles, stories, locations)
