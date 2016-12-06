@@ -1,72 +1,101 @@
 ---
 layout: post
-title: "Business shift"
+title: "A small niche program in an everchanging world"
 date: 2016-12-04
 ---
+
+### Abstract
+
+Why is the change inevitable? Why does the business change their requirements all the time?
+
+This post is an attempt to tell a story of a single program from its start to... well, today. 
+
+Why? To show how the projects like those are made from the start - by starting small and adapting to everchanging requirements. To show some tips and tricks I have learnt in the process. To explain the tradeoffs.
+
+Basically, to show _you_ how to start and what you could be dealing with.
 
 ### The value of this post to you:
 
 1. If you are someone willing to write the program for yourself / a small group of friends, this whole post is designed for you. You will be able to see: 
-    1. why and how will your domain change with time 
+    1. why and potentially how will your domain change with time 
     2. why it is not worth it to predict everything 
-    3. how not to get paralyzed with "what do do next"
+    3. how not to get paralyzed with 'what do do next' or 'how to start'
     4. how to prioritize what to work on.
-
-2.	If you are a programmer working in a larger company, you can see: 
-    1. why the business is not stupid yet makes some strange choices
-    2. how deeply the business and programming are interlinked
-    3. an approach to programming which works for small autonomous teams, but is usually less appropriate in the context of programming in a large team. 
-
-3.	If you are someone who strives to write perfect code, you will be able to see: 
+    
+2.	If you are someone who strives to write perfect code, you will be able to see: 
     1. why it may be impossible to write a perfect program 
     2. why 'perfect' may be a wrong target
     3. why imperfect code is usually good enough under constraints
 
-4.	If you are someone from the business side, you can see: 
-    1. prioritizing of highest value (impact on our group) at the lowest cost (time)
-    2. how every change in the business influences the code considerably
-    3. why it is worth it to explain your business to programmers instead of giving them tasks
-    4. why everything slows down with time and gets more expensive
+3.	If you are someone wanting to create something, but not a programmer, you will be able to see:
+    1. what types of tradeoffs are you going to deal with
+    2. one possible approach to creation which works best with stories, programming and things which are easy to change
+    3. but be aware - software, stories... those are very mutable. You can easily change them. Hardware, woodwork... those things are hard to change. They require a different approach.
 
-### Creation of the world
+4. Finally, if you have always wondered how the programs are started and maintained with time:
+    1. you will be able to read a semi-detailed story which - I hope - will be entertaining
+
+### Why did I write this post?
+
+I am both a lead programmer of a small program and one of product owners and customers needing the output of that program. This gives me a unique perspective, because I have many roles in the same project.
+
+The program I am working on has had a lot of business requirements changed. Even today, after 2 years since we started I still have no idea how it is going to look like in its final form.
+
+During my work on this program I have seen the business changes influencing the code and the capabilities of the program influencing what the 'business' (that is, us) wanted.
+
+As I am usually interacting with younger developers I have noticed they often have very high expectations on themselves. They expect to do everything 'right' from the start. I want to show them that success very often comes from starting small and flexible and solving one problem at a time.
+
+### Our business? Let's create the world
 
 ##### The domain
 
-Imagine you are a member of a group writing a book together. This book is supposed to create a consistent world and a consistent history of the fictional reality. Example: "Chronicles of the Omega", sci-fi.
+Imagine you are a member of a group writing a book together. This book is supposed to create a consistent world and a consistent history of the fictional reality. The book is located on a wiki and its structure looks more or less like this:
 
-This book is split into different chapters. Every chapter is a slice of time centered around a particular topic or story thread (example: "Omega Awakens" or "Darkness of Metropolis"). 
+![Structure of domain: book into chapters, chapters into stories](/img/161204_domain_picture.png)
 
-And every chapter is made of individual stories which are actual records of what happened (example: "The lost key", then "Secret chamber" and finally "Escape!" as three short stories in "Omega Awakens").
-
-Shared reality creation. This is a hobby of mine and a group of my friends. We do it under the umbrella name of RiggedDice.
+This type of shared reality creation is a hobby of mine and a group of my friends. We do it under the umbrella name of RiggedDice.
 
 ##### The past
 
-In January 2014 our small group started to create a new world. This time we decided that we are going to generate chapters and stories when we felt like it. We can inject a story in the past, we can go on a tangent and add even more characters in the story. In short, instead of writing things linearly we can write them like we want to, creating and changing things on the fly. What can go wrong?
+In January 2014 our small group started to create a new world. This time we decided that we are going to go more freeform:
 
-In November 2014 we had about 100 characters in 44 stories, split between four chapters. And a new type of problem appeared, one greatly magnified by the fact we can create stories in different points of time. We started to get lost in our own creation. What did a particular character do? What does a particular character know? Did X happen already? Who got Y and what happened to it? 
+![Jumping between the chapters and stories freeform way, ignoring chronology and making chapters on the go](/img/161204_new_approach.png)
 
-And so on 25th December 2014 I have created a first commit of an extremely unremarkable program called ‘rdtool’ (short for Rigged Dice Tool). This program - written in Ruby - was supposed to spider through the wiki which we all edited, parse all the stories and write down into every character profile all the links to the stories in which that character was present.
+In November 2014 we had about 100 characters in 44 stories, split between four chapters. 
+
+And a new type of problem appeared. We started to get lost in our own creation. 
+
+What did a particular character do? What does a particular character know? Did X happen already? Who got Y and what happened to it? 
+
+And so on 25th December 2014 I have created a first commit of an extremely unremarkable program called ‘rdtool’ (short for Rigged Dice Tool). 
+
+This program - at that point written in Ruby - was supposed to spider through the wiki which we all edited, parse all the stories and write down all the links to the stories in which a character was present into that character profile and save all profiles to hard drive:
+
+![rdtool takes stories and profiles from the wiki, combines them and saves them on the hard drive](/img/161204_original_rdtool.png)
 
 That was all I was trying to do.
 
 ##### The present
 
-Fast forward to 4th December 2016. We have about 600 characters in about 200 stories in 12 chapters. The humble program called ‘rdtool’ is written in Python now and we are migrating from the wiki to a [static site generator](https://www.staticgen.com/about) (probably Jekyll to be precise) and when we finish - the program is going to take the input from Jekyll and generate the output directly into Jekyll. All under git version control system.
+Fast forward to 4th December 2016. 
 
-Our group is not 4 friends anymore. About 15 people have influenced the world we are building since 2014 at this point; some have never interacted with each other in person, but they all interact in the same shared reality and the story threads they are creating influence other people.
+Our group is not 4 friends anymore. About 15 people have influenced the world we are building since 2014 at this point; some have never interacted with each other in person, but they all influence other people in the same shared reality. The story threads they are creating intermingle with the threads others are creating.
 
-##### The lesson?
+We have about 600 characters in about 200 stories in 12 chapters. The world is still internally consistent (aside occasional sunsetting or editing a story or two).
 
-The wiki stopped being powerful enough for our needs at this point. Most data is generated by rdtool, not by humans. 
+And the unremarkable program called ‘rdtool’? It is written in Python now and it does a lot of stuff. To be honest, it generates so much things we are migrating from the wiki to a [static site generator](https://www.staticgen.com/about) (most likely [Jekyll](http://jekyllrb.com/) to be precise). 
 
-The existence of rdtool made it possible for us to expand the scope of what we do and of the rdtool itself. This shared fictional world would not be possible to be created as it is without this program. 
+When we finish - rdtool is going to take the input from Jekyll and generate the output directly into Jekyll. All under git version control system.
+
+![rdtool looks much more complex with Jekyll, but does a lot of powerful things](/img/161204_future_rdtool.png)
+
+##### Why not wiki? What happened?
+
+Without rdtool this shared reality would be extremely hard to be maintained - it would get inconsistent. As the amount of stories grew, we needed more knowledge about the overall reality created by those stories. 
+
+This led us to adding new business requirements to rdtool. And... we got to the point wiki itself is not powerful enough. In the beginning, most data was generated by humans; at this point, most data is generated by rdtool.
 
 A typical success story of a niche tool in a niche need.
-
-This also gives me a unique perspective. I am both a lead programmer of rdtool and one of product owners and customers needing rdtool and its output for the shared world creation.
-
-During my work on this program I have seen the business changes influencing the code and the capabilities of the rdtool influencing what the 'business' (that is, us) wanted. And this is what I would like to share with you in this post. The origin of the business shift, why business change is awesome and how can a small and empowered team adapt to the need of the business.
 
 ### The business shift
 
@@ -76,8 +105,8 @@ The problem we had in the very beginning was noticed about the Christmas time. I
 
 * T (my wife): so what happened to Vladimir’s car? Can he get there not alerting anyone?
 * Me: I don’t remember; what is special about his car?
-* T: it was trashed. Then it was rigged with a bug. You don’t remember?
-* Me: now I do; thanks for reminding me, this would require some editing afterwards if I forgot.
+* T: it was broken. Then it was rigged with a locator. You don’t remember?
+* Me: now I do; thanks for reminding me, this would get QUITE inconsistent.
 * T: seriously, we should have people write down those facts directly on the profiles
 * Me: but no one wants to do it; it is boring
 * T: should be done by machine, then. Automatically.
