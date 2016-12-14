@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="13.3">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>70</x>
+      <y>110</y>
+      <w>140</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>Dramatis Personae</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>190</x>
+      <y>210</y>
+      <w>140</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>Qualifier?
+
+(mage, human)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>340</x>
+      <y>210</y>
+      <w>140</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>Who?
+
+(Kate, Vladimir...)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>490</x>
+      <y>210</y>
+      <w>140</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>What did they do?
+ 
+(heal a group by 
+the power of garlic)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>170</x>
+      <y>180</y>
+      <w>480</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>Dramatis Personae Record</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>110</x>
+      <y>130</y>
+      <w>80</w>
+      <h>140</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m1=Many
+m2=One</panel_attributes>
+    <additional_attributes>60.0;110.0;20.0;110.0;20.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>70</x>
+      <y>360</y>
+      <w>140</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>Locations</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>170</x>
+      <y>440</y>
+      <w>480</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>Locations Metadata Record</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>210</x>
+      <y>470</y>
+      <w>140</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>Link?
+
+(link to a page)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>110</x>
+      <y>380</y>
+      <w>80</w>
+      <h>140</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m1=Many
+m2=One</panel_attributes>
+    <additional_attributes>60.0;110.0;20.0;110.0;20.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>380</x>
+      <y>470</y>
+      <w>250</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>Child Locations Metadata Records
+
+(child links)</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
