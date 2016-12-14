@@ -18,14 +18,14 @@ _This analysis is not refined on purpose. I am making things up while I am writi
 
 1. If you :
     1. are a programmer who knows words like 'factory' or 'composite' or 'layer' who likes to co-design non-trivial refactorings in an exploratory way, I hope to show you:
-        1. multiple approaches applied more or less in the same time to pinpoint the least risky and most impactful refactoring to the domain
+        1. multiple approaches applied more or less in the same time to pinpoint the least risky and most impactful refactoring towards the domain
         2. how my understanding of the problem really changes with writing this document
         3. and I hope you will be able to pick a trick or two from what I am doing here
-    2. are a technical person who prefers to refactor **code**, not refactor **to domain**, I hope to show you:
+    2. are a technical person who prefers to refactor **code**, not refactor **towards the domain**, I hope to show you:
         1. that 'refactoring strings' very often is something different to what is stated
         2. that without knowing the domain it is very hard to get an acceptable solution; too easy to get a local maximum and get stuck in it
     3. are a technical person who does not see the value in drawing on the whiteboard, paper & pencil or other forms of analysis, I hope to show you:
-        1. how to use an analysis as a tool supporting the code, separating conception from implementation
+        1. how to use an analysis as a tool supporting the code, separating the concept from implementation
         2. why it is worth it to use an analysis like that - how it saves me time and frustration
         3. how the analysis changes with time; how trying to draw the problem changes its understanding and makes it easier to reason about it.
 
