@@ -327,12 +327,26 @@ I know! Let's make a 100% powerful pure text parser! The data model will be hidd
     This text is a H5 section        | 25 H5, newline
     This text is bolded here         | 14-24 bold, newline
 
-This would, of course, work. This is a heavyweight approach; I guess this is how the word processors do it - with text and... tactically applied text decoration? (incidentally, I should look into LibreOffice codebase if I ever decide to go this way; that is, to see how they made it work).
+This would, of course, work. This is a heavyweight approach; I guess this is how the word processors do it - with text and... tactically applied text decoration? (incidentally, I should look into LibreOffice codebase if I ever decide to go this way; that is, to see how they made it work) 
 
-So having this approach the code is very easy to convert, but the underlying data model might be a small nightmare to work with. That is, not only will the regular expressions be less reliable (because at this moment I search for a pattern involving the special section symbols), but also the information about the data will be located in parallel to the data itself.
+So having this approach the code is very easy to convert, but the underlying data model might be a small nightmare to work with. 
 
 This would work, but let's explore further options.
+
+##### 1.5 Small detour - Abstract Syntax Trees
    
+_EDIT: I have researched this topic a bit; to achieve (1) I should probably use [Abstract Syntax Trees](https://en.wikipedia.org/wiki/Abstract_syntax_tree) - and actually using them [may be harder than just parsing them](http://www.semanticdesigns.com/Products/DMS/LifeAfterParsing.html) - this is something way outside the domain._
+
+_To see how an AST works, look at [this link](http://textlint.github.io/markdown-to-ast/example/) and input the following text:_ 
+
+    this _is **a text**_
+
+_corresponding to:_
+
+this _is **a text**_
+
+_Fun, right?_
+
 ##### 2. Pure domain aware parser
 
 To expand a possible set of options, I always try to have two polar opposites before iterating on a 'perfect' solution. So, this one would be an impractical opposite of the pure text parser approach. In this approach the parser really is aware about the domain and it already builds the data model properly. Something like this:
