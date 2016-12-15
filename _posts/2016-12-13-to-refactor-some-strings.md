@@ -246,8 +246,6 @@ I have been making a major mistake from the very beginning. I have been looking 
 
 If you look at this picture, it is quite obvious that the source is supposed to deliver whatever is needed for further objects to function. In current rdtool this is the text content of the text files. In future rdtool those may be DataTrees.
 
-If you look at this picture, it is quite obvious that the source is supposed to deliver whatever is needed for further objects to function. In current rdtool those are text files. In future rdtool those may be DataTrees.
-
 Also, if Hugo and Jekyll and Lektor and other static sites generators really differ with the rendering of the markdown format, it might be better to create proper formatters and parsers inside the respective sources. That way it is impossible to generate something which does not work by accident.
 
 So, (1) it is.
