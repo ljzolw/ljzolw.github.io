@@ -45,13 +45,13 @@ So this post is, in reality, a written down analysis of a refactoring which is g
 
 ### Business case - why refactor at all?
 
-##### Context
+#### Context
 
 The context and the domain are described in the previous post. Let me warn you, [that one](/2016/12/04/rdtool-1) is as long as this one. This one has more pictures though ;-).
 
 Currently, rdtool (and all the data governed by it) is deeply connected with the wiki, using the wiki markup internally. 
 
-##### Domain problem, in short
+#### Domain problem, in short
 
 I want to move the data from the wiki to Jekyll - which uses a particular type of markup called markdown.
 
@@ -67,7 +67,7 @@ Which should look like this in markdown:
 
     ### Header H3 (markdown)
 
-##### First hypothesis - setting the tactical goals
+#### First hypothesis - setting the tactical goals
 
 So the refactoring requires the following:
 
@@ -104,7 +104,7 @@ While exploring the problem, first obvious question usually is...
 
 ### Where should the change be made?
 
-##### Sequence diagram explanation
+#### Sequence diagram explanation
 
 To continue, I have to explain a sketch of a sequence diagram. Those tools are usually used to show interactions between participants; I use them very often to verify if I have everything I need at my disposal. Basically, I use them to program without writing code.
 
@@ -118,7 +118,7 @@ This diagram can also represent business processes, not only interaction between
 
 The great advantage of using sequence diagrams is the fact that I am able to pinpoint what I’m going to need (in the case presented in the diagram, to make tea I need whatever is delivered on the leftmost arrow: water, kettle, teabag, cup).
 
-##### The problem we have:
+#### The problem we have:
 
 Rdtool is a program which operates like this:
 
@@ -185,7 +185,7 @@ This is also reinforced by a very interesting article by Steve Yegge, called ['T
 
 Having the above in mind, let's see our options.
 
-##### 1. Source calls 'Parse' and returns the DataTree
+#### 1. Source calls 'Parse' and returns the DataTree
 
 ![business command calls 'provide' which uses the source; source calls 'parse'](/img/161213/provide_source_parse_relation_11.png)
 
@@ -201,7 +201,7 @@ Disadvantages:
 
 * if we moved from Jekyll to Hugo, for example, from my observations there are differences in the way lists are written in markdown (has to do with whitespaces...). This would require making _Hugo source_ and _Jekyll source_ with possible code duplication
 
-##### 2. Provide calls 'Parse' as a part of its operations
+#### 2. Provide calls 'Parse' as a part of its operations
 
 ![business command calls 'provide' which uses the source; receives TextFile. Then, 'provide' calls 'parse'](/img/161213/provide_source_parse_relation_12.png)
 
@@ -219,7 +219,7 @@ Disadvantages:
 * you can (accidentally?) use a parser which does not correspond to the source
 * in case of a strange source, it might have to generate the text files first instead of generating DataTrees from the very start
 
-##### 3. Object creation calls 'Parse' as a part of its operations
+#### 3. Object creation calls 'Parse' as a part of its operations
 
 ![business command calls 'provide' which uses the source; receives TextFile. Then, while objects are constructed, appropriate factories call 'parse'. Potential of some negotiated knowledge between factories-parsers-data](/img/161213/provide_source_parse_relation_13.png)
 
@@ -238,7 +238,7 @@ Disadvantages:
 * a lot of support code in places where it should not really be expected
 * I don't really _understand_ how this is supposed to look like; a new parser per entity?
 
-##### 4. Returning to 1, but with a different view
+#### 4. Returning to 1, but with a different view
 
 ![business command calls 'provide' which uses the source; source calls 'parse'; this time 'DataTrees' were swapped for 'Information' - not working with code but with its intention](/img/161213/provide_source_parse_relation_14.png)
 
@@ -252,7 +252,7 @@ So, (1) it is.
 
 ### ...but trees containing WHAT?
 
-##### The problem of the data model
+#### The problem of the data model
 
 The data I am dealing with will be rendered in a following way, more or less:
 
@@ -317,7 +317,7 @@ This is a horizontal problem; it cuts most layers (if not all of them):
 
 But this actually means it is very, very important to get this thing right.
 
-##### 1. Pure, perfect text parser
+#### 1. Pure, perfect text parser
 
 I know! Let's make a 100% powerful pure text parser! The data model will be hidden inside JSon, XML or something, and it will represent something like this:
 
@@ -331,7 +331,7 @@ So having this approach the code is very easy to convert, but the underlying dat
 
 This would work, but let's explore further options.
 
-##### 1.5 Small detour - Abstract Syntax Trees
+#### 1.5 Small detour - Abstract Syntax Trees
    
 _EDIT: I have researched this topic a bit; to achieve (1) I should probably use [Abstract Syntax Trees](https://en.wikipedia.org/wiki/Abstract_syntax_tree) - and actually using them [may be harder than just parsing them](http://www.semanticdesigns.com/Products/DMS/LifeAfterParsing.html) - this is something way outside the domain._
 
@@ -345,7 +345,7 @@ this _is **a text**_
 
 _Fun, right?_
 
-##### 2. Pure domain aware parser
+#### 2. Pure domain aware parser
 
 To expand a possible set of options, I always try to have two polar opposites before iterating on a 'perfect' solution. So, this one would be an impractical opposite of the pure text parser approach. In this approach the parser really is aware about the domain and it already builds the data model properly. Something like this:
 
@@ -369,7 +369,7 @@ By being perfectly aware of the domain, however, there are several disadvantages
 
 Impractical and does not serve our needs at all. But after several iterations and ideas...
 
-##### 3. Hybrid text section / plaintext parser
+#### 3. Hybrid text section / plaintext parser
 
 When I recall what I know of the domain, I can see the following:
 
@@ -429,7 +429,7 @@ Which leads to the final question.
 
 ### Business impact of the refactoring
 
-##### Current refactoring choices
+#### Current refactoring choices
 
 I have selected a solution which looks as follows:
 
@@ -451,7 +451,7 @@ And the following disadvantages:
 * X -> Y operations (between formats; wiki -> markdown) will not be converted perfectly
 * Formatting of _non-meaningful_ information must be governed by the Domain Objects
 
-##### Is this an acceptable solution?
+#### Is this an acceptable solution?
 
 The real question, really, is:
 
@@ -479,7 +479,7 @@ Thus, introduction of parsers and formatters will be a pain, but this pain is un
 
 Also, with rdtool doing more and more, I am slowly starting to think that I may not be the only user of this application. If so, why not make it easier for others to integrate it with their workflows - by supporting adding formatters and parsers they need? It won't cost me that much time.
 
-##### 2. is it better to write a formatter and parser and change the data model, but accept imperfections in translation?
+#### 2. is it better to write a formatter and parser and change the data model, but accept imperfections in translation?
 
 Yes, I believe this is the best option for now.
 
@@ -491,13 +491,13 @@ I estimate I should be able to finish before January 2017. Let's see how it goes
 2. The riskiest part is introducing parsers and formatters for multi-formats
 3. The riskiest part is changing the internal data model
 
-##### 1. The riskiest part is achieving parity between wikidot and Jekyll
+#### 1. The riskiest part is achieving parity between wikidot and Jekyll
 
 Actually, the riskiest **and** most difficult part up to now was... selecting a Static Site Generator. I have tried many implementations of SSG on Gitlab. From those I tried, the easiest to install locally (on Windows) and the easiest to achieve parity with the wiki (especially with tables, unspecified in markdown syntax) was Jekyll.
 
 So the riskiest and most impactful of steps is already passed. I have a guarantee that if I do everything right, Jekyll will work as I need it to.
 
-##### 2. The riskiest part is introducing parsers and formatters for multi-formats
+#### 2. The riskiest part is introducing parsers and formatters for multi-formats
 
 Nope. This is infrastructure level. This below is a source code of a provider:
 
@@ -507,7 +507,7 @@ The risk of this change is contained in the Source itself. If I wanted a multi-f
 
 _(except changing all formatted strings in most factories in the whole application - it is not 'hard'; I have a test harness; but it is tedious)_
 
-##### 3. The riskiest part is changing the internal data model
+#### 3. The riskiest part is changing the internal data model
 
 Yes, this is it. Look at the provider again:
 
@@ -523,11 +523,11 @@ Anyway, this is definitely the most dangerous and difficult change.
 
 ### How to perform this refactoring
 
-##### Current state of the application
+#### Current state of the application
 
 At this moment I have my tests. They are green - they prove that my application works.
 
-##### What happens if I start from data model change?
+#### What happens if I start from data model change?
 
 Let's assume I start from the data model change (create a parser and make it return the DataTrees instead of plaintext, doing nothing more). What will happen to my tests? They will definitely stop showing 'everything works'.
 
@@ -569,7 +569,7 @@ To verify the particular parser / formatter operation. Especially in the area of
     
 Anyway, this refactoring should not be too difficult in this sequence.
 
-##### What happens if I start from multi-format?
+#### What happens if I start from multi-format?
 
 I am starting from writing a parser and a formatter, they still operate on text and they are slowly starting to work with two formats.
 
@@ -605,7 +605,7 @@ And after I finish - I can delete some tests which I wrote before to add a new f
 
 _This should also work. Seems to be much more work though - and seems harder._
 
-##### What to select, then?
+#### What to select, then?
 
 In the world where all programmers are beautiful, nice and wise, I would give you an awesome answer. However, in the real world we are dealing with me... 
 
@@ -641,7 +641,7 @@ The most important part - I will not be surprised with this problem. I can defer
 
 ### The final output of this analysis
 
-##### Solution I have selected: how does it look like
+#### Solution I have selected: how does it look like
 
 Currently, rdtool operates internally on plaintext (strings) and factories are the entities which extract the meaning from the text using the formatting based on wikidot syntax.
 
@@ -659,7 +659,7 @@ The impact of this change is quite large; this requires changing the whole inter
 
 ![single rdtool command: BuildProfiles, sequence diagram, with only blue parts - infrastructure - highlighted, but with a green horizontal line cutting through all the layers. The line stops at the level of 'Extract relevant data' where domain objects start and appears again at 'send data to Formatter from Business layer', more or less. The size of the green line is reduced to 66% of the original length](/img/161213/current_flow_3_true_horizontal_problem.png)
 
-The parsers, formatters and other 'environment-based syntax' (Jekyll, wikidot, wikimedia...) should be located in the 'blue' area of the picture - infrastructure level. 
+Those parsers, formatters and other 'environment-based syntax' (Jekyll, wikidot, wikimedia...) should be located in the 'blue' area of the picture - infrastructure level. 
 
 The new internal data model is the green line cross-cutting all the layers. 
 
@@ -667,7 +667,7 @@ If I am lucky, the line will stop at the Domain Objects when factories start doi
 
 Still lots of stuff (repeat for every command, for every domain object...), but not as much as I initially thought.
 
-##### Will the goals be met?
+#### Will the goals be met?
 
 1. I can swap between wiki and Jekyll seamlessly
     1. No, this one is unlikely to be met. Jekyll -> Jekyll will work, wiki -> wiki will work, but transitions will require some manual intervention. All the _meaningful_ things (things the rdtool is aware of) will be able to work out of the box, but _meaningless_ formatting will not be transcoded.
@@ -696,7 +696,7 @@ And the answer is:
 
 Never forget why we are trying to do something. Sometimes the way we are _phrasing_ our goals means that the _meaning_ behind those goals gets lost.
 
-##### Solution I have selected: how will the refactoring - and the business goal - be performed
+#### Solution I have selected: how will the refactoring - and the business goal - be performed
 
 Obviously, I am skipping 'add tests where relevant'. I would have to repeat it everywhere.
 
@@ -708,7 +708,7 @@ Obviously, I am skipping 'add tests where relevant'. I would have to repeat it e
 
 ### Conclusions
 
-##### 0. First meta-conclusion
+#### 0. First meta-conclusion
 
 The conclusions will not be about the result of the analysis itself; it will be about the act of making the analysis and making it work for you.
 
@@ -718,7 +718,7 @@ It is much slower and much harder to make all the diagrams 'readable', for someo
 
 It is even harder to have to edit the text from all the gibberish AND to finally get to a result which is at least usable.
 
-##### 0. Second meta-conclusion
+#### 0. Second meta-conclusion
 
 This type of analysis is so much easier and more efficient if it is done with someone else. [This post](https://8thlight.com/blog/daniel-irvine/2016/11/28/code-is-better-when-we-write-it-together.html) is about pair programming, but really, same reasoning applies here.
 
@@ -743,7 +743,7 @@ Which leads us to:
 
 In short, I strongly recommend doing analysis like this one with other people. Everyone can pitch in something useful and everyone can learn in the process.
 
-##### 1. The goals of refactoring are important, but its impact is even more important
+#### 1. The goals of refactoring are important, but its impact is even more important
 
 It is very easy to set the goals of refactoring. It is also very easy to forget that there exists a reason why we started to refactor that code in the first place.
 
@@ -764,7 +764,7 @@ You can never do _everything_. So focus on one thing at a time and do it well. T
 
 One day you will blink and you may notice with wonder that you have, actually, done 'almost everything' and you have no idea when it happened.
 
-##### 2. Analysis is iterative and it has to stop one day
+#### 2. Analysis is iterative and it has to stop one day
 
 Refactoring is inherently an _exploratory_ activity.
 
@@ -776,7 +776,7 @@ And it is totally fine as long as I have managed to not lose anything important 
 
 This also means that the closer to the _start_ of the analysis we are, the least likely it is we are close to the solution. Some iterations have to pass.
 
-##### 3. No amount of analysis has ever survived the contact with the code
+#### 3. No amount of analysis has ever survived the contact with the code
 
 If I spent more time on this analysis I could get to a very low level of pseudo-code. Even more, I could - technically - reconstruct rdtool into diagrams and rebuild it into something new and beautiful. On paper, of course.
 
@@ -801,7 +801,7 @@ If I make a mistake in the process, if my assumptions are wrong - I will simply 
 
 Sooner or later, I will make it work. It is just a matter of time and knowledge I may lack at this moment.
 
-##### 4. So what is the purpose of the analysis, really?
+#### 4. So what is the purpose of the analysis, really?
 
 Note how close I was to some local maxima while writing this article:
 
@@ -825,7 +825,7 @@ And this is a purpose of an analysis.
 
 To _understand_ what I am doing here. Nothing more. To give me _direction_ towards my impact.
 
-##### 5. 'Refactoring some strings' rarely is what it seems
+#### 5. 'Refactoring some strings' rarely is what it seems
 
 Which leads to the final point.
 
