@@ -8,17 +8,18 @@ date: 2016-12-15
 
 This is a complementary post to [part three of RdTool refactoring](/2016/12/15/trees-musings-on-rdtool-data). This one focuses on constructing formal grammar for RdTool from the existing data. More pictures and screenshots than text.
 
+This one is a scrap - it has lower quality than a regular post / article.
+
 ### Reminder of formal grammar rules
 
 I am going to draw some trees to finally end with [Extended BNF](https://en.wikipedia.org/wiki/Extended_Backus%E2%80%93Naur_form#Basics).
 
-X = (Y) means that Y can appear more than once
-
-X = [Y] means that Y is optional
-
-X = A, B, C means: X is composed of A, B, C; you need all three
-
-X = A \| B means: X is either A or B (but never both; choose one)
+|  Special symbol   | Operator|  Meaning                 |
+|:------------------|:-------:|:-------------------------|
+| [Section]         | -> | Section is optional; it may not appear |
+| (Section)         | -> | Section can appear more than once |
+| X = A, B          | -> | X is made of both A and B |
+| X = A \| B        | -> | X is either A or B, never both |
 
 ### Several simple cases
 

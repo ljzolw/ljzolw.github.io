@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="13.3">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>110</x>
+      <y>190</y>
+      <w>100</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>Original
+documents</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>270</x>
+      <y>70</y>
+      <w>190</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>Source, which extracts data
+from those Documents
+and parse them into 
+Universal Data Structure</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>200</x>
+      <y>130</y>
+      <w>120</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>100.0;10.0;10.0;60.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>230</x>
+      <y>160</y>
+      <w>150</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>
+Something; depends
+on the Source
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>450</x>
+      <y>90</y>
+      <w>190</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>170.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>620</x>
+      <y>80</y>
+      <w>190</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>Factories buiding
+Domain Objects</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>470</x>
+      <y>40</y>
+      <w>150</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>Our 'Universal
+Data Structure'
+bg=yellow
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>590</x>
+      <y>250</y>
+      <w>180</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>Actual transformations 
+happening in the Domain</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>700</x>
+      <y>120</y>
+      <w>30</w>
+      <h>150</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;130.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>560</x>
+      <y>150</y>
+      <w>150</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>Intelligent
+Domain
+Objects</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>740</x>
+      <y>260</y>
+      <w>80</w>
+      <h>170</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>30.0;10.0;60.0;10.0;60.0;150.0;10.0;150.0;10.0;40.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>590</x>
+      <y>450</y>
+      <w>190</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>'Deserializers' preparing 
+Domain Objects to be
+persisted (saved).</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>590</x>
+      <y>290</y>
+      <w>30</w>
+      <h>180</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;160.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>600</x>
+      <y>350</y>
+      <w>150</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>Intelligent
+Domain
+Objects</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>220</x>
+      <y>450</y>
+      <w>200</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>Destination, which persists
+the Universal Data Structure
+into Something (depends on 
+Destination - database, files...)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>410</x>
+      <y>460</y>
+      <w>200</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;180.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>430</x>
+      <y>470</y>
+      <w>150</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>Our 'Universal
+Data Structure'
+bg=yellow
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>110</x>
+      <y>340</y>
+      <w>100</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>Saved
+documents</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>180</x>
+      <y>380</y>
+      <w>80</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;60.0;70.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>210</x>
+      <y>380</y>
+      <w>150</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>
+Something; depends
+on the Destination
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
