@@ -17,7 +17,7 @@ I am going to draw some trees to finally end with [Extended BNF](https://en.wiki
 |  Special symbol   | Operator|  Meaning                 |
 |:------------------|:-------:|:-------------------------|
 | [Section]         | -> | Section is optional; it may not appear |
-| (Section)         | -> | Section can appear more than once |
+| {Section}         | -> | Section can appear more than once |
 | X = A, B          | -> | X is made of both A and B |
 | X = A \| B        | -> | X is either A or B, never both |
 
@@ -42,7 +42,7 @@ In formal grammar:
 
 |  Element     | Operator|  What can it contain? |
 |:-------------|:---:|:----------------------|
-| Document     | = | (Section)             |
+| Document     | = | {Section}             |
 | Section      | = | Header, Text          |
 
 
@@ -65,8 +65,8 @@ In formal grammar:
 
 |  Element     | Operator|  What can it contain? |
 |:-------------|:---:|:----------------------|
-| Document     | = | (Section)             |
-| Section      | = | Header, [Text], [(Section)] |
+| Document     | = | {Section}             |
+| Section      | = | Header, [Text], [{Section}] |
 
 ##### 3. Dramatis personae with links, depth level relevant
 
@@ -86,7 +86,7 @@ In human language it means:
 
 |  Element     | Operator|  What can it contain? |
 |:-------------|:---:|:----------------------|
-| Document     | = | (Section)             |
+| Document     | = | {Section}             |
 | Section      | = | Header, SmartText     |
 | Header       | = | RawText, Level        |
 | SmartText    | = | RawText, [Support]    |
@@ -97,8 +97,8 @@ In human language it means:
 
 |  Element     | Operator|  What can it contain? |
 |:-------------|:---:|:----------------------|
-| Document     | = | (Section)             |
-| Section      | = | Header, [SmartText], [(Section)]     |
+| Document     | = | {Section}             |
+| Section      | = | Header, [SmartText], [{Section}]     |
 | Header       | = | RawText, Level        |
 | SmartText    | = | RawText, [Support]    |
 | Support      | = | [Link]   |
@@ -123,41 +123,41 @@ In human language it means:
 
 |  Element          | Operator|  What can it contain? |
 |:------------------|:-------:|:----------------------|
-| Document          | = | (Section)              |
+| Document          | = | {Section}              |
 | Section           | = | Header, SmartText      |
 | Header            | = | RawText, Level        |
 | SmartText         | = | RawText, EmbeddedObjects |
-| EmbeddedObjects   | = | (EObject) |
+| EmbeddedObjects   | = | {EObject} |
 | EObject           | = | Position, [Link], [List]    |
 | Link              | = | Key, URL  |
-| List              | = | (SmartText) |
+| List              | = | {SmartText} |
 
 ##### Merging the tables
 
 |  Element          | Operator|  What can it contain? |
 |:------------------|:-------:|:----------------------|
-| Document          | = | (Section)             |
-| Section           | = | Header, [SmartText], [(Section)]      |
+| Document          | = | {Section}             |
+| Section           | = | Header, [SmartText], [{Section}]      |
 | Header            | = | RawText, Level        |
 | SmartText         | = | RawText, [EmbeddedObjects] |
-| EmbeddedObjects   | = | (EObject) |
+| EmbeddedObjects   | = | {EObject} |
 | EObject           | = | Position, [Link], [List]    |
 | Link              | = | Key, URL  |
-| List              | = | (SmartText) |
+| List              | = | {SmartText} |
 
 Obviously, the above table is wrong. According to that one, EOBject can theoretically have **both** Link and a List in the same time. So, one more change:
 
 |  Element          | Operator|  What can it contain? |
 |:------------------|:-------:|:----------------------|
-| Document          | = | (Section)              |
-| Section           | = | Header, [SmartText], [(Section)]      |
+| Document          | = | {Section}              |
+| Section           | = | Header, [SmartText], [{Section}]      |
 | Header            | = | RawText, Level        |
 | SmartText         | = | RawText, [EmbeddedObjects] |
-| EmbeddedObjects   | = | (EObject) |
+| EmbeddedObjects   | = | {EObject} |
 | EObject           | = | Position, EValue    |
 | EValue            | = | Link \| List |
 | Link              | = | Key, URL  |
-| List              | = | (SmartText) |
+| List              | = | {SmartText} |
 
 Now we have only one EValue which is either a Link or a List.
 
@@ -171,15 +171,15 @@ Therefore, updating the table (and _italicizing_ terminal elements to make it mo
 
 |  Element          | Operator|  What can it contain? |
 |:------------------|:-------:|:----------------------|
-| Document          | = | ([Section]), [SmartText]              |
-| Section           | = | Header, [SmartText], [(Section)]      |
+| Document          | = | [{Section}], [SmartText]              |
+| Section           | = | Header, [SmartText], [{Section}]      |
 | Header            | = | _RawText_, _Level_        |
 | SmartText         | = | _RawText_, [EmbeddedObjects] |
-| EmbeddedObjects   | = | (EObject) |
+| EmbeddedObjects   | = | {EObject} |
 | EObject           | = | _Position_, EValue    |
 | EValue            | = | Link \| List |
 | Link              | = | _Key_, _URL_  |
-| List              | = | (SmartText) |
+| List              | = | {SmartText} |
 
 #### 6. Unordered and ordered lists
 
@@ -187,16 +187,16 @@ Location masterlist is ordered and will eventually have to be parsed to extract 
 
 |  Element          | Operator|  What can it contain? |
 |:------------------|:-------:|:----------------------|
-| Document          | = | ([Section]), [SmartText]              |
-| Section           | = | Header, [SmartText], [(Section)]      |
+| Document          | = | [{Section}], [SmartText]              |
+| Section           | = | Header, [SmartText], [{Section}]      |
 | Header            | = | _RawText_, _Level_        |
 | SmartText         | = | _RawText_, [EmbeddedObjects] |
-| EmbeddedObjects   | = | (EObject) |
+| EmbeddedObjects   | = | {EObject} |
 | EObject           | = | _Position_, EValue    |
 | EValue            | = | Link \| UList \| OList |
 | Link              | = | _Key_, _URL_  |
-| UList             | = | (SmartText) |
-| OList             | = | (SmartText) |
+| UList             | = | {SmartText} |
+| OList             | = | {SmartText} |
 
 
 #### 7. Try to break the grammar
@@ -205,7 +205,7 @@ It seems the grammar works. It is easy to extend by adding a new EValue (for exa
 
 ##### 7.1 Empty Document
 
-In Document, set ([Section]) and [SmartText] to empty.
+In Document, set [{Section}] and [SmartText] to empty.
 
 Well, this works. Not much information in such a document, but it works.
 
@@ -217,16 +217,16 @@ Updated table:
 
 |  Element          | Operator|  What can it contain? |
 |:------------------|:-------:|:----------------------|
-| Document          | = | _Identifier_, ([Section]), [SmartText]              |
-| Section           | = | Header, [SmartText], [(Section)]      |
+| Document          | = | _Identifier_, [{Section}], [SmartText]              |
+| Section           | = | Header, [SmartText], [{Section}]      |
 | Header            | = | _RawText_, _Level_        |
 | SmartText         | = | _RawText_, [EmbeddedObjects] |
-| EmbeddedObjects   | = | (EObject) |
+| EmbeddedObjects   | = | {EObject} |
 | EObject           | = | _Position_, EValue    |
 | EValue            | = | Link \| UList \| OList |
 | Link              | = | _Key_, _URL_  |
-| UList             | = | (SmartText) |
-| OList             | = | (SmartText) |
+| UList             | = | {SmartText} |
+| OList             | = | {SmartText} |
 
 ##### 7.2 Document with many sections and some SmartText
 
@@ -262,14 +262,14 @@ This should work for now, for the purpose of working with rdtool.
 
 |  Element          | Operator|  What can it contain? |
 |:------------------|:-------:|:----------------------|
-| Document          | = | _Identifier_, ([Section]), [SmartText]              |
-| Section           | = | Header, [SmartText], [(Section)]      |
+| Document          | = | _Identifier_, [{Section}], [SmartText]              |
+| Section           | = | Header, [SmartText], [{Section}]      |
 | Header            | = | _RawText_, _Level_        |
 | SmartText         | = | _RawText_, [EmbeddedObjects] |
-| EmbeddedObjects   | = | (EObject) |
+| EmbeddedObjects   | = | {EObject} |
 | EObject           | = | _Position_, EValue    |
 | EValue            | = | Link \| UList \| OList |
 | Link              | = | _Key_, _URL_  |
-| UList             | = | (SmartText) |
-| OList             | = | (SmartText) |
+| UList             | = | {SmartText} |
+| OList             | = | {SmartText} |
 

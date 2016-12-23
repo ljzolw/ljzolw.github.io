@@ -1,0 +1,20 @@
+{
+    "Identifier": "link-to-the-original-document",
+    "Elements": [{
+        "Type": "Section",
+        "RawText": "Section with a lost",
+        "Level": 1,
+        "Elements": [{
+            "Type": "SmartText",
+            "RawText": "{0}",
+            "EmbeddedObjects": [{
+                "Type": "OList",
+                "Position": "{0}",
+                "Value": {
+                    "Key": "Person_X",
+                    "URL": "link_to_person_x"
+                }
+            }]
+        }]
+    }]
+}

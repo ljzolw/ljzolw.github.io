@@ -1,0 +1,25 @@
+{
+    "Identifier": "link-to-the-original-document",
+    "Elements": [{
+        "Type": "Section",
+        "RawText": "Section with a lost",
+        "Level": 1,
+        "Elements": [{
+            "Type": "SmartText",
+            "RawText": "{0}",
+            "EmbeddedObjects": [{
+                "Type": "OList",
+                "Position": "{0}",
+                "Value": [{
+                    "RawText": "This is an ordered list"
+                }, {
+                    "RawText": "With rawtext only"
+                }, {
+                    "RawText": "Because writing this by hand"
+                }, {
+                    "RawText": "is quite unpleasant"
+                }]
+            }]
+        }]
+    }]
+}

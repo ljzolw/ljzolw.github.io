@@ -52,3 +52,11 @@ img.resize{
     max-width:100px;
     height: auto;
 }
+
+table {
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+}

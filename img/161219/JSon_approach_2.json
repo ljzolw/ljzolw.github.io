@@ -1,0 +1,33 @@
+{
+    "Identifier": "link-to-the-original-document",
+    "Entities": [{
+        "Type": "Section",
+        "HeaderText": "Before this report",
+        "Level": 3,
+        "SmartText": {
+            "RawText": "gasp, something happened"
+        }
+    }, {
+        "Type": "Section",
+        "HeaderText": "Actual report",
+        "Level": 1,
+        "SmartText": {
+            "RawText": "raw text"
+        }
+    }, {
+        "Type": "Section",
+        "HeaderText": "Dramatis persone",
+        "Level": 1,
+        "SmartText": {
+            "RawText": "{0}, who did ABC \n Person Y, who did DEF",
+            "EmbeddedObjects": [{
+                "Type": "Link",
+                "Position": "{0}",
+                "Value": {
+                    "Key": "Person_X",
+                    "URL": "link_to_person_x"
+                }
+            }]
+        }
+    }]
+}
