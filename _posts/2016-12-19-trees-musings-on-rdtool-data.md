@@ -80,10 +80,10 @@ This is a [bounded context](http://martinfowler.com/bliki/BoundedContext.html) i
 
 To explain, let's look at this single line:
 
-    mage: [[[inwazja-karty-postaci-1411:dalia-weiner|Dalia Weiner]]]
+    mage: [[[invasion-profiles-1411:dalia-weiner|Dalia Weiner]]]
 
 * In **domain of rdtool** this line represents the **metadata** about the Profile of a character called Dalia Weiner. This particular Profile is using the mechanics denoted as '1411'. From this metadata record we see that Dalia is a mage. Also, this metadata record can redirect us to Dalia's Profile. There probably exists another Profile of the same character, say, using the '1604' mechanics.
-* In terms of **meaning of formatting** this line represents the **link** to another page. That page is located under the address _inwazja-karty-postaci-1411:dalia-weiner_ and has a display key _Dalia Weiner_. Before the link, text 'mage: ' is present, but its meaning is unknown
+* In terms of **meaning of formatting** this line represents the **link** to another page. That page is located under the address _invasion-profiles-1411:dalia-weiner_ and has a display key _Dalia Weiner_. Before the link, text 'mage: ' is present, but its meaning is unknown
 
 And having stated the above, UniversalDataStructure we are reasoning about belongs to the _meaning of formatting_ world, not the _domain of rdtool_ world.
 
@@ -394,11 +394,11 @@ Let me modify the picture with the object...
 
 Our object **holds and guards access** to data (blue) while **presenting a way to interact** with the data using methods and functions (red).
 
-If we don't know why does an object exist, how will we define the boundary of this object against all the other possible objects?
+If we don't know why an object exists, how will we define the boundary of this object? Especially against all the other possible objects in the system?
 
-If we don't know what will others need and how are they going to use it, we don't know how to design user's interface for this object - its methods or the functions operating on it. Incidentally, we also cannot write tests.
+If we don't know how we are going to use this object, we don't really know how to design user interface for this object. And user interface of an object is its methods (or the functions operating on it). Incidentally, we also cannot write tests. Because we have no idea what to test.
 
-If we don't know what data is this object going to hold, we cannot build a sensible internal structure.
+If we don't know what data will this object hold, we cannot build a sensible internal structure.
 
 #### How to understand the structure?
 
