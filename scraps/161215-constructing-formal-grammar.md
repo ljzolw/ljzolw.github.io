@@ -27,11 +27,11 @@ I am going to draw some trees to finally end with [Extended BNF](https://en.wiki
 
 This:
 
-![null](/img/161215/r01_simple_story.png)
+![null](/img/161219/r01_simple_story.png)
 
 Corresponds to:
 
-![null](/img/161215/r01_simple_story_struct.png)
+![null](/img/161219/r01_simple_story_struct.png)
 
 In human language:
 
@@ -50,11 +50,11 @@ In formal grammar:
 
 So now we have sections which can contain sections
 
-![null](/img/161215/r02_simple_profile.png)
+![null](/img/161219/r02_simple_profile.png)
 
 Which corresponds to this (only partially; too much to draw):
 
-![null](/img/161215/r02_simple_profile_struct.png)
+![null](/img/161219/r02_simple_profile_struct.png)
 
 In human language:
 
@@ -72,11 +72,11 @@ In formal grammar:
 
 This one gets far more interesting - we have links in dramatis personae and right now I have noticed that the headers require levels to properly function. Thus:
 
-![null](/img/161215/r03_story_with_links.png)
+![null](/img/161219/r03_story_with_links.png)
 
 Maps to this:
 
-![null](/img/161215/r03_story_with_links_struct.png)
+![null](/img/161219/r03_story_with_links_struct.png)
 
 In human language it means:
 
@@ -108,7 +108,7 @@ In human language it means:
 
 I have cut a part of an existing story masterlist, without changing the data this time (too much work), so expect something which looks like gibberish:
 
-![null](/img/161215/r04_masterlist_excerpt.png)
+![null](/img/161219/r04_masterlist_excerpt.png)
 
 Now THIS one changes a lot:
 
@@ -117,7 +117,7 @@ Now THIS one changes a lot:
 
 So the structure looks pretty... interesting (by the way, I renamed 'support' to 'embedded objects', like good old ActiveX times):
 
-![null](/img/161215/r04_masterlist_excerpt_struct.png)
+![null](/img/161219/r04_masterlist_excerpt_struct.png)
 
 In human language it means:
 
@@ -230,7 +230,7 @@ Updated table:
 
 ##### 7.2 Document with many sections and some SmartText
 
-![null](/img/161215/r07_inverted_document.png)
+![null](/img/161219/r07_inverted_document.png)
 
 This Document is well-formed. Sections can have Headers only and they actually have them. Because all the Headers have the descending level, all those Headers and SmartText belong to the Document.
 
@@ -240,7 +240,7 @@ I see a nested list (be it UList or OList) as a list where at the end of the tex
 
 Look at the picture below to understand my reasoning:
 
-![null](/img/161215/r08_nested list.png)
+![null](/img/161219/r08_nested list.png)
 
 and the {0} over here is really another UList.
 
@@ -248,7 +248,7 @@ and the {0} over here is really another UList.
 
 This one breaks the grammar in terms of **meaning**.
 
-![null](/img/161215/r09_broken_list.png)
+![null](/img/161219/r09_broken_list.png)
 
 I guess if I had a Table object - this would also break the grammar if I inserted it in a List.
 

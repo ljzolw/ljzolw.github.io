@@ -6,7 +6,7 @@ date: 2016-12-13
 
 ### Abstract
 
-This post is a written analysis on a refactoring which is to take place (if you are reading this post in 2017, it has already taken place). This post builds on a context from [that other post explaining rdtool](/2016/12/04/rdtool-1) and this one shows the technical reasoning on that refactoring.
+This post is a written analysis on a refactoring which is to take place (if you are reading this post in 2017, it has probably already taken place). This post builds on a context from [that other post explaining rdtool](/2016/12/04/rdtool-1) and this one shows the technical reasoning on that refactoring.
 
 This post is supposed to show a way of approaching a non-trivial refactoring. To show how the final conceptual result was achieved and what it has finally become in the end.
 

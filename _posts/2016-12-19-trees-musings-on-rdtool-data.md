@@ -10,7 +10,15 @@ date: 2016-12-19
 ### The value of this post to you:
 
 1. If you are:
-    1. a person who **liked** the previous articles about rdtool in this workshop either because of the depth or because of the story
+    1. a person who **liked** the previous articles about rdtool in this workshop either because of the depth or because of the story, I hope to keep you entertained ;-).
+    2. a programmer interested to see how to design an untrivial object from internal and external points of view, I hope to show you:
+        1. how and **why** to use formal grammar to analyze internal data (in this case, EBNF notation)
+        2. how to reason about the methods / functions operating on the object
+    3. a programmer not sure that tests can be used as a design tool, I hope to show you exactly that; without the tests this post would have never been written.
+    
+This post is more technical than the previous ones. It is deeper intertwined with the domain than the previous parts. What is worse, this post follows a particular way of reasoning of mine and the solution kind of unravels itself on its own. Thus, length and difficulty.
+
+...just don't say I didn't warn you ;-).
 
 ### Why did I write this post?
 
