@@ -25,7 +25,9 @@ date: 2017-01-26
 ### Oczekiwane rezultaty
 
 1. Pojawi się choć 1-2 osoby chętne do zaprezentowania czegoś, by spróbować
-2. Dostarczenie TechKlubowi narzędzi do robienia prezentacji - realna korzyść z przyjścia dla odbiorcy
+2. Dostarczenie odbiorcom narzędzi do robienia prezentacji - realna korzyść z przyjścia dla odbiorcy
+    1. Usprawnienie istniejącego warsztatu u odbiorców
+    2. Wygenerowanie czegoś... notatek, informacji - od czego można się odbić
 3. Ktoś mi powie, że było warto przyjść ;-)
 4. Zaobserwuję wzrost przydatności wiedzy z prezentacji, na której jestem obecny jako słuchacz
 5. Ktoś próbuje, stara się i biją tej osobie brawo zamiast ją męczyć (to nie liceum...)
@@ -37,23 +39,47 @@ date: 2017-01-26
 * jest zainteresowany prezentowaniem, ale nie wie jak i się trochę boi
 * chce być częścią grupy, ale nie ma pretekstu by dać się poznać
 * chce wzmacniać grupę i działać dla dobra wspólnego; uczyć się i uczyć innych
+* niezależnie od poziomu chce być lepszy i się rozwijać
+* ma podejście "praktyczne" (chce móc wykorzystać tą wiedzę)
 
 ### Kto i tak przyjdzie (20% sygnału)
 
 * przychodzi dla ciekawości lub jako osoba do towarzystwa kogoś innego; nie ma w planach prezentować
 * jest tak nieśmiały, że nie odważy się zrobić prezentacji niezależnie od tego co nie będzie zrobione
 * chce posłuchać o prezentacjach inspiracyjnych
+* bardzo dobrze potrafi prowadzić prezentacje
+* uważa, że potrafi prowadzić prezentacje / to, co mówię jest bez sensu
+* ma podejście "wiedza > wykorzystanie"; skupi się na błędach w teorii a nie na ogólnym przekazie
 
 # Obszary tematyczne
 
+### Makroobszary tematyczne (w serdelkach; można odcinać):
+
+* Wstęp
+* Przygotowanie prezentacji 
+* Konstruowanie prezentacji
+* Przeprowadzanie prezentacji
+* Czemu warto robić prezentacje
+* Podsumowanie
+
+### Makroobszary w kawałkach
+
 1. Wstęp, przedstawienie
+    1. nacisk na praktykę (5+ lat, praktykanci, prezentacje)
+    2. nacisk na przebyte kursy trenerskie i przygotowanie teoretyczne uczenia dorosłych
 2. Jak działa prezentacja:
     1. typy: "wół roboczy" (uczy / demonstruje) vs "inspirujące demo" (pokazuje coś fajnego, zachęca); skupiamy się na wole
+    2. z memetyki: idea która próbuje się zaszczepić. Koniecznie przykłady.
+    3. wysyłanie sygnału 1:N, nie 1:1
+    4. "mam gwóźdź i chcę go wbić w ścianę. Jak to zrobić?" "użyj młotka" - problem->rozwiązanie
+    5. zapamiętujemy rzeczy PRZYDATNE (wiem, jak wykorzystać) i FAJNE (poczułem emocje)
+        1. przejście do grupy docelowej (dla MNIE jest przydatne)
+        2. przejście do celu prezentacji (JA chcę wbić gwóźdź w ścianę, więc mi się przyda)
 3. Grupa docelowa
     1. NADAWCA wysyła sygnał do ODBIORCY; odbiorcy są ważniejsi; bez nich nie ma prezentacji (target)
     2. dostosowanie tematu prezentacji do targetu (technika 80-20)
     3. dostosowanie formy prezentacji do targetu (strona "My little Pony")
-4. Cel prezentacji głównym kluczem do sukcesu
+4. Cel prezentacji kluczem do sukcesu
     1. agresywne usuwanie wszystkiego, co nie wspiera celu
     2. "ale to jest bardzo fajne..."
     3. oczekiwane rezultaty celów (po czym poznamy, że wyszło)
@@ -62,7 +88,8 @@ date: 2017-01-26
     2. pętla: przykład -> omówienie -> wnioski (jak tego użyć)
     3. nie ucz się. Nie zapamiętuj. Adaptuj. Wymyślaj na bieżąco, niech slajdy Cię prowadzą.
     4. idea -> cięcie -> konspekt -> cięcie -> prezentacja -> cięcie -> próba -> cięcie -> próba -> prezentacja
-    5. czasówka; jak rozplanować czas?
+    5. czasówka; jak rozplanować czas / tematy?
+    6. struktury: rozwijająca się spirala (ciągłe budowanie na tym, co było), odcinane serdelki (możliwość odcięcia modułu)
 6. Techniki prowadzenia prezentacji
     1. zapamiętujemy rzeczy PRZYDATNE (wiem, jak wykorzystać) i FAJNE (poczułem emocje)
     2. prezentacja jest moim konspektem
