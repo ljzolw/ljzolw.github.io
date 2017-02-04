@@ -9,10 +9,12 @@ date: 2017-02-04
 Agregacja artykułów to próba zebrania grupy ciekawych artykułów na jakie natrafiłem w tym tygodniu i połączenie ich w jedną, spójną całość. Same artykuły (linki) zdecydowanie warto przeczytać.
 
 W tym tygodniu rozpatruję tematy takie jak: 
+
 * produktywność a bycie zajętym 
 * budowanie rzeczy dla siebie po godzinach a klauzule w umowach (w USA)
 
 Wartość dodana dostarczona przeze mnie:
+
 * omówienie i połączenie w coś "większego", czasem z różnymi punktami widzenia
 * miejsce, które umożliwia Wam przeczytanie ciekawych linków powiązanych tematycznie
  
@@ -87,6 +89,7 @@ Ano, spójrzmy sobie na ten artykuł. To artykuł Joela Spolsky'ego, [odnośnie 
 Opisuje on sytuację dość powszechną w USA:
 
 Całość kodu, pomysłów itp. zbudowanych przez pracowników firmy X należy do firmy X
+
 * Tak, nawet, jeśli to nie jest powiązane z 'typową działalnością biznesową firmy'.
 * Tak, nawet, jeśli jest to w zupełnie innym języku niż używanym w firmie.
 * Tak, nawet, jeśli jest to niekomercyjne.
