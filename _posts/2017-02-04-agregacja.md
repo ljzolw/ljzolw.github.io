@@ -4,6 +4,18 @@ title: "[AGG] Produktywność, czas wolny itp."
 date: 2017-02-04
 ---
 
+### Cel agregacji
+
+Agregacja artykułów to próba zebrania grupy ciekawych artykułów na jakie natrafiłem w tym tygodniu i połączenie ich w jedną, spójną całość. Same artykuły (linki) zdecydowanie warto przeczytać.
+
+W tym tygodniu rozpatruję tematy takie jak: 
+* produktywność a bycie zajętym 
+* budowanie rzeczy dla siebie po godzinach a klauzule w umowach (w USA)
+
+Wartość dodana dostarczona przeze mnie:
+* omówienie i połączenie w coś "większego", czasem z różnymi punktami widzenia
+* miejsce, które umożliwia Wam przeczytanie ciekawych linków powiązanych tematycznie
+ 
 ### Dawno, dawno temu...
 
 ...stworzyłem agregację, w którym znajdował się min. ten link:
@@ -79,9 +91,9 @@ Całość kodu, pomysłów itp. zbudowanych przez pracowników firmy X należy d
 * Tak, nawet, jeśli jest to w zupełnie innym języku niż używanym w firmie.
 * Tak, nawet, jeśli jest to niekomercyjne.
 
-Takie coś często pojawia się w umowach. Artykuł Joela dobrze pokazuje logikę i przyczyny stojące za tym podejściem; prywatnie uważam, że **niewolnictwo się już skończyło** i nie widzę zbyt wiele okoliczności, w których podpisałbym umowę mającą takie klauzule.
+Takie coś często pojawia się w umowach. Artykuł Joela dobrze pokazuje logikę i przyczyny stojące za tym podejściem; prywatnie uważam, że **niewolnictwo się już skończyło** i nie widzę zbyt wielu okoliczności, w których podpisałbym umowę mającą takie klauzule.
 
-Joel odrobinę upraszcza; zwykle w "zdrowych" okolicznościach kombinacja przekazania praw wygląda mniej więcej tak:
+Joel pisze w sposób przekonywujący, acz upraszcza; zwykle w "zdrowych" okolicznościach (czytaj: umowa, jaką ja bym zaproponował; nie jestem tu bezstronny) kombinacja przekazania praw wyglądałaby mniej więcej tak:
 
 Firma ma prawo do wszystkiego, co pracownik napisze / zrobi w następujących okolicznościach:
 
@@ -94,11 +106,18 @@ Firma ma prawo do wszystkiego, co pracownik napisze / zrobi w następujących ok
 * Kod napisany przez pracownika jest pisany przy użyciu sprzętu dostarczonego przez firmę.
     * zależnie od umowy; ja jednak uważam, że bezpiecznie jest rozdzielić te światy.
 
-Joel proponuje dużo szersze spojrzenie na tą perspektywę, ale w zaproponowanych przez niego przykładach ja bym uznał, że jeśli te gry zaprojektowane przez designera są realizowane przez firmę, odpalona jest klauzula "coś stworzonego przez pracownika trafiło do firmy". A jeżeli nie są realizowane przez firmę... to jakie prawa do nich ma firma?
+Joel proponuje dużo szersze prawa dla firmy, ale w zaproponowanych przez niego przykładach... 
+
+* jeśli te gry zaprojektowane przez designera są realizowane przez firmę zatrudniającą designera, odpalona jest klauzula "coś stworzonego przez pracownika trafiło do firmy" (klauzula antyszantażowa). 
+* jeśli te gry nie są realizowane przez firmę a firma chce po prostu je przejąć... to jakie prawa do nich ma firma? I dlaczego powinna mieć jakiekolwiek prawa?
 
 Morał?
 
 Czytajcie swoje umowy.
+
+Pamiętajcie, że jeśli _coś jest w umowie, to może to być użyte przeciwko Wam_. Zdanie typu "och, to tylko tak; nikt nie ma zamiaru tego użyć" można łatwo skontrować zdaniem "w takim razie nie ma nic przeciwko skasowaniu tej klauzuli, prawda?"
+
+W tym temacie ostrożność zawsze popłaca.
 
 ### Czym różni się robienie czegoś od produktywności?
 
@@ -140,8 +159,8 @@ Tak się składa, że jeden z tych programów pokazałem na rozmowie kwalifikacy
 
 A teraz mam RPGowe wiki (niedługo repozytorium na Jekyllu). Mam tam mnóstwo stron, opisanych. Mam spójny świat; mam możliwość opowiadania i pokazywania czegoś interesującego. Mamy spójne zasady, spójną rzeczywistość i najprawdopodobniej w okolicach 2018 roku wydamy własny system RPG. Mamy też świetną ekipę, która sprawdziła się przez lata.
 
-Nie mówiąc już, ile się nauczyłem, czy ile mam cudownych wspomnień (te rzeczy nie należą do grupy "produktywne", ale były tego warte).
+Nie mówiąc już ile się nauczyłem, ile mam cudownych wspomnień (te rzeczy nie należą do grupy "produktywne", **ale były tego warte**).
 
-Innymi słowy, nieważne, co robię.
+Innymi słowy, nieważne, co robię. Ważne, że to robię, generuję nowe byty i jestem w stanie je wykorzystać w różnych kontekstach.
 
-Ważne, że to robię, generuję nowe byty i jestem w stanie je wykorzystać w różnych kontekstach.
+A czasem po prostu trzeba odpocząć po trudnym dniu ;-).
