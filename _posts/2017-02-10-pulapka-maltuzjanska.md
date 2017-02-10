@@ -21,6 +21,7 @@ Wartość dodana dostarczona przeze mnie:
 * dodanie przykładu od siebie, jak to wykorzystać w praktyce
  
 ### Pułapka maltuzjańska
+
 #### Wizja ponurego świata
 
 Załóżmy, że pojawiła się w Polsce nowa branża (dalej zwana Branżą) zdolna do utrzymania 50 firm (~5000 pracowników).
