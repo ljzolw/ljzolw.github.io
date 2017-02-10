@@ -381,6 +381,7 @@ Wojna memetyczna:
 1. https://medium.com/deep-code/situational-assessment-2017-trump-edition-d189d24fc046#.cxmy38v0x
 2. https://www.reddit.com/r/The_Donald/comments/5nktdn/why_hollywood_is_really_freaking_out_over_trump/
 3. https://timeline.com/this-1967-classroom-experiment-proved-how-easy-it-was-for-americans-to-become-nazis-ab63cedaf7dd#.ad97a41u7
+4. http://breandan.net/2017/02/02/trust-in-automation/
 
 DDD:
 
@@ -404,3 +405,35 @@ Rozwiązania korzystające z tego:
 
 1. http://mitchellh.com/apple-the-key-to-my-success
 2. https://en.wikipedia.org/wiki/OODA_loop
+
+Tool: Licecap:
+
+1. http://www.cockos.com/licecap/
+2. https://news.ycombinator.com/item?id=13570563
+
+UX:
+
+1. https://www.gov.uk/design-principles
+
+Soft skillz:
+
+1. https://itsyourturnblog.com/lets-stop-calling-them-soft-skills-9cc27ec09ecb#.d6hm9i744
+2. http://blog.dmbcllc.com/the-psychology-of-programming/
+3. http://www.supercoders.com.au/blog/50characteristicsofagreatsoftwaredeveloper.shtml
+
+Skillowanie:
+
+1. https://news.ycombinator.com/item?id=13604551
+
+Języki:
+
+1. http://stackoverflow.blog/2017/02/What-Programming-Languages-Weekends/?cb=1
+2. https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django
+3. https://news.ycombinator.com/item?id=13611220
+4. https://gowebexamples.github.io/
+5. https://news.ycombinator.com/item?id=13612941
+
+BGDM
+
+1. https://www.reddit.com/r/Guildwars2/comments/5sy3ep/bgdm_first_compliant_memory_reading_dps_meter_and/
+
