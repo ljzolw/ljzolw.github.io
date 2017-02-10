@@ -262,7 +262,7 @@ Z systemami RPG jest trochę jak z każdym hobby - każdy ma swoje zdanie na ich
 
 Z mojego punktu widzenia, podstawowym problemem większości gier RPG jest problem zasad.
 
-W odróżnieniu od gier planszowych, większość systemów RPG posiada zasady skupione na XXX w chwili, w której większość graczy RPG gra w formie YYY. 
+W odróżnieniu od gier planszowych, większość systemów RPG posiada zasady skupione na XXX podczas, gdy większość graczy RPG gra w formie YYY. 
 
 * Zasady w podręczniku mówią rzeczy takie jak:
     * "za 1 metr z którego spadasz dostajesz 5 obrażeń"
