@@ -6,7 +6,21 @@ date: 2017-01-26
 
 + USED_LINKS
 
-1. 
+Distrokid:
+
+1. https://creativecommons.org/2012/12/14/hatsune-miku-joins-the-cc-community/
+2. https://daily.bandcamp.com/2017/02/16/vocaloids-our-friends-electric/
+3. https://news.distrokid.com/what-ive-been-up-to-for-the-past-4-years-ef06ab9c5cd6#.jlalvzar8​
+4. https://news.ycombinator.com/item?id=13656192
+5. https://successfulsoftware.net/2017/02/03/choosing-a-market-for-your-software-2/
+6. https://www.wired.com/2016/05/everything-need-know-theranos-saga-far/
+7. https://medium.com/startup-grind/your-market-size-is-only-a-fraction-of-what-you-think-it-is-f31f79cd1e95#.a00rgx75a
+
+Prof Vollrath:
+
+1. https://growthecon.com/blog/trust-familes-and-growth/
+2. https://growthecon.com/blog/trust-and-the-benefit-of-the-doubt/
+3. https://growthecon.com/blog/Society-Dividend/
 
 + ALL_LINKS
 
@@ -156,7 +170,6 @@ co to jest 10x developer:
 1. https://news.ycombinator.com/item?id=12882816
 
 1. https://hackernoon.com/how-to-accept-over-engineering-for-what-it-really-is-6fca9a919263#.y983vzca8
-1. https://medium.com/startup-grind/your-market-size-is-only-a-fraction-of-what-you-think-it-is-f31f79cd1e95#.a00rgx75a
 1. https://medium.freecodecamp.com/a-study-plan-to-cure-javascript-fatigue-8ad3a54f2eb1#.vcvqm1qs7
 
 1. http://howtomakeanrpg.com/a/not-your-problem.html
@@ -196,8 +209,6 @@ co to jest 10x developer:
 
 1. https://medium.freecodecamp.com/the-code-im-still-ashamed-of-e4c021dff55e#.kqb81gs7t
 
-1. https://eduardoboucas.com/blog/2016/08/10/staticman.html
-1. https://eduardoboucas.com/blog/2015/05/11/rethinking-the-commenting-system-for-my-jekyll-site.html
 
 1. http://bravenewgeek.com/shit-rolls-downhill/
 
@@ -227,8 +238,6 @@ co to jest 10x developer:
 
 1. http://firstround.com/review/this-company-retains-95-percent-of-its-employees-heres-its-secret/
 1. http://techbeacon.com/how-terrible-code-gets-written-perfectly-sane-people
-
-1. http://www.vub.ac.be/SOCO/tesa/RENCOM/Callon%20%281986%29%20Some%20elements%20of%20a%20sociology%20of%20translation.pdf   !!!
 
 1. https://blog.ycombinator.com/the-second-job-of-a-startup-ceo/
 1. https://news.ycombinator.com/item?id=13063842 -- powiązane
@@ -369,12 +378,26 @@ co to jest 10x developer:
 
 1. http://thefullstack.xyz/full-stack-javascript-developer/
 
-1. http://nautil.us/issue/5/fame/homo-narrativus-and-the-trouble-with-fame
 
 1. https://blog.codeship.com/comparing-elixir-go/
 2. https://hbr.org/2017/01/great-teams-are-about-personalities-not-just-skills
 3. https://hackernoon.com/how-ages-faster-than-why-712e25c9eb3b#.covpu9283
 4. https://dbader.org/blog/why-learn-python?__s=hwmganfkqghe4xscbdkv
+
+
+Jekyll:
+
+1. https://eduardoboucas.com/blog/2016/08/10/staticman.html
+2. https://eduardoboucas.com/blog/2015/05/11/rethinking-the-commenting-system-for-my-jekyll-site.html
+3. http://jmcglone.com/guides/github-pages/
+
+RPG, narracja:
+
+1. http://www.vub.ac.be/SOCO/tesa/RENCOM/Callon%20%281986%29%20Some%20elements%20of%20a%20sociology%20of%20translation.pdf
+2. http://publikacje.ils.uw.edu.pl/bitstream/handle/123456789/10741/Gry_wideo_w_swietle_narratologii_transme.pdf?sequence=1&isAllowed=y
+3. http://nautil.us/issue/5/fame/homo-narrativus-and-the-trouble-with-fame
+4. https://www.khanacademy.org/partner-content/pixar/storytelling
+5. http://bigthink.com/errors-we-live-by/how-stories-configure-human-nature
 
 Wojna memetyczna:
 
@@ -382,6 +405,9 @@ Wojna memetyczna:
 2. https://www.reddit.com/r/The_Donald/comments/5nktdn/why_hollywood_is_really_freaking_out_over_trump/
 3. https://timeline.com/this-1967-classroom-experiment-proved-how-easy-it-was-for-americans-to-become-nazis-ab63cedaf7dd#.ad97a41u7
 4. http://breandan.net/2017/02/02/trust-in-automation/
+5. http://jacquesmattheij.com/your-head-as-a-battleground-dueling-memes
+6. https://scout.ai/story/the-rise-of-the-weaponized-ai-propaganda-machine
+7. https://medium.com/swlh/ai-and-the-end-of-truth-9a42675de18#.k4df1f4d8
 
 DDD:
 
@@ -436,4 +462,42 @@ Języki:
 BGDM
 
 1. https://www.reddit.com/r/Guildwars2/comments/5sy3ep/bgdm_first_compliant_memory_reading_dps_meter_and/
+
+Ekonomia prof Vollratha:
+
+1. https://growthecon.com/blog/Malthus/
+2. https://growthecon.com/blog/Accounting-Profits/
+3. https://growthecon.com/blog/harry-potter-and-the-residual-of-doom/
+4. https://growthecon.com/blog/please-dont-write-well-write-clearly/
+5. https://growthecon.com/blog/why-i-care-about-inequality/
+6. https://growthecon.com/blog/farming-doesnt-pay-for-a-reason/
+7. https://growthecon.com/blog/subsistence-and-self-perpetuating-inequality/
+
+Działająca prezentacja:
+
+1. https://www.youtube.com/watch?v=u6XAPnuFjJc
+
+Tech:
+
+1. http://jacquesmattheij.com/please-do-not-be-a-one-trick-pony
+2. http://jacquesmattheij.com/good-consultants-vs-bad-consultants
+3. https://yoric.github.io/post/how-to-survive/
+
+Luźne:
+
+1. http://jacquesmattheij.com/it-is-not-about-the-money-silly-it-is-all-about-the-time
+2. https://internetingishard.com/html-and-css/
+3. http://www.fordfoundation.org/library/reports-and-studies/roads-and-bridges-the-unseen-labor-behind-our-digital-infrastructure
+4. http://producingoss.com/
+5. http://slatestarcodex.com/2014/07/07/social-justice-and-words-words-words/
+6. https://krishnamurti-teachings.info/book/commentaries-on-living-first-series.html#loneliness
+
+Python dev:
+
+1. https://www.packtpub.com/books/content/rapid-application-development-django-openduty-story
+
+Rynek:
+
+1. https://yoric.github.io/post/how-to-survive/
+2. https://m.signalvnoise.com/why-we-choose-profit-e511efc4dcb9#.ix1z7r6e6
 
