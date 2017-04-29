@@ -238,6 +238,7 @@ co to jest 10x developer:
 
 1. http://firstround.com/review/this-company-retains-95-percent-of-its-employees-heres-its-secret/
 1. http://techbeacon.com/how-terrible-code-gets-written-perfectly-sane-people
+2. http://chrismm.com/blog/how-terrible-code-gets-written-by-perfectly-sane-people/?2
 
 1. https://blog.ycombinator.com/the-second-job-of-a-startup-ceo/
 1. https://news.ycombinator.com/item?id=13063842 -- powiązane
@@ -253,9 +254,6 @@ co to jest 10x developer:
 1. https://hackernoon.com/cut-to-the-chase-with-a-debugging-roleplay-d7d49f518157#.95drioqzx
 1. http://www.feld.com/archives/2012/02/three-magic-numbers.html
 1. https://medium.com/startup-grind/top-5-habits-of-friends-that-are-good-at-staying-in-touch-52e8166a60c9#.i09ztr2py
-
-1. http://blog.bumblebeelabs.com/social-software-sundays-2-the-evaporative-cooling-effect/
-1. http://lesswrong.com/lw/c1/wellkept_gardens_die_by_pacifism/
 
 1. https://8thlight.com/blog/nick-dyer/2016/11/17/dont-make-it-perfect.html
 
@@ -278,8 +276,6 @@ co to jest 10x developer:
 1. http://www.tnp.edu.pl/?zeszyty-naukowe
 
 1. https://devinhelton.com/
-
-1. http://lesswrong.com/lw/lr/evaporative_cooling_of_group_beliefs/
 
 1. https://blog.gitprime.com/6-causes-of-code-churn-and-what-to-do
 
@@ -350,8 +346,6 @@ co to jest 10x developer:
 1. https://chuqui.com/2017/01/apples-2016-in-review/
 1. https://stratechery.com/2016/apples-organizational-crossroads/
 
-1. http://www.meltingasphalt.com/social-status-down-the-rabbit-hole/
-
 1. https://www.intercom.com/books/jobs-to-be-done#get-the-book
 
 1. http://bokonads.com/the-ad-tech-renaissance/
@@ -384,6 +378,7 @@ co to jest 10x developer:
 3. https://hackernoon.com/how-ages-faster-than-why-712e25c9eb3b#.covpu9283
 4. https://dbader.org/blog/why-learn-python?__s=hwmganfkqghe4xscbdkv
 
+1. http://www.meltingasphalt.com/social-status-down-the-rabbit-hole/
 
 Jekyll:
 
@@ -408,6 +403,7 @@ Wojna memetyczna:
 5. http://jacquesmattheij.com/your-head-as-a-battleground-dueling-memes
 6. https://scout.ai/story/the-rise-of-the-weaponized-ai-propaganda-machine
 7. https://medium.com/swlh/ai-and-the-end-of-truth-9a42675de18#.k4df1f4d8
+8. https://www.theguardian.com/politics/2017/feb/26/robert-mercer-breitbart-war-on-media-steve-bannon-donald-trump-nigel-farage
 
 DDD:
 
@@ -491,6 +487,7 @@ Luźne:
 4. http://producingoss.com/
 5. http://slatestarcodex.com/2014/07/07/social-justice-and-words-words-words/
 6. https://krishnamurti-teachings.info/book/commentaries-on-living-first-series.html#loneliness
+7. https://thinkpurpose.com/2016/01/05/the-one-thing-you-shouldnt-bother-changing-and-the-one-thing-you-should/
 
 Python dev:
 
@@ -500,4 +497,169 @@ Rynek:
 
 1. https://yoric.github.io/post/how-to-survive/
 2. https://m.signalvnoise.com/why-we-choose-profit-e511efc4dcb9#.ix1z7r6e6
+3. https://medium.dave-bailey.com/why-founders-fail-to-market-their-products-f7c15935c81#.mvxe1iqoc
+4. http://a16z.com/2011/11/13/lead-bullets/
 
+Management:
+
+1. http://www.duperrin.com/english/2014/06/23/quote-tell-how-you-measure-and-i-will-tell-you-how-i-will-behave/
+2. https://theborgqueen.wordpress.com/2013/10/11/the-importance-of-empathy-for-tech-providers-2/
+
+Moderacja:
+
+1. https://news.ycombinator.com/item?id=13718303
+2. http://lesswrong.com/lw/lr/evaporative_cooling_of_group_beliefs/
+3. http://blog.bumblebeelabs.com/social-software-sundays-2-the-evaporative-cooling-effect/
+4. http://lesswrong.com/lw/c1/wellkept_gardens_die_by_pacifism/
+5. https://glog.glennf.com/blog/2016/3/25/citation-appropriation-and-fair-use
+6. https://news.ycombinator.com/item?id=13729525
+7. http://www.daedtech.com/whats-name-spelling-matters-code/  # broken window
+
+FOMO, motywacja, selekcja:
+
+1. https://news.ycombinator.com/item?id=13740949
+2. https://twitter.com/i/moments/835942450103451649
+3. https://news.ycombinator.com/item?id=13735610
+4. http://calnewport.com/blog/
+5. http://calnewport.com/blog/2016/11/30/your-most-important-thing-is-not-enough/
+6. http://observer.com/2017/02/i-have-15-ideas-to-change-your-life-do-you-have-five-minutes/
+
+DevOps:
+
+1. https://theagileadmin.com/what-is-devops/
+2. http://blog.ingineering.it/post/72964480807/empathy-the-essence-of-devops
+
+Socialism, capitalism:
+
+1. https://news.ycombinator.com/item?id=13746926
+
+Software dev:
+
+1. https://news.ycombinator.com/item?id=13752887
+
+Patent:
+
+1. https://arstechnica.com/tech-policy/2017/03/effs-stupid-patent-of-the-month-ibm-claims-ownership-of-out-of-office-e-mail/
+
+Rekrutacja:
+
+1. http://kolesky.com/datums/job-search/
+2. https://news.ycombinator.com/item?id=13793892
+
+Status:
+
+1. http://daviddfriedman.blogspot.com/2006/10/economics-of-status.html
+
+Business School:
+
+1. https://startupschool.org/
+2. https://news.ycombinator.com/item?id=13801376
+
+Complexity management:
+
+1. https://hackernoon.com/complexity-and-strategy-325cd7f59a92#.ddip8xfh4
+1. https://www.ticomix.com/blogs/business_services/managed-expectations-custom-software-development-project-tips/
+
+Soft tools:
+
+1. https://medium.com/@wnialloconnor/how-to-build-an-experience-map-5e55b7ee4f32#.3ctx0iaqp
+2. http://ctb.ku.edu/en/table-of-contents/leadership/group-facilitation/main
+
+
+Check this:
+
+1. https://news.ycombinator.com/item?id=13813774
+2. https://news.ycombinator.com/item?id=13813601
+3. https://news.ycombinator.com/item?id=13812880
+4. https://news.ycombinator.com/item?id=13816627
+5. https://medium.com/ouishare-connecting-the-collaborative-economy/cut-the-bullshit-organizations-with-no-hierarchy-dont-exist-f0a845e73a80#.baimvo273
+6. http://sociocracy30.org/
+7. https://news.ycombinator.com/item?id=13837781
+8. https://news.ycombinator.com/item?id=13798023
+9. https://news.ycombinator.com/item?id=13840282
+10. https://ar.al/notes/the-nature-of-the-self-in-the-digital-age/
+11. https://news.ycombinator.com/item?id=13854367
+12. https://news.ycombinator.com/item?id=13855148
+13. http://chaosinmotion.com/blog/?p=1184
+14. https://www.mountaingoatsoftware.com/blog/how-to-reward-agile-teams
+15. http://aosabook.org/en/index.html
+16. https://news.ycombinator.com/item?id=13854431
+17. https://news.ycombinator.com/item?id=13849430
+18. https://kopywritingkourse.com/how-to-start-a-conversation/
+19. http://evolveconsciousness.org/reality-unreality-and-magic/
+
+1. https://news.ycombinator.com/item?id=13906768
+1. https://news.ycombinator.com/item?id=13906115
+1. https://news.ycombinator.com/item?id=13897720
+1. https://news.ycombinator.com/item?id=13887237
+1. http://www.xojane.com/diy/oven-calibration-article
+1. http://projektantczasu.pl/macierz-eisenhowera/
+1. https://mystudentvoices.com/why-complexity-is-different-ecd498e0eccb#.rrz4feqft
+1. https://truss.works/blog/2017/2/3/well-met-the-software-engineering-meetings-you-actually-need
+1. https://hackernoon.com/after-i-just-do-all-this-itll-be-so-simple-de73c5f799e2#.k797id5ga
+1. https://news.ycombinator.com/item?id=13918888
+1. https://m.signalvnoise.com/reconsider-41adf356857f#.hmqe1pco8
+1. http://hatalska.com/2017/03/22/nowa-kampania-reserved-i-kryzys-zaufania/
+
+1. https://media.giphy.com/media/12NUbkX6p4xOO4/giphy.gif       -> magic gif
+1. https://fsharpforfunandprofit.com/posts/monoids-without-tears/
+1. https://news.ycombinator.com/item?id=13958491        -> też monady
+1. https://github.com/donnemartin/system-design-primer
+1. https://storify.com/samnewman/in-which-i-discuss-monorepos
+1. https://semaphoreci.com/blog/2017/03/21/cracking-monolith-forces-that-call-for-microservices.html
+1. https://www.impactmapping.org/drawing.html
+1. https://www.nateberkopec.com/blog/2017/03/10/how-i-made-self-publishing-about-ruby-on-rails.html
+1. https://news.ycombinator.com/item?id=13986828        -> jak robić notatki (notes)
+1. https://news.ycombinator.com/item?id=13986296        -> inne formy kompensacji
+1. https://news.ycombinator.com/item?id=13993086        -> LICENCJE licenses
+1. http://us1.campaign-archive1.com/?u=78cbbb7f2882629a5157fa593&id=bf55e46fa1  -> disruption
+1. http://micheleincalifornia.blogspot.com/2014/02/money-and-maneuvering-room.html  -> fuck you money
+1. https://vpntesting.info/ -> vpn
+1. https://news.ycombinator.com/item?id=13986296    -> startup vs company recruitment
+1. https://news.ycombinator.com/item?id=13990798    -> latex
+1. http://www.nybooks.com/articles/2017/04/20/kahneman-tversky-invisible-mind-manipulators/ -> memetyka ?
+1. http://www.gamasutra.com/blogs/RaminShokrizade/20130626/194933/The_Top_F2P_Monetization_Tricks.php#comment209435     -> dark monetization
+1. http://aosabook.org/en/index.html    -> CC książki o architekturze architecture
+1. https://news.ycombinator.com/item?id=14050049    -> scuttlebutt | rozproszona sieć społecznościowa
+1. https://www.scuttlebutt.nz/      -> scuttlebutt
+1. https://news.ycombinator.com/item?id=14045787    -> git config magic stuff
+1. https://news.ycombinator.com/item?id=14047342    -> america, land of free: IRS kradnie z banku, policja kradnie na drodze
+1. https://www.theatlantic.com/technology/archive/2011/08/gamification-is-bullshit/243338/  -> gamification
+1. https://vimeo.com/166807261  -> hyperreality dystopia
+1. http://i.imgur.com/dgGvgKF.png   -> dystopia
+1. https://medium.com/@danrschlosser/linkedin-dark-patterns-3ae726fe1462    -> dark patterns
+1. https://www.fastcodesign.com/3066586/the-year-dark-patterns-won          -> dark patterns
+1. https://www.scientificamerican.com/article/living-a-lie-we-deceive-ourselves-to-better-deceive-others/   -> memetyka, wojna memetyczna, autohipnoza
+1. http://uxmag.com/articles/towards-an-ethics-of-persuasion?page=43    -> memetyka, perswazja
+1. http://brianknapp.me/programmer-60-80-hour-weeks/        -> exploitaiton, dark patterns, efficient time, management
+1. http://brianknapp.me/what-you-really-believe-in/                         -> sacrifice, quality, deadline
+1. http://brianknapp.me/starting-from-nothing-zero-to-build-wealth/         -> system, wealth
+1. http://brianknapp.me/you-wont-become-rich-working-for-somebody-else/     -> system, wealth
+1. http://brianknapp.me/developers-dislike-agile/   -> agile, agile religion
+1. http://brianknapp.me/skills-do-self-taught-programmers-commonly-lack/    -> negotiation, money, wealth
+1. http://brianknapp.me/how-do-self-taught-developers-actually-get-jobs/    -> build stuff everyday
+1. http://www.codesimplicity.com/post/effective-engineering-productivity/   -> solve the problem they HAVE
+1. http://www.howardlove.com/dancing-elephants-dangerous/   -> sprzedaż do małych / dużych firm
+1. https://news.ycombinator.com/item?id=14071025            -> sprzedaż do małych / dużych firm
+1. https://news.ycombinator.com/item?id=14102580            -> 70% informacji wystarczy do podjęcia decyzji
+1. http://www.businessinsider.com/jeff-bezos-explains-the-perfect-way-to-make-risky-business-decisions-2017-4?IR=T  -> 70% informacji wystarczy do podjęcia decyzji
+1. http://www.businessinsider.com/read-amazon-ceo-jeff-bezos-2016-letter-to-shareholders-2017-4?IR=T    -> Jeff Bezos, list, jak żyć ;-)
+1. http://integratedleader.com/articles/40-70rule.pdf       -> Colin Powell, podejmowanie decyzji
+1. https://eklitzke.org/how-to-how-your-own-private-git-repositories    -> host git repositories
+1. http://www.dotnetsurfers.com/blog/2016/03/29/lessons-learned-and-random-thoughts-on-bootstrapping/   -> biznes business
+1. https://news.ycombinator.com/item?id=14146850    -> biznes business
+1. https://www.linkedin.com/pulse/how-bullshitters-just-survive-thrive-until-atul-mathur    the power of perception and deceive and sociopaths clueless gervais
+1. https://news.ycombinator.com/item?id=14170364        -> light, światła w tunelu, ciekawa linia dyskusji. Serio: o kolorze światła
+1. http://us1.campaign-archive1.com/?e=4777f1b435&u=78cbbb7f2882629a5157fa593&id=6356331df8 -> bandwagon, unicorn, jump on bandwagon
+1. https://blog.acolyer.org/2016/04/21/the-amazing-power-of-word-vectors/   -> word vectors
+1. http://www.au.af.mil/au/awc/awcgate/usmc/leadership.htm  -> leadership marines
+1. https://www.amazon.jobs/principles   -> leadership amazon
+1. https://www.linkedin.com/pulse/cudowna-si%C5%82a-prostoty-vs-zab%C3%B3jcza-moc-z%C5%82o%C5%BCono%C5%9Bci-witold-jankowski    -> złożoność w biznesie
+1. http://sriramk.com/building-unmeasurable-things      -> problem mierzalności i proxy metrics
+1. http://kottke.org/17/04/the-internet-is-an-all-in-one-machine    -> internet jako maszyna i za co płacimy
+1. http://kk.org/thetechnium/better-than-fre/   -> za co płacimy
+
+TO CHECK:
+https://www.1843magazine.com/story/a-practitioners-guide-to-hedonism
+
+https://news.ycombinator.com/item?id=14017830
