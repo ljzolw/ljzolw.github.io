@@ -658,6 +658,7 @@ Check this:
 1. http://sriramk.com/building-unmeasurable-things      -> problem mierzalności i proxy metrics
 1. http://kottke.org/17/04/the-internet-is-an-all-in-one-machine    -> internet jako maszyna i za co płacimy
 1. http://kk.org/thetechnium/better-than-fre/   -> za co płacimy
+1. http://www.kalzumeus.com/2012/09/21/ramit-sethi-and-patrick-mckenzie-on-why-your-customers-would-be-happier-if-you-charged-more/  -> genialne, o wartości, koszcie itp
 
 TO CHECK:
 https://www.1843magazine.com/story/a-practitioners-guide-to-hedonism
