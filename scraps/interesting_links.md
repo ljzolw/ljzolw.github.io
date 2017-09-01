@@ -455,9 +455,6 @@ Języki:
 4. https://gowebexamples.github.io/
 5. https://news.ycombinator.com/item?id=13612941
 
-BGDM
-
-1. https://www.reddit.com/r/Guildwars2/comments/5sy3ep/bgdm_first_compliant_memory_reading_dps_meter_and/
 
 Ekonomia prof Vollratha:
 
@@ -659,8 +656,78 @@ Check this:
 1. http://kottke.org/17/04/the-internet-is-an-all-in-one-machine    -> internet jako maszyna i za co płacimy
 1. http://kk.org/thetechnium/better-than-fre/   -> za co płacimy
 1. http://www.kalzumeus.com/2012/09/21/ramit-sethi-and-patrick-mckenzie-on-why-your-customers-would-be-happier-if-you-charged-more/  -> genialne, o wartości, koszcie itp
+1. https://stratechery.com/2017/facebook-and-the-cost-of-monopoly/  -> dead weight jako rezultat obecności monopolu
+1. https://stratechery.com/2015/why-web-pages-suck/         -> reklamy i ich wpływ na content
+1. https://stratechery.com/2017/ad-agencies-and-accountability/     -> reklamy i wielka wojna w świecie reklam
+1. https://stratechery.com/2017/intel-mobileye-and-smiling-curves/      -> smiling curve, gdzie jest wartość dodana
+1. https://stratechery.com/2017/twitter-live-and-luck/              -> commoditizing XXX, digital disruption
+1. https://stratechery.com/2015/from-products-to-platforms/     -> bardzo interesujące; apple i developerzy
+1. https://stratechery.com/2017/james-allworth-founders-and-motivation/     -> INCENTIVES vs MOTIVATIONS
+1. https://stratechery.com/2017/manifestos-and-monopolies/      -> cykl kontroli. Production < Distribution < Self-aggregation. Facebook.
+1. https://stratechery.com/2017/the-great-unbundling/       -> poziomy integracji contentu TV
+1. https://stratechery.com/2016/the-voters-decide/          -> Aggregation Theory, oparte o Trumpa
+1. http://slatestarcodex.com/2014/06/07/archipelago-and-atomic-communitarianism/        -> communities
+1. https://stratechery.com/2016/the-curse-of-culture/       -> kultura i znaczenie kultury
+1. http://startupcribs.pl/startup/jak-zalozyc-startup-nie-majac-o-tym-bladego-pojecia-poznaj-historie-masterlife/   -> software house czy programiści natywni? Startup w PL.
+1. https://marco.org/2017/05/15/mp3-isnt-dead   -> fake news? Pokazanie że mp3 jest już wolne.
+1. https://blog.bufferapp.com/people-dont-buy-products-they-buy-better-versions-of-themselves   -> ciekawe. Czemu ludzie kupują rzeczy.
+1. https://stackingthebricks.com/guides/your-first-10k/ -> stacking the bricks. Przykładowo to: jak zarobić 10k.
+1. http://www.lastwordonnothing.com/2014/04/29/the-pocket-guide-to-bullshit-prevention/
+1. http://www.newyorker.com/tech/elements/how-to-call-bullshit-on-big-data-a-practical-guide?intcid=mod-latest
+1. http://www.expatsoftware.com/Articles/guy-on-the-beach-with-a-laptop.html
+1. https://plato.stanford.edu/entries/repugnant-conclusion/ -> filozofia, system, hodowanie ludzi, etyka populacji
+1. http://jrsinclair.com/articles/2017/faster-better-cheaper-art-of-making-software/ -> trochę o systemach i o programistach. Optymalizacja nie tego co powinno. Psychologia.
+1. https://www.usatoday.com/pages/interactives/news/rigged-forced-into-debt-worked-past-exhaustion-left-with-nothing/   -> USA, land of free
+1. http://sealedabstract.com/rants/hey-programmers-we-need-to-talk/     -> zwrot z inwestycji czasu, czas, programowanie vs pisanie artykułów
+1. http://a16z.com/2017/06/09/distribution-model-sales-channels/        -> dystrybucja produktów i z czego to wynika
+1. https://www.quantamagazine.org/the-thoughts-of-a-spiderweb-20170523/     -> sieć pająka jako przedłużenie systemu myślenia
+1. https://www.socialcooling.com/       -> evaporative cooling na społeczeństwa, samocenzura
+1. https://news.ycombinator.com/item?id=14585882        -> odpowiadający mu HN
+1. https://enlight.ml/      -> ucz się języka programowania
+1. https://fsharpforfunandprofit.com/ddd/?__s=oyydqa9jndiqanqds8vn      -> F# w DDD. Bardzo interesujące.
+1. https://edwardcoffey.com/words/devops-more-than-automation/      -> devops, again
+1. http://a16z.com/2017/05/24/on-firing-why-when-how/       -> how to fire people. Why to fire people.  
+1. https://news.ycombinator.com/item?id=14686726    -> architektura kodu, better software design
+1. https://news.ycombinator.com/item?id=14708350    -> habits of great programmers
+1. https://news.ycombinator.com/item?id=14705937    -> CHECK: critical user journeys
+1. https://edbms.pl/rodo-czyli-rewolucja-w-ochronie-danych-osobowych/   -> RODO, GDPR
+1. https://blog.buildo.io/the-three-laws-of-config-dynamics-1e9724593aa9    -> config, konfiguracja
+1. https://azure.microsoft.com/en-us/blog/design-patterns-for-microservices/    -> architektura kodu, mikroserwisy
+1. http://www.stilldrinking.org/how-to-worry-less-about-being-a-bad-programmer  -> not bad programmer
+1. http://www.stilldrinking.org/programming-sucks       -> programming sucks
+1. http://pythonbooks.org/  -> książki o pythonie
+1. https://news.ycombinator.com/item?id=14769584    -> świetny zbiór komentarzy o zbieraniu wymagań i co jest trudne w tworzeniu oprogramowania
+1. http://www.talkingtohumans.com/index     -> darmowa książka o komunikacji z ludźmi
+1. https://news.ycombinator.com/item?id=14761310    -> The pop-up employer. Przejście na strukturę fraktalną.
+1. https://news.ycombinator.com/item?id=14766375    -> podwyżki, part 1
+1. https://news.ycombinator.com/item?id=13017766    -> podwyżki, part 2
+1. http://www.foundersatwork.com/1/post/2012/10/what-goes-wrong.html    -> jak inwestorzy podejmują decyzje
+1. https://news.ycombinator.com/item?id=14797284    -> get first 1000 customers how sausage is made
+1. http://www.toomas.net/2017/07/18/reverse-engineering-a-successful-lifestyle-business-heres-everything-ive-learned-from-reading-indiehackers-com/ -> jak założyć biznes (startup)
+1. https://news.ycombinator.com/item?id=14804395    -> audience as a currency
+1. https://thinkgrowth.org/why-good-people-leave-large-tech-companies-af2b6fea4ee   -> why good people leave companies
+1. https://news.ycombinator.com/item?id=14824823    -> why good people leave companies, dyskusja z sublinkami
+1. https://news.ycombinator.com/item?id=14828818    -> dobry leader
+1. https://news.ycombinator.com/item?id=3407643     -> dobry leader, więcej
+1. https://news.ycombinator.com/item?id=14828076    -> keep software project on track
+1. https://news.ycombinator.com/item?id=14833285    -> the odin project: learn web dev for free
+1. https://upland.digital/blog/rodo-12-zmian-ochronie-danych-osobowych-ktore-musisz-respektowac/    -> gdpr, rodo
+1. https://medium.com/the-mission/the-enemy-in-our-feeds-e86511488de    -> attention economy
+1. https://news.ycombinator.com/item?id=14847059    -> attention economy
+1. http://www.redgulls.com/2016/04/21/dealing-virtue-signaling-mormon-church/   -> 
+1. http://www.redgulls.com/2016/08/17/the-purity-spiral/                        -> 
+1. https://www.7pace.com/blog/motivating-software-engineers-101/
+1. https://news.ycombinator.com/item?id=15117825 -> 	Why successful startups stumble at 40 employees (thinkgrowth.org)
+1. http://lpan.io/what-i-learnt-from-viw/
+1. https://news.ycombinator.com/item?id=15115874 -> http://lpan.io/what-i-learnt-from-viw/
+1. https://news.ycombinator.com/item?id=15112524
+1. https://news.ycombinator.com/item?id=15114260
+1. https://news.ycombinator.com/item?id=15115536 -> plot without conflict
+1. https://erikbern.com/amp/2017/08/29/the-software-engineering-rule-of-3.html  -> jak programować 'rule of 3', czyli kiedy generalizować
+
 
 TO CHECK:
-https://www.1843magazine.com/story/a-practitioners-guide-to-hedonism
 
+https://www.1843magazine.com/story/a-practitioners-guide-to-hedonism
+http://jamesclear.com/inversion
 https://news.ycombinator.com/item?id=14017830
