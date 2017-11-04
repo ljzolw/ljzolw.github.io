@@ -724,9 +724,49 @@ Check this:
 1. https://news.ycombinator.com/item?id=15114260
 1. https://news.ycombinator.com/item?id=15115536 -> plot without conflict
 1. https://erikbern.com/amp/2017/08/29/the-software-engineering-rule-of-3.html  -> jak programować 'rule of 3', czyli kiedy generalizować
+1. https://hackernoon.com/the-ai-hierarchy-of-needs-18f111fcc007?_lrsc=5a780b60-0dd7-4dfd-ba60-52cf55dc62ea -> ai hierarchy of needs
+1. https://www.agilebusiness.org/content/roles-and-responsibilities -> DSDM, metodyki wytwarzania oprogramowania, post-agile
+1. https://news.ycombinator.com/item?id=15155860    -> Internet of Things, scaling, czujniki
+1. https://news.ycombinator.com/item?id=15178615    -> demon-haunted world
+1. https://news.ycombinator.com/item?id=15200955    -> equifax, lawsuit
+1. https://news.ycombinator.com/item?id=15203984    -> equifax, open source vulnerability
+1. https://news.ycombinator.com/item?id=15212497    -> equifax, lobby to kill rules protecting victims of data breach
+1. https://www.propublica.org/article/what-does-an-innocent-man-have-to-do-alford-plea-guilty   -> USA, land of the free.
+1. https://www.ribbonfarm.com/2017/08/17/the-premium-mediocre-life-of-maya-millennial/  -> premium mediocre Venkatesh Rao
+1. https://www.ribbonfarm.com/2013/04/03/the-locust-economy/    -> locust economy, Venkatesh Rao
+1. http://www.nytimes.com/2011/10/30/opinion/sunday/our-unpaid-extra-shadow-work.html?pagewanted=all    -> gig economy a shadow work
+1. http://www.ontechnicaldebt.com/blog/bad-code-isnt-technical-debt-its-an-unhedged-call-option/    -> technical debt jako unhedged naked call option
+1. https://jaxenter.com/bad-code-isnt-technical-debt-103059.html    -> technical debt jako unhedged naked call option
+1. http://jimhighsmith.com/the-financial-implications-of-technical-debt/ -> technical debt, again
+1. https://news.ycombinator.com/item?id=8777237 -> technical debt jako unhedged naked call option
+1. https://news.ycombinator.com/item?id=15206062    -> good coding interview?
+1. https://news.ycombinator.com/item?id=15199222    -> ??????
+1. https://swps.pl/nauka-i-badania/blog-naukowy/16393-lifestyle-znaczy-strategia-na-zycie   -> lifestyle
+1. https://docs.google.com/presentation/d/1EYyS4AtRhNa6i299R_RB0a54ePU2PEQsILQnwWgY9KU/edit#slide=id.g15632b9ca2_0_5    -> brainstorming
+1. https://thebaffler.com/salvos/the-meme-hustler   -> memetics, wojna memetyczna
+1. https://docs.google.com/spreadsheets/d/1cjwB_s4ya57auTjIw-OVjoR_3IDvLcELt9sK420fzbs/htmlview?usp=sharing&sle=true    -> stawki, developer salaries
+1. https://www.indiehackers.com/@jimmyjazz/2482b8a058   -> build community
+1. https://news.ycombinator.com/item?id=15443043    -> stuff is out to get you
+1. https://news.ycombinator.com/item?id=15446917    -> price of progress
+1. https://news.ycombinator.com/item?id=15440848 -> is uncle bob serious
+1. https://www.onetonline.org/link/summary/15-1122.00   -> kompetencje specjalistów security, portal kompetencji
+1. https://existek.com/blog/offshore-software-development-model/    -> formy outsourcingu
+1. https://www.gov.uk/government/publications/growing-the-artificial-intelligence-industry-in-the-uk -> raport z AI z UK
+1. http://ben-evans.com/benedictevans/2017/10/12/scale-wetxp    -> scale of tech winners
+1. http://thereformedbroker.com/2017/10/16/just-own-the-damn-robots/    -> own the robots
+1. https://news.ycombinator.com/item?id=15545393    -> RPG resurrection (DnD 5?)
+1. https://news.ycombinator.com/item?id=15558861    -> rola poezji ("poetry") i upraszczanie ("Alan Kay"). Ważne komentarze.
+1. https://news.ycombinator.com/item?id=15572053    -> EU governments want to give record labels control over what we can post
+1. https://staltz.com/the-web-began-dying-in-2014-heres-how.html    -> konsekwencje monopolu Google Facebook Amazon
+1. https://www.neustadt.fr/essays/against-a-user-hostile-web/       -> user hostile web
+1. https://shkspr.mobi/blog/2017/11/yes-but-what-does-your-startup-do/  -> znaczenie dokładnej komunikacji
+
+
 
 
 TO CHECK:
+
+https://soundcloud.com/deanschaubmusic/it-is-by-will-alone-mentat-mantra -> mentat mantra
 
 https://www.1843magazine.com/story/a-practitioners-guide-to-hedonism
 http://jamesclear.com/inversion

@@ -64,7 +64,7 @@ Niezależnie od firmy, Gerwazemu rzadko opłaca się błagać o szansę i podkre
 
 Tak. Znowu spójrzmy na rysunek poglądowy by zrozumieć o co chodzi:
 
-![TODO](/img/170901/adam_basia_mrowki_hotel.png)
+![Rzutnik rzuca obraz szafki, za którą jest małe mrowisko. Adam pokazuje Basi te mrówki. Adam ma smutną minę, Basia wygląda na nieszczególnie szczęśliwą.](/img/170901/adam_basia_mrowki_hotel.png)
 
 Adam i Basia są przyjaciółmi. Adam pokazuje Basi przezrocza dokumentujące jego niedawną wizytę za granicą. Akurat na slajdzie - za szafką w hotelu była mała kolonia mrówek.
 
@@ -86,7 +86,7 @@ W drugim wypadku Basia jest żywo zainteresowana tym, _jak będą wyglądały wa
 
 Kolejny rysunek poglądowy:
 
-![TODO](/img/170901/adam_basia_kontekst.png)
+![Kwadrat dookoła Adama oznaczony jako "kontekst Adama". Kwadrat dookoła Basi oznaczony jako "kontekst Basi". Między nimi jest strzałka dwustronna oznaczona jako "wspólny kontekst rozmowy".](/img/170901/adam_basia_kontekst.png)
 
 Adam jest w większości zainteresowany sobą i swoim kontekstem. To samo Basia - jest zainteresowana sobą i swoim kontekstem. Ale by mogło dojść do wymiany informacji, musi istnieć wspólny kontekst - kontekst rozmowy. I z perspektywy samej rozmowy ani Adam ani Basia nie są aż tak ważni jak: 
 
@@ -123,7 +123,7 @@ _"Pracowałem jako telemarketer dwa lata, więc mam sporo doświadczenia w rozma
 
 I w ten sposób Gerwazy pokazał rekruterowi potencjalną korzyść dla firmy i uzasadnił, czemu w ogóle mówi o swojej przeszłości w telemarketingu:
 
-![TODO](/img/170901/gerwazy_rekruter_telemarketing.png)
+![Uśmiechnięty Gerwazy, koło którego jest kontekst zawierający "programista JS, telemarketer, budowanie samochodów". Po drugiej stronie rysunku uśmiechnięta rekruterka, koło której jest kontekst zawierający "szuka programisty JS, wie dużo o firmie". Strzałka między Gerwazym i rekruterką zawiera własny kontekst "korzyści dla firmy z tego, że Gerwazy był telemarketerem"](/img/170901/gerwazy_rekruter_telemarketing.png)
 
 Sam telemarketing jest w kontekście Gerwazego i tylko Gerwazego, ale już uzasadnienie telemarketingowej przeszłości w kontekście firmy pojawia się w kontekście wspólnej komunikacji między Gerwazym a rekruterem. 
 
