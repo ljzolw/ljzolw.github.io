@@ -59,7 +59,7 @@ Co więcej, Crypton wyprowadziła do CC-BY-NC min. wizerunek Miku, co umożliwia
 Innymi słowy, gdybym miał znowu 9-12 lat i był zainteresowany 'wirtualnymi piosenkarkami', mógłbym zrobić ten wymarzony komiks ;-).
 
 Oto Miku Hatsune; [obrazek pochodzi ze strony Cryptona](http://www.crypton.co.jp/miku_eng):
-![Miku Hatsune, link bezpośrednio ze strony Cryptona](http://www.crypton.co.jp/img/special/vocaloid/img_MIKU_us.png)
+![_Rysunek: Miku Hatsune, link bezpośrednio ze strony Cryptona_](https://ec.crypton.co.jp/img/special/vocaloid/img_MIKU_us.png)
 
 "Kim" jest Miku Hatsune i czemu to w ogóle opisuję?
 
