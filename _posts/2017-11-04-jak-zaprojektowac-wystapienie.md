@@ -164,13 +164,12 @@ Osoby, które mnie o to poprosiły powiedziały, że chciałyby zainspirować pr
 
 Przejdźmy więc przez grupę pytań (tu jest już wersja ostateczna):
 
-### Szkic:
-
-#### 1. O czym chcę powiedzieć?
+### 4.1. Szkic:
+#### 4.1.1. O czym chcę powiedzieć?
 
 Chcę powiedzieć o tym, że jeśli nie wiem co robię, nie jestem w stanie tego zrobić dobrze. Chcę im opowiedzieć o upraszczaniu problemu, dzieleniu go na kawałki i jak programować minimalnym kosztem energii by uzyskać maksymalny zwrot z czasu. Pokazać, że "nieźle" bywa lepsze niż "perfekcyjnie" w niektórych kontekstach.
 
-#### 2. Kto jest moim odbiorcą? 
+#### 4.1.2. Kto jest moim odbiorcą? 
 
 Młodzi, niedoświadczeni (i średnio doświadczeni) programiści dowolnej technologii.
 
@@ -182,7 +181,7 @@ Uznałem, że w kontekście tej prezentacji mogę potraktować ich jako ten sam 
 
 Najczęściej programiści przekształcają problemy biznesowe (czy to w formie dobrze zdefiniowanych zadań czy w formie abstrakcyjnych pragnień) w kod, krystalizując procesy biznesowe. Im mniej programista rozumie problem, tym mniejsza szansa, że uda się mu dostarczyć coś sensownego.
 
-#### 3. W ramach tego co moi odbiorcy robią: 
+#### 4.1.3. W ramach tego co moi odbiorcy robią: 
 
 Główne obszary bólu, które chcę rozwiązać to:
 
@@ -191,7 +190,7 @@ Główne obszary bólu, które chcę rozwiązać to:
 * Frustracja wynikająca z zagubienia w kodzie. Zwłaszcza własnym. Odszedłem od programu na pół roku, wracam i nic nie rozumiem. Muszę być naprawdę kiepski, skoro nie rozumiem własnego kodu.
 * Strach, że jestem tak kiepski, że mnie zwolnią.
 
-#### 4. W jaki sposób to, co chcę powiedzieć (nauczyć, dać) pomaga:
+#### 4.1.4. W jaki sposób to, co chcę powiedzieć (nauczyć, dać) pomaga:
 
 Modelowanie i upraszczanie dają poniższe:
 
@@ -201,7 +200,7 @@ Modelowanie i upraszczanie dają poniższe:
 * Z uwagi na to, że modeluje się konkretny problem technikami "od góry do dołu" - zawsze wiem, jak zacząć.
 * _Potencjalny problem do pokonania: modelowanie wymaga myślenia i rysowania na kartce papieru. To zajmuje czas._
 
-#### 5. Po czym odbiorcy poznają, że warto było przyjść? Czas, ból, kapitał.
+#### 4.1.5. Po czym odbiorcy poznają, że warto było przyjść? Czas, ból, kapitał.
 
 Korzyści:
 
@@ -217,13 +216,15 @@ W jakim kontekście mogą to osiągnąć?
 * Gdy próbują zintegrować się z istniejącym kodem, który jest trudny do zrozumienia
 * Gdy próbują napisać coś "od zera", czego nie do końca jeszcze rozumieją
 
-### Szablon:
+### 4.2. Szablon:
+### 4.2.1 Wstępna estymacja czasu
 
-rezerwa: 10 minut.
-1-3: 5 minut.
-8-9: 10 minut.
+* rezerwa: 10 minut.
+* 1-3: 5 minut.
+* 8-9: 10 minut.
+* Pozostaje 40 minut.
 
-Pozostaje 40 minut.
+### 4.2.2 Szablon właściwy
 
 1. Przedstawienie się
 2. Zaprezentowanie korzyści
