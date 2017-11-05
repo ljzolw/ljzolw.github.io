@@ -131,15 +131,17 @@ Pytanie: ile struktur "Problem->Rozwiązanie" wprowadzić do tego powyższego sz
 
 Odpowiedź kryje się w estymacji czasu prezentacji. Wyobraźmy sobie, że prowadzimy 45-minutową prezentację:
 
-1. Przedstawienie się + prezentacja korzyści + agenda: 5 minut.
-2. Podsumowanie i podziękowania: 5 minut.
-3. Rezerwa czasowa (spóźnienia, coś nie działa...): 5-10 minut.
+|~Co jest mówione|~Ile to potrwa|
+| Przedstawienie się + prezentacja korzyści + agenda|5 minut|
+| Podsumowanie i podziękowania|5 minut|
+| Rezerwa czasowa (spóźnienia, coś nie działa...)|5-10 minut|
 
-Zostaje nam 25-30 minut. Spójrzmy teraz na Problem->Rozwiązanie:
+Zostaje nam 25-30 minut. Spójrzmy teraz na pojedynczą strukturę typu "Problem->Rozwiązanie":
 
-1. Przykład pokazujący ból: 2-5 minut.
-2. Wyjaśnienie bólu i rozwiązanie go narzędziem: 5-8 minut
-3. Wyjaśnienie, jak odbiorcy mogą wykorzystać to w praktyce: 2-3 minuty.
+|~Co jest mówione|~Ile potrwa|
+| Przykład pokazujący ból|2-5 minut|
+| Wyjaśnienie bólu i rozwiązanie go narzędziema|5-8 minut|
+| Wyjaśnienie, jak odbiorcy mogą wykorzystać to w praktyce|2-3 minuty|
 
 Czyli pojedyncza struktura Problem->Rozwiązanie zajmuje około 10-15 minut. Wybieramy 2-3 najważniejsze:
 
@@ -148,7 +150,7 @@ Czyli pojedyncza struktura Problem->Rozwiązanie zajmuje około 10-15 minut. Wyb
 
 ### 3.5. Budowa slajdów / ćwiczeń i ich weryfikacja
 
-Ostatnim krokiem jest zbudowanie ćwiczeń lub prezentacji.
+Kolejnym krokiem jest już zbudowanie ćwiczeń lub prezentacji.
 
 Po zrobieniu powyższego - spójrzcie na prezentację krytycznym okiem pod kątem szablonu. Czy to jest to, czego oczekują Wasi odbiorcy z punktu 3.1? Czy jest tam coś, co można usunąć? Coś, co nie przynosi odbiorcy korzyści?
 
