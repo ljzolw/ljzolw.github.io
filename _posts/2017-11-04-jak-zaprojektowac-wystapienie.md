@@ -87,7 +87,7 @@ Punkt 3.1 "projektowanie szkicu" jest zakończony sukcesem wtedy i tylko wtedy, 
 
 Póki nie macie spełnionych powyższych punktów, wracacie do 3.1.
 
-![_Rysunek: 3.1 wskazuje na 3.2. 3.2 wskazuje na 3.1, w pętli. W tle uśmiechnięta głowa brodacza._](/img/171104/flowchart.png)
+![_Rysunek: 3.1 wskazuje na 3.2 z pytaniem "czy wszystko się zgadza?". 3.2 wskazuje na 3.1 z opisem "nie". 3.2 wskazuje na 3.3 z opisem "tak". W tle zdziwiona głowa wskazująca na "nie"._](/img/171104/flowchart.png)
 
 ### 3.3. Szablon wystąpienia
 
