@@ -10,58 +10,60 @@ Kiedy opłaca Ci się to przeczytać?
 
 * Chcesz zrobić wystąpienie publiczne. Lub przygotować szkolenie. Lub napisać artykuł.
 * Chcesz zrobić to dobrze, ale nie wiesz, co to znaczy "dobrze". Nie wiesz, jak zareagują odbiorcy. Nie wiesz, jak zacząć.
-* Nie uważasz się za dobrego mówcę, ale chcesz wypaść na środku przynajmniej nieźle. Chcesz ograniczyć stres i ryzyko, że nie wyjdzie.
-* Chcesz zobaczyć jak działa "propozycja wartości" w akcji ;-).
+* Chcesz ograniczyć stres związany z wystąpieniem publicznym i ryzyko, że coś się nie uda - nawet, jeśli nie uważasz się za dobrego mówcę.
 
 Rozpatruję tematy takie jak: 
 
-* Projektowanie szkolenia (wystąpienia) pod kątem wartości dla odbiorcy
-* Weryfikacja szkolenia (wystąpienia) pod kątem założeń - czy osiągnie to, co zaplanowano?
-* Konstruowanie prezentacji pod istniejący cel przy użyciu szablonu
+* Projektowanie wystąpienia (szkolenia) pod kątem wartości dla odbiorcy
+* Weryfikacja wystąpienia (szkolenia) pod kątem założeń - czy osiągnie to, co zaplanowano?
+* Konstruowanie wystąpienia pod istniejący cel przy użyciu szablonu
 
-## 2. Dlaczego proponuję takie podejście?
+## 2. Dlaczego proponuję takie podejście do budowy wystąpienia?
 
 ### 2.1 Dlaczego?
 
-W ciągu ostatnich pięciu lat przeprowadziłem ponad 2500 godzin szkoleń i prezentacji w roli trenera (nie licząc czasu na przygotowanie). Podczas pracy nad prezentacjami i szkoleniami mój cel jest prosty: 
+W ciągu ostatnich pięciu lat przeprowadziłem ponad 2500 godzin szkoleń i prezentacji w roli trenera (nie licząc czasu na przygotowanie). **Technika, którą dzisiaj opisuję jest tą, którą sam wykorzystuję do projektowania własnych szkoleń.**
 
-Jeżeli coś przygotowuję, to...
+Podczas pracy nad prezentacjami i szkoleniami mój cel jest prosty: 
 
-* ...chcę, by to co robię komuś pomogło - w innym wypadku marnuję czas odbiorców i ich nie zainteresuję.
-* ...chcę, by odbiorcy jak najszybciej widzieli korzyści dla siebie - jeśli odbiorcy widzą własne postępy, bardziej im się szkolenie podoba i są bardziej zmotywowani do dalszej pracy.
-* ...chcę, by szkolenie działało w kontekście codziennych działań odbiorców - jeśli odbiorcy widzą jak mogą natychmiast wykorzystać prezentowane techniki to są w stanie je ćwiczyć. Szkolenie się faktycznie przydało i coś zmieniło.
-* ...chcę włożyć jak najmniej energii i wywołać jak największy efekt - w innym wypadku marnuję czas, energię i zasoby.
-* ...chcę móc weryfikować skuteczność i przydatność szkolenia - w innym wypadku nie mogę usprawniać swoich szkoleń.
+Jeżeli coś przygotowuję, to chcę...
 
-Technika, którą dzisiaj opisuję jest tą, którą sam wykorzystuję do projektowania własnych szkoleń. Jest zaprojektowana pod kątem tych pięciu punktów powyżej.
+* ...by to co robię komuś pomogło - w innym wypadku marnuję czas odbiorców i ich nie zainteresuję.
+* ...by odbiorcy jak najszybciej widzieli korzyści dla siebie - jeśli odbiorcy widzą własne postępy, są bardziej zmotywowani do dalszej pracy.
+* ...by szkolenie przydało się w codziennej pracy odbiorców - jeśli odbiorcy widzą jak mogą natychmiast wykorzystać prezentowane techniki to są w stanie je ćwiczyć.
+* ...włożyć jak najmniej energii i wywołać jak największy efekt - w innym wypadku marnuję czas, energię i zasoby.
+* ...móc weryfikować skuteczność i przydatność szkolenia - dzięki temu mogę lepiej usprawnić swoje szkolenia.
 
-### 2.2 Jak to czytać?
+Jest zaprojektowana pod kątem tych pięciu punktów powyżej.
+
+### 2.2 Jak wykorzystać ten artykuł?
+
+Jeżeli chcecie zrobić prezentację/ szkolenie przekazujące wiedzę:
 
 * Punkt '3' jest czystym przepisem. Jest suchą procedurą: wpierw zrób X, potem Y, potem Z.
 * Punkt '3' jest jedynym, do którego będziecie wracać tworząc prezentację
-* Punkt '4' jest przykładem, by lepiej zrozumieć punkt '3'. Przeczytacie go raz.
+* Punkt '4' jest przykładem, by lepiej zrozumieć punkt '3'. Przeczytacie go najpewniej raz.
 * Punkt '5' jest wyjaśnieniem dla ciekawych. Jeśli chcecie wiedzieć, czemu '3' jest złożone tak jak jest, to tam są odpowiedzi. Część z Was go przeczyta.
 
 Pozostałych punktów nie omawiam ;-).
 
-## 3. Technika, w odpowiedniej kolejności:
-
+## 3. Procedura budowania wystąpienia publicznego:
 ### 3.1. Projektowanie szkicu
 
-Najpierw musicie odpowiedzieć na szereg pytań. Najlepiej zapiszcie odpowiedzi gdzieś na kartce papieru; idealnie, chcecie 2-5 zdań na każde z pytań poniżej:
+By zbudować szkic wystąpienia odpowiedzcie na parę pytań. Najlepiej zapiszcie odpowiedzi gdzieś na kartce papieru; idealnie, chcecie 2-5 zdań na każde z pytań poniżej:
 
 1. O czym chcę powiedzieć? Co chcę im pokazać? Czego chcę ich nauczyć? Co chcę im dać?
 2. Kto jest moim odbiorcą? 
     1. Kim są ci ludzie? Czym się zajmują? Jakie role pełnią? 
-    2. Czy da się ich podzielić na silnie zróżnicowane podzbiory/ segmenty? Jeśli tak, rozpatrujcie te segmenty osobno. 
+    2. Czy da się ich podzielić na silnie zróżnicowane grupy? Jeśli tak, rozpatrujcie te grupy osobno.
     3. Czy ludzie, o których myślicie będą większością populacji na sali?
     4. Co ci ludzie **robią**? Jakie działania wykonują? Jakie czynności?
 3. W ramach tego co moi odbiorcy robią: 
-    1. Co ich **boli**? Co ich denerwuje? Czego się boją? Czego nie chcą robić, a muszą? Jak bardzo dotkliwy jest to ból?
-    2. Gdzie zyskują korzyści (jakaś forma kapitału lub czas)? Co przyniosłoby im najwięcej korzyści?
+    1. Gdzie zyskują korzyści (jakaś forma kapitału lub czas)? Co przyniosłoby im najwięcej korzyści?
+    2. Co ich **boli**? Co ich denerwuje? Czego się boją? Czego nie chcą robić, a muszą? Jak bardzo dotkliwy jest to ból?
 4. W jaki sposób to, co chcę powiedzieć (nauczyć, dać) sprawia, że:
-    1. To, co ich boli staje się mniej dotkliwe. Boli mniej. Mają mniej powodów do strachu. Są mniej zdenerwowani. Nie muszą robić rzeczy, których nie chcą.
-    2. Uzyskują większe korzyści. Mają więcej czasu (tracą go mniej?). Mają więcej pieniędzy (tracą ich mniej?). Lepiej wyglądają w oczach innych.
+    1. Uzyskują większe korzyści. Mają więcej czasu (tracą go mniej?). Mają więcej pieniędzy (tracą ich mniej?). Lepiej wyglądają w oczach innych.
+    2. To, co ich boli staje się mniej dotkliwe. Boli mniej. Mają mniej powodów do strachu. Są mniej zdenerwowani. Nie muszą robić rzeczy, których nie chcą.
 5. Po czym odbiorcy poznają, że warto było przyjść? 
     1. Po czym poznają, że to, co powiem uśmierza ich ból? To musi być coś namacalnego i obserwowalnego. 
     2. Po czym poznają, że dostarczyłem im korzyści? 
@@ -69,19 +71,19 @@ Najpierw musicie odpowiedzieć na szereg pytań. Najlepiej zapiszcie odpowiedzi 
 
 ### 3.2. Weryfikacja szkicu pod kątem spójności
 
-W ramach pracy nad szkicem (punkt 2.1 "Projektowanie szkicu") najprawdopodobniej zorientujecie się, że niektóre rzeczy do siebie nie pasują. Częste przypadki, z którymi się spotkałem:
+W ramach pracy nad szkicem (punkt 3.1 "Projektowanie szkicu") najprawdopodobniej zorientujecie się, że niektóre rzeczy do siebie nie pasują. Częste przypadki, z którymi się spotkałem:
 
-* Nie mam pojęcia, po co ta konkretna grupa odbiorców miałaby wykorzystywać to, co chcę im pokazać w codziennym życiu (lub w pracy).
+* Nie mam pojęcia, po co ta konkretna grupa odbiorców miałaby wykorzystywać to, co chcę im pokazać. A już w ogóle jak mówimy o codziennym życiu (lub w pracy).
 * Chcę opowiedzieć o czymś, co mi się podoba - ale to zupełnie nie uśmierza bólu moich odbiorców.
 * Mam problemy z "obserwowalnością". To im się przyda, ale nie będą mogli tego udowodnić.
 
-Wtedy czeka Was przebudowanie Waszej koncepcji. Możecie przebudowywać wszystkie punkty, jak długo ostateczny wynik będzie spójny sam ze sobą od 3.1.1 do 3.1.5.
+Wtedy czeka Was przebudowanie Waszej koncepcji. Możecie przebudowywać wszystkie punkty szkicu, jak długo ostateczny wynik będzie spójny sam ze sobą.
 
 Punkt 3.1 "projektowanie szkicu" jest zakończony sukcesem wtedy i tylko wtedy, gdy:
 
 * Każde z tych pięciu pytań ma odpowiedzi. Odpowiedzi są spójne i logiczne.
 * Istnieją obserwowalne korzyści dla odbiorców i są to korzyści, które odbiorcy potrafią wykorzystać.
-* Potraficie powiedzieć, jak odbiorcy będą potrafili przełożyć Wasze wystąpienie na obniżenie bólu, podniesienie kapitału lub oszczędność czasu w codziennym działaniu.
+* Potraficie powiedzieć, jak odbiorcy będą potrafili przełożyć Wasze wystąpienie na obniżenie bólu, podniesienie kapitału lub oszczędność czasu. Wszystko w codziennym działaniu.
 
 Póki nie macie spełnionych powyższych punktów, wracacie do 3.1.
 
@@ -89,15 +91,15 @@ Póki nie macie spełnionych powyższych punktów, wracacie do 3.1.
 
 ### 3.3. Szablon wystąpienia
 
-Ta część dotyczy już raczej prezentacji i wystąpień publicznych, acz może służyć jako źródło inspiracji innym wykorzystaniom. 
+Ta część dotyczy już raczej prezentacji i wystąpień publicznych.
 
 Nie jest to jedyna możliwa struktura wystąpienia publicznego, ale w rękach mniej doświadczonego prelegenta silnie rekomenduję użycie struktury takiej jak ta poniżej. Ta struktura wzmacnia następujące efekty:
 
 * Odbiorcy (ci z punktu 3.1) od samego początku wiedzą, czemu Was słuchać i są zainteresowani
-* Idąc strukturą "problem -> rozwiązanie" odbiorcy nie gubią kontekstu tego, o czym mówicie
+* Idąc strukturą "**problem -> rozwiązanie**" odbiorcy nie gubią kontekstu tego, o czym mówicie
 * Odbiorcy widzą, jak mogą wykorzystać to w codziennym życiu - opłaca im się Was słuchać
 
-Sam szablon wygląda w następujący sposób:
+**Sam szablon wygląda w następujący sposób:**
 
 1. Przedstawienie się
 2. Zaprezentowanie korzyści
@@ -175,9 +177,9 @@ Młodzi, niedoświadczeni (i średnio doświadczeni) programiści dowolnej techn
 
 Na wysokim poziomie abstrakcji: część z nich ma jeszcze problemy z pisaniem kodu, część już opuściła ten etap i mierzą się z problemami takimi jak "jak zaprojektować komunikację w tym programie", "jak to napisać, by inni zrozumieli" i "jak rozwiązać ten problem techniczny, którego nie opisali na Stack Overflow".
 
-Mam dwa różne segmenty, ale częścią wspólną między nimi jest "jak zacząć COŚ robić jeśli mam tylko migający kursor i problem w głowie". Różnica w tym, że dla mniej doświadczonego programisty "COŚ" oznacza mały kawałek kodu a dla bardziej doświadczonego "COŚ" to będzie spory program. 
+Mam dwie różne grupy, ale ich częścią wspólną jest "jak zacząć COŚ robić jeśli mam tylko migający kursor i problem w głowie". Różnica w tym, że dla mniej doświadczonego programisty "COŚ" oznacza mały kawałek kodu a dla bardziej doświadczonego "COŚ" to będzie spory program. 
 
-Uznałem, że w kontekście tej prezentacji mogę potraktować ich jako ten sam segment.
+Uznałem, że w kontekście tej prezentacji mogę potraktować ich jako tą samą grupę.
 
 Najczęściej programiści przekształcają problemy biznesowe (czy to w formie dobrze zdefiniowanych zadań czy w formie abstrakcyjnych pragnień) w kod, krystalizując procesy biznesowe. Im mniej programista rozumie problem, tym mniejsza szansa, że uda się mu dostarczyć coś sensownego.
 
