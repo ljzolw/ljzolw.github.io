@@ -21,6 +21,8 @@ Rozpatruję tematy takie jak:
 
 ## 2. Dlaczego proponuję takie podejście?
 
+### 2.1 Dlaczego?
+
 W ciągu ostatnich pięciu lat przeprowadziłem ponad 2500 godzin szkoleń i prezentacji w roli trenera (nie licząc czasu na przygotowanie). Podczas pracy nad prezentacjami i szkoleniami mój cel jest prosty: 
 
 Jeżeli coś przygotowuję, to...
@@ -32,6 +34,15 @@ Jeżeli coś przygotowuję, to...
 * ...chcę móc weryfikować skuteczność i przydatność szkolenia - w innym wypadku nie mogę usprawniać swoich szkoleń.
 
 Technika, którą dzisiaj opisuję jest tą, którą sam wykorzystuję do projektowania własnych szkoleń. Jest zaprojektowana pod kątem tych pięciu punktów powyżej.
+
+### 2.2 Jak to czytać?
+
+* Punkt '3' jest czystą recepturą. Jest suchą procedurą: wpierw zrób X, potem Y, potem Z.
+* Punkt '3' jest jedynym, do którego będziecie wracać tworząc prezentację
+* Punkt '4' jest przykładem, by lepiej zrozumieć punkt '3'. Przeczytacie go raz.
+* Punkt '5' jest wyjaśnieniem dla ciekawych. Jeśli chcecie wiedzieć, czemu '3' jest złożone tak jak jest, to tam są odpowiedzi. Część z Was go przeczyta.
+
+Pozostałych punktów nie omawiam ;-).
 
 ## 3. Technika, w odpowiedniej kolejności:
 
@@ -147,7 +158,9 @@ Podczas prezentacji najważniejszy jest odbiorca, nie prelegent.
 
 ## 4. Przykład
 
-Dostałem prośbę poprowadzenia prezentacji dla średnio- i mniej doświadczonych programistów (junior, medium). Osoby, które mnie o to poprosiły powiedziały, że chciałyby zainspirować programistów oraz usprawnić prędkość dostarczania przez nich rozwiązań technicznych. Prezentacja ma trwać 60 minut.
+Pewnego razu dostałem prośbę poprowadzenia prezentacji dla średnio- i mniej doświadczonych programistów (junior, medium). 
+
+Osoby, które mnie o to poprosiły powiedziały, że chciałyby zainspirować programistów oraz usprawnić prędkość dostarczania przez nich rozwiązań technicznych. Prezentacja ma trwać 60 minut.
 
 Przejdźmy więc przez grupę pytań (tu jest już wersja ostateczna):
 
@@ -155,7 +168,7 @@ Przejdźmy więc przez grupę pytań (tu jest już wersja ostateczna):
 
 #### 1. O czym chcę powiedzieć?
 
-Chcę powiedzieć o tym, że jeśli nie wiem co robię, nie jestem w stanie tego zrobić dobrze. Chcę im opowiedzieć o upraszczaniu problemu, dzieleniu go na kawałki i jak programować minimalnym kosztem energii by uzyskać maksymalny zwrot z czasu. Pokazać, że "nieźle" bywa lepsze niż "perfekcyjne" w niektórych kontekstach.
+Chcę powiedzieć o tym, że jeśli nie wiem co robię, nie jestem w stanie tego zrobić dobrze. Chcę im opowiedzieć o upraszczaniu problemu, dzieleniu go na kawałki i jak programować minimalnym kosztem energii by uzyskać maksymalny zwrot z czasu. Pokazać, że "nieźle" bywa lepsze niż "perfekcyjnie" w niektórych kontekstach.
 
 #### 2. Kto jest moim odbiorcą? 
 
@@ -163,7 +176,7 @@ Młodzi, niedoświadczeni (i średnio doświadczeni) programiści dowolnej techn
 
 Na wysokim poziomie abstrakcji: część z nich ma jeszcze problemy z pisaniem kodu, część już opuściła ten etap i mierzą się z problemami takimi jak "jak zaprojektować komunikację w tym programie", "jak to napisać, by inni zrozumieli" i "jak rozwiązać ten problem techniczny, którego nie opisali na Stack Overflow".
 
-Mam dwa różne segmenty, ale częścią wspólną między nimi jest "jak zacząć COŚ robić, jeśli mam tylko migający kursor i problem w głowie". Różnica w tym, że dla mniej doświadczonego programisty "COŚ" oznacza mały kawałek kodu a dla bardziej doświadczonego to będzie spory program. 
+Mam dwa różne segmenty, ale częścią wspólną między nimi jest "jak zacząć COŚ robić jeśli mam tylko migający kursor i problem w głowie". Różnica w tym, że dla mniej doświadczonego programisty "COŚ" oznacza mały kawałek kodu a dla bardziej doświadczonego "COŚ" to będzie spory program. 
 
 Uznałem, że w kontekście tej prezentacji mogę potraktować ich jako ten sam segment.
 
@@ -182,7 +195,7 @@ Główne obszary bólu, które chcę rozwiązać to:
 
 Modelowanie i upraszczanie dają poniższe:
 
-* Nie da się uprościć czegoś, czego się nie rozumie. Innymi słowy, zrozumienie sprawia, że będzie się pisało mniej rzeczy bezużytecznych. Nie ma presji na szybkie rozpoczęcie zadania i pisania "czegokolwiek" - piszemy to, co rozumiemy i co dostarcza wartość.
+* Nie da się uprościć czegoś, czego się nie rozumie. Zrozumienie sprawia, że będzie się pisało mniej rzeczy bezużytecznych. Nie ma presji na szybkie rozpoczęcie zadania i pisania "czegokolwiek" - piszemy to, co rozumiemy i to, co dostarcza wartość.
 * Sporo problemów da się zidentyfikować na poziomie analizy koncepcji. To sprawia, że programista nie wpakuje się w ślepy zaułek architektoniczny pisząc kod bez zobaczenia szerszej perspektywy.
 * Jeśli wiem, co chcę osiągnąć to wiem, kiedy to osiągnąłem. Dzięki temu oddam pracę szybciej i nie wpadnę w pułapkę zbędnej perfekcji.
 * Z uwagi na to, że modeluje się konkretny problem technikami "od góry do dołu" - zawsze wiem, jak zacząć.
@@ -202,7 +215,7 @@ W jakim kontekście mogą to osiągnąć?
 
 * Gdy dostają nieperfekcyjnie zdefiniowane zadanie z nietrywialnym dla siebie problemem (czyli "często, gdy dostają zadanie")
 * Gdy próbują zintegrować się z istniejącym kodem, który jest trudny do zrozumienia
-* Gdy próbują napisać coś "od zera" czego nie do końca jeszcze rozumieją
+* Gdy próbują napisać coś "od zera", czego nie do końca jeszcze rozumieją
 
 ### Szablon:
 
@@ -246,28 +259,32 @@ Pozostaje 40 minut.
 9. Podziękowanie
     1. Ewentualnie, źródła i materiały dodatkowe
 
-## 6. Dlaczego to działa?
-### 6.1. Dlaczego zaczynamy projektowanie od "co JA chcę powiedzieć?"
+## 5. Dlaczego to działa?
+### 5.1. Dlaczego zaczynamy projektowanie od "co JA chcę powiedzieć?"
 
 Tak dużo pracujemy z odbiorcą i celami odbiorców, że chcemy wpierw zapisać sobie co my w ogóle mamy im do powiedzenia. Bez tego można łatwo wpaść w pułapkę "ja nic tej grupie nie mogę dać".
 
 Tak, najprawdopodobniej będziemy musieli to zmienić w jakimś stopniu - ale jak tego nie zapiszemy, nie do końca wiemy od czego zacząć.
 
-Innymi słowy, chodzi o zbudowanie podstawowego zbioru narzędzi, którymi będziemy mogli rozwiązywać cudze problemy. JA mam narzędzia, TY masz problem, JA TOBIE pokażę jak tymi narzędziami rozwiążesz tamten problem.
+Innymi słowy, chodzi o zbudowanie podstawowego zbioru narzędzi, którymi będziemy mogli rozwiązywać cudze problemy. JA mam narzędzia, TY masz problem, JA TOBIE pokażę jak tymi narzędziami rozwiążesz tamten problem. A jak mnie to zainspiruje do zmiany narzędzi, to nie ma problemu.
 
-### 6.2. Dlaczego tyle o odbiorcach i ich działaniach?
+### 5.2. Dlaczego tyle o odbiorcach i ich działaniach?
 
 Swego czasu poproszono mnie, bym przygotował prezentację o licencjach na pewne spotkanie poza firmą. Upewniono mnie, że chodzi o licencje FLOSS - takie, które przede wszystkim dotyczą programistów. Przygotowałem się więc i poszedłem na to spotkanie... a tam było dwóch programistów i kilkanaście osób nie powiązanych stricte z pisaniem kodu...
 
-Poradziłem sobie, bo skupiłem się na licencjach na tzw. content (obrazki z internetu, filmiki, kiedy i jak wolno używać) - ale obiektywnie rzecz ujmując, nie było to moje najlepsze wystąpienie publiczne ;-).
+Poradziłem sobie, bo skupiłem się na licencjach na tzw. _content_ (obrazki z internetu, filmiki, kiedy i jak wolno ich używać) - ale obiektywnie rzecz ujmując, nie było to moje najlepsze wystąpienie publiczne ;-).
 
-Byście mogli uniknąć tego typu problemów wprowadziłem ten punkt. Im więcej się dowiecie o swoich odbiorcach przed rozpoczęciem pracy nad prezentacją tym mniej włożycie energii w rzeczy dla odbiorcy niepotrzebne. Tym mniej będziecie musieli prezentację przekształcać i dostosowywać na bieżąco, przed audytorium.
+Wprowadziłem ten punkt byście mogli uniknąć tego typu problemów. 
 
-Czemu skupiłem się na _działaniach_ odbiorców? Inne problemy mają programiści, którzy pracują nad bardzo złożonymi algorytmami w dziale R&D a inne programiści biznesowi komunikujący się z klientem na co dzień. Dlatego "prezentacja dla programistów" to nie jest wystarczający zbiór informacji - nie wiedząc, co oni robią nie jestem w stanie określić jak ja mogę im pomóc.
+Im więcej się dowiecie o swoich odbiorcach przed rozpoczęciem pracy nad prezentacją - tym mniej włożycie energii w rzeczy dla odbiorcy niepotrzebne. Tym mniej będziecie musieli prezentację przekształcać i dostosowywać się na bieżąco, stojąc przed audytorium.
+
+Czemu skupiłem się na _działaniach_ odbiorców? Inne problemy mają programiści, którzy pracują nad bardzo złożonymi algorytmami w dziale R&D a inne programiści biznesowi komunikujący się z klientem na co dzień. 
+
+Dlatego "prezentacja dla programistów" to nie jest wystarczający zbiór informacji - nie wiedząc, co oni robią nie jestem w stanie określić, jak ja mogę im pomóc.
 
 Innymi słowy, jeśli nie wiem co _robią_ moi odbiorcy to moje wystąpienie najpewniej nie będzie skuteczne (nie rozwiążę ich problemu).
 
-### 6.3. Dlaczego tylko "Ból, Czas lub Kapitał?"
+### 5.3. Dlaczego tylko "Ból, Czas lub Kapitał?"
 
 Swego czasu skupiałem się na ogólnie rozumianych "korzyściach", ale zbyt łatwo było wykombinować coś, co "dobrze brzmi" by móc przepchnąć swój ulubiony temat. By to wyeliminować, ograniczyłem się do trzech najbardziej pierwotnych elementów:
 
@@ -275,21 +292,21 @@ Swego czasu skupiałem się na ogólnie rozumianych "korzyściach", ale zbyt ła
 * Jaką formę kapitału **Ty** uzyskujesz?
 * W jaki sposób **Ty** zaoszczędzisz czas?
 
-Można powiedzieć, że korzyści są szersze niż tylko te trzy kategorie, ale tak naprawdę większość korzyści można do tych trzech sprowadzić:
+Można powiedzieć, że korzyści są szersze niż tylko te trzy kategorie, ale tak naprawdę większość korzyści można jakoś do tych trzech sprowadzić (np. [techniką 5 Why](https://en.wikipedia.org/wiki/5_Whys)):
 
 Przykład: "Moi klienci będą mieli ładniejszy interfejs graficzny":
 
-1. Moi klienci będą mieli ładniejszy interfejs graficzny
-2. Moja aplikacja będzie sprzedawała się lepiej (robiłem badania rynku)
+1. Moi klienci będą mieli ładniejszy interfejs graficzny WIĘC
+2. Moja aplikacja będzie sprzedawała się lepiej WIĘC
 3. Będę zarabiał więcej pieniędzy -> kapitał finansowy
 
-Oczywiście, jeśli nie było robionych badań rynku to przejście między (1) a (2) jest wątpliwe. Ale wymuszenie sprowadzenia wszystkiego do poziomu tych parametrów zwiększa prawdopodobieństwo zauważenia takich luk.
+Oczywiście, jeśli nie było robionych badań rynku to przejście między (1) a (2) jest wątpliwe. Szczęśliwie, wymuszenie sprowadzenia wszystkiego do tych trzech obszarów zwiększa prawdopodobieństwo zauważenia takich luk.
 
 Jeśli "ból, czas, kapitał" są niewielkie i niezbyt palące, trudniej będzie przekonać odbiorców o tym, że warto słuchać. Trzeba się będzie mocniej skupić na przykładzie. Jeśli jednak są bardzo dotkliwe i spore, to można po prostu nakreślić problem i bardziej skupić się na rozwiązaniu.
 
 A jeśli nie ma korzyści w tej dziedzinie, najpewniej ta prezentacja nie jest przeznaczona dla tej konkretnej grupy odbiorców. Najpewniej zadziała dla innej grupy, ale raczej nie dla tej.
 
-### 6.4. Dlaczego zacząć od prezentowania korzyści?
+### 5.4. Dlaczego zacząć od prezentowania korzyści?
 
 Gdy rozpoczynamy jakiekolwiek wystąpienie mamy efekt "nowości". Wyszedł nowy prelegent na środek i coś mówi. To jest moment, gdy najwięcej osób Was słucha. 
 
@@ -298,21 +315,25 @@ Przez to, że mówicie im jakie korzyści mogą osiągnąć:
 1. Wiedzą, że warto Was słuchać. Są aktywnie zainteresowani prezentacją.
 2. Wiedzą, pod jakim kątem słuchać Waszej prezentacji. Wiedzą, na których słowach i konceptach się skupić.
 
-Gdy zaczynacie prezentację, odbiorcy nie wiedzą o czym chcecie powiedzieć. Nie wiedzą, na czym się skupić i co z tego co mówicie jest ważne. Jeśli powiecie im co Wy chcecie by oni z tego mieli, budujecie im kontekst. 
+Gdy zaczynacie prezentację, odbiorcy nie wiedzą, o czym chcecie powiedzieć. Nie wiedzą, na czym się skupić i co z tego, co mówicie jest ważne. Jeśli powiecie im co Wy chcecie by oni z tego mieli, budujecie im kontekst. Kontekst pełniący rolę filtra.
 
-Kontekst, lub filtr, umożliwia odbiorcom wydobycie ze wszystkich wysyłanych przez Was sygnałów tego, co im jest potrzebne. Bo dzięki kontekstowi wiedzą _czemu_ mówicie to, co mówicie.
+Kontekst (filtr) umożliwia odbiorcom wydobycie ze wszystkich wysyłanych przez Was sygnałów tylko tego, co im jest potrzebne. Bo dzięki kontekstowi wiedzą _czemu_ mówicie to, co mówicie.
 
 Innymi słowy, Wasza prezentacja będzie odebrana lepiej.
 
-### 6.5. Dlaczego "Problem->Rozwiązanie?"
+### 5.5. Dlaczego "Problem->Rozwiązanie?"
 
 "Problem" buduje kontekst i pozwala odbiorcy zobaczyć, że to jest też coś, co mogło odbiorcę spotkać. Najlepiej, jeśli problem to przypadek z którym odbiorca się spotkał wcześniej - wtedy będzie mógł wczuć się w sytuację. 
 
-W tym momencie "Rozwiązanie" staje się faktycznym rozwiązaniem problemu posiadanego wcześniej przez odbiorcę. Problem staje się "nie zadanym pytaniem" odbiorcy a Rozwiązanie staje się odpowiedzią na to pytanie. 
+W tym momencie "Rozwiązanie" staje się faktycznym rozwiązaniem problemu posiadanego wcześniej przez odbiorcę. Problem staje się "niezadanym pytaniem" odbiorcy a Rozwiązanie staje się odpowiedzią na to pytanie. 
 
-Dzięki przejściu: "Problem" -> "Rozwiązanie" -> "Wyjaśnienie" -> "Dalsze Użycie W Faktycznej Pracy" nie tylko przechodzimy przez 3/4 cyklu Kolba ale i nasze Wyjaśnienie osadzone jest w kontekście Problemu i Rozwiązania. Odbiorca widzi co było uszkodzone, widzi jak to naprawiliśmy i teraz może zapoznać się z wyjaśnieniem bez kwestionowania "po co mi to".
+Dzięki przejściu: "Problem" -> "Rozwiązanie" -> "Wyjaśnienie" -> "Dalsze Użycie W Faktycznej Pracy" nie tylko przechodzimy przez 3/4 cyklu Kolba ale i nasze Wyjaśnienie osadzone jest w kontekście Problemu i Rozwiązania. 
 
-### 6.6. Dlaczego musi być nawiązanie do problemów codziennych odbiorców?
+1. Odbiorca wpierw widzi, co było uszkodzone
+2. Odbiorca widzi, jak to naprawiliśmy 
+3. I teraz odbiorca może zapoznać się z wyjaśnieniem bez kwestionowania "po co mi to". Bo widział "po co mi to" przedtem.
+
+### 5.6. Dlaczego musi być nawiązanie do problemów codziennych odbiorców?
 
 Bardzo łatwo jest zbudować sobie iluzję tego, że wiemy kim są nasi odbiorcy i czym się zajmują. Zazwyczaj nie do końca to wiemy i jedynie mamy jakieś wyobrażenie na ten temat.
 
@@ -320,9 +341,9 @@ Skupienie się na _czynnościach_ sprawia, że dużo łatwiej jest nam wyobrazi�
 
 Dużo łatwiej jest nam uzmysłowić sobie ich ból, frustrację i potencjalne korzyści. To też daje nam możliwość określenia po czym odbiorca może poznać, że coś robi lepiej.
 
-Nawet, jeśli nie jesteśmy w stanie w 100% dowiedzieć się co robią nasi odbiorcy sam fakt, że próbujemy o tym pomyśleć pomaga nam w zaprojektowaniu prezentacji lepiej do nich dostosowanej.
+Nawet, jeśli nie jesteśmy w stanie w 100% dowiedzieć się co robią nasi odbiorcy - sam fakt, że próbujemy o tym pomyśleć pomaga nam w zaprojektowaniu prezentacji lepiej do nich dostosowanej.
 
-## 7. Inspiracje
+## 6. Inspiracje
 
 Ta technika jest oparta na koncepcie zwanym [propozycją wartości](https://productvision.pl/2014/value-proposition-canvas-unikalna-propozycja-wartosci-modelu-biznesowego/). Propozycja wartości jest narzędziem projektowania i kalibrowania produktu pod kątem konkretnego klienta. Jest czymś, co pozwala nam uniknąć problemu typu "zaprojektowałem coś i to zbudowałem... i nie było nikogo, kto tego w ogóle potrzebuje".
 
@@ -330,9 +351,9 @@ Drugim źródłem inspiracji jest [Pięć pytań Druckera](https://andrewsobel.c
 
 Nie można też zapomnieć o nieśmiertelnym [cyklu Kolba](https://simplypsychology.org/learning-kolb.html). To narzędzie pozwala projektować szkolenia i prezentacje w taki sposób, by jak najwięcej osób o różnych stylach uczenia się mogły wyciągnąć korzyści z owego szkolenia czy prezentacji.
 
-## 8. Podsumowanie
+## 7. Podsumowanie
 
-Nikt nie rodzi się świetnym mówcą. Jednak jeśli mówicie o rzeczach, które interesują odbiorców, nie musicie być świetnymi mówcami. I tak będą Was słuchać, bo widzą wartość tego, co pokazujecie.
+Nikt nie rodzi się świetnym mówcą. Jeżeli jednak mówicie o rzeczach, które interesują odbiorców, nie musicie być świetnymi mówcami. Odbiorcy i tak będą Was słuchać, bo zobaczą wartość tego, co pokazujecie.
 
 Dobry plan i dobre przemyślenie problemu bardzo często pozwoli Wam skompensować brak umiejętności publicznych wystąpień. Bardzo często lepiej dać odbiorcy wartość nie będąc najlepszym mówcą niż mówić świetnie, ale bez żadnych korzyści dla odbiorcy.
 
