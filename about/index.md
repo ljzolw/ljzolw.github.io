@@ -18,20 +18,17 @@ Witaj w moim warsztacie. Usiądź sobie, wypij swój ulubiony trunek i rozejrzyj
 ## O mnie
 
 * Inżynier oprogramowania: 
-    * 10 lat w branży.
     * komercyjnie C#/.NET, prywatnie Python. Javascriptu i frontendu nie zna; kiedyś się nauczy ;-).
     * Miłośnik czytelnych struktur kodu oraz procesów opartych o weryfikację. 
     * Programista (bardziej) + jakościowiec (mniej); często w roli konsultanta.
 * Szkoleniowiec: 
-    * 5 lat doświadczenia.
     * prezentacje i szkolenia - skupione na obserwowalnych korzyściach odbiorcy. 
     * Zakres: programowanie, inżynieria procesów, strategia firmy.
 * RPGowiec:
-    * ponad 20 lat doświadczenia ;-)
-    * hobbysta, projektant gier pod kątem inżynierii procesów
+    * hobbysta, projektant gier pod kątem zasad i pod kątem wpływu zasad na graczy
     * czasem prelegent na konwentach ;-)
 * Inne:
-    * Kiepsko rysuje trackballem w Paincie
+    * Kiepsko rysuje trackballem w Paincie.
 
 ![_Rysunek: kiepsko narysowany przeze mnie autoportret swojej twarzy w paincie. Zawiera dwa kiepsko narysowane żółwie._](/img/about/ljzolw.png)
 
