@@ -37,7 +37,7 @@ Technika, którą dzisiaj opisuję jest tą, którą sam wykorzystuję do projek
 
 ### 2.2 Jak to czytać?
 
-* Punkt '3' jest czystą recepturą. Jest suchą procedurą: wpierw zrób X, potem Y, potem Z.
+* Punkt '3' jest czystym przepisem. Jest suchą procedurą: wpierw zrób X, potem Y, potem Z.
 * Punkt '3' jest jedynym, do którego będziecie wracać tworząc prezentację
 * Punkt '4' jest przykładem, by lepiej zrozumieć punkt '3'. Przeczytacie go raz.
 * Punkt '5' jest wyjaśnieniem dla ciekawych. Jeśli chcecie wiedzieć, czemu '3' jest złożone tak jak jest, to tam są odpowiedzi. Część z Was go przeczyta.
