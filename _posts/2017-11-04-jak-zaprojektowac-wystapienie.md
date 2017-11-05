@@ -131,14 +131,14 @@ Pytanie: ile struktur "Problem->Rozwiązanie" wprowadzić do tego powyższego sz
 
 Odpowiedź kryje się w estymacji czasu prezentacji. Wyobraźmy sobie, że prowadzimy 45-minutową prezentację:
 
-|~Co jest mówione|~Ile to potrwa|
+|**Co jest mówione**|**Ile to potrwa**|
 | Przedstawienie się + prezentacja korzyści + agenda|5 minut|
 | Podsumowanie i podziękowania|5 minut|
 | Rezerwa czasowa (spóźnienia, coś nie działa...)|5-10 minut|
 
 Zostaje nam 25-30 minut. Spójrzmy teraz na pojedynczą strukturę typu "Problem->Rozwiązanie":
 
-|~Co jest mówione|~Ile potrwa|
+|**Co jest mówione**|**Ile potrwa**|
 | Przykład pokazujący ból|2-5 minut|
 | Wyjaśnienie bólu i rozwiązanie go narzędziema|5-8 minut|
 | Wyjaśnienie, jak odbiorcy mogą wykorzystać to w praktyce|2-3 minuty|
@@ -154,9 +154,9 @@ Kolejnym krokiem jest już zbudowanie ćwiczeń lub prezentacji.
 
 Po zrobieniu powyższego - spójrzcie na prezentację krytycznym okiem pod kątem szablonu. Czy to jest to, czego oczekują Wasi odbiorcy z punktu 3.1? Czy jest tam coś, co można usunąć? Coś, co nie przynosi odbiorcy korzyści?
 
-Pamiętajcie, że każdy slajd/ ćwiczenie/ temat, który znajduje się poza zakresem (3.1) lub (3.3) musi zostać usunięty. Wiem, że dany temat może być fajny. Wiem, że dany temat może być atrakcyjny. Nie ma to znaczenia. Podczas prezentacji/ szkolenia prelegent jest jedynie narzędziem, którego celem jest maksymalizacja korzyści odbiorcy. Coś fajnego dla prelegenta niekoniecznie przydaje się odbiorcy.
+Pamiętajcie, że każdy slajd/ ćwiczenie/ temat, który znajduje się poza zakresem (3.1) lub (3.3) musi zostać usunięty. Wiem, że dany temat może być Waszym ulubionym tematem. Wiem, że dany temat może być dla Was atrakcyjny.
 
-Podczas prezentacji najważniejszy jest odbiorca, nie prelegent.
+Nie ma to znaczenia. **Podczas prezentacji najważniejszy jest odbiorca, nie prelegent.** Kluczem jest maksymalizacja korzyści odbiorcy, nie opowiedzenie o swoim ulubionym temacie.
 
 ![_Rysunek: Prelegent stoi przy tablicy. Jest opisany "on ma sprawić, by ICH korzyści się urzeczywistniły". Po drugiej stronie stoją dwie osoby. Są opisani "ich cele są ważne, ich korzyści są ważne. Oni są ważni."_](/img/171104/what_important.png)
 
