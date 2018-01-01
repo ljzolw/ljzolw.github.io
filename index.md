@@ -7,6 +7,7 @@ title: Mój mały warsztat
 
 ## Artykuły:
 
+* [2017-12-31 : Podsumowanie roku 2018 (głównie RPG)](/2017/12/31/podsumowanie-2017)
 * [2017-11-04 : Jak zaprojektować wystąpienie publiczne?](/2017/11/04/jak-zaprojektowac-wystapienie)
 * [2017-09-01 : Podstawy komunikacji celowej](/2017/09/01/podstawy-komunikacji-celowej)
 * [2017-05-08 : Jedna iteracja pracy nad systemem RPG](/2017/05/08/jedna-iteracja-pracy-nad-rpg)

@@ -760,8 +760,66 @@ Check this:
 1. https://staltz.com/the-web-began-dying-in-2014-heres-how.html    -> konsekwencje monopolu Google Facebook Amazon
 1. https://www.neustadt.fr/essays/against-a-user-hostile-web/       -> user hostile web
 1. https://shkspr.mobi/blog/2017/11/yes-but-what-does-your-startup-do/  -> znaczenie dokładnej komunikacji
+1. https://chrisbolman.com/strategy-develop-effective-framework/    -> what IS strategy and how to use it
+1. https://news.ycombinator.com/item?id=15630640    -> what IS strategy and how to use it, ycombinator. READ IT.
+1. https://news.ycombinator.com/item?id=15661372    -> rise and fall of linux
+1. https://www.ribbonfarm.com/2017/11/09/ceos-dont-steer/   -> Venkatesh Rao, rola CEO
+1. https://news.ycombinator.com/item?id=15667286    -> questions to ask changing a company
+1. http://www.tristanharris.com/2016/05/how-technology-hijacks-peoples-minds%E2%80%8A-%E2%80%8Afrom-a-magician-and-googles-design-ethicist/ -> mindwarp, manipulator, manipulation
+1. https://news.ycombinator.com/item?id=15692604    -> discover blue ocean
+1. https://capitalandgrowth.org/articles/720/part-3-six-paths-to-discovering-a-blue-ocean-idea.html -> discover blue ocean
+1. https://medium.com/@karpathy/software-2-0-a64152b37c35
+1. https://mdbootstrap.com/historia-mdb/ -> see it
+1. https://news.ycombinator.com/item?id=15717649 -> manipulation moral bankrupcy
+1. https://medium.com/@dankaplan/the-complete-moral-bankruptcy-of-manipulating-human-psychology-to-turn-users-into-addicts-d09b98281ef  -> manipulation moral bankrupcy
+1. https://medium.com/the-mission/the-morality-of-manipulation-c3115fb2bb3d  -> manipulation moral bankrupcy
+1. http://nautil.us/issue/52/the-hive/modern-media-is-a-dos-attack-on-your-free-will    -> manipulation social media
+1. https://news.ycombinator.com/item?id=15775548    -> how to architecture ;-)
+1. http://www.esi-intl.se/pmo2015/pdfs/aligning-organization-strategy.pdf       -> SEF
+1. https://www.pmi.org/learning/library/leadership-principle-for-agility-9880   -> SEF w akcji
+1. https://www.inc.com/entrepreneurs-organization/the-answer-to-this-one-question-will-skyrocket-your-sales.html    -> What nearly stopped you buying from us?
+1. https://leansixsigmabelgium.com/blog/how-to-use-the-service-balanced-scorecard-glacier/  -> How to use GLACIER / balanced scorecard
+1. http://www.duperrin.com/english/2014/06/23/quote-tell-how-you-measure-and-i-will-tell-you-how-i-will-behave/     -> dlaczego trzeba mierzyć, metrics, measure, quantify
+1. http://www.orderofman.com/dont-follow-passion/   -> efektywność, nie pasja. Mierzalne cele.
+1. http://www.orderofman.com/every-man-marketer/    -> marketing
+1. https://zwischenzugs.com/2017/12/18/project-management-as-code-with-graphviz/    -> graphviz examples
+1. https://news.ycombinator.com/item?id=15950325                                    -> graphviz examples, alternatives
+1. http://greedygoblin.blogspot.com/2017/06/the-weirdo-clash-theory.html                -> outgroup, borders between people
+1. http://slatestarcodex.com/2014/09/30/i-can-tolerate-anything-except-the-outgroup/    -> outgroup, borders between people, grey tribe
+1. http://slatestarcodex.com/2014/05/12/weak-men-are-superweapons/                  -> eristics, strawman, weakman
+1. http://squid314.livejournal.com/329561.html                                      -> eristics, memetic bingo
+1. http://slatestarcodex.com/2014/04/15/the-cowpox-of-doubt/                        -> memetics, memetic inoculation
+1. http://slatestarcodex.com/2014/12/17/the-toxoplasma-of-rage/                     -> memetics, outrage
+1. http://slatestarcodex.com/2014/07/30/meditations-on-moloch/                      -> moloch
+1. http://slatestarcodex.com/2017/11/30/book-review-inadequate-equilibria/          -> system failure, moloch
+1. https://equilibriabook.com/                                                      -> system failure, moloch
+1. http://www.daviddfriedman.com/Academic/Property/Property.html                    -> schelling point, property
+1. http://lesswrong.com/lw/ase/schelling_fences_on_slippery_slopes/                 -> schelling point, murder gandhi
+1. http://lesswrong.com/lw/14a/thomas_schellings_strategy_of_conflict/              -> schelling point
+1. http://www.meltingasphalt.com/ads-dont-work-that-way/                            -> how ads work, ads, memetics
+1. http://slatestarcodex.com/2017/09/05/book-review-surfing-uncertainty/            -> prediction errors, bio-memetics
+1. https://news.ycombinator.com/item?id=15997349            -> return of text-only news
+1. https://training.kalzumeus.com/newsletters/archive/consulting_1  -> programming to consulting, patio11
+1. https://news.ycombinator.com/item?id=15994410                    -> programming to consulting, patio11
+1. http://web.stanford.edu/class/e297c/war_peace/media/hpropaganda.html -> how to propaganda
+1. https://www.farnamstreetblog.com/mental-models/                                                                      -> mental models
+1. https://medium.com/@yegg/mental-models-i-find-repeatedly-useful-936f1cc405d                                          -> mental models
+1. https://25iq.com/2015/08/22/a-dozen-things-ive-learned-from-charlie-munger-about-mental-models-and-worldly-wisdom/   -> mental models
+1. https://alistapart.com/article/liminal-thinking          -> falsyfikowalność, czemu teoria wymaga falsyfikowalności
 
 
+
+
+
+
+
+Epic SupCom:
+1. https://www.youtube.com/watch?v=fBa2noAHYBA
+1. https://www.youtube.com/watch?v=vdNtpNchFgQ  -> Zock vs Turin, Zock wins, set him back, air 
+1. https://www.youtube.com/watch?v=3Orhquz4BSc  -> Turin vs Nexus, Turin wins, air win (gunships, torp bombers)
+1. https://www.youtube.com/watch?v=R3ATkWmyl_o  -> TAG_Chosen vs Fefe, Chosen wins, eco tech vs T1 spam1
+1. https://www.youtube.com/watch?v=lMm8k2LH2qs  -> Most epic Setons ever
+1. https://www.youtube.com/watch?v=aSNd900PiKA  -> Yudi, epic comeback after losing water.
 
 
 TO CHECK:

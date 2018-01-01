@@ -3,7 +3,7 @@ html {
 }
 body {
     margin: 40px auto;
-    max-width:650px;line-height:1.6;font-size:18px;color:#555;padding:010px
+    max-width:800px;line-height:1.6;font-size:18px;color:#555;padding:010px
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
