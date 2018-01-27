@@ -22,6 +22,8 @@ Kiedy warto to przeczytać?
 
 ## 2. Streszczenie myśli przewodniej artykułu
 
+Jeżeli nie macie czasu przeczytać tego artykułu, lub jeśli chcecie sobie przypomnieć najważniejsze fragmenty artykułu, przeczytajcie ten punkt. To nie jest spis treści; to ekstrakt reszty artykułu (który stanowi jedno wielkie _case study_):
+
 1. Jeżeli nie wiecie, co budujecie - nie zrobicie tego dobrze i uda Wam się raczej przez przypadek (lub do momentu zmiany Otoczenia na mniej korzystne).
 1. Jeżeli wiecie, co robicie, możecie to określić i docelowo - zmierzyć.
 1. W zależności od tego co budujecie, użyjecie innych środków. Stąd podejście 'top-down' - od góry (koncepcji) do dołu (działania).
@@ -29,78 +31,67 @@ Kiedy warto to przeczytać?
 1. Dla różnych produktów sukces jest definiowany inaczej - ale zawsze prowadzi do materializacji jakichś korzyści u kogoś.
 1. Percepcja jest bardzo istotna. Nikt nie siedzi w Waszych głowach - tylko Wy wiecie co chcecie osiągnąć. Komunikujcie to.
 
+Jeśli jednak chcecie zapoznać się z całością i zobaczyć, jak to wykorzystać... zapraszam do Czelimina.
+
 ## 3. Trzy lata w Czeliminie
+### 3.1. Krótka historia trzech ostatnich lat
 
-_Disclaimer: opisuję całkowicie fikcyjną sytuację. A tak w ogóle, to opisuję to tylko z mojego punktu widzenia._
+_Wydarzenia tu prezentowane są całkowicie fikcyjne, acz nieco inspirowane światem rzeczywistym. Nieco. W sumie, 100% fikcji._
 
-### 3.1. Historia Warsztatnixa
-#### 3.1.1. Narodziny
+Chciałbym Wam przedstawić Zygmunta Zapaleńca. 
 
-Trzy lata temu w _fikcyjnym_ mieście Czeliminie nie było żadnych konferencji, spotkań - niczego. Były tam różne firmy informatyczne, ale ludzie raczej nie kontaktowali się pomiędzy firmami.
+Zygmunt mieszka w _fikcyjnym_ mieście Czeliminie. W Czeliminie, ogólnie rzecz biorąc, nic się nie dzieje jeżeli chodzi o działania okołobranżowe - nie ma konferencji, nie ma niczego. Programiści są pozamykani w swoich firmach i tak naprawdę nie rozmawiają ze sobą.
 
-Mała grupa zapaleńców zdecydowała się to zmienić. Stworzyli pewne wydarzenie - darmową konferencję dla każdego - któremu nadamy fikcyjną nazwę "Warsztatnix". Miejsce, gdzie mogą przychodzić ludzie z różnych firm. Miejsce, gdzie mogli rozmawiać i dzielić się wiedzą. Taka mini-konferencja.
+I Zygmunt zdecydował się to zmienić. Trzy lata temu zorganizował własną mikro-konferencję i nazwał ją Warsztatnix. Dwóch prelegentów, mała (acz sympatyczna) sala... standardy branżowe zachowane. Rozmawiał też z przedstawicielami innych firm i w ten sposób pozyskiwał prelegentów.
 
-#### 3.1.2. Działanie
+Czelimin ożył. Coś zaczęło się dziać. Zygmunt był szczęśliwy.
 
-Czelimiński Warsztatnix wykorzystywał standardowe wzory branżowe: raz na miesiąc (powiedzmy, w ostatni dzień miesiąca) wynajmowana była niewielka sala i zapraszani byli prelegenci z różnych firm. Ci prelegenci mogli opowiadać o czymkolwiek chcieli, jak długo jest to ciekawe i rozwiązuje jakiś problem. Opowieści z branży (a czasem spoza), ciekawe technologie... wszystko pasowało.
+...a potem minęło trochę czasu...
 
-Warsztatnix wyciągał rękę do okolicznych firm, i czasami dzięki temu dostawał różnych prelegentów, którzy mogli promować siebie oraz swoje firmy. Z biegiem czasu Warsztatnix przyciągnął pewną lojalną grupę bywalców. Niestety, w drugim roku działalności Warsztatnixu sytuacja zaczęła się pogarszać.
+W pewnym momencie różne okoliczne firmy zaczęły się orientować w tym, że przecież takie wydarzenie to świetna okazja na promocję zarówno swoich pracowników jak i ich samych. Zamiast występować na Warsztatnixie, mogą przecież założyć własne wydarzenia. Postawiło się odpowiednie zadania, uruchomiono działy marketingu i w Czeliminie (i okolicy) zaczęły wyrastać różne Spotkania jak grzyby po deszczu.
 
-#### 3.1.3. Konkurencja
+A Zygmunt... cóż, jedna osoba nie jest w stanie dorównać czemuś takiemu. Warsztatnix nadal istniał, ale coraz trudniej było o nowych prelegentów. Coraz mniej ludzi zaczęło przychodzić. Co gorsza, Warsztatnix zaczął tak jakby... trącić myszką.
 
-Okoliczne firmy zorientowały się, że takie spotkania są świetną okazją do promocji firm. 
+Gdy w styczniu Warsztatnixowi wybiła trzecia rocznica istnienia, Zygmunt zaczął się zastanawiać. W sumie, jedyne, czego chciał to to, by w Czeliminie coś się działo. A teraz "coś się dzieje". Może czas pozwolić Warsztatnixowi odejść do historii?
 
-Znowu - zgodnie ze standardami branży - zaczęły powstawać inne wydarzenia jak grzyby po deszczu. Spotkanie Mędrców, Psiotkanie, Tygiel Jakości... (_wszystkie nazwy fikcyjne_) - każde z tych spotkań było firmowane przez jakąś poważną firmę, były też odpowiednio sponsorowane i reklamowane.
+Oczywiście, że nie. Wtedy nie byłoby tego artykułu ;-).
 
-Warsztatnix robiony mimo wszystko siłami indywidualnych ludzi i poza godzinami pracy nie był w stanie nadążyć za konkurencyjnymi Spotkaniami wspieranymi przez działy marketingu poszczególnych firm. 
+### 3.2. Czelimin? Warsztatnix? Nieważne, rozwiążmy to.
 
-Problem braku prelegentów stał się jeszcze bardziej bolesny. Ogromna konkurencja ze strony innych Spotkań sprawiła, że Warsztatnix zaczął tracić populację. Acz warto zaznaczyć, że pewna niewielka grupa osób przychodziła regularnie mimo wszystko.
+Warsztatnix pojawił się w świecie, w którym nie było innych Spotkań. Nie było konkurencji. Potem konkurencja się pojawiła i zrobiło się trudniej. 
 
-#### 3.1.4. Zmierzch na trzecie urodziny..?
+Czyżby?
 
-W styczniu 2018 roku Warsztatnix miał swoje trzecie urodziny. Pojawiły się trudne rozmowy wśród organizatorów:
+Stawiam tu hipotezę, że Warsztatnix jest czymś innym niż pozostałe Spotkania. Cele Warsztatnixu od samego początku były inne: 
 
-* Warsztatnix pojawił się, gdy w Czeliminie nie było nic innego. Teraz w Czeliminie i okolicy jest wiele innych konferencji i Spotkań. 
-* Czy w ogóle jest miejsce dla Warsztatnixa? 
-* Czy nie jest przypadkiem tak, że te wszystkie inne Spotkania pełnią tą samą rolę jaką miał pełnić Warsztatnix i Warsztatnix może zasłużenie odejść do historii?
+* Spotkania sponsorowane przez różne Firmy mają za zadanie przyciągnąć do nich świetnych ludzi i budować markę 
+* Warsztatnix próbował łączyć ludzi między firmami.
 
-Otóż - nie.
+Jeżeli tak, Zygmunt zrobił błąd. Nie powinien był od samego początku robić "konferencji" takiej jak inne Spotkania. Bez działu marketingu i promocji Warsztatnix będzie zawsze "jak każdy inny, ale mniejszy i nie ma tylu atrakcji". Większość tego typu problemów po prostu można zalać złotem i dolarami (podpowiedź: Zygmunt nie jest bogaty, bo nie kupił bitcoinów w 2007 roku).
 
-### 3.2. Zmiana otoczenia
+Co zatem można zrobić?
 
-Warsztatnix pojawił się w świecie, w którym faktycznie nie było innych Spotkań. Jednak cele Warsztatnixu od samego początku były inne. Tam, gdzie Spotkania sponsorowane przez różne firmy mają za zadanie przyciągnąć do nich świetnych ludzi i budować markę, tam Warsztatnix próbował łączyć ludzi między firmami.
+Spróbujmy przeprojektować Warsztatnix zgodnie z techniką "po co to robię - co robię - po czym poznam sukces".
 
-Błędem Warsztatnixu było to, że próbował walczyć w niewłaściwej wojnie, używając swoich słabości a nie sił.
+Tak się przypadkowo składa, że da się do tego typu wykorzystać istniejący framework do budowania organizacji - SEF (Strategic Execution Framework). Jako, że nie zamierzam pisać książki, wybierzemy jedynie podzbiór SEF by pokazać Wam technikę Top-Down i kilka innych rzeczy. I tak będzie długo i trudno.
 
-W świecie, w którym konferencje służą promowaniu poszczególnych firm, Warsztatnix będzie zawsze "jest jak każdy inny, ale mniejszy i nie ma tylu atrakcji". 
-
-Jednak jeśli spojrzymy na przyczynę istnienia Warsztatnixu, zobaczymy coś innego - wydarzenie, które miało zupełnie inny cel niż pozostałe Spotkania. 
-
-Więc czemu nie był bardziej popularny? Bo niewiele osób znało tą różnicę. Nie było to komunikowane.
-
-Dodatkowo, forma "prelegenci plus publiczność" niekoniecznie sprzyja współpracy i współdziałaniu.
-
-### 3.3. Decyzja
-
-W ramach tego artykułu weźmy więc na warsztat sam hipotetyczny Warsztatnix. Porównajmy go z innymi Spotkaniami i zobaczmy, co da się z tym zrobić.
-
-Do tego celu wykorzystamy podzbiór narzędzia SEF (Strategic Execution Framework). Książka (lub bardzo dobry pdf) są w załączonych lekturach uzupełniających. 
-
-Z naszego punktu widzenia istotne jest to, że SEF ma następujące własności:
+Na tym etapie artykułu, z naszego punktu widzenia istotne jest to, że SEF ma następujące własności:
 
 * Skupia się na podejściu "z góry do dołu", czyli "od koncepcji wysokopoziomowej i idei do rozwiązania"
 * Zakłada mierzalność i nacisk na wykonywanie działań operacyjnych a nie "gdybanie"
 * Jest narzędziem uniwersalnym przy budowaniu jakiegokolwiek _produktu_ (organizacji, grupy, firmy, przedmiotu, oprogramowania...).
 * W ramach tego artykułu możemy użyć 25% tego narzędzia i osiągnąć widoczny sukces ;-).
 
-Stawiam tu hipotezę, że Warsztatnix jest czymś innym niż pozostałe Spotkania. SEF powinien to potwierdzić lub zaprzeczyć - i umożliwić nam ustrukturyzowaną przebudowę Warsztatnixu z uwzględnieniem silnych i słabych stron.
+To powyższe jest dokładnie tym, czego nam w tym wypadku potrzeba. Innymi słowy, SEF powinien nam umożliwić ustrukturyzowaną przebudowę Warsztatnixu z uwzględnieniem jego silnych i słabych stron.
+
+Przejdźmy więc do pierwszego elementu SEF - Koncepcji.
 
 ## 4. Różnice w koncepcji...
 ### 4.1. Koncepcja
 
 Każda organizacja (produkt, program...) istnieje z _jakiegoś_ powodu. Rozwiązuje jakiś problem. Powoduje jakąś zmianę w rzeczywistości. To jest właśnie **Koncepcja** zgodnie z SEF; z angielskiego "Ideation". 
 
-Koncepcja jako całość odpowiada na pytanie "Kim my jesteśmy".
+Koncepcja jako całość odpowiada na pytanie "Kim my jesteśmy?".
 
 Koncepcję rozdziela się na Przyczynę ("Purpose"), Tożsamość ("Identity") oraz Zamierzenia ("Long-Range Intention"). W dużym skrócie:
 
@@ -138,6 +129,8 @@ Jakkolwiek dziwnie to może brzmieć, czelimińskie firmy rzadko rywalizują ze 
 Chcemy być miejscem, gdzie ludzie z różnych firm mogą się spotykać i mogą współpracować zgodnie z tym, co ich interesuje. Gdzie mogą się poznawać i rozmawiać. Bez przymusu, bez jakichś rozkazów.
 
 #### 4.2.3. Zamierzenia
+
+Gdzie chcemy dotrzeć?
 
 Docelowo Warsztatnix ma stworzyć tzw. "luźną sieć społeczną". Sam Warsztatnix ma być taką agorą; rynkiem, gdzie może każdy przyjść ze swoim problemem czy chęcią do pracy i znajdzie tam coś, co może zrobić czy komuś pomóc. Taka "sieć sąsiedzka - to jest mój sąsiad, on mi pomoże czy pożyczy cukier".
 
@@ -177,6 +170,8 @@ Może jest wiele spotkań, ale _nasze_ będzie najlepsze. Nasza firma pracuje pr
 Chcemy być tak dobrzy, że stwierdzenie "prezentował na Spotkaniu" będzie powodem do chwały dla prelegentów.
 
 #### 4.3.3. Zamierzenia
+
+Gdzie chcemy dotrzeć?
 
 Docelowo Spotkanie ma budować świetną opinię o naszej firmie zarówno wśród potencjalnych pracowników jak i klientów. Samo Spotkanie ma być rozpoznawalnym na całym świecie wydarzeniem, o którym mówi się w gazetach. Ma ściągać klientów z całego świata i potencjalnych pracowników z Czelimina i okolic. Nasza Firma może wybierać wśród najlepszych - tak stała się dzięki Spotkaniu prestiżowa.
 
@@ -237,7 +232,7 @@ Ja osobiście jestem zwolennikiem podejścia prezentowanego przez [Toma Gilba](h
 3. Dostajemy to, co mierzymy. Jeżeli nam na czymś zależy, musimy móc to zmierzyć.
 4. Nie wszystko naraz. Po kolei - od największego problemu do najmniejszego.
 
-Jeśli już wiecie, co to imperatyw Wizji - przejdźmy do Warsztatnixa oraz Spotkania.
+Jeśli już wiecie, co to Wizja - przejdźmy do Warsztatnixa oraz Spotkania.
 
 ### 5.2. Wizja Warsztatnixa - Cele i Miary
 
