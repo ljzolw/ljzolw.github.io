@@ -205,6 +205,8 @@ Różnice w koncepcji...
 ## 5. ...przekładają się na różnicę Wizji...
 ### 5.1. Wizja
 
+![_Rysunek: Po lewej stronie jest Wielki Mistrz Programowania, który rozświetlony reflektorami opowiada setkom ludzi jak wygląda programowanie. Po prawej kilka osób próbuje wspólnie rozwiązać niemożliwe zadanie a w tle zaplątał się losowy kot._](/img/180127/konferencja_warsztat.jpg)
+
 Opracowaliśmy poziom Koncepcji. Dzięki Zamierzeniom mamy w głowie wyraźny obraz tego, jak ma wyglądać rzeczywistość, gdy wygramy - jak wygląda idealna przyszłość. Dzięki Tożsamości wiemy, czym chcemy być. Dzięki Przyczynie wiemy, po co istniejemy.
 
 Wizja zgodnie z tym modelem odpowiada jako całość na pytanie "Gdzie idziesz?". Próbuje przekształcić Koncepcję w coś namacalnego. Składa się z Celów (Goals), Miar (Metrics) i Strategii (Strategy).
