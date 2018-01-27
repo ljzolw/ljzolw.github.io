@@ -190,8 +190,6 @@ co to jest 10x developer:
 
 1. https://news.ycombinator.com/item?id=12941997
 
-1. https://blog.philippklaus.de/2012/06/convert-wikidot-style-syntax-to-markdown-style-syntax/
-
 1. https://eev.ee/blog/2016/06/12/one-year-later/
 1. https://medium.com/startup-grind/you-dont-need-a-master-plan-you-just-need-to-start-9a3ec0455866#.j8rnai3yv
 
@@ -323,8 +321,6 @@ co to jest 10x developer:
 1. http://web.archive.org/web/20161017003907/1. 
 1. http://strikemag.org/bullshit-jobs/
 
-1. http://www.drivethrurpg.com/product/170689/Blades-in-the-Dark-Digital-Edition-Early-Access
-
 1. https://medium.com/javascript-scene/learn-javascript-b631a4af11f2#.fgs6bc3rv
 
 1. https://medium.com/@cliffordoravec/the-epic-guide-to-bootstrapping-a-saas-startup-from-scratch-by-yourself-part-1-4d834e1df8c1#.rud1b65jt
@@ -374,9 +370,10 @@ co to jest 10x developer:
 
 
 1. https://blog.codeship.com/comparing-elixir-go/
-2. https://hbr.org/2017/01/great-teams-are-about-personalities-not-just-skills
-3. https://hackernoon.com/how-ages-faster-than-why-712e25c9eb3b#.covpu9283
-4. https://dbader.org/blog/why-learn-python?__s=hwmganfkqghe4xscbdkv
+1. https://hbr.org/2017/01/great-teams-are-about-personalities-not-just-skills
+1. https://www.warnersearchgroup.com/news/great-teams-are-about-personalities,-not-just-skills-26955
+1. https://hackernoon.com/how-ages-faster-than-why-712e25c9eb3b#.covpu9283
+1. https://dbader.org/blog/why-learn-python?__s=hwmganfkqghe4xscbdkv
 
 1. http://www.meltingasphalt.com/social-status-down-the-rabbit-hole/
 
@@ -806,10 +803,40 @@ Check this:
 1. https://medium.com/@yegg/mental-models-i-find-repeatedly-useful-936f1cc405d                                          -> mental models
 1. https://25iq.com/2015/08/22/a-dozen-things-ive-learned-from-charlie-munger-about-mental-models-and-worldly-wisdom/   -> mental models
 1. https://alistapart.com/article/liminal-thinking          -> falsyfikowalność, czemu teoria wymaga falsyfikowalności
-
-
-
-
+1. http://kenwestgaard.com/the-gurus-got-5-questions-set-rate       -> how to charge, freelancer, freelancing
+1. https://minnenratta.wordpress.com/2017/01/25/things-i-have-learnt-as-the-software-engineering-lead-of-a-multinational/   -> entropiczne organizacje, jak zarządzać, management
+1. http://www.antipope.org/charlie/blog-static/2018/01/dude-you-broke-the-future.html       -> firmy jako AI, paperclip maximizer, futurism
+1. http://www.jofreeman.com/joreen/tyranny.htm      -> struktura, kultura, tyranny of structurelessness
+1. https://news.ycombinator.com/item?id=16068131    -> synth, openculture
+1. https://github.com/hchasestevens/hchasestevens.github.io/blob/master/notebooks/the-decorators-they-wont-tell-you-about.ipynb     -> Python, decorators
+1. http://agilelifestyle.net/autonomy-mastery-purpose               -> agregacja, kultura, culture, motivation, motywacja
+1. https://hackernoon.com/acing-your-product-manager-interview-e4f163408cef     -> product manager, product management
+1. http://www.wired.co.uk/article/chinese-government-social-credit-score-privacy-invasion   -> dystopia, social credit, china, points, gamified obedience
+1. https://www.indiehackers.com/interview/8999c7ac7f        -> 15 k $ / mo ze screencastów
+1. https://news.ycombinator.com/item?id=16106777            -> 15 k $ / mo ze screencastów
+1. https://pagefair.com/blog/2018/granular-gdpr-consent/    -> jak firmy reklamowe radzą sobie z GDPR RODO
+1. https://www.nfx.com/post/network-effects-manual          -> fosa, moat, network effects, types, typy sieci
+1. http://jonahberger.com/books/contagious/             -> książka do kupienia, Contagious
+1. http://larahogan.me/blog/desk-moves/       -> BICEPS model mentalny, paloma medina, creative commons
+1. https://www.cebma.org/faq/evidence-based-management/     -> gilb dla łapczaków
+1. http://tomtunguz.com/pricing-summary/            -> 10 years of pricing, how to price
+1. https://news.ycombinator.com/item?id=16180570    -> 10 years of pricing, how to price
+1. https://news.ycombinator.com/item?id=16178328    -> subverted design
+1. http://joelcalifa.com/blog/subverted-design/
+1. https://www.edsurge.com/news/2018-01-17-a-clever-way-to-measure-how-students-actually-use-edtech-and-whether-it-works    -> measure edtech
+1. https://news.ycombinator.com/item?id=16177146        -> CHECK IT
+1. https://medium.com/cocreatethefuture/belong-anywhere-the-vision-and-story-behind-airbnbs-global-community-123d32218d6a       -> cults, airbnb, culting the brands, community, movement
+1. https://dberkholz.com/2017/12/18/how-to-be-a-10x-engineer-business-value-for-technologists/
+1. http://engineroom.ft.com/2017/12/01/tips-for-in-house-teams-in-a-free-market-software-culture/
+1. https://codeburst.io/evolutionary-architecture-27dae14b323d
+1. http://www.dwmkerr.com/the-death-of-microservice-madness-in-2018/
+1. https://medium.com/@steve.yegge/why-i-left-google-to-join-grab-86dfffc0be84
+1. https://likegeeks.com/python-gui-examples-tkinter-tutorial/
+1. https://blog.insightdatascience.com/how-to-solve-90-of-nlp-problems-a-step-by-step-guide-fda605278e4e
+1. http://slatestarcodex.com/2018/01/24/conflict-vs-mistake/
+1. http://theirrelevantinvestor.com/2018/01/15/advice-for-aspiring-writers/
+1. https://news.ycombinator.com/item?id=16224006    -> advice for aspiring writers
+1. https://news.ycombinator.com/item?id=16224367    -> produktywność, metcalfe's law, nasze praktyki, komunikacja, organizacje, systemy
 
 
 
@@ -821,6 +848,13 @@ Epic SupCom:
 1. https://www.youtube.com/watch?v=lMm8k2LH2qs  -> Most epic Setons ever
 1. https://www.youtube.com/watch?v=aSNd900PiKA  -> Yudi, epic comeback after losing water.
 
+Manhwa:
+
+1. http://www.webtoons.com/en/fantasy/the-gamer/ep-1/viewer?title_no=88&episode_no=1
+
+Pictures:
+
+1. http://www.raisingsienna.com/wp-content/uploads/2013/06/tumblr_mfhobj5ZfG1qenp82o1_400.jpg       -> Do it for her
 
 TO CHECK:
 
