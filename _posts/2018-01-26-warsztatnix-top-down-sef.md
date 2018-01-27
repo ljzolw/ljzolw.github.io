@@ -194,7 +194,9 @@ Analizując powyższe, można wyraźnie zauważyć:
 * Warsztatnix nie konkuruje z żadnym Spotkaniem.
 * Spotkania konkurują między sobą - tylko jedna firma może być "najlepsza" (uwaga: Spotkanie z Javy nie rywalizuje ze spotkaniem z C++; obie firmy mają _mniej więcej_ różną populację klientów i pracowników)
 
-W związku z powyższym widać wyraźnie - Warsztatnix miał potencjalnie niewłaściwą formę. Struktura "prelegenci wykładają przed publicznością" jest świetna, jeśli chcemy promować prelegentów. Jest jednocześnie fatalna jak chodzi o współpracę czy wymianę myśli.
+Powyższe pozwala mi powiedzieć, że  Warsztatnix miał potencjalnie niewłaściwą formę. Struktura "prelegenci wykładają przed publicznością" jest świetna, jeśli chcemy promować prelegentów. Jest jednocześnie fatalna jak chodzi o współpracę czy wymianę myśli. 
+
+Wykład nie daje pretekstu do rozmowy. Posłuchamy, pokiwamy mądrze głowami i się rozejdziemy do domów.
 
 Trzeba zrobić dalszy krok. Wiemy już, czym Warsztatnix i Spotkanie chcą być. Jednak jak powinny to realizować? Szczęśliwie, SEF ma na to odpowiedź.
 
@@ -276,14 +278,14 @@ Priorytetyzacja. Lepiej mieć miary średnie, które jednak nie robią krzywdy (
 
 ### 5.3. Wizja Spotkania - Cele i Miary
 
-Znowu: dezagregując Zamierzenia na elementy kluczowe oraz pilnując, by nic tu nie było sprzeczne z Tożsamością i by wpływało pozytywnie na Koncepcję, dostajemy poniższe:
+Dezagregujemy ponownie:
 
 1. Na Spotkaniu pojawia się jak najwięcej osób w naszej grupie docelowej.
 1. O naszej firmie mówi się dobrze i jest ona szeroko znana.
 1. Merytorycznie dobre osoby aplikują do naszej firmy.
 1. Klienci zauważają Spotkanie i są nim zainteresowani.
 
-Zmierzmy je:
+Ustawiamy miary:
 
 1. na Spotkanie przychodzą osoby z grupy docelowej: 
     1. _rozumiem jako:_ na Spotkaniu pojawiają się przede wszystkim osoby z interesującej nas grupy - potencjalni klienci lub pracownicy.
@@ -535,7 +537,9 @@ Jeżeli nadal uważacie, że celowość działań nie jest szczególnie potrzebn
 * Czas poświęcony na budowę szkicu: 2 godziny
 * Ilość osób korygujących szkic (poza autorem): 2
 * Czas poświęcony na napisanie i korektę artykułu: 9 godzin
-* Ilość osób korygujących artykuł (poza autorem): ?
+* Ilość osób korygujących artykuł (poza autorem): 1
+* Czas poświęcony na przebudowę artykułu później: 1 godzina
+* Ilość osób korygujących artykuł po publikacji (poza autorem): ?
 * Ilość błędów / modyfikacji artykułu po wydaniu: ?
 
 Szkic, dla chętnych zobaczenia jak "robi się kiełbasę", [tutaj](/scraps/180126-warsztatnix-szkielet)
