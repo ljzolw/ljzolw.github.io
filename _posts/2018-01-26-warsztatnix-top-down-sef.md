@@ -368,12 +368,12 @@ mierzymy (w uproszczeniu):
 
 Tabelka pokrycia między działaniami a miarami (nie mamy jeszcze mierników; nie ustawiliśmy wartości Tolerancji i Doskonałości):
 
-|     | A | B | C | D | E |
-| I   | X | X |   | X | X |
-| II  | X |   | X |   | X |
-| III |   | X | X |   |   |
-| IV  | X | X |   |   | X |
-| V   |   |   |   | X |   |
+|                    | Współpraca | Aktywność | Różnorodność | Komunikacja | Zaangażowanie |
+| Model Warsztatowy  | X          | X         |              | X           | X             |
+| Ciekawe Problemy   | X          |           | X            |             | X             |
+| Różni Prowadzący   |            | X         | X            |             |               |
+| Komunikacja Celów  | X          | X         |              |             | X             |
+| Baza Wiedzy        |            |           |              | X           |               |
 
 Co z powyższego wynika?
 
