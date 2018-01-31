@@ -36,5 +36,5 @@ Witaj w moim warsztacie. Usiądź sobie, wypij swój ulubiony trunek i rozejrzyj
 
 Przede wszystkim można mnie złapać przy użyciu maila:
 
-lukasz.januszek <at> gmail.com
+lukasz.januszek, w domenie gmail.com
 
