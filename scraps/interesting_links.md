@@ -837,8 +837,8 @@ Check this:
 1. http://theirrelevantinvestor.com/2018/01/15/advice-for-aspiring-writers/
 1. https://news.ycombinator.com/item?id=16224006    -> advice for aspiring writers
 1. https://news.ycombinator.com/item?id=16224367    -> produktywność, metcalfe's law, nasze praktyki, komunikacja, organizacje, systemy
-
-
+1. https://kwhobbes.wordpress.com/2017/08/22/mastery-learning-a-craftpersons-mindset/
+1. https://medium.mybridge.co/python-top-45-tutorials-for-the-past-year-v-2018-1b4d46c9e857
 
 Epic SupCom:
 1. https://www.youtube.com/watch?v=fBa2noAHYBA
