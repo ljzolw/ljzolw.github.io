@@ -30,6 +30,21 @@
     1. Dzięki uproszczeniu piszemu dużo mniej kodu
         
 
+## Regexy
+
+1. Odłamki (do złożenia)
+    1. Regex jest stringiem. Można parametryzować. Odsuńcie regexy od devów.
+        1. [Ll]okalizacje Ignore Case, #{1,2}
+    1. Regex warto sobie rozpisać by zrozumieć
+    1. Używaj prostszego regexa, nie złożonego. ## Kontynuacja ### Chronologiczna -> dwoma zrobisz.
+
+## Drugi poziom Pareto
+
+1. Odłamki
+    1. generalista, specjalista
+    1. największy przyrost na początku
+    1. umiejętności wspomagające
+
 # Wygaszone
 
 1. Misja, wizja, strategia

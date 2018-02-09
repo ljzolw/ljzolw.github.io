@@ -250,29 +250,29 @@ Z punktu widzenia Koncepcji Warsztatnixa to powyższe jest tak naprawdę istotne
 
 1. Współpraca:
     1. _rozumiem jako:_ poziom zainteresowania i zaangażowania uczestników warsztatu. Praca z ludźmi "spoza swojej firmy".
-    1. _miara_: ilość osób w ogóle współpracujących i nie wycofanych. Ilość osób współpracujących tylko w ramach "swojej grupy znajomych" (minimalizujemy)
+    1. _miara_: liczba osób w ogóle współpracujących i nie wycofanych. Liczba osób współpracujących tylko w ramach "swojej grupy znajomych" (minimalizujemy)
 1. Różnorodność:
     1. _rozumiem jako:_ nie ma "gwiazd", każdy ma prawo głosu, nie ma silosów, rozbijanie grupek
-    1. _miara_: ilość osób wycofanych i nieaktywnych (minimalizujemy). Ilość różnych ludzi prezentujących rzeczy. Ilość różnych firm się angażujących. Ilość tematów nieinformatycznych.
+    1. _miara_: liczba osób wycofanych i nieaktywnych (minimalizujemy). Liczba różnych ludzi prezentujących rzeczy. Liczba różnych firm się angażujących. Liczba tematów nieinformatycznych.
 1. Swoje problemy:
     1. _rozumiem jako:_ przynoszone są problemy i koncepty "z sali". Te problemy są rozwiązywane przez grupę lub podgrupy.
-    1. _miara_: ilość osób, które przyniosła własne problemy. Ilość osób pracujących nad takimi problemami. Ilość takich problemów.
+    1. _miara_: liczba osób, które przyniosła własne problemy. Liczba osób pracujących nad takimi problemami. Liczba takich problemów.
 1. Rozwiązywanie:
     1. _rozumiem jako:_ postęp zrozumienia i skończenia prac nad danym obserwowalnym problemem rośnie. Po ludzku: przyszedłem i miałem mniej zrozumienia/zrobienia, niż gdy wyszedłem.
-    1. _miara_: ilość osób pracujących nad rozwiązaniem, ilość potencjalnych rozwiązań problemu, ilość osób która zadeklarowała rozwiązanie czy otrzymaną pomoc
+    1. _miara_: liczba osób pracujących nad rozwiązaniem, liczba potencjalnych rozwiązań problemu, liczba osób która zadeklarowała rozwiązanie czy otrzymaną pomoc
 1. Luźna sieć:  
     1. _rozumiem jako:_ ludzie komunikują się między sobą podczas spotkania, ale też poza nim gdy jest taka konieczność. Powstają zespoły celowe międzyfirmowe.
-    1. _miara_: Ilość bezwzględna osób, które robią rzeczy jak opisane w "rozumiem".
+    1. _miara_: Liczba bezwzględna osób, które robią rzeczy jak opisane w "rozumiem".
 
 Powyższe nie jest idealne, ale nie jest też tragiczne. W jakimś stopniu wiążemy to, co chcemy osiągnąć z jakąś formą oceny, czy udało nam się to osiągnąć. Problem jednak leży w parametrze poniżej:
 
 1. przyrost wiedzy: 
     1. _rozumiem jako:_ podczas szkolenia wszyscy uczą się coraz więcej, poznają nowe rzeczy. Szybciej i skuteczniej rozwiązują problemy.
-    1. _miara_: PROXY: ilość osób zaangażowanych, PROXY: ilość osób mówiących że nic im to nie daje
+    1. _miara_: PROXY: liczba osób zaangażowanych, PROXY: liczba osób mówiących że nic im to nie daje
 
 Normalnie przyrost wiedzy można obserwować pracując z kimś w projekcie, albo wykorzystując drugi poziom modelu Kirkpatricka np. w formie testów przed ćwiczeniem i po ćwiczeniu. Z oczywistych przyczyn, osoby obecne na Warsztatniksie nie są w stanie pracować razem w jednej firmie. Nie da się też dać im dwa razy tego samego zadania, bo się znudzą. Co więcej, niekoniecznie mamy tą samą populację osób.
 
-To powoduje, że nie możemy sensownie zmierzyć przyrostu wiedzy. To, co możemy jednak zmierzyć to wskaźnik pośredni - proxy - często występujący przy uczeniu się. W naszym wypadku to będzie ilość osób MÓWIĄCYCH, że spotkanie nie miało sensu / nic im nie dało oraz ilość osób zaangażowanych i zainteresowanych działaniami.
+To powoduje, że nie możemy sensownie zmierzyć przyrostu wiedzy. To, co możemy jednak zmierzyć to wskaźnik pośredni - proxy - często występujący przy uczeniu się. W naszym wypadku to będzie liczba osób MÓWIĄCYCH, że spotkanie nie miało sensu / nic im nie dało oraz liczba osób zaangażowanych i zainteresowanych działaniami.
 
 Priorytetyzacja. Lepiej mieć miary średnie, które jednak nie robią krzywdy (ich wypełnienie nie koreluje się pozytywnie z Koncepcją, lub - co gorsza - ich wypełnienie koreluje się negatywnie z Koncepcją) niż nie mieć żadnych miar. A lepiej nie mieć żadnych miar niż mieć miary szkodliwe.
 
@@ -289,16 +289,16 @@ Ustawiamy miary:
 
 1. na Spotkanie przychodzą osoby z grupy docelowej: 
     1. _rozumiem jako:_ na Spotkaniu pojawiają się przede wszystkim osoby z interesującej nas grupy - potencjalni klienci lub pracownicy.
-    1. _miara_: stosunek osób z interesującej nas grupy do wszystkich osób. Też: ilość osób przychodzących często (na potem: zdefiniować i zmierzyć "często").
+    1. _miara_: stosunek osób z interesującej nas grupy do wszystkich osób. Też: liczba osób przychodzących często (na potem: zdefiniować i zmierzyć "często").
 1. nasza firma (i Spotkanie) jest szeroko znana:
     1. _rozumiem jako:_ sporo osób, też poza tym regionem rozpoznaje to Spotkanie jako wpływowe. I rozpoznaje naszą Firmę.
     1. _miara_: z bólem przyznaję się do niekompetencji. Najpewniej mierzyłbym zasięg [bazując na czymś takim jak w tym artykule](https://www.kaushik.net/avinash/brand-measurement-analytics-metrics-branding-campaigns/). Na przykład: różnica w ilości odsłon witryny "Kariera w Firmie" po zakończeniu Spotkania (zarówno jednorazowo jak i stała zmiana z powracającymi gośćmi czy marketingiem szeptanym).
 1. odpowiednie osoby aplikują do Firmy:
     1. _rozumiem jako:_ dzięki Spotkaniu aplikują do nas kandydaci, których chcemy pozyskać.
-    1. _miara_: ilość osób aplikujących do naszej Firmy oraz ilość osób decydujących się na to przez Spotkanie.
+    1. _miara_: liczba osób aplikujących do naszej Firmy oraz liczba osób decydujących się na to przez Spotkanie.
 1. dzięki Spotkaniu w Firmie pojawiają się nowi klienci:
     1. _rozumiem jako:_ dzięki Spotkaniu klienci wiedzą o naszej Firmie i są zainteresowani współpracą z naszą firmą
-    1. _miara_: ilość klientów, którzy słyszeli o naszej Firmie dzięki Spotkaniu.
+    1. _miara_: liczba klientów, którzy słyszeli o naszej Firmie dzięki Spotkaniu.
 
 Także i w tym wypadku nie jestem w 100% pewny swoich miar, ale na potrzeby artykułu jest to w miarę wystarczające.
 
@@ -356,13 +356,13 @@ Grupa działań mających osiągnąć cele strategiczne:
 1. II - Promować przynoszenie i rozwiązywanie problemów. Pozyskiwać problemy interesujące i rozwojowe dla osób obecnych.
 1. III - Umożliwienie różnym osobom prowadzenie, też na różnych poziomach umiejętności tak, by po każdym spotkaniu wszyscy wyszli wiedząc coś więcej
 1. IV - Komunikacja celów oraz założeń uczestnikom. Kto chce osiągać te korzyści, przyjdzie. Kto nie, nie jest grupą docelową.
-1. V - Budowanie dostępnej dla wszystkich bazy wiedzy. Silny kernel - luźna orbita. Graf, by zmniejszyć ilość stopni oddalenia.
+1. V - Budowanie dostępnej dla wszystkich bazy wiedzy. Silny kernel - luźna orbita. Graf, by zmniejszyć liczba stopni oddalenia.
 
 mierzymy (w uproszczeniu):
 
-1. A - ilość osób współpracujących i nie wycofanych
-1. B - ilość różnych ludzi wykonujących działania aktywnie
-1. C - ilość różnorodnych tematów i przyniesionych problemów
+1. A - liczba osób współpracujących i nie wycofanych
+1. B - liczba różnych ludzi wykonujących działania aktywnie
+1. C - liczba różnorodnych tematów i przyniesionych problemów
 1. D - poziom komunikacji podczas Warsztatnixu i poza nim
 1. E - poziom zaangażowania i zadowolenia
 
@@ -537,11 +537,12 @@ Jeżeli nadal uważacie, że celowość działań nie jest szczególnie potrzebn
 ## 10. Metadane artykułu
 
 * Czas poświęcony na budowę szkicu: 2 godziny
-* Ilość osób korygujących szkic (poza autorem): 2
+* Liczba osób korygujących szkic (poza autorem): 2
 * Czas poświęcony na napisanie i korektę artykułu: 9 godzin
-* Ilość osób korygujących artykuł (poza autorem): 1
+* Liczba osób korygujących artykuł (poza autorem): 1
 * Czas poświęcony na przebudowę artykułu później: 1 godzina
-* Ilość osób korygujących artykuł po publikacji (poza autorem): ?
-* Ilość błędów / modyfikacji artykułu po wydaniu: ?
+* Liczba osób korygujących artykuł po publikacji (poza autorem): 2
+* Liczba błędów / modyfikacji artykułu po wydaniu: 2
+* Czas poświęcony na korekcję błędów: 30 minut
 
 Szkic, dla chętnych zobaczenia jak "robi się kiełbasę", [tutaj](/scraps/180126-warsztatnix-szkielet)
