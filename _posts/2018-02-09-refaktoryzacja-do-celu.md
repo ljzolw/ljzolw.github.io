@@ -174,7 +174,7 @@ Stara, dobra zasada głosi "nigdy nie ufaj użytkownikowi". Nasz użytkownik ma 
 * Jeżeli użytkownik może modyfikować tylko dane tekstowe, to rozwiązaliśmy problem - cokolwiek nie będzie napisane, nasza poprawka rozwiąże problem.
 * Jeżeli jednak użytkownik może modyfikować bazę grafową, to może ręcznie podać niewłaściwe pole. W tym wypadku **oprócz** zmian w "Refresh RD" musimy wprowadzić też zmiany w "Generate Profiles". Musimy zarówno rozwiązać problem na poziomie CAŁOŚCI jak i zabezpieczyć się na poziomie CZĘŚCI.
 
-Mam nadzieję, że ten prosty przykład pokaże Wam, dlaczego refaktoryzacja bywa tak zabawna ;-).
+Mam nadzieję, że ten prosty przykład pokaże Wam, dlaczego podejście systemowe jest potrzebne przy refaktoryzacji. Bez tego typu analizy refaktoryzacja bywa całkiem zabawna ;-).
 
 ### 4.3. Od problemu do weryfikacji wyniku.
 
@@ -389,8 +389,8 @@ Mając starą funkcję i nowe wyrażenie regularne, coś w stylu:
 
 Spróbuję wyciągnąć wszystkie nazwy nagłówków poza wyrażenie regularne. Zbudować coś takiego:
 
-* ExtractSection(inputText, "Lokalizacje")
-* # NAZWA_NAGŁÓWKA[:|\s]*$(.+?)(\Z|^#{1,1} \w+)
+    ExtractSection(inputText, "Lokalizacje")
+    # NAZWA_NAGŁÓWKA[:|\s]*$(.+?)(\Z|^#{1,1} \w+)
 
 * **Oczekuję wyniku:** Da się coś takiego zrobić dla każdego wyrażenia regularnego w aplikacji.
 * **Kryterium sukcesu:** Nie istnieje ani jeden przypadek dla którego to jest niemożliwe. Wszystko albo nic.
@@ -430,23 +430,85 @@ Pytanie: czy FAKTYCZNIE dostaliśmy takie korzyści jakich oczekiwaliśmy od prz
 Jeżeli tak, to commit i push. Refaktoryzacja zakończona powodzeniem.
 Jeżeli nie, to git reset --hard. Refaktoryzacja zakończona niepowodzeniem na poziomie koncepcyjnym. Musimy to opracować i zdefiniować problem jeszcze raz.
 
-W naszym wypadku to zadziałało.
+W naszym wypadku - to zadziałało. Czas dodawania nowego parsowanego bytu spadł z około 30 minut do niecałych 5 minut, nie licząc konieczności dodania testów w wypadku starego rozwiązania (w nowym testy są zbędne; testujemy funkcję techniczną jednorazowo).
+
+W literaturze uzupełniającej znajdziecie linki do ćwiczeń i faktycznej refaktoryzacji, jak jesteście zainteresowani.
 
 ## 6. Podsumowanie
+### 6.1. Podejście metodyczne
 
+Jak - mam nadzieję - pokazałem, podejście metodyczne pozwala na w miarę spokojne podejście do refaktoryzacji. Zacznijmy od tego, że zamiast kłócić się o szczegóły możemy skupić się na tym, co **ważne** - po co to robimy, co chcemy osiągnąć i jak to zmierzymy. Samo to pozwala na dramatyczną oszczędność czasu.
+
+Refaktoryzacja nigdy nie jest łatwa - warto więc sobie pomóc przy użyciu dowolnej techniki, która działa. Oczywiście, w tym artykule użyłem prostego przykładu - ale im większy i bardziej skomplikowany problem, tym cenniejsze jest metodyczne podejście.
+
+### 6.2. Sprzeczne cele
+
+Poważnym problemem przy refaktoryzacji jest to, że _różne cele refaktoryzacji bardzo często są sprzeczne_:
+
+* Zróbmy kod bardziej czytelnym i rozszerzalnym (większe rozdrobnienie kodu na funkcje, klasy i moduły)
+* Zróbmy kod szybszym i bardziej wydajnym (scalenie do DLLek, wstawki assemblerowe, zmniejszenie czytelności)
+
+Często zdarza się, że podczas dyskusji o refaktoryzacji dwie osoby mają różne idee tego, DLACZEGO aplikacja jest refaktoryzowana; czym jest ów Stan Idealny. Najlepszym rozwiązaniem w tym wypadku jest usiąść i porozmawiać. Niestety, trzeba zaakceptować smutny fakt - nie ma rozwiązań idealnych. Dążenie do pierwszej korzyści często utrudnia dojście do drugiej korzyści. W takim wypadku ustalamy co ma wyższy priorytet - i działamy.
+
+### 6.3. Musimy rozumieć domenę i kod
+
+Z uwagi na Kontekst oraz Stan Idealny - musimy zrozumieć domenę, w której działa aplikacja. Refaktoryzując bez zrozumienia co ów program ma robić, możemy się nieźle wkopać z uwagi na Stożek Nieoznaczoności.
+
+Z uwagi na Stan Aktualny, CAŁOŚĆ i OTOCZENIE - musimy rozumieć kod, który w chwili obecnej działa w refaktoryzowanej aplikacji. Tak jak z moim nieszczęsnym przykładem z nullami w bazie grafowej - bez znajomości istniejącego systemu nie byłbym w stanie znaleźć prawidłowego rozwiązania.
+
+Tak naprawdę **NIGDY** nie refaktoryzujemy kodu. Zawsze dostosowujemy istniejący kod do tego, by lepiej rozwiązywał konkretny problem biznesowy. Dlatego ta domena jest tak ważna. A nie wiedząc, co mamy dziś - nie wiemy jak najmniejszym kosztem to przebudować.
+
+### 6.4. Nie wszystko da się zrobić
+
+Spotkałem się pewnego dnia z przypadkiem takim, jak poniżej:
+
+* Biznes: potrzebujemy odpowiedź w ciągu 300 milisekund
+* Programista: da się zrobić; teraz zajmuje 500 milisekund
+* ...minął dzień
+* Programista: Nie ma sprawy, zajmuje już tylko 50 milisekund
+* Biznes: ...ale to jest strona internetowa. Nadal mamy dwie sekundy
+* Programista: ...no to się nie da zrobić... nad tym nie ma kontroli
+
+Tak, wracamy do problemu Otoczenia. Czasami macie np. dwa dni na refaktoryzację a potrzebowalibyście tydzień. W takich okolicznościach także nie da się zwyciężyć. Czasem najlepszym rozwiązaniem jest stwierdzenie "nie, nie robimy refaktoryzacji".
+
+### 6.5. Refaktoryzacja jako problem polityczny
+
+Bardzo często głównym problemem nie jest zmiana kodu a obronienie swojego rozwiązanie w Zespole. Lub sprzedanie swojego rozwiązania Biznesowi.
+
+Jeżeli budujecie w prawidłowy sposób Koncepcję (w tym wypadku: Kontekst i Problem oraz Stan Idealny), powinniście być w stanie znaleźć rzeczowe argumenty w formie przystępnej dla odbiorcy. Nie daje Wam to gwarancji sukcesu, ale zwiększa prawdopodobieństwo.
+
+Nie rozpatrywałem szczególnie w tym artykule refaktoryzacji jako problemu politycznego. Może kiedyś.
 
 ## 7. Wykazanie korzyści
-
 ### 7.1. Przypomnienie korzyści
 
 Czy zatem dostaliście to, co Wam obiecałem na początku? Dla przypomnienia, obiecałem Wam to:
 
-* 
+**Kiedy warto to przeczytać?**
+
+1. Coraz trudniej Wam poruszać się po istniejącym kodzie i chcielibyście go przebudować - ale boicie się czegoś zepsuć.
+1. Macie kod i chcecie go przebudować - ale od czego zacząć? Co zmienić najpierw? Jak to zrobić, by się udało?
+1. Macie kilka potencjalnych wariantów zmiany kodu i chcecie móc porównać, która byłaby "lepsza". I obronić swój wybór w zespole, by nie wyjść na łosia.
+
+**Co ja chcę Wam dać?**
+
+1. Recepturę na refaktoryzację, która - jak na razie - pozwala mi na szybkie i skuteczne refaktoryzowanie (lub podjęcie decyzji o nie rozpoczynaniu refaktoryzacji).
+1. Chcę Wam pokazać, że refaktoryzacja nie jest czymś bardzo trudnym ani szczególnie strasznym. Jest trudna, ale nie aż TAK trudna jak się wydaje.
+1. Chcę to wszystko pokazać na pewnym studium przypadku (case study) - oraz przygotowałem małą solucję, na której możecie sami poćwiczyć.
 
 ### 7.2. Dowody pośrednie
 
+Receptura dostarczona, tak jak i _case study_. Solucja w materiałach uzupełniających. Przejdźmy do ciekawszego fragmentu:
 
+Jeśli trudno Wam się poruszać po istniejącym kodzie i boicie się go zepsuć - receptura pozwoli podjąć decyzję, czy refaktoryzacja jest wskazana / konieczna czy też nie. Działając zgodnie z ową recepturą minimalizujecie szansę błędnej refaktoryzacji, bo wszystko opieracie na korzyściach i niewielkich ruchach. Oczywiście, jesteście w stanie podjąć błędne decyzje podczas refaktoryzacji, ale wprowadziłem tam tyle kroków weryfikacji, że to nie jest aż tak proste.
 
+Dodajmy do tego myślenie systemowe: część, całość i otoczenie. Jeżeli faktycznie wykorzystujecie te wszystkie techniki, uważam, że nie macie się czego bać. Nie każda refaktoryzacja się udaje, ale zawsze zostaje _git reset --hard_ ;-).
+
+Od czego zacząć i jak w ogóle przeprowadzać refaktoryzację? Od Problemu do Rozwiązania. Nie pokazałem Wam konkretnych technik; osobiście nie znalazłem bardzo użytecznych i uniwersalnych technik. Ja podchodzę do każdej refaktoryzacji indywidualnie, acz zgodnie z zaproponowaną procedurą. Jeśli chcecie poczytać o pojedynczych transformacjach, [polecam Wam katalog Martina Fowlera](https://www.refactoring.com/catalog/).
+
+Jak porównać różne strategie refaktoryzacji i jak obronić swoją koncepcję? Przez posiadanie twardych, mierzalnych celów, faktów i argumentów. Cały fragment tekstu odnośnie definiowania stanu idealnego i korzyści z owej transformacji moim zdaniem spełnia tą obietnicę.
+
+Jeżeli nie uważacie tych dowodów za wystarczające, zawiodłem. Nadal jednak pozostaję dość pewny siebie ;-).
 
 ## 8. Literatura uzupełniająca
 
@@ -464,7 +526,7 @@ Tym razem jedynie kod. Ćwiczenie w C# i przykład rzeczywisty w Pythonie.
 
 * Czas poświęcony na budowę szkicu: 2 godziny
 * Liczba osób korygujących szkic (poza autorem): 1
-* Czas poświęcony na napisanie i korektę artykułu: 10 godzin
+* Czas poświęcony na napisanie i korektę artykułu: 13 godzin
 * Liczba osób korygujących artykuł (poza autorem): ?
 * Czas poświęcony na przebudowę artykułu później: ?
 * Liczba osób korygujących artykuł po publikacji (poza autorem): ?
