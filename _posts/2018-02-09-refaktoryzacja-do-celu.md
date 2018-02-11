@@ -174,7 +174,7 @@ Przeanalizujmy możliwe rozwiązania:
 * każdy inny klocek czytający z bazy danych też musi być naprawiony
 * w bazie nadal są nulle, co jest niezgodne z domeną.
 
-**Zmiana "Refresh RD"**:
+**Zmiana "Refresh DB"**:
 
 * muszę wymyśleć jakąś wartość domyślną dla UID podczas podawania do bazy
     * gdy wkładam do bazy, mam więcej danych niż do bazy podane; tu jest prościej
