@@ -165,7 +165,25 @@ Proste do naprawienia, prawda? Wystarczy ufortyfikować "Generate Profiles" i za
 
 Nulle były wyrzucane na dość istotnym polu "uid", czyli "unikalny identyfikator". Nie było możliwości zbudowania prawidłowego profilu, bo nie dało się mu przypisać unikalnego identyfikatora (to takie coś w stylu PESELu). Uid powstaje przez połączenie "numeru" oraz "nazwiska" danej postaci (upraszczając).
 
-Oczywistym rozwiązaniem była zatem zmiana "Refresh DB" - upewnienie się, że nigdy do naszej bazy grafowej nie trafią dane mające "uid" jako nulla. Problem nie leżał w CZĘŚCI (Generate Profiles) a w CAŁOŚCI (Refresh DB podawał nulle do bazy). Problem rozwiązany.
+Przeanalizujmy możliwe rozwiązania:
+
+**Naprawienie "Generate Profiles":**
+
+* muszę wymyśleć jakąś wartość domyślną dla UID przy wyciąganiu z bazy
+    * gdy wyciągam z bazy, mam tylko ten jeden byt, który wyciągnąłem
+* każdy inny klocek czytający z bazy danych też musi być naprawiony
+* w bazie nadal są nulle, co jest niezgodne z domeną.
+
+**Zmiana "Refresh RD"**:
+
+* muszę wymyśleć jakąś wartość domyślną dla UID podczas podawania do bazy
+    * gdy wkładam do bazy, mam więcej danych niż do bazy podane; tu jest prościej
+* każdy inny klocek czytający z bazy jest automatycznie bezpieczny
+* w bazie nie ma nulli, problem domenowo nie istnieje
+
+Oczywistym rozwiązaniem była w tym wypadku zmiana "Refresh DB" - upewnienie się, że nigdy do naszej bazy grafowej nie trafią dane mające "uid" jako nulla. Problem nie leżał w CZĘŚCI (Generate Profiles) a w CAŁOŚCI (Refresh DB podawał nulle do bazy). W CZĘŚCI jedynie ów problem się objawiał. 
+
+Problem rozwiązany, programista idzie na kawę.
 
 Czy aby na pewno?
 
@@ -479,6 +497,23 @@ Jeżeli budujecie w prawidłowy sposób Koncepcję (w tym wypadku: Kontekst i Pr
 
 Nie rozpatrywałem szczególnie w tym artykule refaktoryzacji jako problemu politycznego. Może kiedyś.
 
+### 6.6. Jak zatem zacząć refaktoryzację?
+
+Ja osobiście wykorzystuję następującą procedurę (omijam elementy związane ze zdobyciem wsparcia politycznego ze strony reszty zespołu i biznesu):
+
+1. Nazywam Problem w konkretnym Kontekście.
+2. Analizuję całość systemu (Część, Całość, Otoczenie) by określić zakres refaktoryzacji i czy ja jestem w stanie ją przeprowadzić w sensownym czasie.
+3. Sprawdzam z innymi członkami zespołu, czy oni TEŻ mają ten problem - co najbardziej ich boli. Doprecyzowuję Problem.
+4. Przechodzę przez pętlę: Kontekst -> problem -> ideał -> (strategia <-> weryfikacja strategii) -> (działanie -> weryfikacja wyniku). Upewniam się, że nie idę w perfekcję a w naprawienie tego, co jest największym problemem. Dopisuję testy tam, gdzie się da / ma to sens.
+5. Sprawdzam, czy nowa całość jest lepsza niż stara całość. Przeprowadzam wszystkie testy.
+6. Sprawdzam, czy rozwiązuje to problemy innych członków zespołu. Jak nie, upewniam się, że nie utrudniłem innym członkom zespołu pracy lub przyszłych zmian mających im pomóc.
+
+Jeśli nie wiem jak coś przeprowadzić, pytam osobę po prawej stronie / szukam w wyszukiwarce czy Stack Overflow.
+
+Jak długo pamiętacie o celowości i mierzalności każdego kroku, powinno się udać. Pamiętajcie, że refaktoryzacja to trochę eksploracja - trzeba szukać i eksperymentować z rozwiązaniami. Nie zawsze pierwsze rozwiązanie będzie najlepsze. Czasem wpadniecie w ślepą uliczkę i trzeba się wycofać (bo nie zauważyliście czegoś w Otoczeniu czy Całości).
+
+Zupełnie jak sprzątanie ;-).
+
 ## 7. Wykazanie korzyści
 ### 7.1. Przypomnienie korzyści
 
@@ -527,8 +562,8 @@ Tym razem jedynie kod. Ćwiczenie w C# i przykład rzeczywisty w Pythonie.
 * Czas poświęcony na budowę szkicu: 2 godziny
 * Liczba osób korygujących szkic (poza autorem): 1
 * Czas poświęcony na napisanie i korektę artykułu: 13 godzin
-* Liczba osób korygujących artykuł (poza autorem): ?
-* Czas poświęcony na przebudowę artykułu później: ?
+* Liczba osób korygujących artykuł (poza autorem): 1
+* Czas poświęcony na przebudowę artykułu później: 1 godzina
 * Liczba osób korygujących artykuł po publikacji (poza autorem): ?
 * Liczba błędów / modyfikacji artykułu po wydaniu: ?
 * Czas poświęcony na korekcję błędów: ?
