@@ -7,6 +7,7 @@ title: Mój mały warsztat
 
 ## Artykuły:
 
+* [2018-02-09 : Refaktoryzacja do celu](/2018/02/09/refaktoryzacja-do-celu)
 * [2018-01-26 : "Warsztatnix", czyli top-down w praktyce](/2018/01/26/warsztatnix-top-down-sef)
 * [2017-12-31 : Podsumowanie roku 2017 (głównie odnośnie RPG)](/2017/12/31/podsumowanie-2017)
 * [2017-11-04 : Jak zaprojektować wystąpienie publiczne?](/2017/11/04/jak-zaprojektowac-wystapienie)

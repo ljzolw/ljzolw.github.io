@@ -840,6 +840,8 @@ Check this:
 1. https://kwhobbes.wordpress.com/2017/08/22/mastery-learning-a-craftpersons-mindset/
 1. https://medium.mybridge.co/python-top-45-tutorials-for-the-past-year-v-2018-1b4d46c9e857
 1. https://news.ycombinator.com/item?id=16262425    -> how to charge clients, freelance
+1. https://news.ycombinator.com/item?id=16367997    -> who killed junior developer
+
 
 Epic SupCom:
 1. https://www.youtube.com/watch?v=fBa2noAHYBA
