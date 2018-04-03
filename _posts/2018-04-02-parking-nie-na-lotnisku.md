@@ -216,7 +216,7 @@ Jak to powyższe wykorzystać?
 
 Popatrzcie:
 
-![Żółty kierowca patrzy z niedowierzaniem na zielonego właściciela parkingu, który mówi, że nie ma vana, nie ma prawa jazdy... i w sumie to miejsca na parkingu też nie ma.](180403-nie-mam-kompetencji.png)
+![Żółty kierowca patrzy z niedowierzaniem na zielonego właściciela parkingu, który mówi, że nie ma vana, nie ma prawa jazdy... i w sumie to miejsca na parkingu też nie ma.](/img/180402/180403-nie-mam-kompetencji.png)
 
 
 
