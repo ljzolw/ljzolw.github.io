@@ -66,7 +66,7 @@ Zaparkowaliśmy, przesiedliśmy się do minivana (minibusa?) i pojechaliśmy na 
 
 Wakacje w Szwecji były przyjemne ;-).
 
-![Wyjeżdżamy z domu naszym samochodem (zaznaczone na żółto). Dojeżdżamy na parking w domu prywatnym (zaznaczone na zielono). Ich zielonym minivanem docieramy na lotnisko (zaznaczone na różowo).](/img/180403-home-to-airport.png)
+![Wyjeżdżamy z domu naszym samochodem (zaznaczone na żółto). Dojeżdżamy na parking w domu prywatnym (zaznaczone na zielono). Ich zielonym minivanem docieramy na lotnisko (zaznaczone na różowo).](/img/180402/180403-home-to-airport.png)
 
 Wracając, wylądowaliśmy z niewielkim opóźnieniem; zadzwoniliśmy ponownie na ten sam numer telefonu i przyjechał ten sam minibus. Uiściliśmy opłatę i wróciliśmy samochodem do domu.
 
