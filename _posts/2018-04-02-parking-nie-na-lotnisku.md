@@ -118,15 +118,17 @@ Jak - mam nadzieję - widzicie, powyższe nie jest takie proste.
 
 W powyższym przykładzie zdecydowanie warto wybrać Babcię, jeśli jest taka możliwość. Co ciekawe, wybranie członka rodziny nie akceptowalnego społecznie (nazwane pieszczotliwie "wujek morderca") może mieć ogromny koszt z uwagi na ostracyzm społeczny, wezwanie opieki społecznej i inne tego typu przyjemności.
 
-Dla ćwiczeń, rozpatrzcie następujące przypadki zgodnie z powyższą teorią:
+![Graficzne przedstawienie tabelki powyżej dla Babci i dziecka samego w domu, w 3d](/img/180402/180403-babcia-wygrywa.png)
+
+Jeśli chcecie poćwiczyć, rozpatrzcie następujące przypadki zgodnie z powyższą teorią:
 
 * Zakup nowego smartfona (jakiego?) w środowisku miłośników lub przeciwników Apple / Androida.
 * Pójście do McDonalda lub lokalnej restauracji w kraju, w którym nasze żołądki nie są przystosowane (np. wszystko jest za ostre)
-* Dlaczego "nowobogaccy" szastają pieniędzmi na lewo i prawo, kupując rzeczy im niepotrzebne?
+* Dlaczego "nowobogaccy" szastają pieniędzmi na lewo i prawo, kupując rzeczy im niepotrzebne i chcąc "się dopasować"?
 
 Jeśli chcecie zobaczyć inny przykład, [Joel Spolsky opisuje jak powstało Trello idealnie wpasowując się w teorię JTBD](https://www.joelonsoftware.com/2012/01/06/how-trello-is-different/).
 
-### 6.2. Kto zatem jest Wielowymiarowym Klientem?
+### 6.2. Wielowymiarowy Klient naszego parkingu
 
 
 

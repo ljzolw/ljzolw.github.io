@@ -48,4 +48,20 @@ dla funkcji normalizacji takiej jak:
 * x między 0.3 a 0.9: return x
 * x > 0.9: return 1.5*x
 
-by móc mocniej zaakcentować nieakceptowalne i pożądane skrajne wartości w powyższym wzorze. Ale to temat na inny artykuł. Takie coś stosuje się np. przy określeniu jak inwestować.
+w tym wypadku nasza tabelka wyglądałaby tak (jeśli się w matematyce nie pomyliłem):
+
+| Rozwiązanie          | Funkcjonalny | Emocjonalny | Społeczny | Koszt | Wynik |
+|----------------------|--------------|-------------|-----------|-------|-------|
+| zostanie samo w domu | 0.5          | 0.2         | 0.4       | 1     | 0.006 |
+| Babcia               | 1            | 1           | 1         | 0.5   | 1.69  |
+| opiekunka do dzieci  | 0.75         | 0.75        | 0.8       | 0.5   | 0.225 |
+| **nie idę do teatru** | 0.25        | 1           | 1         | 1     | 0.084 |
+| wujek morderca       | 1            | 0.9         | 0.1       | 0.7   | 0.009 |
+
+by móc mocniej zaakcentować nieakceptowalne i pożądane skrajne wartości w powyższym wzorze. Wtedy mamy wyraźną kolejność:
+
+* Babcia (rząd wielkości 1)
+* opiekunka do dzieci (rząd wielkości 0.1)
+* nie idę do teatru (rząd wielkości 0.01)
+
+Ale funkcje użyteczności to temat na inny artykuł. Takie coś stosuje się np. przy określeniu jak inwestować, czy przy zarządzaniu ryzykiem.
