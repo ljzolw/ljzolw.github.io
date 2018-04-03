@@ -46,7 +46,7 @@ Stąd wziął się ten artykuł - moja próbą zintegrowania trzech użytecznych
 
 ## 5. Samolotem do Szwecji...
 
-W 2017 roku z moją kochaną Żoną stwierdziliśmy, że warto byłoby odwiedzić naszych dobrych przyjaciół w Szwecji na weekend. To jednak wymagałoby lotu samolotem. Sprawdziliśmy zatem rozkład lotów i wyszło nam coś niefortunnego: odlot około piątej rano, przylot w niedzielę. W nocy. A w poniedziałek do pracy.
+W 2017 roku z moją kochaną Żoną stwierdziliśmy, że warto by było odwiedzić naszych dobrych przyjaciół w Szwecji na weekend. To jednak wymagałoby lotu samolotem. Sprawdziliśmy zatem rozkład lotów i wyszło nam coś niefortunnego: odlot około piątej rano, przylot w niedzielę. W nocy. A w poniedziałek do pracy.
 
 Trudno; chcemy lecieć, to lecimy. Ale jak rozwiązać problem transportu?
 
@@ -54,13 +54,13 @@ Trudno; chcemy lecieć, to lecimy. Ale jak rozwiązać problem transportu?
 * Poprosić przyjaciół lub rodziców? Piąta rano w sobotę czy niedziela w nocy... nie.
 * Taksówka? Wygląda na najlepszą opcję; nie jest najtańsza, ale rozwiązuje problem. Gorzej, że w drodze powrotnej musimy poczekać - nie możemy zamówić jej na konkretną godzinę, bo jeśli samolot będzie miał opóźnienie, to taksówka będzie czekać bez sensu.
 
-Wtedy moja Żona znalazła coś ciekawego. Kolega z pracy polecił jej parking niedaleko lotniska, taki "z dowozem". Zadzwoniliśmy, załatwiliśmy sprawę i przygotowaliśmy się do podróży. Jedziemy zatem naszym samochodem na parking niedaleko lotniska, tam się przesiądziemy i nas zawiozą - i dowiozą.
+Wtedy moja Żona znalazła coś ciekawego. Kolega z pracy polecił jej parking niedaleko lotniska, taki "z dowozem". Zadzwoniliśmy, załatwiliśmy sprawę i przygotowaliśmy się do podróży. Jedziemy zatem naszym samochodem na parking niedaleko lotniska, tam się przesiądziemy i nas zawiozą - a potem przywiozą.
 
 Wybiła godzina X. Siedzimy w naszym wiernym samochodzie, szukamy tego parkingu... i okazało się, że GPS nakierował nas na jakiś dom prywatny z działką. Podjeżdżamy, patrzymy - wszędzie ciemno. Wygląda... no, jak dom prywatny. Sprawdzamy GPS - to chyba to miejsce.
 
 Dzwonimy na komórkę.
 
-Po chwili (niecałe 5 minut) z domu wychodzi młody chłopak, na oko 23-letni (i zdecydowanie zaspany). Otwiera bramę, prowadzi nas ręką, byśmy jechali dalej. I za budynkiem mieszkalnym rozpościera się przed nami... działka. Taka typowa, działkowata działka przydomowa. A na niej - sznur stojących samochodów na trawie.
+Po chwili (niecałe 5 minut) z domu wychodzi młody chłopak, na oko 23-letni (i zdecydowanie zaspany). Otwiera bramę i prowadzi nas ręką pokazując, byśmy jechali dalej. Jedziemy zatem i za budynkiem mieszkalnym rozpościera się przed nami... działka. Taka typowa, działkowata działka przydomowa. A na niej - sznur stojących samochodów na trawie.
 
 Zaparkowaliśmy, przesiedliśmy się do minivana (minibusa?) i pojechaliśmy na lotnisko. Umówiliśmy się, kiedy mniej więcej wrócimy.
 
@@ -70,11 +70,57 @@ Wakacje w Szwecji były przyjemne ;-).
 
 Wracając, wylądowaliśmy z niewielkim opóźnieniem; zadzwoniliśmy ponownie na ten sam numer telefonu i przyjechał ten sam minibus. Uiściliśmy opłatę i wróciliśmy samochodem do domu.
 
-To, co mnie szczególnie uderzyło w tej niezbyt zaskakującej opowieści - wystarczył kawałek działki, dobra lokalizacja i dobry pomysł, by zrobić sobie udany i skuteczny model biznesowy.
+To, co mnie szczególnie zaskoczyło w tej niezmiernie ekscytującej opowieści - wystarczył kawałek działki, dobra lokalizacja i dobry pomysł, by zrobić sobie udany i skuteczny model biznesowy.
 
 Tak mnie to zaintrygowało, że stwierdziłem - warto to przeanalizować. I ten artykuł to właśnie ta próba analizy.
 
 ## 6. "Competing against Luck"
+### 6.1 Wielowymiarowość według Christensena
+
+Jeśli śledziliście z wypiekami poprzednią opowieść, zauważyliście pewien "typowy" problem z jakimi mieliśmy do czynienia: Jak dostać się na lotnisko? Jakkolwiek może tak nie wyglądać, jest to problem _wielowymiarowy_:
+
+* chcę się dostać na lotnisko na określoną godzinę (by zdążyć na samolot). Nie później. Najlepiej nie wcześniej.
+* chcę się czuć bezpiecznie, że tam dotrę na czas. Nie chcę się martwić. Nie chcę martwić się "co z samochodem". Nie chcę czuć, że marnuję czas i czekam bez sensu.
+* nie chcę robić kłopotu przyjaciołom czy rodzicom. Nie chcę też komplikować życia taksówkarzowi.
+
+Tego typu rozbicie zaproponował Christensen w swojej nowej książce "Competing against Luck":
+
+* Klient nie chce kupić wiertła o wielkości 1 cm. Klient chce mieć 1 cm dziurę (za Tedem Levittem)
+* Należy rozpatrywać klientów pod kątem konkretnego **postępu** (progress), jaki ów klient chce uzyskać
+    * Postęp jest pochodną aktualnej chwili, aktualnego kontekstu
+    * Postęp jest pochodną wymiaru funkcjonalnego, emocjonalnego, społecznego
+
+Powyższy postęp Christensen nazwał **"Zadaniem Do Wykonania" (Job To Be Done)**. Dalej odnoszę się do tego jako **JTBD**.
+
+Przykład, dla ilustracji:
+
+* Jeśli chcę kupić sztućce jednorazowe, wybiorę najprawdopodobniej najtańsze.
+* Jeśli chcę zostawić z kimś dziecko, wybiorę osobę, która:
+    * zadba, by dziecku nic złego się nie stało (wymiar funkcjonalny)
+    * da mi poczucie, że dziecko jest bezpieczne (wymiar emocjonalny)
+    * nie sprawi, że inni nazwą mnie złym rodzicem i nie wyrzuci mnie z "mojej grupy" (wymiar społeczny)
+
+Czyli:
+
+**Problem: z kim zostawić 6-letnie dziecko jak chcę wyjść na 2 godziny do teatru?**
+
+| Rozwiązanie          | Funkcjonalny           | Emocjonalny                   | Społeczny                 |
+|----------------------|------------------------|-------------------------------|---------------------------|
+| zostanie samo w domu | mała szansa na problem | będę się marwił               | wyjdę na wyrodnego ojca   |
+| Babcia               | perfekcyjnie!          | wie więcej o dzieciach niż ja | oczekiwane społecznie     |
+| opiekunka do dzieci  | zna się na tym         | obca osoba w domu :-(         | poprawne społecznie       |
+| **nie idę do teatru** | zadziała              | szkoda teatru, ale zadziała   | oczekiwane społecznie     |
+| wujek morderca       | ma swoje, zna się      | zero zmartwień, rodzina       | zabiorą mi dziecko...     |
+
+Dla ćwiczeń, rozpatrzcie następujące przypadki zgodnie z powyższą teorią:
+
+* Zakup nowego smartfona (jakiego?) w środowisku miłośników lub przeciwników Apple / Androida.
+* Pójście do McDonalda lub lokalnej restauracji w kraju, w którym nasze żołądki nie są przystosowane (np. wszystko jest za ostre)
+* Dlaczego "nowobogaccy" szastają pieniędzmi na lewo i prawo, kupując rzeczy im niepotrzebne?
+
+### 6.2. Kto zatem jest Wielowymiarowym Klientem?
+
+
 
 ## 7. Teoria zasobów i kompetencji
 
