@@ -94,15 +94,18 @@ Powyższy postęp Christensen nazwał **"Zadaniem Do Wykonania" (Job To Be Done)
 
 Przykład, dla ilustracji:
 
-* Jeśli chcę kupić sztućce jednorazowe, wybiorę najprawdopodobniej najtańsze.
-* Jeśli chcę zostawić z kimś dziecko, wybiorę osobę, która:
+![Poziom Intencji (na czym mi zależy): chcę iść do teatru. Poziom Designu (czym chcę to osiągnąć): opiekunka do dziecka. Poziom Implementacji (jak to zrobię): poproszę Babcię. Tylko poziom implementacji widzimy - działania klienta.](/img/180402/180403-tripiramida.png)
+
+Jeśli chcę zostawić z kimś dziecko by móc iść na dwie godziny do teatru, postępem na jakim mi zależy będzie: 
+
+* to, że ja będę w teatrze i będę mógł się zrelaksować bez najmniejszych konsekwencji i ze świadomością, że wszystko jest tak, jak powinno być. (poziom intencji)
+* czyli, chcę z kimś zostawić dziecko by nie było samo (poziom designu / projektu)
+* czyli, wybiorę osobę, która (poziom implementacji):
     * zadba, by dziecku nic złego się nie stało (wymiar funkcjonalny)
     * da mi poczucie, że dziecko jest bezpieczne (wymiar emocjonalny)
     * nie sprawi, że inni nazwą mnie złym rodzicem i nie wyrzuci mnie z "mojej grupy" (wymiar społeczny)
 
-Czyli:
-
-**Problem: z kim zostawić 6-letnie dziecko jak chcę wyjść na 2 godziny do teatru?**
+Rozpatrzmy w tych trzech wymiarach różne Implementacje:
 
 | Rozwiązanie          | Funkcjonalny           | Emocjonalny                   | Społeczny                 |
 |----------------------|------------------------|-------------------------------|---------------------------|
@@ -114,13 +117,13 @@ Czyli:
 
 _[Mała dygresja z Teorii Decyzji tutaj - funkcja użyteczności i co z niej wynika](/scraps/180402-pnnl-teoria-decyzji)_
 
-Jak - mam nadzieję - widzicie, powyższe nie jest takie proste. 
+![Graficzne przedstawienie tabelki powyżej dla Babci i dziecka samego w domu, w 3d. Babcia wygrywa.](/img/180402/180403-babcia-wygrywa.png)
 
-W powyższym przykładzie zdecydowanie warto wybrać Babcię, jeśli jest taka możliwość. Co ciekawe, wybranie członka rodziny nie akceptowalnego społecznie (nazwane pieszczotliwie "wujek morderca") może mieć ogromny koszt z uwagi na ostracyzm społeczny, wezwanie opieki społecznej i inne tego typu przyjemności.
+W powyższym przykładzie zdecydowanie warto wybrać Babcię, jeśli jest taka możliwość. 
 
-![Graficzne przedstawienie tabelki powyżej dla Babci i dziecka samego w domu, w 3d](/img/180402/180403-babcia-wygrywa.png)
+Co ciekawe, wybranie członka rodziny nie akceptowalnego społecznie (nazwane pieszczotliwie "wujek morderca") może mieć ogromny koszt z uwagi na ostracyzm społeczny, wezwanie opieki społecznej i inne tego typu przyjemności.
 
-Jeśli chcecie poćwiczyć, rozpatrzcie następujące przypadki zgodnie z powyższą teorią:
+Tyle wyjaśniania teorii Christensena; jeśli chcecie poćwiczyć, rozpatrzcie następujące przypadki zgodnie z powyższą teorią:
 
 * Zakup nowego smartfona (jakiego?) w środowisku miłośników lub przeciwników Apple / Androida.
 * Pójście do McDonalda lub lokalnej restauracji w kraju, w którym nasze żołądki nie są przystosowane (np. wszystko jest za ostre)
@@ -129,6 +132,8 @@ Jeśli chcecie poćwiczyć, rozpatrzcie następujące przypadki zgodnie z powyż
 Jeśli chcecie zobaczyć inny przykład, [Joel Spolsky opisuje jak powstało Trello idealnie wpasowując się w teorię JTBD](https://www.joelonsoftware.com/2012/01/06/how-trello-is-different/).
 
 ### 6.2. Wielowymiarowy Klient naszego parkingu
+
+Dobrze, jak zatem możemy rozłożyć nasz parking?
 
 
 
