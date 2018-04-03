@@ -816,7 +816,6 @@ Check this:
 1. https://news.ycombinator.com/item?id=16106777            -> 15 k $ / mo ze screencastów
 1. https://pagefair.com/blog/2018/granular-gdpr-consent/    -> jak firmy reklamowe radzą sobie z GDPR RODO
 1. https://www.nfx.com/post/network-effects-manual          -> fosa, moat, network effects, types, typy sieci
-1. http://jonahberger.com/books/contagious/             -> książka do kupienia, Contagious
 1. http://larahogan.me/blog/desk-moves/       -> BICEPS model mentalny, paloma medina, creative commons
 1. https://www.cebma.org/faq/evidence-based-management/     -> gilb dla łapczaków
 1. http://tomtunguz.com/pricing-summary/            -> 10 years of pricing, how to price
@@ -841,7 +840,28 @@ Check this:
 1. https://medium.mybridge.co/python-top-45-tutorials-for-the-past-year-v-2018-1b4d46c9e857
 1. https://news.ycombinator.com/item?id=16262425    -> how to charge clients, freelance
 1. https://news.ycombinator.com/item?id=16367997    -> who killed junior developer
-
+1. https://framasoft.org/       -> free community, free software, french-ish
+1. https://news.ycombinator.com/item?id=16714453    -> peertube, decetralized
+1. https://news.ycombinator.com/item?id=16710952    -> how to landing page
+1. https://news.ycombinator.com/item?id=16707059    -> Strategies for mentoring junior developers
+1. https://www.haplo-services.com/blog/2017/working-with-early-stage-developers     -> Strategies for mentoring junior developers
+1. https://www.kitchensoap.com/2012/10/25/on-being-a-senior-engineer/   -> senior engineer, technical lead
+1. https://news.ycombinator.com/item?id=10395046        -> technical lead
+1. https://news.ycombinator.com/item?id=16704850                -> systems thinking books
+1. http://noop.nl/2011/03/top-15-systems-thinking-books.html    -> systems thinking books
+1. https://news.ycombinator.com/item?id=16719205    -> metcalfe's law is wrong
+1. https://invertedpassion.com/                     -> very interesting blog!!!
+1. https://news.ycombinator.com/item?id=16695299    -> you are your tools. You are not your tools.
+1. https://news.ycombinator.com/item?id=16696823    -> FB, privacy?
+1. https://news.ycombinator.com/item?id=16699014    -> social media recommendations
+1. https://news.ycombinator.com/item?id=16696459    -> "just", słowo do usunięcia
+1. http://shamusyoung.com/twentysidedtale/?p=41853  -> twitter as a hate game, memetics
+1. https://medium.com/@francois.chollet/what-worries-me-about-ai-ed9df072b704   -> human psychology as optimization problem
+1. http://www.heathbrothers.com/download/mts-made-to-stick-model.pdf    -> SUCCESs model, signal control
+1. https://opentextbc.ca/strategicmanagement/chapter/resource-based-theory/     -> teoria zasobów, resource theory
+1. https://ocw.mit.edu/courses/sloan-school-of-management/15-902-strategic-management-i-fall-2006/lecture-notes/rbv_theoryf_ca.pdf  -> teoria zasobów, resource theory
+1. https://warontherocks.com/2017/10/the-red-queen-problem-innovation-in-the-defense-department-and-intelligence-community/ -> innowacja, innovation
+1. 
 
 Epic SupCom:
 1. https://www.youtube.com/watch?v=fBa2noAHYBA
