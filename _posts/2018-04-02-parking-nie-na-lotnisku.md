@@ -212,11 +212,78 @@ Jak to powyższe wykorzystać?
 * Niekoniecznie każdy rywal jest Waszym bezpośrednim konkurentem (masło, margaryna). Czasem macie konkurentów w zupełnie niespodziewanych miejscach (masło, kupienie ciasta).
 
 ## 7. Teoria zasobów i kompetencji
-### 7.1. Zasoby? Kompetencje? Parkingi?
+### 7.1. Zasoby? Kompetencje? PARKINGI?
 
 Popatrzcie:
 
 ![Żółty kierowca patrzy z niedowierzaniem na zielonego właściciela parkingu, który mówi, że nie ma vana, nie ma prawa jazdy... i w sumie to miejsca na parkingu też nie ma.](/img/180402/180403-nie-mam-kompetencji.png)
+
+Klient (w tym wypadku: my) ma pewne potrzeby. By je określić, pomógł nam Christensen. W skrócie:
+
+* Dostać się szybko na lotnisko i z powrotem, przy minimalnej stracie czasu
+* Mieć gdzie zostawić samochód; ma nic się nie stać z nim złego
+* Żadnych problemów, żadnych zmartwień
+
+Jeżeli okazałoby się, że Zielony Właściciel Parkingu nie posiada miejsca na nasz samochód, to z naszego punktu widzenia ten parking jest bezużyteczny. Co mi po "panie, ja tu mam 1000 samochodów", skoro mnie interesuje _jeden_ samochód - ten nasz.
+
+Teoria Zasobów i Kompetencji mówi mniej więcej coś takiego:
+
+![Opis teorii zasobów. Zasoby do Możliwości do Przewagi Konkurencyjnej do Strategii, Strategia do Surowców tam, gdzie zidentyfikowaliśmy luki.](/img/180402/180403-teoria-zasobow.png)
+
+Jednym zdaniem:
+
+_Teoria Zasobów i Kompetencji skupia się na tym, by to, co mamy dostępne zaadaptować w najskuteczniejszą możliwą przewagę biznesową._
+
+Czyli:
+
+1. Pod pojęciem "zasób" kryje się "przedmiot" (minivan), "kompetencja" (prowadzenie samochodu) czy byt niematerialny ("reputacja"). Wszystko, co można "mieć".
+1. Każda osoba / organizacja ma dostęp do jakichś zasobów.
+1. Na bazie tych zasobów i pod kątem pewnej sytuacji można ocenić, co nasza organizacja może zrobić. Wtedy - pod kątem określonej czynności - można określić, które zasoby są Zasobami Strategicznymi (kluczowymi).
+1. Po spojrzeniu na tą sytuację można ocenić, gdzie znajduje się przewaga konkurencyjna - co możemy robić lepiej niż konkurencja.
+1. Wiedząc jakie mamy zasoby i możliwości oraz gdzie leży przewaga konkurencyjna - można wybrać strategię maksymalizującą nasze przewagi (lub redukującą nasze słabości)
+1. Możemy z uwagi na strategię wzmocnić swoje zasoby, lub pozyskać inne brakujące.
+
+To, co jest istotnego - im więcej macie zasobów, tym większa adaptowalność. Nie ma "bezużytecznych" zasobów - dlatego im więcej się uczycie i poznajecie, tym większe macie możliwości. To jest, pod warunkiem, że potraficie na swoje zasoby i możliwości spojrzeć w odpowiedni sposób.
+
+Druga istotna rzecz - nie musicie **sami** czegoś posiadać. Wystarczy, że macie do tego dostęp. Np. nie muszę samemu wszystkiego rysować by mieć ilustrowany artykuł; wystarczy, że mam dostęp do zacnych ilustracji. Tak powstał outsourcing ;-).
+
+**Przykład**, bo może nie być to bardzo jasne:
+
+Weźmy kontekst "zdobycie dodatkowego, pasywnego źródła dochodu"; żadna znana mi teoria nie daje możliwości działania w próżni, całkowicie w oderwaniu od jakiegoś kontekstu.
+
+**Faza 1: Zasoby:**
+
+* Potrafię programować
+* Potrafię rysować, acz średnio
+* Potrafię pisać artykuły
+* Mam dostęp do własnej strony internetowej i komputera
+
+**Faza 2: Możliwości:**
+
+* Mogę napisać własną turową grę komputerową i sprzedać ją na Steamie
+* Mogę zrobić kurs programowania na Udemy
+* Mogę zrobić ilustrowane artykuły i zwiększyć zasięg strony przy użyciu Facebooka. Hm... reklamy?
+
+**Faza 3: Przewaga konkurencyjna:**
+
+Dla uproszczenia, skupię się tylko na grze komputerowej:
+
+* [Dane z 2015](https://www.pcgamer.com/steam-games-number-of-too-many/): pojawiło się ~2730 nowych gier na Steamie. Prawie 8/dzień.
+* [Dane z 2015](https://www.gamesindustry.biz/articles/2015-06-19-the-average-game-on-steam-sells-only-32-000-copies): przeciętna gra sprzedaje około 32000 kopii.
+* Problemem jest "discoverability" - nawet najlepszej gry nikt może nie znaleźć. **Tu jest główna luka.**
+
+**Faza 4: Strategia**
+
+Zakładam, że wybrałem grę komputerową.
+
+* Zbudować rynek dla swojej Pierwszej Epickiej Gry Komputerowej
+* Zbadać, czego rynek oczekuje od takiej gry
+* Koniecznie zbudować nowy zasób - Rozpoznawalność
+
+(podpowiem: wybrałem bardzo złą strategię, bo nie mam żadnej przewagi konkurencyjnej w tym uproszczonym przykładzie)
+
+### 7.2. Teoria zasobów a nasz parking
+
 
 
 
