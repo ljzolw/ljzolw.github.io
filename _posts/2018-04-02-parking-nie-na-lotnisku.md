@@ -117,11 +117,11 @@ Rozpatrzmy w tych trzech wymiarach różne Implementacje:
 
 _[Mała dygresja z Teorii Decyzji tutaj - funkcja użyteczności i co z niej wynika](/scraps/180402-pnnl-teoria-decyzji)_
 
-![Graficzne przedstawienie tabelki powyżej dla Babci i dziecka samego w domu, w 3d. Babcia wygrywa.](/img/180402/180403-babcia-wygrywa.png)
-
 W powyższym przykładzie zdecydowanie warto wybrać Babcię, jeśli jest taka możliwość. 
 
-Co ciekawe, wybranie członka rodziny nie akceptowalnego społecznie (nazwane pieszczotliwie "wujek morderca") może mieć ogromny koszt z uwagi na ostracyzm społeczny, wezwanie opieki społecznej i inne tego typu przyjemności.
+![Graficzne przedstawienie tabelki powyżej dla Babci i dziecka samego w domu, w 3d. Babcia wygrywa.](/img/180402/180403-babcia-wygrywa.png)
+
+Co ciekawe, wybranie członka rodziny nie akceptowalnego społecznie (w tabelce nazwane pieszczotliwie "wujek morderca") może mieć ogromny koszt z uwagi na ostracyzm społeczny, wezwanie opieki społecznej i inne tego typu przyjemności.
 
 Tyle wyjaśniania teorii Christensena; jeśli chcecie poćwiczyć, rozpatrzcie następujące przypadki zgodnie z powyższą teorią:
 
@@ -131,9 +131,68 @@ Tyle wyjaśniania teorii Christensena; jeśli chcecie poćwiczyć, rozpatrzcie n
 
 Jeśli chcecie zobaczyć inny przykład, [Joel Spolsky opisuje jak powstało Trello idealnie wpasowując się w teorię JTBD](https://www.joelonsoftware.com/2012/01/06/how-trello-is-different/).
 
-### 6.2. Wielowymiarowy Klient naszego parkingu
+### 6.2. Wielowymiarowy Klient parkingu
+#### 6.2.1. Analiza faktycznej decyzji
 
-Dobrze, jak zatem możemy rozłożyć nasz parking?
+Po połączeniu Intencja - Design - Implementacja oraz teorii JTBD Christensena, możemy spojrzeć na całość w kontekście parkingu:
+
+Przeanalizujmy intencyjnie naszą sytuację:
+
+* Intencja: chcę odwiedzić przyjaciół w Szwecji
+* Intencja, poziom niżej: chcę dostać się do Szwecji
+* Design: chcę lecieć samolotem
+* Design, poziom niżej: chcę dostać się na lotnisko
+* Implementacja: chcę jechać samochodem i zostawić go na parkingu
+
+I teraz analiza trzech wymiarów Christensena:
+
+| Funkcjonalny           | Emocjonalny                   | Społeczny                 |
+|------------------------|-------------------------------|---------------------------|
+| muszę być tam na czas  | nie chcę się martwić, to urlop | nie chcę robić problemów |
+| chcę mieć pewną swobodę | nie chcę czekać i marnować czasu | nie chcę źle wypaść przed nikim |
+| nie chcę za dużo płacić | nie chcę martwić się o samochód | |
+| nie mogę określić dokładnie czasu | nie chcę mieć ŻADNYCH problemów | |
+
+Teraz, analiza rozwiązań, jakie przyszły mi do głowy:
+
+| Rozwiązanie             | Funkcjonalny           | Emocjonalny                   | Społeczny                 |
+|-------------------------|------------------------|-------------------------------|---------------------------|
+| taksówka                | zero problemu, acz drożej | trzeba będzie czekać...    | taksówkarz może musieć czekać |
+| poprosić o podwiezienie | zero problemu          | no, to duża przysługa. Auć.   | to duży problem dla tej osoby |
+| parking lotniskowy      | DROGO!                 | ok                            | tak trochę głupio         |
+| parking "nielotniskowy" | zadziała               | o, coś nowego (fajnie!)       | można napisać artykuł ;-) |
+| nie jechać do Szwecji   | OK, alternatywy są fajne | smutno by było wszystkim    | niekorzystne przyjacielsko |
+
+Zauważcie, że przy takim rozpisaniu jak powyżej, zostają dwie sensowne opcje:
+
+* Parking nielotniskowy (to, co wybraliśmy)
+* Taksówka
+
+I co zabawne, wybraliśmy parking nielotniskowy z następujących powodów:
+
+* Tyci taniej niż taksówka (najmniej istotne)
+* Szybciej będziemy w domu wracając (istotne)
+* Coś nowego, czego jeszcze nie widzieliśmy
+
+Gdyby parking lotniskowy był tyci droższy niż taksówka, _nadal_ moglibyśmy go wybrać, jeśli szybciej bylibyśmy w domu.
+
+#### 6.2.2. Kiedy parking mógłby przegrać?
+
+Rozpatrzmy taką sytuację:
+
+_Lecimy do Szwecji liniami Przenośnix. Przenośnix słynie z tego, że się nie dogadują z lotniskami i niestety bardzo często lądują w innych miastach. Oczywiście, podstawiają wtedy autokary i odwożą do określonego miejsca; niestety, jest to jedyna linia obsługująca Szwecję_
+
+W powyższej sytuacji może dojść do dość smutnego układu:
+
+* Zostawimy samochód na parkingu. Wylecimy z Lotniska_1.
+* Wylądujemy na Lotnisku_2. Przetransportują nas do miasta.
+* ..?
+
+![Graficzne przedstawienie powyższej sytuacji](/img/180402/180403-przenosnix-fails.png)
+
+W tym momencie dużo lepszą opcją jest taksówka, którą możemy zamówić w dowolnym miejscu i nie musimy odbierać samochodu z parkingu.
+
+
 
 
 
