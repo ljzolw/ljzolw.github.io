@@ -112,11 +112,19 @@ Czyli:
 | **nie idę do teatru** | zadziała              | szkoda teatru, ale zadziała   | oczekiwane społecznie     |
 | wujek morderca       | ma swoje, zna się      | zero zmartwień, rodzina       | zabiorą mi dziecko...     |
 
+_[Mała dygresja z Teorii Decyzji tutaj - funkcja użyteczności i co z niej wynika](/scraps/180402-pnnl-teoria-decyzji)_
+
+Jak - mam nadzieję - widzicie, powyższe nie jest takie proste. 
+
+W powyższym przykładzie zdecydowanie warto wybrać Babcię, jeśli jest taka możliwość. Co ciekawe, wybranie członka rodziny nie akceptowalnego społecznie (nazwane pieszczotliwie "wujek morderca") może mieć ogromny koszt z uwagi na ostracyzm społeczny, wezwanie opieki społecznej i inne tego typu przyjemności.
+
 Dla ćwiczeń, rozpatrzcie następujące przypadki zgodnie z powyższą teorią:
 
 * Zakup nowego smartfona (jakiego?) w środowisku miłośników lub przeciwników Apple / Androida.
 * Pójście do McDonalda lub lokalnej restauracji w kraju, w którym nasze żołądki nie są przystosowane (np. wszystko jest za ostre)
 * Dlaczego "nowobogaccy" szastają pieniędzmi na lewo i prawo, kupując rzeczy im niepotrzebne?
+
+Jeśli chcecie zobaczyć inny przykład, [Joel Spolsky opisuje jak powstało Trello idealnie wpasowując się w teorię JTBD](https://www.joelonsoftware.com/2012/01/06/how-trello-is-different/).
 
 ### 6.2. Kto zatem jest Wielowymiarowym Klientem?
 
