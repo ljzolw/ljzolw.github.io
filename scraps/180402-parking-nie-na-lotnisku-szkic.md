@@ -8,6 +8,7 @@ date: 2018-04-02
 
 ## Parking nie na lotnisku
 
+1. Luźne pytania
 1. Korzyści
     1. Narzędzia
         1. Christensen: segmentacja, JTBD
