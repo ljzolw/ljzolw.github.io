@@ -8,9 +8,11 @@ date: 2018-04-02
 
 ## 1. Wstęp
 
-Lubię użyteczne teorie. "Użyteczne" oznacza dla mnie "takie, które na moim poziomie pojmowania rzeczywistości pozwalają mi robić coś lepiej". Czyli - teoria, która jest skuteczna, ale nie jestem w stanie jej zrozumieć nie jest jeszcze dla mnie "użyteczną teorią".
+Lubię użyteczne teorie. 
 
-Jednocześnie często jestem sfrustrowany. Ta frustracja bierze się stąd, że bardzo często widzę coś, co uważam za potencjalnie pożyteczne, ale nie potrafię tego jeszcze wykorzystać. 
+"Użyteczne" oznacza dla mnie w tym kontekście "takie, które na moim poziomie pojmowania rzeczywistości pozwalają mi robić coś 'lepiej'". Czyli - teoria, która dla innych działa, ale nie jestem w stanie jej zrozumieć nie jest jeszcze dla mnie "użyteczną teorią".
+
+Jednocześnie często jestem sfrustrowany. Ta frustracja bierze się stąd, że bardzo często widzę coś, co uważam za potencjalnie użyteczne, ale nie potrafię tego jeszcze wykorzystać. 
 
 Stąd wziął się ten artykuł - moja próbą zintegrowania trzech użytecznych teorii w jedną całość na przykładzie pojedynczego parkingu przylotniskowego. Z jednej strony jest to okazja do poćwiczenia sobie przydatnych technik, z drugiej - okazja do oszczędzenia Wam tego typu frustracji. Lub, może, zachęcenie do zapoznania się z tymi teoriami... ;-)
 
@@ -19,7 +21,6 @@ Stąd wziął się ten artykuł - moja próbą zintegrowania trzech użytecznych
 
 1. "Competing against Luck" (Clayton Christensen) - wycinek
 1. Teoria zasobów i kompetencji - wycinek
-1. Teoria systemów (Donella Meadows, Gerard Weinberg) - wycinek
 
 ### 2.2. Korzyści dla Was
 
@@ -31,7 +32,7 @@ Stąd wziął się ten artykuł - moja próbą zintegrowania trzech użytecznych
 
 **Co ja chcę Wam dać?**
 
-1. Chcę pokazać, jak można rozpatrzeć jedną sytuację przez trzy różne teorie i jak się pięknie to składa w jedną całość
+1. Chcę pokazać, jak można rozpatrzeć jedną sytuację przez dwie różne teorie i jak się pięknie to składa w jedną całość
 1. Generalizując, chcę, byście zobaczyli kilka podejść do jednego problemu i przez jakie wymiary warto ów problem rozważyć
 1. Chcę, byście potrafili sami przeprowadzić takie rozumowanie używając tych technik (uproszczonych elementów)
 
@@ -170,13 +171,13 @@ Zauważcie, że przy takim rozpisaniu jak powyżej, zostają dwie sensowne opcje
 
 I co zabawne, wybraliśmy parking nielotniskowy z następujących powodów:
 
-* Tyci taniej niż taksówka (najmniej istotne)
 * Szybciej będziemy w domu wracając (istotne)
-* Coś nowego, czego jeszcze nie widzieliśmy
+* Coś nowego, czego jeszcze nie wykorzystywaliśmy; trzeba sprawdzić
+* Tyci taniej niż taksówka (najmniej istotne)
 
 Gdyby parking lotniskowy był tyci droższy niż taksówka, _nadal_ moglibyśmy go wybrać, jeśli szybciej bylibyśmy w domu.
 
-#### 6.2.2. Kiedy parking mógłby przegrać?
+#### 6.2.2. Kiedy parking by przegrał?
 
 Rozpatrzmy taką sytuację:
 
@@ -190,25 +191,42 @@ W powyższej sytuacji może dojść do dość smutnego układu:
 
 ![Graficzne przedstawienie powyższej sytuacji](/img/180402/180403-przenosnix-fails.png)
 
-W tym momencie dużo lepszą opcją jest taksówka, którą możemy zamówić w dowolnym miejscu i nie musimy odbierać samochodu z parkingu.
+W tym momencie dużo lepszą opcją jest taksówka, którą możemy zamówić w dowolnym miejscu i nie musimy martwić się odbieraniem samochodu z parkingu.
 
+### 6.3. Podsumowanie książki Christensena
 
+To oczywiście nie jest całość książki - to jedynie wycinek. Ale to, co do tej pory wykorzystaliśmy można opisać w następujący sposób:
 
+* Teoria Pracy Christensena nie działa dla prostych problemów optymalizacyjnych _(istnieje proste równanie, np "tańsze == lepsze")_.
+* Klient nie chce korzystać z Waszej usługi. Klient chce rozwiązać konkretny problem - JTBD _(nie chcę zostawić samochodu na parkingu pozalotniskowym, ale chcę dostać się bezproblemowo na lotnisko)._
+* Segmentacja klientów / użytkowników powinna mieć miejsce właśnie pod kątem JTBD. Ta sama osoba może raz być klientem a raz nie. _(w zależności od linii lotniczych - jeśli trafię na taką, która często zmienia lotnisko docelowe, nie będę klientem parkingu pozalotniskowego)_
+* Klient nie wybiera produktu tylko pod kątem ceny; rozważa wymiar Funkcjonalny, Emocjonalny i Społeczny. _(tanie linie lotnicze niebezpiecznie zbliżają się dla części moich znajomych do granicy, w której oni wolą nie lecieć niż z tych linii korzystać)_
+* Wasza konkurencja to nie zawsze tylko obiekt w Twojej klasie _(masło lub margaryna)_. To czasem obiekt w zupełnie innej klasie _(masło lub kupienie ciasta, czy masło lub pójście do kina)_
 
+Jak to powyższe wykorzystać?
+
+* Zastanówcie się, kto jest faktycznie Waszym segmentem klientów. Np. dlaczego ktoś Was awansował. Czego od Was chce w tych trzech wymiarach?
+* Zastanówcie się, do jakiej JTBD Wasz produkt / usługa jest wykorzystywany? W jakim kontekście _naprawdę_ jest to używane? Jaki postęp jest oczekiwany? Dzięki temu zobaczycie jak Wasz produkt/ usługa jest postrzegany przez rynek.
+* Nie znając kontekstu Waszego klienta istnieje ryzyko, że macie segment, który tylko przypadkowo działa.
+* Nie trzeba rywalizować tylko na cenie.
+* Niekoniecznie każdy rywal jest Waszym bezpośrednim konkurentem (masło, margaryna). Czasem macie konkurentów w zupełnie niespodziewanych miejscach (masło, kupienie ciasta).
 
 ## 7. Teoria zasobów i kompetencji
+### 7.1. Zasoby? Kompetencje? Parkingi?
 
-## 8. Teoria systemów
+Popatrzcie:
 
-## 9. Podsumowanie
+![Żółty kierowca patrzy z niedowierzaniem na zielonego właściciela parkingu, który mówi, że nie ma vana, nie ma prawa jazdy... i w sumie to miejsca na parkingu też nie ma.](180403-nie-mam-kompetencji.png)
 
-## 10. Wykazanie korzyści
 
-## 11. Literatura uzupełniająca
+
+## 8. Podsumowanie
+
+## 9. Wykazanie korzyści
+
+## 10. Literatura uzupełniająca
 
 1. książka: "Competing against Luck" Clayton Christensen
-1. książka: "Thinking in Systems" Donella Meadows
-1. książka: "An introduction to General Systems Thinking" Gerard Weinberg
 1. Teoria zasobów i kompetencji:
     1. https://opentextbc.ca/strategicmanagement/chapter/resource-based-theory/
     1. https://ocw.mit.edu/courses/sloan-school-of-management/15-902-strategic-management-i-fall-2006/lecture-notes/rbv_theoryf_ca.pdf
@@ -220,8 +238,8 @@ W tym momencie dużo lepszą opcją jest taksówka, którą możemy zamówić w 
 |---------------------------------------------------------------|----------------|
 | Czas poświęcony na budowę planu artykułu i samego szkicu      | 6 godzin |
 | Liczba osób korygujących szkic (poza autorem)                 | 2 osoby  |
-| Ilość zmian szkicu po konsultacjach                           | 1 zmiana |
-| Czas poświęcony na napisanie i korektę artykułu               | ? godzin |
+| Ilość zmian szkicu po konsultacjach                           | 2 zmiany |
+| Czas poświęcony na napisanie i korektę artykułu               | 6 godzin |
 | Liczba osób korygujących artykuł (poza autorem)               | ? osób   |
 | Czas poświęcony na przebudowę artykułu później                | ? godzin |
 | Liczba osób korygujących artykuł po publikacji (poza autorem) | ? osób   |
