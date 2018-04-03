@@ -38,14 +38,17 @@ Stąd wziął się ten artykuł - moja próbą zintegrowania trzech użytecznych
 
 ## 3. Streszczenie myśli przewodniej artykułu
 
+Jeśli nie macie czasu przeczytać artykułu, chcecie go odświeżyć czy nabrać kontekstu, przeczytajcie ten punkt. To nie spis treści - to siedem głównych myśli całego artykułu.
 
+1. Użyteczne teorie są narzędziami rozwiązującymi problemy. Użyteczne teorie można łączyć w całość (która jest większa niż suma jej części). Znajomość różnych teorii zmienia sposób myślenia.
+2. Klientów warto segmentować pod kątem konkretnych rzeczy, jakie chcą osiągnąć (postępu). Nie interesuje ich Wasz produkt czy usługa; interesuje ich konkretny efekt który Wasz produkt czy usługa ma im zapewnić. Między innymi przez to nie da się rozpatrywać klienta bez spojrzenia na kontekst owego klienta.
+3. Klienci rozpatrują produkty i usługi w wymiarach: Funkcjonalnym, Emocjonalnym, Społecznym. 
+4. W zależności od tego, jakie zasoby macie do dyspozycji, możecie w inny sposób rozwiązać "oczekiwany postęp" klienta. Uwzględnijcie te wymiary. Skupcie się na poziomie Intencji, nie Implementacji.
+5. Im więcej zasobów macie do dyspozycji, tym większe macie możliwości i tym lepiej możecie się adaptować do zmieniającej się sytuacji.
+6. Przewaga Konkurencyjna jest w kontekście "oczekiwanego postępu" przez klienta, ale generowana jest przez posiadane przez Was zasoby. Warto obrać taką strategię, by wzmocnić swoją przewagę.
+7. "Zasób" to przedmiot, kompetencja czy reputacja. Wszystko, co można "mieć" i "wykorzystać".
 
-
-## 4. Mapa artykułu
-
-
-
-## 5. Samolotem do Szwecji...
+## 4. Samolotem do Szwecji...
 
 W 2017 roku z moją kochaną Żoną stwierdziliśmy, że warto by było odwiedzić naszych dobrych przyjaciół w Szwecji na weekend. To jednak wymagałoby lotu samolotem. Sprawdziliśmy zatem rozkład lotów i wyszło nam coś niefortunnego: odlot około piątej rano, przylot w niedzielę. W nocy. A w poniedziałek do pracy.
 
@@ -75,8 +78,8 @@ To, co mnie szczególnie zaskoczyło w tej niezmiernie ekscytującej opowieści 
 
 Tak mnie to zaintrygowało, że stwierdziłem - warto to przeanalizować. I ten artykuł to właśnie ta próba analizy.
 
-## 6. "Competing against Luck"
-### 6.1 Wielowymiarowość według Christensena
+## 5. "Competing against Luck"
+### 5.1 Wielowymiarowość według Christensena
 
 Jeśli śledziliście z wypiekami poprzednią opowieść, zauważyliście pewien "typowy" problem z jakimi mieliśmy do czynienia: Jak dostać się na lotnisko? Jakkolwiek może tak nie wyglądać, jest to problem _wielowymiarowy_:
 
@@ -132,8 +135,8 @@ Tyle wyjaśniania teorii Christensena; jeśli chcecie poćwiczyć, rozpatrzcie n
 
 Jeśli chcecie zobaczyć inny przykład, [Joel Spolsky opisuje jak powstało Trello idealnie wpasowując się w teorię JTBD](https://www.joelonsoftware.com/2012/01/06/how-trello-is-different/).
 
-### 6.2. Wielowymiarowy Klient parkingu
-#### 6.2.1. Analiza faktycznej decyzji
+### 5.2. Wielowymiarowy Klient parkingu
+#### 5.2.1. Analiza faktycznej decyzji
 
 Po połączeniu Intencja - Design - Implementacja oraz teorii JTBD Christensena, możemy spojrzeć na całość w kontekście parkingu:
 
@@ -177,7 +180,7 @@ I co zabawne, wybraliśmy parking nielotniskowy z następujących powodów:
 
 Gdyby parking lotniskowy był tyci droższy niż taksówka, _nadal_ moglibyśmy go wybrać, jeśli szybciej bylibyśmy w domu.
 
-#### 6.2.2. Kiedy parking by przegrał?
+#### 5.2.2. Kiedy parking by przegrał?
 
 Rozpatrzmy taką sytuację:
 
@@ -193,7 +196,7 @@ W powyższej sytuacji może dojść do dość smutnego układu:
 
 W tym momencie dużo lepszą opcją jest taksówka, którą możemy zamówić w dowolnym miejscu i nie musimy martwić się odbieraniem samochodu z parkingu.
 
-### 6.3. Podsumowanie książki Christensena
+### 5.3. Podsumowanie książki Christensena
 
 To oczywiście nie jest całość książki - to jedynie wycinek. Ale to, co do tej pory wykorzystaliśmy można opisać w następujący sposób:
 
@@ -211,8 +214,8 @@ Jak to powyższe wykorzystać?
 * Nie trzeba rywalizować tylko na cenie.
 * Niekoniecznie każdy rywal jest Waszym bezpośrednim konkurentem (masło, margaryna). Czasem macie konkurentów w zupełnie niespodziewanych miejscach (masło, kupienie ciasta).
 
-## 7. Teoria zasobów i kompetencji
-### 7.1. Zasoby? Kompetencje? PARKINGI?
+## 6. Teoria zasobów i kompetencji
+### 6.1. Zasoby? Kompetencje? PARKINGI?
 
 Popatrzcie:
 
@@ -243,15 +246,19 @@ Czyli:
 1. Wiedząc jakie mamy zasoby i możliwości oraz gdzie leży przewaga konkurencyjna - można wybrać strategię maksymalizującą nasze przewagi (lub redukującą nasze słabości)
 1. Możemy z uwagi na strategię wzmocnić swoje zasoby, lub pozyskać inne brakujące.
 
-To, co jest istotnego - im więcej macie zasobów, tym większa adaptowalność. Nie ma "bezużytecznych" zasobów - dlatego im więcej się uczycie i poznajecie, tym większe macie możliwości. To jest, pod warunkiem, że potraficie na swoje zasoby i możliwości spojrzeć w odpowiedni sposób.
+To, co jest istotnego - _im więcej macie zasobów, tym większa Wasza adaptowalność_. Nie ma "bezużytecznych" zasobów - dlatego im więcej się uczycie i poznajecie, tym większe macie możliwości. To jest, pod warunkiem, że potraficie na swoje zasoby i możliwości spojrzeć w odpowiedni sposób.
 
-Druga istotna rzecz - nie musicie **sami** czegoś posiadać. Wystarczy, że macie do tego dostęp. Np. nie muszę samemu wszystkiego rysować by mieć ilustrowany artykuł; wystarczy, że mam dostęp do zacnych ilustracji. Tak powstał outsourcing ;-).
+Druga istotna rzecz - nie musicie **sami** czegoś posiadać. Wystarczy, że macie do tego dostęp. Np. nie muszę samemu wszystkiego rysować by mieć ilustrowany artykuł; wystarczy, że mam dostęp do zacnych ilustracji. 
+
+To jest powód, dla którego grupy są o wiele silniejsze niż jednostki. Nie tylko więcej osób (czyli więcej różnorodnych zasobów, ogólnie), ale też więcej osób ma dostęp do swoich przyjaciół - i potencjalnie, części ich zasobów (np. leasing). Na tym polega siła społeczności i stowarzyszeń.
 
 **Przykład**, bo może nie być to bardzo jasne:
 
-Weźmy kontekst "zdobycie dodatkowego, pasywnego źródła dochodu"; żadna znana mi teoria nie daje możliwości działania w próżni, całkowicie w oderwaniu od jakiegoś kontekstu.
+Weźmy kontekst "ja chcę zdobyć dodatkowe, pasywne źródło dochodu" _(żadna znana mi teoria nie daje możliwości działania w próżni, całkowicie w oderwaniu od jakiegokolwiek kontekstu)_.
 
 **Faza 1: Zasoby:**
+
+Oczywiście, uprościłem. To jest przykład.
 
 * Potrafię programować
 * Potrafię rysować, acz średnio
@@ -266,7 +273,7 @@ Weźmy kontekst "zdobycie dodatkowego, pasywnego źródła dochodu"; żadna znan
 
 **Faza 3: Przewaga konkurencyjna:**
 
-Dla uproszczenia, skupię się tylko na grze komputerowej:
+Dla uproszczenia, skupię się tylko na grze komputerowej. Niestety, nie mam żadnej przewagi, ale mogę zrobić analizę:
 
 * [Dane z 2015](https://www.pcgamer.com/steam-games-number-of-too-many/): pojawiło się ~2730 nowych gier na Steamie. Prawie 8/dzień.
 * [Dane z 2015](https://www.gamesindustry.biz/articles/2015-06-19-the-average-game-on-steam-sells-only-32-000-copies): przeciętna gra sprzedaje około 32000 kopii.
@@ -274,7 +281,7 @@ Dla uproszczenia, skupię się tylko na grze komputerowej:
 
 **Faza 4: Strategia**
 
-Zakładam, że wybrałem grę komputerową.
+Zakładam, że wybrałem grę komputerową - pierwszym krokiem jest załatanie luki.
 
 * Zbudować rynek dla swojej Pierwszej Epickiej Gry Komputerowej
 * Zbadać, czego rynek oczekuje od takiej gry
@@ -282,16 +289,127 @@ Zakładam, że wybrałem grę komputerową.
 
 (podpowiem: wybrałem bardzo złą strategię, bo nie mam żadnej przewagi konkurencyjnej w tym uproszczonym przykładzie)
 
-### 7.2. Teoria zasobów a nasz parking
+### 6.2. Teoria Zasobów a nasz parking
 
+Mam nadzieję, że Teoria Zasobów jest teraz tyci bardziej zrozumiała. Przypomnijmy sobie główne oczekiwania:
 
+* Dostać się szybko na lotnisko i z powrotem, przy minimalnej stracie czasu
+* Mieć gdzie zostawić samochód; ma nic się nie stać z nim złego
+* Żadnych problemów, żadnych zmartwień
 
+Poniższe piszę z perspektywy hipotetycznego właściciela takiego parkingu:
 
-## 8. Podsumowanie
+**Faza 1: Zasoby:**
 
-## 9. Wykazanie korzyści
+To jest najtrudniejsze, bo mogę określić tylko to, co widziałem. Spójrzmy na zasoby kluczowe:
 
-## 10. Literatura uzupełniająca
+* Parking na XXX samochodów; strzeżony (lub sprawiający takie wrażenie)
+* Minivan, kierowca dostępny 24/7 (niekoniecznie ten sam)
+* Dobra lokalizacja; odpowiednio blisko lotniska
+* Reputacja i bycie znanym / rozpoznawalnym wśród grupy docelowej
+
+**Faza 2: Możliwości:**
+
+* Możliwość dostania się na lotnisko poniżej 10 minut od wezwania.
+* Możliwość bycia znalezionym przez potencjalnych klientów.
+* Możliwość umieszczenia cudzego samochodu na parkingu w bezpieczny sposób, poniżej 5 minut od dotarcia.
+* Możliwość adaptacji do niespodziewanych potrzeb klienta
+
+**Faza 3: Przewaga konkurencyjna:**
+
+* W okolicy znajduje się pięć innych takich nielotniskowych parkingów. (problem)
+* Ten parking położony jest najbliżej lotniska
+* Mam dostęp do kilku kierowców; nasz parking jest największy
+* Mam znajomych z firmy Softwarnix (nazwa fikcyjna)
+
+**Faza 4: Strategia**
+
+* Główną konkurencją są jednak taksówki - w chwili obecnej nie dość osób wie, że jest taka możliwość.
+* Wszyscy pracownicy Softwarnix dostaną rabat 25% na rok. Nie tylko zbuduje to rozpoznawalność marki i możliwości, ale może zwiększyć obroty. Jak nie skorzystają, nic na tym nie tracę.
+* Wejdę we współpracę z innymi parkingami - będziemy podsyłać sobie nadmiarowych klientów i pomagać sobie w sytuacjach kryzysowych.
+* Będę podkreślał szybkość dostania się, oszczędność czasu oraz możliwość adaptacji do potrzeb klienta.
+* Może warto rozważyć jakieś elementy premium? Kawa / ciastko dla znużonych podróżnych? Taksówka tego zrobić nie może, my potencjalnie tak.
+
+### 6.3. Podsumowanie podejścia zasobowego
+
+Teoria Zasobów i Kompetencji występuje w kilku formach i odmianach; to powyżej to najmniejszy sensowny wycinek. Co warto zapamiętać:
+
+* Nie wszystko musicie potrafić / posiadać na własność. Często wystarczy tylko "mieć do czegoś dostęp".
+* Kompetencje, Przedmioty, Reputacja... to wszystko są Zasoby. Wszystko, co "można mieć" lub wykorzystać.
+* Każdy nowy Zasób jaki posiadacie czy umiecie zwielokratnia Wasze możliwości. Dlatego właśnie tak popularny wśród programistów jest "T-shaped skill model". Im więcej zasobów, tym większy potencjał adaptacji.
+* Jeżeli wiecie, jaki problem rozwiązujecie - możecie na bazie swoich Zasobów złożyć Przewagę Konkurencyjną. I do niej dopasować faktyczne działania (Strategię), którą dopasujecie do zmieniających się Zasobów, Otoczenia i ogólnie rozumianego biznesu.
+* Bardzo często nie wiecie do jak wielkiej ilości rzeczy macie dostęp, bo zwyczajnie się o tym nie myśli. Co możecie zrobić np. przy użyciu nożyczek? Takiego typu fundamentalne pytania to właśnie podstawa teorii Zasobów i Kompetencji.
+* Trochę na żarty, trochę na serio - właśnie o to chodziło Sun Tzu, gdy pisał "jeśli znasz siebie, wygrasz 50% bitew". Analiza własnych zasobów pozwala na nie robienie głupot i na skupienie uwagi tam, gdzie jesteście najsilniejsi. Na to właśnie często grają startupy - na znalezienie niszy oraz na bezwzględnym skupieniu wszystkich zasobów na zaspokojeniu tej niszy.
+
+Jak możecie to wykorzystać?
+
+* Pamiętajcie, że _wszystko_ czego się uczycie wzmacnia Wasze inne umiejętności. Teraz tylko kwestia znalezienia takiego kontekstu, w którym możecie zrobić z tego własną przewagę.
+* Pamiętajcie, że "mieć dostęp" jest wystarczającym poziomem. Nie wszystko musicie mieć na własność. Daje Wam to potencjalnie dużą elastyczność - macie dostęp do ogromnej ilości książek w bibliotece, ale kupicie na własność tylko te, które są dla Was naprawdę krytyczne.
+* Reputacja, pieniądze, przedmioty, kompetencje. To wszystko są zasoby, które można potencjalnie wykorzystać. Jeśli macie problem którego nie wiecie jak rozwiązać, wyjdźcie od swoich zasobów i "jak można to rozwiązać przy użyciu tego co mam"
+* Warto zrobić sobie podsumowanie tego, jakie macie zasoby (i możliwości). Na poziomie jednostki lub organizacji. Bardzo ułatwia użycie właściwego narzędzia do znienacka pojawiającego się problemu.
+* Im lepsze macie narzędzia, tym więcej możecie zrobić. Inwestycja w narzędzia zwykle się zwraca. Też warto poszerzać i pogłębiać swoje zasoby.
+* Inni ludzie i organizacje mają _inne_ zasoby i działają w _innym_ otoczeniu. Nie jesteście w stanie powtórzyć tego, co robi ktoś inny 1:1 tak, by uzyskać dokładnie te same wyniki!
+
+## 7. Podsumowanie
+### 7.1. Opis słowny
+
+Christensen skupia się na _czynnościach_ (co powinno być zrobione). Teoria zasobowa skupia się na _potencjale_ (tym, co mam i jak to wykorzystać). Te dwie teorie nie są sprzeczne - one pięknie składają się w jedną całość, pozwalając na określenie "czego mi potrzeba" i "co mam do dyspozycji".
+
+![Po lewej stronie blok symbolizujący teorię Christensena, po prawej blok symbolizujący teorię Zasobów. Oba bloki się łączą, acz oba są większe niż ich połączenie. Te teorie są kompatybilne, acz każda z nich daje większe możliwości niż tylko połączenie ich razem.](/img/180402/180403-christensen-zasoby.png)
+
+Mając Teorię Zasobów, mogę wykroczyć poza poszczególne JTBD zaproponowane przez Christensena i znaleźć zupełnie inne rynki i możliwości, z zupełnie nowymi, nie powiązanymi wcześniej JTBD nowych klientów z JTBD starych klientów.
+
+Mając Christensena, mogę ukierunkować swoją analizę zasobów pod konkretnym kątem mogącym zmaksymalizować moje korzyści biznesowe przy już wybranej grupie docelowej.
+
+Popatrzcie, że w świetle połączenia Teorii Zasobów i JTBD zupełnie przeorientowane może zostać "kto jest moim konkurentem" oraz "kto jest moim kanałem". Możecie poszerzać swoje możliwości zarówno od strony "wypustek Christensena" (rysunek) jak i "wypustek Teorii Zasobów" (też rysunek). W ten sposób część konkurentów przestaje nimi być, a w ich miejscu mogą pojawiać się kolejni.
+
+Najważniejsze - moim zdaniem - w tym wszystkim jest to, że jeśli znacie i potraficie wykorzystać takie teorie, to one zmieniają Wasz sposób myślenia. Widzicie świat inaczej. Nie wystarczy samo czytanie książek - musicie próbować je wykorzystać. Ćwiczyć. Testować ich granice. Pisać średnie artykuły. Narażać się na krytykę i śmieszność.
+
+W taki właśnie sposób się uczymy i możemy zwyciężać ;-).
+
+### 7.2. Obiecana checklista
+
+1. Określcie JTBD klienta. Najpewniej macie kilka JTBD dla kilku klientów. I teraz, poniższe zróbcie dla każdego JTBD osobno:
+1. Rozbijcie JTBD pod kątem "Intencja - Design - Implementacja"
+1. Podzielcie JTBD pod kątem wymiarów: "Funkcjonalny, Emocjonalny, Społeczny"
+1. Przeanalizujcie, jakie rozwiązania możecie zaproponować, spełniając Intencję pod kątem trzech wymiarów.
+1. Te rozwiązania stają się Waszym Wymaganiem
+1. Określcie swoje Zasoby w kontekście Wymagania.
+1. Ustalcie, jakie Możliwości musicie zapewnić by móc spełnić Wymaganie w maksymalnym stopniu
+1. Może pojawiły się inne Zasoby, mogące spełnić potrzebne Możliwości? Sprawdziłbym ponownie.
+1. Ustalcie Przewagę Konkurencyjną dla Wymagania. Co robimy lepiej, co gorzej - i na co mamy Zasoby
+1. Dobierzcie właściwą Strategię.
+
+Tu od pewnego miejsca aż mi się nasuwa teoria Gilba, ale to już nie materiał na ten artykuł...
+
+## 8. Wykazanie korzyści
+### 8.1. Przypomnienie obietnicy
+
+**Kiedy warto to przeczytać?**
+
+1. Macie do czynienia ze skomplikowanym, wielowymiarowym problemem i nie wiecie jak go ugryźć
+1. Chcecie mieć prostą checklistę / diagram jak przeanalizować wielowymiarowy problem biznesowy
+1. Chcecie zobaczyć, po co (i jak) można wykorzystać i połączyć teorie.
+
+**Co ja chcę Wam dać?**
+
+1. Chcę pokazać, jak można rozpatrzeć jedną sytuację przez dwie różne teorie i jak się pięknie to składa w jedną całość
+1. Generalizując, chcę, byście zobaczyli kilka podejść do jednego problemu i przez jakie wymiary warto ów problem rozważyć
+1. Chcę, byście potrafili sami przeprowadzić takie rozumowanie używając tych technik (uproszczonych elementów)
+
+### 9.2. Wykazanie korzyści
+
+Zacznijmy od najprostszego - Checklista istnieje, w punkcie 8.2. Cały artykuł to jeden wielki opis jak tej checklisty można używać. To implikuje, że jeśli nie napisałem tego artykułu nieczytelnie (lub nie zrobiłem błędu tworząc checklistę), powinniście być w stanie podążając za checklistą uzyskać podobny wynik do tego, co mi udało się tu wygenerować.
+
+Mam nadzieję, że udowodniłem Wam, że łączenie teorii jest korzystne i że przynosi wartościowe efekty. Nie tylko umożliwia to przejście przez nie taki prosty problem stosunkowo bezboleśnie, ale dodatkowo każda nowa teoria zmienia sposób myślenia (odwołałem się właśnie do Teorii Zasobów - incepcja ;-) ).
+
+Połączenie Teorii Zasobów i Teorii Zadań Do Wykonania daje nam uroczą wizję świata: _"klienci chcą XXX, my mamy AAA i chcemy z podzbioru klientów wydobyć takie X, które my możemy naszym A rozwiązać"._ Podzbiory. Ten artykuł _powinien_ usystematyzować podejście do tej klasy problemów i powinien stanowić pewną formę nici Ariadny w pięknej złożoności chaosu. To powinno rozwiązać "wielowymiarowy problem" oraz "potraficie sami przeprowadzić takie rozumowanie".
+
+Z mojego punktu widzenia wszystkie powyższe obietnice są spełnione. Jeżeli się mylę, cóż... mam nadzieję, że nie potraktowaliście tego czasu za stracony.
+
+Powodzenia!
+
+## 9. Literatura uzupełniająca
 
 1. książka: "Competing against Luck" Clayton Christensen
 1. Teoria zasobów i kompetencji:
@@ -306,7 +424,7 @@ Zakładam, że wybrałem grę komputerową.
 | Czas poświęcony na budowę planu artykułu i samego szkicu      | 6 godzin |
 | Liczba osób korygujących szkic (poza autorem)                 | 2 osoby  |
 | Ilość zmian szkicu po konsultacjach                           | 2 zmiany |
-| Czas poświęcony na napisanie i korektę artykułu               | 6 godzin |
+| Czas poświęcony na napisanie i korektę artykułu               | 9 godzin |
 | Liczba osób korygujących artykuł (poza autorem)               | ? osób   |
 | Czas poświęcony na przebudowę artykułu później                | ? godzin |
 | Liczba osób korygujących artykuł po publikacji (poza autorem) | ? osób   |
