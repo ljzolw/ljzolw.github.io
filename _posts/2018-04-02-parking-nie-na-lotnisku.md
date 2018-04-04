@@ -22,8 +22,9 @@ Jeśli nie macie czasu przeczytać artykułu, chcecie go odświeżyć czy nabra�
 ### 2.1. Problem
 Czasem stajemy przed dość skomplikowanym, wielowymiarowym problemem biznesowym:
 
-* Mamy dość sporo potencjalnych klientów, którzy czegoś od nas chcą
-* Możemy tym klientom coś dostarczyć, ale nie wiem w co zainwestować
+* Mamy dość sporo potencjalnych klientów, którzy czegoś od nas chcą.
+* Możemy tym klientom coś dostarczyć, ale nie wiem czego dokładnie chcą.
+* Nie wiem, które siły wzmacniać a słabości niwelować...
 
 Takie... połączenie N problemów i M potencjalnych zasobów. Niekoniecznie wiemy, czego dokładnie chcą od nas klienci, czemu nas wybierają i co tak naprawdę możemy im dostarczyć.
 
