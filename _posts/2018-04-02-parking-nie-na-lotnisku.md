@@ -543,7 +543,7 @@ Powodzenia!
     1. https://ocw.mit.edu/courses/sloan-school-of-management/15-902-strategic-management-i-fall-2006/lecture-notes/rbv_theoryf_ca.pdf
     1. http://www.sciedu.ca/journal/index.php/jms/article/viewFile/8935/5415
 
-## 12. Metadane artykułu
+## 10. Metadane artykułu
 
 | Akcja                                                         | Czas lub Ilość |
 |---------------------------------------------------------------|----------------|
@@ -552,7 +552,7 @@ Powodzenia!
 | Ilość zmian szkicu po konsultacjach                           | 2 zmiany |
 | Czas poświęcony na napisanie i korektę artykułu               | 9 godzin |
 | Liczba osób korygujących artykuł (poza autorem)               | 1 osób   |
-| Czas poświęcony na przebudowę artykułu później                | 3 godziny |
+| Czas poświęcony na przebudowę artykułu później                | 4 godziny |
 | Liczba osób korygujących artykuł po publikacji (poza autorem) | ? osób   |
 | Liczba błędów / modyfikacji artykułu po wydaniu               | ? błędów |
 | Czas poświęcony na korekcję błędów                            | ? godzin |
