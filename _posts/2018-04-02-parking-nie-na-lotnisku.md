@@ -175,7 +175,7 @@ _fu = adapt(fun) * adapt(emo) * adapt(społ) * adapt(koszt)_
 dla funkcji adaptacji takiej jak:
 
 * x < 0.3: return 0.1*x
-* 0.3 >= x > 0.9: return x
+* 0.3 <= x < 0.9: return x
 * x >= 0.9: return 1.5*x
 
 Wtedy tabelka dla Nikodema Neutralnego wyglądałaby tak:
@@ -235,26 +235,63 @@ I teraz analiza trzech wymiarów Christensena:
 
 Teraz, analiza rozwiązań, jakie przyszły nam wcześniej do głowy:
 
+**Taksówka:**
 
+* F: Bezproblemowo. Mogę wezwać w dowolnym momencie do dowolnego wejścia. Acz trzeba czekać. fun = 1.
+* E: Trzeba czekać :-(. Najbezpieczniejsza opcja :-). Zależność od innej osoby. emo = 0.8.
+* S: Może taksówkarz musieć czekać. społ = 0.9.
 
-| Rozwiązanie             | Funkcjonalny           | Emocjonalny                   | Społeczny                 |
-|-------------------------|------------------------|-------------------------------|---------------------------|
-| taksówka                | zero problemu, acz drożej | trzeba będzie czekać...    | taksówkarz może musieć czekać |
-| poprosić o podwiezienie | zero problemu          | no, to duża przysługa. Auć.   | to duży problem dla tej osoby |
-| parking lotniskowy      | DROGO!                 | ech, przepłacam...            | nie jestem firmą - tak trochę głupio |
-| parking "nielotniskowy" | zadziała               | o, coś nowego (fajnie!)       | będę prekursorem, moi tak nie robią |
-| nie jechać do Szwecji   | OK, alternatywy są fajne | smutno by było wszystkim    | niekorzystne przyjacielsko |
+**Poprosić o podwiezienie:**
 
-Zauważcie, że przy takim rozpisaniu jak powyżej, zostają dwie sensowne opcje:
+* F: Bezproblemowo, nie zawiodą mnie. fun = 1.
+* E: Ogromna przysługa. Bardzo źle bym się z tym czuł. emo = 0.2.
+* S: Duży problem dla tej osoby. społ = 0.3
+
+**Parking lotniskowy:**
+
+* F: Bezproblemowo, acz bardzo drogo. fun = 1.
+* E: Bardzo nie lubię przepłacać :-(. Nieco tak głupio; nie jestem firmą. emo = 0.7
+* S: Cóż, nikt się nie dowie. Nieważne, że byłoby to w moim kręgu odebrane dziwnie. społ = 1
+
+**Parking nielotniskowy:**
+
+* F: Bezproblemowo, znowu. fun = 1.
+* E: Coś nowego :-). Ma obszary ryzyka :-(. Powinno być mniej czekania niż taksówka. emo = 0.7
+* S: Jest to coś nowego, o czym będę mógł poopowiadać po urlopie. społ = 1.
+
+**Nie jechać do Szwecji:**
+
+* F: Nie jest to zła opcja; alternatywy są fajne. fun = 0.5
+* E: Smutno by nam wszystkim było. emo = 0.5
+* S: Nieakceptowalne z perspektywy przyjaźni. społ = 0.2
+
+Weźmy funkcję użyteczności, z adaptacją, która chroni przed ruiną (ale nie wzmacnia zwycięzców):
+
+_fu = adapt(fun) * adapt(emo) * adapt(społ) * adapt(koszt)_
+
+adapt:
+
+* x < 0.3: return 0.1*x
+* x >= 0.3: return x
+
+| Rozwiązanie             | Funkcjonalny | Emocjonalny | Społeczny | Koszt | Wynik  |
+|-------------------------|--------------|-------------|-----------|-------|--------|
+| taksówka                |  1           | 0.8         | 0.9       | 0.8   | 0.576  |
+| poprosić o podwiezienie |  1           | 0.2         | 0.3       | 1     | 0.0006 |
+| parking lotniskowy      |  1           | 0.7         | 1         | 0.5   | 0.35   |
+| parking "nielotniskowy" |  1           | 0.7         | 1         | 0.9   | 0.63   |
+| nie jechać do Szwecji   |  1           | 0.5         | 0.2       | 1     | 0.01   |
+
+Zauważcie, że przy takim rozpisaniu jak powyżej, zostają dwie najsilniejsze opcje:
 
 * Parking nielotniskowy (to, co wybraliśmy)
 * Taksówka
 
 I co zabawne, wybraliśmy parking nielotniskowy z następujących powodów:
 
-* Szybciej będziemy w domu wracając (istotne)
-* Coś nowego, czego jeszcze nie wykorzystywaliśmy; trzeba sprawdzić
-* Tyci taniej niż taksówka (najmniej istotne)
+* Większa oszczędność czasu, szybciej będziemy w domu
+* Coś nowego, czego jeszcze nie wykorzystywaliśmy; trzeba sprawdzić. Zawsze to nowa opowieść po urlopie.
+* Taniej niż taksówka (najmniej istotne)
 
 Gdyby parking lotniskowy był tyci droższy niż taksówka, _nadal_ moglibyśmy go wybrać, jeśli szybciej bylibyśmy w domu.
 
@@ -274,30 +311,25 @@ W powyższej sytuacji może dojść do dość smutnego układu:
 
 W tym momencie dużo lepszą opcją jest taksówka, którą możemy zamówić w dowolnym miejscu i nie musimy martwić się odbieraniem samochodu z parkingu.
 
-### 5.3. Podsumowanie książki Christensena
-
-To oczywiście nie jest całość książki - to jedynie wycinek. Ale to, co do tej pory wykorzystaliśmy można opisać w następujący sposób:
-
-* Teoria Pracy Christensena nie działa dla prostych problemów optymalizacyjnych _(istnieje proste równanie, np "tańsze == lepsze")_.
-* Klient nie chce korzystać z Waszej usługi. Klient chce rozwiązać konkretny problem - JTBD _(nie chcę zostawić samochodu na parkingu pozalotniskowym, ale chcę dostać się bezproblemowo na lotnisko)._
-* Segmentacja klientów / użytkowników powinna mieć miejsce właśnie pod kątem JTBD. Ta sama osoba może raz być klientem a raz nie. _(w zależności od linii lotniczych - jeśli trafię na taką, która często zmienia lotnisko docelowe, nie będę klientem parkingu pozalotniskowego)_
-* Klient nie wybiera produktu tylko pod kątem ceny; rozważa wymiar Funkcjonalny, Emocjonalny i Społeczny. _(tanie linie lotnicze niebezpiecznie zbliżają się dla części moich znajomych do granicy, w której oni wolą nie lecieć niż z tych linii korzystać)_
-* Wasza konkurencja to nie zawsze tylko obiekt w Twojej klasie _(masło lub margaryna)_. To czasem obiekt w zupełnie innej klasie _(masło lub kupienie ciasta, czy masło lub pójście do kina)_
-
-Jak to powyższe wykorzystać?
-
-* Zastanówcie się, kto jest faktycznie Waszym segmentem klientów. Np. dlaczego ktoś Was awansował. Czego od Was chce w tych trzech wymiarach?
-* Zastanówcie się, do jakiej JTBD Wasz produkt / usługa jest wykorzystywany? W jakim kontekście _naprawdę_ jest to używane? Jaki postęp jest oczekiwany? Dzięki temu zobaczycie jak Wasz produkt/ usługa jest postrzegany przez rynek.
-* Nie znając kontekstu Waszego klienta istnieje ryzyko, że macie segment, który tylko przypadkowo działa.
-* Nie trzeba rywalizować tylko na cenie.
-* Niekoniecznie każdy rywal jest Waszym bezpośrednim konkurentem (masło, margaryna). Czasem macie konkurentów w zupełnie niespodziewanych miejscach (masło, kupienie ciasta).
-
 ## 6. Teoria zasobów i kompetencji
-### 6.1. Zasoby? Kompetencje? PARKINGI?
+### 6.1. Nowy problem
 
-Popatrzcie:
+No dobrze. Jestem ekspertem (hipotetycznym) od parkingów nielotniskowych. Więc... czemu nie miałbym założyć własnego parkingu? Przecież po takiej analizie się chyba na tym znam, prawda?
 
 ![Żółty kierowca patrzy z niedowierzaniem na zielonego właściciela parkingu, który mówi, że nie ma vana, nie ma prawa jazdy... i w sumie to miejsca na parkingu też nie ma.](/img/180402/180403-nie-mam-kompetencji.png)
+
+Wyobraźcie sobie powyższą sytuację. Przyjeżdżam na parking, a tam nic nie ma.
+
+A teraz spójrzmy na mnie pod kątem zakładania swojego parkingu:
+
+* Nie mam kompetencji do prowadzenia parkingu.
+* Nie mam działki blisko lotniska.
+* Nie mam kierowcy ani minivana.
+* Gorzej, nie wiem _czego nie mam_ a jest mi potrzebne.
+
+Rozwiązaniem tego typu problemów zajmuje się Teoria Zasobów i Kompetencji.
+
+### 6.1. Zasoby? Kompetencje? PARKINGI?
 
 Klient (w tym wypadku: my) ma pewne potrzeby. By je określić, pomógł nam Christensen. W skrócie:
 
@@ -313,11 +345,11 @@ Teoria Zasobów i Kompetencji mówi mniej więcej coś takiego:
 
 Jednym zdaniem:
 
-_Teoria Zasobów i Kompetencji skupia się na tym, by to, co mamy dostępne zaadaptować w najskuteczniejszą możliwą przewagę biznesową._
+_Teoria Zasobów i Kompetencji skupia się na tym, by wykorzystać wszystko co już mamy by zbudować maksymalną możliwą przewagę konkurencyjną._
 
 Czyli:
 
-1. Pod pojęciem "zasób" kryje się "przedmiot" (minivan), "kompetencja" (prowadzenie samochodu) czy byt niematerialny ("reputacja"). Wszystko, co można "mieć".
+1. Pod pojęciem "zasób" kryje się "przedmiot" (minivan), "kompetencja" (prowadzenie samochodu) czy byt niematerialny ("reputacja"). Wszystko, co można "wykorzystać".
 1. Każda osoba / organizacja ma dostęp do jakichś zasobów.
 1. Na bazie tych zasobów i pod kątem pewnej sytuacji można ocenić, co nasza organizacja może zrobić. Wtedy - pod kątem określonej czynności - można określić, które zasoby są Zasobami Strategicznymi (kluczowymi).
 1. Po spojrzeniu na tą sytuację można ocenić, gdzie znajduje się przewaga konkurencyjna - co możemy robić lepiej niż konkurencja.
@@ -330,7 +362,7 @@ Druga istotna rzecz - nie musicie **sami** czegoś posiadać. Wystarczy, że mac
 
 To jest powód, dla którego grupy są o wiele silniejsze niż jednostki. Nie tylko więcej osób (czyli więcej różnorodnych zasobów, ogólnie), ale też więcej osób ma dostęp do swoich przyjaciół - i potencjalnie, części ich zasobów (np. leasing). Na tym polega siła społeczności i stowarzyszeń.
 
-**Przykład**, bo może nie być to bardzo jasne:
+**Przykład:**
 
 Weźmy kontekst "ja chcę zdobyć dodatkowe, pasywne źródło dochodu" _(żadna znana mi teoria nie daje możliwości działania w próżni, całkowicie w oderwaniu od jakiegokolwiek kontekstu)_.
 
@@ -408,26 +440,6 @@ To jest najtrudniejsze, bo mogę określić tylko to, co widziałem. Spójrzmy n
 * Będę podkreślał szybkość dostania się, oszczędność czasu oraz możliwość adaptacji do potrzeb klienta.
 * Może warto rozważyć jakieś elementy premium? Kawa / ciastko dla znużonych podróżnych? Taksówka tego zrobić nie może, my potencjalnie tak.
 
-### 6.3. Podsumowanie podejścia zasobowego
-
-Teoria Zasobów i Kompetencji występuje w kilku formach i odmianach; to powyżej to najmniejszy sensowny wycinek. Co warto zapamiętać:
-
-* Nie wszystko musicie potrafić / posiadać na własność. Często wystarczy tylko "mieć do czegoś dostęp".
-* Kompetencje, Przedmioty, Reputacja... to wszystko są Zasoby. Wszystko, co "można mieć" lub wykorzystać.
-* Każdy nowy Zasób jaki posiadacie czy umiecie zwielokratnia Wasze możliwości. Dlatego właśnie tak popularny wśród programistów jest "T-shaped skill model". Im więcej zasobów, tym większy potencjał adaptacji.
-* Jeżeli wiecie, jaki problem rozwiązujecie - możecie na bazie swoich Zasobów złożyć Przewagę Konkurencyjną. I do niej dopasować faktyczne działania (Strategię), którą dopasujecie do zmieniających się Zasobów, Otoczenia i ogólnie rozumianego biznesu.
-* Bardzo często nie wiecie do jak wielkiej ilości rzeczy macie dostęp, bo zwyczajnie się o tym nie myśli. Co możecie zrobić np. przy użyciu nożyczek? Takiego typu fundamentalne pytania to właśnie podstawa teorii Zasobów i Kompetencji.
-* Trochę na żarty, trochę na serio - właśnie o to chodziło Sun Tzu, gdy pisał "jeśli znasz siebie, wygrasz 50% bitew". Analiza własnych zasobów pozwala na nie robienie głupot i na skupienie uwagi tam, gdzie jesteście najsilniejsi. Na to właśnie często grają startupy - na znalezienie niszy oraz na bezwzględnym skupieniu wszystkich zasobów na zaspokojeniu tej niszy.
-
-Jak możecie to wykorzystać?
-
-* Pamiętajcie, że _wszystko_ czego się uczycie wzmacnia Wasze możliwości. Teraz tylko kwestia znalezienia takiego kontekstu, w którym możecie zrobić z tego własną przewagę.
-* Pamiętajcie, że "mieć dostęp" jest wystarczającym poziomem. Nie wszystko musicie mieć na własność. Daje Wam to potencjalnie dużą elastyczność - macie dostęp do ogromnej ilości książek w bibliotece, ale kupicie na własność tylko te, które są dla Was naprawdę krytyczne.
-* Reputacja, pieniądze, przedmioty, kompetencje. To wszystko są zasoby, które można potencjalnie wykorzystać. Jeśli macie problem którego nie wiecie jak rozwiązać, wyjdźcie od swoich zasobów i "jak można to rozwiązać przy użyciu tego co mam"
-* Warto zrobić sobie podsumowanie tego, jakie macie zasoby (i możliwości). Na poziomie jednostki lub organizacji. Bardzo ułatwia użycie właściwego narzędzia do znienacka pojawiającego się problemu.
-* Im lepsze macie narzędzia, tym więcej możecie zrobić. Inwestycja w narzędzia zwykle się zwraca. Też warto poszerzać i pogłębiać swoje zasoby.
-* Inni ludzie i organizacje mają _inne_ zasoby i działają w _innym_ otoczeniu. Nie jesteście w stanie powtórzyć tego, co robi ktoś inny 1:1 tak, by uzyskać dokładnie te same wyniki!
-
 ## 7. Podsumowanie
 ### 7.1. Opis słowny
 
@@ -445,7 +457,45 @@ Najważniejsze - moim zdaniem - w tym wszystkim jest to, że jeśli znacie i pot
 
 W taki właśnie sposób się uczymy i możemy zwyciężać ;-).
 
-### 7.2. Obiecana checklista
+### 7.2. Jak wykorzystać teorię Christensena?
+
+* Zastanówcie się, kto jest faktycznie Waszym segmentem klientów. Np. dlaczego ktoś Was awansował. Czego od Was chce w tych trzech wymiarach?
+* Zastanówcie się, do jakiej JTBD Wasz produkt / usługa jest wykorzystywany? W jakim kontekście _naprawdę_ jest to używane? Jaki postęp jest oczekiwany? Dzięki temu zobaczycie jak Wasz produkt/ usługa jest postrzegany przez rynek.
+* Nie znając kontekstu Waszego klienta istnieje ryzyko, że macie segment, który tylko przypadkowo działa.
+* Nie trzeba rywalizować tylko na cenie.
+* Niekoniecznie każdy rywal jest Waszym bezpośrednim konkurentem (masło, margaryna). Czasem macie konkurentów w zupełnie niespodziewanych miejscach (masło, kupienie ciasta).
+
+### 7.3. Jak wykorzystać Teorię Zasobów i Kompetencji?
+
+* Pamiętajcie, że _wszystko_ czego się uczycie wzmacnia Wasze możliwości. Teraz tylko kwestia znalezienia takiego kontekstu, w którym możecie zrobić z tego własną przewagę.
+* Pamiętajcie, że "mieć dostęp" jest wystarczającym poziomem. Nie wszystko musicie mieć na własność. Daje Wam to potencjalnie dużą elastyczność - macie dostęp do ogromnej ilości książek w bibliotece, ale kupicie na własność tylko te, które są dla Was naprawdę krytyczne.
+* Reputacja, pieniądze, przedmioty, kompetencje. To wszystko są zasoby, które można potencjalnie wykorzystać. Jeśli macie problem którego nie wiecie jak rozwiązać, wyjdźcie od swoich zasobów i "jak można to rozwiązać przy użyciu tego co mam"
+* Warto zrobić sobie podsumowanie tego, jakie macie zasoby (i możliwości). Na poziomie jednostki lub organizacji. Bardzo ułatwia użycie właściwego narzędzia do znienacka pojawiającego się problemu.
+* Im lepsze macie narzędzia, tym więcej możecie zrobić. Inwestycja w narzędzia zwykle się zwraca. Też warto poszerzać i pogłębiać swoje zasoby.
+* Inni ludzie i organizacje mają _inne_ zasoby i działają w _innym_ otoczeniu. Nie jesteście w stanie powtórzyć tego, co robi ktoś inny 1:1 tak, by uzyskać dokładnie te same wyniki!
+
+### 7.4. Podsumowanie książki Christensena
+
+To oczywiście nie jest całość książki - to jedynie wycinek. Ale to, co do tej pory wykorzystaliśmy można opisać w następujący sposób:
+
+* Teoria Pracy Christensena nie działa dla prostych problemów optymalizacyjnych _(istnieje proste równanie, np "tańsze == lepsze")_. Dzieje się to dlatego, że całość funkcji użyteczności sprowadzona jest do ceny (nie ma wymiarów emocjonalnego i społecznego a funkcjonalny jest identyczny).
+* Klient nie chce korzystać z Waszej usługi. Klient chce rozwiązać konkretny problem - JTBD _(nie chcę zostawić samochodu na parkingu pozalotniskowym, ale chcę dostać się bezproblemowo na lotnisko)._
+* Segmentacja klientów / użytkowników powinna mieć miejsce właśnie pod kątem JTBD. Ta sama osoba może raz być klientem a raz nie. _(w zależności od linii lotniczych - jeśli trafię na taką, która często zmienia lotnisko docelowe, nie będę klientem parkingu pozalotniskowego)_
+* Klient nie wybiera produktu tylko pod kątem ceny; rozważa wymiar Funkcjonalny, Emocjonalny i Społeczny. _(tanie linie lotnicze niebezpiecznie zbliżają się dla części moich znajomych do granicy, w której oni wolą nie lecieć niż z tych linii korzystać)_
+* Wasza konkurencja to nie zawsze tylko obiekt w Twojej klasie _(masło lub margaryna)_. To czasem obiekt w zupełnie innej klasie _(masło lub kupienie ciasta, czy masło lub pójście do kina)_
+
+### 7.5. Podsumowanie Teorii Zasobów i Kompetencji
+
+Teoria Zasobów i Kompetencji występuje w kilku formach i odmianach; to powyżej to najmniejszy sensowny wycinek. Co warto zapamiętać:
+
+* Nie wszystko musicie potrafić / posiadać na własność. Często wystarczy tylko "mieć do czegoś dostęp".
+* Kompetencje, Przedmioty, Reputacja... to wszystko są Zasoby. Wszystko, co "można mieć" lub wykorzystać.
+* Każdy nowy Zasób jaki posiadacie czy umiecie zwielokratnia Wasze możliwości. Dlatego właśnie tak popularny wśród programistów jest "T-shaped skill model". Im więcej zasobów, tym większy potencjał adaptacji.
+* Jeżeli wiecie, jaki problem rozwiązujecie - możecie na bazie swoich Zasobów złożyć Przewagę Konkurencyjną. I do niej dopasować faktyczne działania (Strategię), którą dopasujecie do zmieniających się Zasobów, Otoczenia i ogólnie rozumianego biznesu.
+* Bardzo często nie wiecie do jak wielkiej ilości rzeczy macie dostęp, bo zwyczajnie się o tym nie myśli. Co możecie zrobić np. przy użyciu nożyczek? Takiego typu fundamentalne pytania to właśnie podstawa teorii Zasobów i Kompetencji.
+* Trochę na żarty, trochę na serio - właśnie o to chodziło Sun Tzu, gdy pisał "jeśli znasz siebie, wygrasz 50% bitew". Analiza własnych zasobów pozwala na nie robienie głupot i na skupienie uwagi tam, gdzie jesteście najsilniejsi. Na to właśnie często grają startupy - na znalezienie niszy oraz na bezwzględnym skupieniu wszystkich zasobów na zaspokojeniu tej niszy.
+
+### 7.6. Obiecana checklista
 
 1. Określcie JTBD klienta. Najpewniej macie kilka JTBD dla kilku klientów. I teraz, poniższe zróbcie dla każdego JTBD osobno:
 1. Rozbijcie JTBD pod kątem "Intencja - Design - Implementacja"
@@ -457,8 +507,6 @@ W taki właśnie sposób się uczymy i możemy zwyciężać ;-).
 1. Może pojawiły się inne Zasoby, mogące spełnić potrzebne Możliwości? Sprawdziłbym ponownie.
 1. Ustalcie Przewagę Konkurencyjną dla Wymagania. Co robimy lepiej, co gorzej - i na co mamy Zasoby
 1. Dobierzcie właściwą Strategię.
-
-Tu od pewnego miejsca aż mi się nasuwa teoria Gilba (Evo), ale to już nie materiał na ten artykuł...
 
 ## 8. Wykazanie korzyści
 ### 8.1. Przypomnienie obietnicy
@@ -503,8 +551,8 @@ Powodzenia!
 | Liczba osób korygujących szkic (poza autorem)                 | 2 osoby  |
 | Ilość zmian szkicu po konsultacjach                           | 2 zmiany |
 | Czas poświęcony na napisanie i korektę artykułu               | 9 godzin |
-| Liczba osób korygujących artykuł (poza autorem)               | ? osób   |
-| Czas poświęcony na przebudowę artykułu później                | ? godzin |
+| Liczba osób korygujących artykuł (poza autorem)               | 1 osób   |
+| Czas poświęcony na przebudowę artykułu później                | 3 godziny |
 | Liczba osób korygujących artykuł po publikacji (poza autorem) | ? osób   |
 | Liczba błędów / modyfikacji artykułu po wydaniu               | ? błędów |
 | Czas poświęcony na korekcję błędów                            | ? godzin |
