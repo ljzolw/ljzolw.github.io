@@ -14,7 +14,7 @@ Lubię użyteczne teorie.
 
 Jednocześnie często jestem sfrustrowany. Ta frustracja bierze się stąd, że bardzo często widzę coś, co uważam za potencjalnie użyteczne, ale nie potrafię tego jeszcze wykorzystać. 
 
-Stąd wziął się ten artykuł - moja próbą zintegrowania trzech użytecznych teorii w jedną całość na przykładzie pojedynczego parkingu przylotniskowego. Z jednej strony jest to okazja do poćwiczenia sobie przydatnych technik, z drugiej - okazja do oszczędzenia Wam tego typu frustracji. Lub, może, zachęcenie do zapoznania się z tymi teoriami... ;-)
+Stąd wziął się ten artykuł - moja próba zintegrowania dwóch użytecznych teorii w jedną całość na przykładzie pojedynczego parkingu nie znajdującego się na lotnisku. Z jednej strony jest to okazja do poćwiczenia sobie przydatnych technik, z drugiej - okazja do oszczędzenia Wam tego typu frustracji. Lub, może, zachęcenie do zapoznania się z tymi teoriami... ;-)
 
 ## 2. Zakres artykułu
 ### 2.1. Rozpatrywane narzędzia
@@ -32,7 +32,7 @@ Stąd wziął się ten artykuł - moja próbą zintegrowania trzech użytecznych
 
 **Co ja chcę Wam dać?**
 
-1. Chcę pokazać, jak można rozpatrzeć jedną sytuację przez dwie różne teorie i jak się pięknie to składa w jedną całość
+1. Chcę pokazać, jak można rozpatrzyć jedną sytuację przez dwie różne teorie i jak się pięknie to składa w jedną całość
 1. Generalizując, chcę, byście zobaczyli kilka podejść do jednego problemu i przez jakie wymiary warto ów problem rozważyć
 1. Chcę, byście potrafili sami przeprowadzić takie rozumowanie używając tych technik (uproszczonych elementów)
 
@@ -43,10 +43,12 @@ Jeśli nie macie czasu przeczytać artykułu, chcecie go odświeżyć czy nabra�
 1. Użyteczne teorie są narzędziami rozwiązującymi problemy. Użyteczne teorie można łączyć w całość (która jest większa niż suma jej części). Znajomość różnych teorii zmienia sposób myślenia.
 2. Klientów warto segmentować pod kątem konkretnych rzeczy, jakie chcą osiągnąć (postępu). Nie interesuje ich Wasz produkt czy usługa; interesuje ich konkretny efekt który Wasz produkt czy usługa ma im zapewnić. Między innymi przez to nie da się rozpatrywać klienta bez spojrzenia na kontekst owego klienta.
 3. Klienci rozpatrują produkty i usługi w wymiarach: Funkcjonalnym, Emocjonalnym, Społecznym. 
-4. W zależności od tego, jakie zasoby macie do dyspozycji, możecie w inny sposób rozwiązać "oczekiwany postęp" klienta. Uwzględnijcie te wymiary. Skupcie się na poziomie Intencji, nie Implementacji.
+4. W zależności od tego, jakie zasoby macie do dyspozycji, możecie w różny sposób rozwiązać "oczekiwany postęp" klienta. Uwzględnijcie wymiary. Skupcie się na poziomie Intencji, nie Implementacji.
 5. Im więcej zasobów macie do dyspozycji, tym większe macie możliwości i tym lepiej możecie się adaptować do zmieniającej się sytuacji.
 6. Przewaga Konkurencyjna jest w kontekście "oczekiwanego postępu" przez klienta, ale generowana jest przez posiadane przez Was zasoby. Warto obrać taką strategię, by wzmocnić swoją przewagę.
 7. "Zasób" to przedmiot, kompetencja czy reputacja. Wszystko, co można "mieć" i "wykorzystać".
+
+Jeśli jeszcze jesteście zainteresowani artykułem, nadszedł czas na ekscytującą opowieść o parkingach.
 
 ## 4. Samolotem do Szwecji...
 
@@ -343,7 +345,7 @@ Teoria Zasobów i Kompetencji występuje w kilku formach i odmianach; to powyże
 
 Jak możecie to wykorzystać?
 
-* Pamiętajcie, że _wszystko_ czego się uczycie wzmacnia Wasze inne umiejętności. Teraz tylko kwestia znalezienia takiego kontekstu, w którym możecie zrobić z tego własną przewagę.
+* Pamiętajcie, że _wszystko_ czego się uczycie wzmacnia Wasze możliwości. Teraz tylko kwestia znalezienia takiego kontekstu, w którym możecie zrobić z tego własną przewagę.
 * Pamiętajcie, że "mieć dostęp" jest wystarczającym poziomem. Nie wszystko musicie mieć na własność. Daje Wam to potencjalnie dużą elastyczność - macie dostęp do ogromnej ilości książek w bibliotece, ale kupicie na własność tylko te, które są dla Was naprawdę krytyczne.
 * Reputacja, pieniądze, przedmioty, kompetencje. To wszystko są zasoby, które można potencjalnie wykorzystać. Jeśli macie problem którego nie wiecie jak rozwiązać, wyjdźcie od swoich zasobów i "jak można to rozwiązać przy użyciu tego co mam"
 * Warto zrobić sobie podsumowanie tego, jakie macie zasoby (i możliwości). Na poziomie jednostki lub organizacji. Bardzo ułatwia użycie właściwego narzędzia do znienacka pojawiającego się problemu.
@@ -393,7 +395,7 @@ Tu od pewnego miejsca aż mi się nasuwa teoria Gilba, ale to już nie materiał
 
 **Co ja chcę Wam dać?**
 
-1. Chcę pokazać, jak można rozpatrzeć jedną sytuację przez dwie różne teorie i jak się pięknie to składa w jedną całość
+1. Chcę pokazać, jak można rozpatrzyć jedną sytuację przez dwie różne teorie i jak się pięknie to składa w jedną całość
 1. Generalizując, chcę, byście zobaczyli kilka podejść do jednego problemu i przez jakie wymiary warto ów problem rozważyć
 1. Chcę, byście potrafili sami przeprowadzić takie rozumowanie używając tych technik (uproszczonych elementów)
 
@@ -405,7 +407,7 @@ Mam nadzieję, że udowodniłem Wam, że łączenie teorii jest korzystne i że 
 
 Połączenie Teorii Zasobów i Teorii Zadań Do Wykonania daje nam uroczą wizję świata: _"klienci chcą XXX, my mamy AAA i chcemy z podzbioru klientów wydobyć takie X, które my możemy naszym A rozwiązać"._ Podzbiory. Ten artykuł _powinien_ usystematyzować podejście do tej klasy problemów i powinien stanowić pewną formę nici Ariadny w pięknej złożoności chaosu. To powinno rozwiązać "wielowymiarowy problem" oraz "potraficie sami przeprowadzić takie rozumowanie".
 
-Z mojego punktu widzenia wszystkie powyższe obietnice są spełnione. Jeżeli się mylę, cóż... mam nadzieję, że nie potraktowaliście tego czasu za stracony.
+Z mojego punktu widzenia wszystkie powyższe obietnice są spełnione. Jeżeli się mylę, cóż... mam nadzieję, że mimo wszystko coś Wam to dało.
 
 Powodzenia!
 
