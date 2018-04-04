@@ -6,21 +6,34 @@ date: 2018-04-02
 
 # {{ page.title }}
 
-## 1. Wstęp
+## 1. Streszczenie myśli przewodniej artykułu
 
-Lubię użyteczne teorie. 
+Jeśli nie macie czasu przeczytać artykułu, chcecie go odświeżyć czy nabrać kontekstu, przeczytajcie ten punkt. To nie spis treści - to siedem głównych myśli całego artykułu.
 
-"Użyteczne" oznacza dla mnie w tym kontekście "takie, które na moim poziomie pojmowania rzeczywistości pozwalają mi robić coś 'lepiej'". Czyli - teoria, która dla innych działa, ale nie jestem w stanie jej zrozumieć nie jest jeszcze dla mnie "użyteczną teorią".
+1. Użyteczne teorie są narzędziami rozwiązującymi problemy. Użyteczne teorie można łączyć w całość (która jest większa niż suma jej części). Znajomość różnych teorii zmienia sposób myślenia.
+2. Klientów warto segmentować pod kątem konkretnych rzeczy, jakie chcą osiągnąć (postępu). Nie interesuje ich Wasz produkt czy usługa; interesuje ich konkretny efekt który Wasz produkt czy usługa ma im zapewnić. Między innymi przez to nie da się rozpatrywać klienta bez spojrzenia na kontekst owego klienta.
+3. Klienci rozpatrują produkty i usługi w różnych wymiarach: Funkcjonalnym, Emocjonalnym, Społecznym. 
+4. W zależności od tego, jakie zasoby macie do dyspozycji, możecie w różny sposób rozwiązać "oczekiwany postęp" klienta. Uwzględnijcie wymiary. Skupcie się na poziomie Intencji, nie Implementacji.
+5. "Zasób" to przedmiot, kompetencja czy reputacja. Wszystko, do czego można "mieć dostęp" i to "wykorzystać".
+6. Im więcej zasobów macie do dyspozycji, tym większe macie możliwości i tym lepiej możecie się adaptować do zmieniającej się sytuacji.
+7. Przewaga Konkurencyjna jest w kontekście "oczekiwanego postępu" przez klienta, ale generowana jest przez posiadane przez Was zasoby. Warto obrać taką strategię, by wzmocnić swoją przewagę.
 
-Jednocześnie często jestem sfrustrowany. Ta frustracja bierze się stąd, że bardzo często widzę coś, co uważam za potencjalnie użyteczne, ale nie potrafię tego jeszcze wykorzystać. 
+## 2. Wstęp
+### 2.1. Problem
+Czasem stajemy przed dość skomplikowanym, wielowymiarowym problemem biznesowym:
 
-Stąd wziął się ten artykuł - moja próba zintegrowania dwóch użytecznych teorii w jedną całość na przykładzie pojedynczego parkingu nie znajdującego się na lotnisku. Z jednej strony jest to okazja do poćwiczenia sobie przydatnych technik, z drugiej - okazja do oszczędzenia Wam tego typu frustracji. Lub, może, zachęcenie do zapoznania się z tymi teoriami... ;-)
+* Mamy dość sporo potencjalnych klientów, którzy czegoś od nas chcą
+* Możemy tym klientom coś dostarczyć, ale nie wiem w co zainwestować
 
-## 2. Zakres artykułu
-### 2.1. Rozpatrywane narzędzia
+Takie... połączenie N problemów i M potencjalnych zasobów. Niekoniecznie wiemy, czego dokładnie chcą od nas klienci, czemu nas wybierają i co tak naprawdę możemy im dostarczyć.
 
-1. "Competing against Luck" (Clayton Christensen) - wycinek
-1. Teoria zasobów i kompetencji - wycinek
+Ten typ problemów często objawia się następującymi pytaniami:
+
+* Gdzie jest nasz "najlepszy" segment klientów?
+* Co powinniśmy zrobić, by nasi klienci wybierali nas, a nie konkurencję?
+* W co powinniśmy inwestować?
+
+Ten artykuł jest próbą rozjaśnienia trochę takiej sytuacji jak powyżej. Niekoniecznie jest _najlepszym_ rozwiązaniem, ale daje pewne wytyczne jak można rozwiązać problem tego typu. Wziąłem trzy elementy różnych teorii i połączyłem je w jedną całość. Następnie wziąłem pojedynczy przypadek, by pokazać Wam jak można rozwiązać problem tego typu.
 
 ### 2.2. Korzyści dla Was
 
@@ -36,21 +49,15 @@ Stąd wziął się ten artykuł - moja próba zintegrowania dwóch użytecznych 
 1. Generalizując, chcę, byście zobaczyli kilka podejść do jednego problemu i przez jakie wymiary warto ów problem rozważyć
 1. Chcę, byście potrafili sami przeprowadzić takie rozumowanie używając tych technik (uproszczonych elementów)
 
-## 3. Streszczenie myśli przewodniej artykułu
+### 2.3. Czym rozwiążemy problem?
 
-Jeśli nie macie czasu przeczytać artykułu, chcecie go odświeżyć czy nabrać kontekstu, przeczytajcie ten punkt. To nie spis treści - to siedem głównych myśli całego artykułu.
+1. "Competing against Luck" (Clayton Christensen) - wycinek książki
+1. Teoria zasobów i kompetencji - wycinek teorii
+1. Funkcja Użyteczności
 
-1. Użyteczne teorie są narzędziami rozwiązującymi problemy. Użyteczne teorie można łączyć w całość (która jest większa niż suma jej części). Znajomość różnych teorii zmienia sposób myślenia.
-2. Klientów warto segmentować pod kątem konkretnych rzeczy, jakie chcą osiągnąć (postępu). Nie interesuje ich Wasz produkt czy usługa; interesuje ich konkretny efekt który Wasz produkt czy usługa ma im zapewnić. Między innymi przez to nie da się rozpatrywać klienta bez spojrzenia na kontekst owego klienta.
-3. Klienci rozpatrują produkty i usługi w wymiarach: Funkcjonalnym, Emocjonalnym, Społecznym. 
-4. W zależności od tego, jakie zasoby macie do dyspozycji, możecie w różny sposób rozwiązać "oczekiwany postęp" klienta. Uwzględnijcie wymiary. Skupcie się na poziomie Intencji, nie Implementacji.
-5. Im więcej zasobów macie do dyspozycji, tym większe macie możliwości i tym lepiej możecie się adaptować do zmieniającej się sytuacji.
-6. Przewaga Konkurencyjna jest w kontekście "oczekiwanego postępu" przez klienta, ale generowana jest przez posiadane przez Was zasoby. Warto obrać taką strategię, by wzmocnić swoją przewagę.
-7. "Zasób" to przedmiot, kompetencja czy reputacja. Wszystko, co można "mieć" i "wykorzystać".
+Dobrze - jeśli jeszcze jesteście zainteresowani artykułem, nadszedł czas na ekscytującą opowieść o parkingach.
 
-Jeśli jeszcze jesteście zainteresowani artykułem, nadszedł czas na ekscytującą opowieść o parkingach.
-
-## 4. Samolotem do Szwecji...
+## 3. Samolotem do Szwecji...
 
 W 2017 roku z moją kochaną Żoną stwierdziliśmy, że warto by było odwiedzić naszych dobrych przyjaciół w Szwecji na weekend. To jednak wymagałoby lotu samolotem. Sprawdziliśmy zatem rozkład lotów i wyszło nam coś niefortunnego: odlot około piątej rano, przylot w niedzielę. W nocy. A w poniedziałek do pracy.
 
@@ -80,8 +87,8 @@ To, co mnie szczególnie zaskoczyło w tej niezmiernie ekscytującej opowieści 
 
 Tak mnie to zaintrygowało, że stwierdziłem - warto to przeanalizować. I ten artykuł to właśnie ta próba analizy.
 
-## 5. "Competing against Luck"
-### 5.1 Wielowymiarowość według Christensena
+## 4. Dlaczego wybraliśmy parking?
+### 4.1. Na jaki problem natrafiliśmy?
 
 Jeśli śledziliście z wypiekami poprzednią opowieść, zauważyliście pewien "typowy" problem z jakimi mieliśmy do czynienia: Jak dostać się na lotnisko? Jakkolwiek może tak nie wyglądać, jest to problem _wielowymiarowy_:
 
@@ -89,14 +96,20 @@ Jeśli śledziliście z wypiekami poprzednią opowieść, zauważyliście pewien
 * chcę się czuć bezpiecznie, że tam dotrę na czas. Nie chcę się martwić. Nie chcę martwić się "co z samochodem". Nie chcę czuć, że marnuję czas i czekam bez sensu.
 * nie chcę robić kłopotu przyjaciołom czy rodzicom. Nie chcę też komplikować życia taksówkarzowi.
 
-Tego typu rozbicie zaproponował Christensen w swojej nowej książce "Competing against Luck":
+Popatrzcie - było kilka potencjalnych rozwiązań tego problemu (np. taksówka, prośba o podwiezienie). Całkowicie "racjonalny", "robotyczny" agent najprawdopodobnie poprosiłby kogoś o podwiezienie - jest to najtańsze. Ale tu nie chodzi tylko o cenę, prawda?
 
-* Klient nie chce kupić wiertła o wielkości 1 cm. Klient chce mieć 1 cm dziurę (za Tedem Levittem)
-* Należy rozpatrywać klientów pod kątem konkretnego **postępu** (progress), jaki ów klient chce uzyskać
+A raczej: cena jest czymś więcej, niż tylko ilość wydanych pieniędzy.
+
+### 4.2. "Competing against Luck" Christensena
+
+Rozbicie problemów na kilka wymiarów zaproponował Christensen w swojej nowej książce, "Competing against Luck". Z naszej perspektywy, ważne jest coś takiego:
+
+* Klient nie chce kupić wiertła o wielkości 1cm. Klient chce mieć 1cm dziurę (za Tedem Levittem)
+* Należy rozpatrywać klientów pod kątem konkretnego **postępu** (progress), jaki ów klient chce uzyskać (czyli ta 1cm dziura)
     * Postęp jest pochodną aktualnej chwili, aktualnego kontekstu
     * Postęp jest pochodną wymiaru funkcjonalnego, emocjonalnego, społecznego
 
-Powyższy postęp Christensen nazwał **"Zadaniem Do Wykonania" (Job To Be Done)**. Dalej odnoszę się do tego jako **JTBD**.
+Powyższy postęp Christensen nazwał **"Zadaniem Do Wykonania" (Job To Be Done)**. Dalej skracam ten termin do **JTBD**.
 
 Przykład, dla ilustracji:
 
@@ -121,9 +134,69 @@ Rozpatrzmy w tych trzech wymiarach różne Implementacje:
 | **nie idę do teatru** | zadziała              | szkoda teatru, ale zadziała   | oczekiwane społecznie     |
 | wujek morderca       | ma swoje, zna się      | zero zmartwień, rodzina       | zabiorą mi dziecko...     |
 
-_[Mała dygresja z Teorii Decyzji tutaj - funkcja użyteczności i co z niej wynika](/scraps/180402-pnnl-teoria-decyzji)_
+No dobrze, ale w takim razie... co wybrać? Jak można porównać ze sobą rzeczy w różnych wymiarach?
 
-W powyższym przykładzie zdecydowanie warto wybrać Babcię, jeśli jest taka możliwość. 
+Tu z pomocą przychodzi coś ze świata Teorii Decyzji - tak zwana Funkcja Użyteczności:
+
+### 4.3 Funkcja Użyteczności, nieco z zaskoczenia
+
+![Oskar Ostrożny trzyma dziecko i mówi, że ma w domu złoto - nie wpuści nikogo obcego do domu. Babcia nie może, to on nie idzie. Wojtek Wesoły trzyma dziecko i się cieszy - nie pomyślał o opiekunce do dziecka. Pyta, czy ma zamówić jej pizzę.](/img/180402/180403-oskar-wojtek.png)
+
+Dla **Oskara** wpuszczenie kogoś obcego do domu jest nieakceptowalne. Dla **Wojtka** to żaden problem. Dla Gabriela Gbura nieistotne jest, co myślą o nim inni a dla Pawła Przyjaznego jest to najważniejsza rzecz ze wszystkich.
+
+To oznacza, że do każdego z powyższych parametrów każda z tych person może przyporządkować inne _wagi_. Coś takiego w teorii decyzji nazywa się Funkcją Użyteczności. W naszym wypadku:
+
+_fu = f(fun, emo, społ, koszt_pieniędzy)_
+
+Weźmy najprostszą możliwą funkcję użyteczności:
+
+_fu = fun * emo * społ * koszt_
+
+Weźmy teraz jakąś "neutralną" personę, np. Nikodem Neutralny. Jak wyglądałaby jego powyższa tabelka:
+
+| Rozwiązanie          | Funkcjonalny | Emocjonalny | Społeczny | Koszt | Wynik |
+|----------------------|--------------|-------------|-----------|-------|-------|
+| zostanie samo w domu | 0.5          | 0.2         | 0.4       | 1     | 0.04  |
+| Babcia               | 1            | 1           | 1         | 0.5   | 0.5   |
+| opiekunka do dzieci  | 0.75         | 0.75        | 0.8       | 0.5   | 0.225 |
+| **nie idę do teatru** | 0.25        | 1           | 1         | 1     | 0.25  |
+| wujek morderca       | 1            | 0.9         | 0.1       | 0.7   | 0.06  |
+
+Czyli dla Nikodema Neutralnego najlepszą opcją byłoby poprosić Babcię. Jeśli nie ma takiej możliwości, albo zamówić opiekunkę do dziecka, albo nie iść do teatru.
+
+Oczywiście, czasami chcemy odciąć poziom wartości nieakceptowalnych (poziom ruiny) i wzmocnić poziom wartości pożądanych (poziom WOW). Wtedy możemy celować w taką krzywą:
+
+![Narysowana krzywa taka jak opisana poniżej](/img/180402/180403-utility-fun.png)
+
+czyli taką o wzorze:
+
+_fu = adapt(fun) * adapt(emo) * adapt(społ) * adapt(koszt)_
+
+dla funkcji adaptacji takiej jak:
+
+* x < 0.3: return 0.1*x
+* 0.3 >= x > 0.9: return x
+* x >= 0.9: return 1.5*x
+
+Wtedy tabelka dla Nikodema Neutralnego wyglądałaby tak:
+
+| Rozwiązanie          | Funkcjonalny | Emocjonalny | Społeczny | Koszt | Wynik |
+|----------------------|--------------|-------------|-----------|-------|-------|
+| zostanie samo w domu | 0.5          | 0.2         | 0.4       | 1     | 0.006 |
+| Babcia               | 1            | 1           | 1         | 0.5   | 1.69  |
+| opiekunka do dzieci  | 0.75         | 0.75        | 0.8       | 0.5   | 0.225 |
+| **nie idę do teatru** | 0.25        | 1           | 1         | 1     | 0.084 |
+| wujek morderca       | 1            | 0.9         | 0.1       | 0.7   | 0.009 |
+
+Wtedy mamy wyraźną kolejność:
+
+* Babcia (rząd wielkości 1)
+* opiekunka do dzieci (rząd wielkości 0.1)
+* nie idę do teatru (rząd wielkości 0.01)
+
+Ważne - _Każda persona inaczej przyporządkuje wartości funkcjonalne, emocjonalne, społeczne. Każda persona inaczej ustawi swoją funkcję adaptacji. Każda osoba jest inna i w różnych kontekstach inaczej ceni sobie różne rzeczy. Właśnie o to chodzi w całej tej teorii Christensena - segmentujmy klienta pod kątem Zadania Do Wykonania (JTBD); w ten sposób lepiej trafimy w segment podobnych funkcji użyteczności._
+
+Tak czy inaczej, w powyższym przykładzie zdecydowanie warto wybrać Babcię, jeśli jest taka możliwość.
 
 ![Graficzne przedstawienie tabelki powyżej dla Babci i dziecka samego w domu, w 3d. Babcia wygrywa.](/img/180402/180403-babcia-wygrywa.png)
 
@@ -137,8 +210,8 @@ Tyle wyjaśniania teorii Christensena; jeśli chcecie poćwiczyć, rozpatrzcie n
 
 Jeśli chcecie zobaczyć inny przykład, [Joel Spolsky opisuje jak powstało Trello idealnie wpasowując się w teorię JTBD](https://www.joelonsoftware.com/2012/01/06/how-trello-is-different/).
 
-### 5.2. Wielowymiarowy Klient parkingu
-#### 5.2.1. Analiza faktycznej decyzji
+### 4.4. Wielowymiarowy Klient parkingu
+#### 4.4.1. Analiza faktycznej decyzji
 
 Po połączeniu Intencja - Design - Implementacja oraz teorii JTBD Christensena, możemy spojrzeć na całość w kontekście parkingu:
 
@@ -154,19 +227,22 @@ I teraz analiza trzech wymiarów Christensena:
 
 | Funkcjonalny           | Emocjonalny                   | Społeczny                 |
 |------------------------|-------------------------------|---------------------------|
-| muszę być tam na czas  | nie chcę się martwić, to urlop | nie chcę robić problemów |
+| muszę być tam na czas  | nie chcę się martwić, to urlop | nie chcę robić nikomu problemów |
 | chcę mieć pewną swobodę | nie chcę czekać i marnować czasu | nie chcę źle wypaść przed nikim |
 | nie chcę za dużo płacić | nie chcę martwić się o samochód | |
 | nie mogę określić dokładnie czasu | nie chcę mieć ŻADNYCH problemów | |
+| | chcę się bawić; to urlop | |
 
-Teraz, analiza rozwiązań, jakie przyszły mi do głowy:
+Teraz, analiza rozwiązań, jakie przyszły nam wcześniej do głowy:
+
+
 
 | Rozwiązanie             | Funkcjonalny           | Emocjonalny                   | Społeczny                 |
 |-------------------------|------------------------|-------------------------------|---------------------------|
 | taksówka                | zero problemu, acz drożej | trzeba będzie czekać...    | taksówkarz może musieć czekać |
 | poprosić o podwiezienie | zero problemu          | no, to duża przysługa. Auć.   | to duży problem dla tej osoby |
-| parking lotniskowy      | DROGO!                 | ok                            | tak trochę głupio         |
-| parking "nielotniskowy" | zadziała               | o, coś nowego (fajnie!)       | można napisać artykuł ;-) |
+| parking lotniskowy      | DROGO!                 | ech, przepłacam...            | nie jestem firmą - tak trochę głupio |
+| parking "nielotniskowy" | zadziała               | o, coś nowego (fajnie!)       | będę prekursorem, moi tak nie robią |
 | nie jechać do Szwecji   | OK, alternatywy są fajne | smutno by było wszystkim    | niekorzystne przyjacielsko |
 
 Zauważcie, że przy takim rozpisaniu jak powyżej, zostają dwie sensowne opcje:
@@ -382,7 +458,7 @@ W taki właśnie sposób się uczymy i możemy zwyciężać ;-).
 1. Ustalcie Przewagę Konkurencyjną dla Wymagania. Co robimy lepiej, co gorzej - i na co mamy Zasoby
 1. Dobierzcie właściwą Strategię.
 
-Tu od pewnego miejsca aż mi się nasuwa teoria Gilba, ale to już nie materiał na ten artykuł...
+Tu od pewnego miejsca aż mi się nasuwa teoria Gilba (Evo), ale to już nie materiał na ten artykuł...
 
 ## 8. Wykazanie korzyści
 ### 8.1. Przypomnienie obietnicy
@@ -399,7 +475,7 @@ Tu od pewnego miejsca aż mi się nasuwa teoria Gilba, ale to już nie materiał
 1. Generalizując, chcę, byście zobaczyli kilka podejść do jednego problemu i przez jakie wymiary warto ów problem rozważyć
 1. Chcę, byście potrafili sami przeprowadzić takie rozumowanie używając tych technik (uproszczonych elementów)
 
-### 9.2. Wykazanie korzyści
+### 8.2. Wykazanie korzyści
 
 Zacznijmy od najprostszego - Checklista istnieje, w punkcie 8.2. Cały artykuł to jeden wielki opis jak tej checklisty można używać. To implikuje, że jeśli nie napisałem tego artykułu nieczytelnie (lub nie zrobiłem błędu tworząc checklistę), powinniście być w stanie podążając za checklistą uzyskać podobny wynik do tego, co mi udało się tu wygenerować.
 
