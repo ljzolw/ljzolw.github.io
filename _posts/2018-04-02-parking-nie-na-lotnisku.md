@@ -315,7 +315,7 @@ W tym momencie dużo lepszą opcją jest taksówka, którą możemy zamówić w 
 ## 6. Teoria zasobów i kompetencji
 ### 6.1. Nowy problem
 
-No dobrze. Jestem ekspertem (hipotetycznym) od parkingów nielotniskowych. Więc... czemu nie miałbym założyć własnego parkingu? Przecież po takiej analizie się chyba na tym znam, prawda?
+No dobrze. Jestem ekspertem (hipotetycznym i bardzo teoretycznym) od parkingów nielotniskowych. Więc... czemu nie miałbym założyć własnego parkingu? Przecież po takiej analizie się chyba na tym znam, prawda? Każdy może założyć taki parking, no nie?
 
 ![Żółty kierowca patrzy z niedowierzaniem na zielonego właściciela parkingu, który mówi, że nie ma vana, nie ma prawa jazdy... i w sumie to miejsca na parkingu też nie ma.](/img/180402/180403-nie-mam-kompetencji.png)
 
