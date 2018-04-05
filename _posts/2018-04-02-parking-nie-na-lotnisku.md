@@ -324,9 +324,10 @@ Wyobraźcie sobie powyższą sytuację. Przyjeżdżam na parking, a tam nic nie 
 A teraz spójrzmy na mnie pod kątem zakładania swojego parkingu:
 
 * Nie mam kompetencji do prowadzenia parkingu.
+* W sumie nie wiem nic o prowadzeniu parkingów.
 * Nie mam działki blisko lotniska.
 * Nie mam kierowcy ani minivana.
-* Gorzej, nie wiem _czego nie mam_ a jest mi potrzebne.
+* Gorzej, nie wiem _czego nie mam_ a co jest mi potrzebne.
 
 Rozwiązaniem tego typu problemów zajmuje się Teoria Zasobów i Kompetencji.
 
