@@ -60,7 +60,7 @@ Dobrze - jeśli jeszcze jesteście zainteresowani artykułem, nadszedł czas na 
 
 ## 3. Samolotem do Szwecji...
 
-W 2017 roku z moją kochaną Żoną stwierdziliśmy, że warto by było odwiedzić naszych dobrych przyjaciół w Szwecji na weekend. To jednak wymagałoby lotu samolotem. Sprawdziliśmy zatem rozkład lotów i wyszło nam coś niefortunnego: odlot około piątej rano, przylot w niedzielę. W nocy. A w poniedziałek do pracy.
+W 2017 roku z moją kochaną Żoną stwierdziliśmy, że warto by było odwiedzić naszych dobrych przyjaciół w Szwecji na weekend. To jednak wymagałoby lotu samolotem. Sprawdziliśmy zatem rozkład lotów i wyszło nam coś niefortunnego: odlot około piątej rano w piątek, przylot w niedzielę. W nocy. A w poniedziałek do pracy.
 
 Trudno; chcemy lecieć, to lecimy. Ale jak rozwiązać problem transportu?
 
@@ -100,6 +100,13 @@ Jeśli śledziliście z wypiekami poprzednią opowieść, zauważyliście pewien
 Popatrzcie - było kilka potencjalnych rozwiązań tego problemu (np. taksówka, prośba o podwiezienie). Całkowicie "racjonalny", "robotyczny" agent najprawdopodobnie poprosiłby kogoś o podwiezienie - jest to najtańsze. Ale tu nie chodzi tylko o cenę, prawda?
 
 A raczej: cena jest czymś więcej, niż tylko ilość wydanych pieniędzy.
+
+Jak zatem rozpatrywać ten typ wielowymiarowych problemów? Wykorzystamy dwa narzędzia:
+
+* **Zadanie Do Wykonania (Job To Be Done)** - to pozwoli nam umiejscowić klienta (w tym wypadku: mnie z moją Żoną) w konkretnym kontekście i określić, na czym klientowi zależy.
+* **Funkcja Użyteczności** - to pozwoli nam ułatwić zrozumienie na których wymiarach problemu danemu klientowi zależy najbardziej. I jakiego typu klientowi zależy na których wymiarach.
+
+Wyjdziemy od Zadania Do Wykonania, przejdziemy przez Funkcję Użyteczności i zobaczymy które decyzje są "akceptowalne" a które "odpadają".
 
 ### 4.2. "Competing against Luck" Christensena
 
@@ -195,7 +202,11 @@ Wtedy mamy wyraźną kolejność:
 * opiekunka do dzieci (rząd wielkości 0.1)
 * nie idę do teatru (rząd wielkości 0.01)
 
-Ważne - _Każda persona inaczej przyporządkuje wartości funkcjonalne, emocjonalne, społeczne. Każda persona inaczej ustawi swoją funkcję adaptacji. Każda osoba jest inna i w różnych kontekstach inaczej ceni sobie różne rzeczy. Właśnie o to chodzi w całej tej teorii Christensena - segmentujmy klienta pod kątem Zadania Do Wykonania (JTBD); w ten sposób lepiej trafimy w segment podobnych funkcji użyteczności._
+Ważne: 
+
+_Każda persona inaczej przyporządkuje wartości funkcjonalne, emocjonalne, społeczne. Każda persona inaczej ustawi swoją funkcję adaptacji. Każda osoba jest inna i w różnych kontekstach inaczej ceni sobie różne rzeczy._ 
+
+_Właśnie o to chodzi w całej tej teorii Christensena - segmentujmy klienta (w przykładzie: osobę idącą do teatru, w reszcie artykułu: mnie i moją Żonę lecących do Szwecji) pod kątem Zadania Do Wykonania (JTBD); w ten sposób lepiej trafimy w segment podobnych funkcji użyteczności._
 
 Tak czy inaczej, w powyższym przykładzie zdecydowanie warto wybrać Babcię, jeśli jest taka możliwość.
 
@@ -283,18 +294,19 @@ adapt:
 | parking "nielotniskowy" |  1           | 0.7         | 1         | 0.9   | 0.63   |
 | nie jechać do Szwecji   |  1           | 0.5         | 0.2       | 1     | 0.01   |
 
-Zauważcie, że przy takim rozpisaniu jak powyżej, zostają dwie najsilniejsze opcje:
+Zauważcie, że przy takim rozpisaniu jak powyżej, zostają trzy opcje do rozpatrzenia:
 
 * Parking nielotniskowy (to, co wybraliśmy)
 * Taksówka
+* Parking lotniskowy (najsłabszy z tych trzech, ale ten sam rząd wielkości)
 
 I co zabawne, wybraliśmy parking nielotniskowy z następujących powodów:
 
 * Większa oszczędność czasu, szybciej będziemy w domu
 * Coś nowego, czego jeszcze nie wykorzystywaliśmy; trzeba sprawdzić. Zawsze to nowa opowieść po urlopie.
-* Taniej niż taksówka (najmniej istotne)
+* Taniej niż taksówka
 
-Gdyby parking lotniskowy był tyci droższy niż taksówka, _nadal_ moglibyśmy go wybrać, jeśli szybciej bylibyśmy w domu.
+Gdyby parking nielotniskowy był tyci droższy niż taksówka, _nadal_ moglibyśmy go wybrać, jeśli szybciej bylibyśmy w domu; nasz JTBD zawiera bardzo silny element czasu.
 
 #### 5.2.2. Kiedy parking by przegrał?
 
@@ -305,7 +317,7 @@ _Lecimy do Szwecji liniami Przenośnix. Przenośnix słynie z tego, że się nie
 W powyższej sytuacji może dojść do dość smutnego układu:
 
 * Zostawimy samochód na parkingu. Wylecimy z Lotniska_1.
-* Wylądujemy na Lotnisku_2. Przetransportują nas do miasta.
+* Wylądujemy na Lotnisku_2 (innym, niż powinniśmy wylądować). Przetransportują nas do miasta.
 * ..?
 
 ![Graficzne przedstawienie powyższej sytuacji](/img/180402/180403-przenosnix-fails.png)
@@ -481,7 +493,7 @@ W taki właśnie sposób się uczymy i możemy zwyciężać ;-).
 To oczywiście nie jest całość książki - to jedynie wycinek. Ale to, co do tej pory wykorzystaliśmy można opisać w następujący sposób:
 
 * Teoria Pracy Christensena nie działa dla prostych problemów optymalizacyjnych _(istnieje proste równanie, np "tańsze == lepsze")_. Dzieje się to dlatego, że całość funkcji użyteczności sprowadzona jest do ceny (nie ma wymiarów emocjonalnego i społecznego a funkcjonalny jest identyczny).
-* Klient nie chce korzystać z Waszej usługi. Klient chce rozwiązać konkretny problem - JTBD _(nie chcę zostawić samochodu na parkingu pozalotniskowym, ale chcę dostać się bezproblemowo na lotnisko)._
+* Klient nie chce korzystać z Waszej usługi. Klient chce rozwiązać konkretny problem - JTBD _(nie jest moim postępem zostawienie samochodu na parkingu pozalotniskowym, ale moim postępem jest dostanie się bezproblemowo na lotnisko)._
 * Segmentacja klientów / użytkowników powinna mieć miejsce właśnie pod kątem JTBD. Ta sama osoba może raz być klientem a raz nie. _(w zależności od linii lotniczych - jeśli trafię na taką, która często zmienia lotnisko docelowe, nie będę klientem parkingu pozalotniskowego)_
 * Klient nie wybiera produktu tylko pod kątem ceny; rozważa wymiar Funkcjonalny, Emocjonalny i Społeczny. _(tanie linie lotnicze niebezpiecznie zbliżają się dla części moich znajomych do granicy, w której oni wolą nie lecieć niż z tych linii korzystać)_
 * Wasza konkurencja to nie zawsze tylko obiekt w Twojej klasie _(masło lub margaryna)_. To czasem obiekt w zupełnie innej klasie _(masło lub kupienie ciasta, czy masło lub pójście do kina)_
@@ -527,7 +539,7 @@ Teoria Zasobów i Kompetencji występuje w kilku formach i odmianach; to powyże
 
 ### 8.2. Wykazanie korzyści
 
-Zacznijmy od najprostszego - Checklista istnieje, w punkcie 8.2. Cały artykuł to jeden wielki opis jak tej checklisty można używać. To implikuje, że jeśli nie napisałem tego artykułu nieczytelnie (lub nie zrobiłem błędu tworząc checklistę), powinniście być w stanie podążając za checklistą uzyskać podobny wynik do tego, co mi udało się tu wygenerować.
+Zacznijmy od najprostszego - Checklista istnieje, w punkcie 7.6. Cały artykuł to jeden wielki opis jak tej checklisty można używać. To implikuje, że jeśli nie napisałem tego artykułu nieczytelnie (lub nie zrobiłem błędu tworząc checklistę), powinniście być w stanie podążając za checklistą uzyskać podobny wynik do tego, co mi udało się tu wygenerować.
 
 Mam nadzieję, że udowodniłem Wam, że łączenie teorii jest korzystne i że przynosi wartościowe efekty. Nie tylko umożliwia to przejście przez nie taki prosty problem stosunkowo bezboleśnie, ale dodatkowo każda nowa teoria zmienia sposób myślenia (odwołałem się właśnie do Teorii Zasobów - incepcja ;-) ).
 
@@ -555,8 +567,8 @@ Powodzenia!
 | Czas poświęcony na napisanie i korektę artykułu               | 9 godzin |
 | Liczba osób korygujących artykuł (poza autorem)               | 1 osób   |
 | Czas poświęcony na przebudowę artykułu później                | 4 godziny |
-| Liczba osób korygujących artykuł po publikacji (poza autorem) | ? osób   |
-| Liczba błędów / modyfikacji artykułu po wydaniu               | ? błędów |
-| Czas poświęcony na korekcję błędów                            | ? godzin |
+| Liczba osób korygujących artykuł po publikacji (poza autorem) | 2 osoby  |
+| Liczba błędów / modyfikacji artykułu po wydaniu               | 6 błędów |
+| Czas poświęcony na korekcję błędów                            | 0.5 godziny |
 
 Szkic, dla chętnych zobaczenia jak "robi się kiełbasę", [tutaj](/scraps/180402-parking-nie-na-lotnisku-szkic)
