@@ -7,7 +7,7 @@ title: About
 
 ## Witaj w moim warsztacie
 
-![_Rysunek: autoportret "ołówkiem" w Procreate_](/img/about/180425-ljzolw.jpg)
+![_Rysunek: autoportret "ołówkiem" w Procreate na różowym iPadzie_](/img/about/180425-ljzolw.jpg)
 
 Nazywam się Łukasz Januszek, acz popularnie zwą mnie Żółwiem.
 
@@ -45,7 +45,7 @@ Urodziłem się w roku 1983. Zanim miałem 10 lat, moi rodzice zapoznali mnie z 
 
 Pierwsze szkolenie prowadziłem po niecałym roku pracy w firmie. Nie wiedziałem niczego o "wzorcach projektowych", więc poprosiłem swojego przełożonego o wsparcie. Zaproponował mi poprowadzenie szkolenia za pół roku. Oczywiście, zgodziłem się - co może być trudnego w przeprowadzeniu szkolenia. Zdziwi Was, gdy powiem, że to szkolenie było fatalne i do niczego sensownego nie prowadziło? ;-).
 
-Po pięciu latach pracy jako programista C#, około 2012 roku, zostałem poproszony o prowadzenie praktyk studenckich. Wymyśliłem taki świetny program, że chwilę przed rozpoczęciem praktyk przyszedł do mnie pewien człowiek i powiedział, że to nie ma sensu i do niczego nie będzie służyć. Miał dobre argumenty, więc w pierwszym tygodniu przebudowaliśmy program praktyk i od tej pory współprowadzimy praktyki (i tak się rozpoczęła nasza piękna przyjaźń). Nawet wygraliśmy kilka nagród za dobre praktyki studenckie ;-).
+Po pięciu latach pracy jako programista C#, około 2012 roku, zostałem poproszony o prowadzenie praktyk studenckich. Wymyśliłem taki świetny program praktyk, że chwilę przed rozpoczęciem praktyk przyszedł do mnie kolega z firmy i powiedział, że to nie ma sensu i do niczego nie będzie służyć. Miał dobre argumenty, więc w pierwszym tygodniu przebudowaliśmy program praktyk i od tej pory współprowadzimy praktyki (i tak się rozpoczęła nasza piękna przyjaźń). Nawet wygraliśmy kilka nagród za dobre praktyki studenckie ;-).
 
 Od 2000 roku programuję sobie (czy to zawodowo, czy hobbystycznie). W tej chwili w Pythonie; mam kilka narzędzi wspierających gry RPG (oczywiście), które rozwijamy z żoną i dobrym przyjacielem.
 
@@ -60,7 +60,7 @@ Od 2017 roku jestem dodatkowo członkiem działu strategii i analizy rynku w fir
 * Struktura pełni rolę sterującą. Czy to procesy/kultura w firmie, czy struktura klas i folderów w kodzie. Struktura to interfejs - promuje pewne rzeczy i hamuje inne.
 * Wszystko jest w pewien sposób ze sobą połączone. Nie można rozwiązywać problemów systemowych jako "programista", "jakościowiec" czy "analityk biznesowy". Role to tylko etykiety, liczy się jak największy wynik w jak najmniejszym czasie i przy jak najmniejszym koszcie.
 * Niewiele jest ludzi fundamentalnie głupich i fundamentalnie złych. Zawsze warto zastanowić się, czemu racjonalna jednostka zachowuje się w nieoczekiwany sposób.
-* Gdy rozwiązuję problem, myślę o sobie jako o narzędziu. Moją rolą nie jest posiadanie opinii. Moją rolą jest rozwiązanie problemu, czymkolwiek by nie był i czego by nie wymagał.
+* Gdy rozwiązuję problem, myślę o sobie jako o narzędziu. Moją rolą nie jest posiadanie opinii. Moją rolą jest rozwiązanie problemu, czymkolwiek by nie był i czego by nie wymagał. Ego jest mniej istotne niż wynik.
 
 ## Kontakt
 
