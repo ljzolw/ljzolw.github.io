@@ -861,6 +861,32 @@ Check this:
 1. https://opentextbc.ca/strategicmanagement/chapter/resource-based-theory/     -> teoria zasobów, resource theory
 1. https://ocw.mit.edu/courses/sloan-school-of-management/15-902-strategic-management-i-fall-2006/lecture-notes/rbv_theoryf_ca.pdf  -> teoria zasobów, resource theory
 1. https://warontherocks.com/2017/10/the-red-queen-problem-innovation-in-the-defense-department-and-intelligence-community/ -> innowacja, innovation
+1. https://growthlab.com/how-i-validated-my-business-idea-using-upwork/
+1. https://growthlab.com/the-beginners-guide-to-using-reddit-to-find-a-profitable-online-course-idea/
+1. https://growthlab.com/how-websites-actually-make-money-and-how-you-can-too/?Id=5682008
+1. https://www.fs.blog/2017/01/the-dictators-handbook/
+1. https://www.fs.blog/best-articles/
+1. http://alistair.cockburn.us/Characterizing+people+as+non-linear,+first-order+components+in+software+development/v/slim   -> software methodics, why fail, why succeed
+1. http://www.netmba.com/marketing/market/analysis/     -> Net MBA, overall highlevel view on market analysis, strategy, MBA and stuff
+1. https://dcgross.com/decide-what-to-build/
+1. https://news.ycombinator.com/item?id=16825780        -> How to decide what to build
+1. https://engineering.riotgames.com/news/taxonomy-tech-debt    -> technical debt taxonomy
+1. http://swiatczytnikow.pl/top15-polskich-ksiegarni-e-bookow-wedlug-miesiecznika-press/    -> ebooki w Polsce
+1. https://news.ycombinator.com/item?id=16811499        -> how to organize knowledge in the company
+1. https://techcrunch.com/2018/04/10/how-to-understand-the-financial-levers-in-your-business/
+1. https://news.ycombinator.com/item?id=16820438        -> how to find consulting clients
+1. https://www.python-course.eu/advanced_topics.php
+1. https://news.ycombinator.com/item?id=16855018        -> Any affordable deep learning cloud service for practicing/experimenting?
+1. https://news.ycombinator.com/item?id=16863591        -> On becoming a better developer
+1. https://news.ycombinator.com/item?id=16870538        -> Are there any online trainings worth paying for?
+1. https://news.ycombinator.com/item?id=16877603        -> scuttlebutt
+1. https://news.ycombinator.com/item?id=16875106        -> What tools do you use to automate your business?
+1. https://news.ycombinator.com/item?id=16883882        -> Be likeable or get fired
+1. https://news.ycombinator.com/item?id=16884979        -> A curated library of free music for content creators
+1. https://news.ycombinator.com/item?id=16888222        -> Designing very large JavaScript applications
+1. https://news.ycombinator.com/item?id=16892211        -> Goodhart's Law, Seddon, Failure Demand
+1. https://news.ycombinator.com/item?id=16891784        -> VS Code can do that
+1. https://www.youtube.com/watch?v=_6pl5GG8RQ4          -> find product-market fit
 1. 
 
 Epic SupCom:
