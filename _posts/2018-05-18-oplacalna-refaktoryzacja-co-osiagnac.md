@@ -8,7 +8,7 @@ date: 2018-05-18
 
 ## 1. Streszczenie myśli przewodniej artykułu
 
-1. Refaktoryzacja jest środkiem do celu, nie celem samym w sobie.
+1. Refaktoryzacja jest narzędziem prowadzącym do celu, nie celem samym w sobie.
 2. Sukces czy porażka refaktoryzacji są bardzo zależne od zrozumienia kontekstu projektu oraz celów projektu.
 3. Pozytywny wynik dobrze przeprowadzonej refaktoryzacji da się udowodnić w sposób biznesowy.
 4. Refaktoryzacja jest wielowymiarowym problemem. Część wymiarów optymalizujemy kosztem innych wymiarów.
@@ -62,7 +62,7 @@ _Przykład: Jedną z metod optymalizacji aplikacji pisanych w C++ jest wprowadze
 
 **Jak tego użyć** - zanim zaczniemy refaktoryzować, zastanówmy się, dlaczego próbujemy coś zmienić. Na co próbujemy wpłynąć. Co próbujemy naprawić.
 
-## 5. Refaktoryzacja to Środek, nie Cel
+## 5. Refaktoryzacja to Narzędzie, nie Cel
 
 Problem polega na tym, że z mojego doświadczenia ludzie rzadko mówią "mamy problem z wdrażaniem nowych ludzi; zróbmy refaktoryzację pod kątem czytelności". Zwykle mówią coś w stylu "zróbmy refaktoryzację". Jest to zupełnie inny komunikat, a druga strona może zrozumieć intencję stojącą za propozycją refaktoryzacji w inny sposób.
 
@@ -213,7 +213,7 @@ Jeżeli chcecie przeprowadzić refaktoryzację dającą wartość, rozważcie wy
 
 1. Jakie wymiary ma mój problem? Jakie wymiary w ogóle są ważne w mojej aplikacji?
 2. Na których wymiarach zależy mi najbardziej? W kierunku których wymiarów chcę refaktoryzować?
-3. Czy refaktoryzacja na pewno jest najlepszym środkiem do celu, który chcę osiągnąć? Zależy mi na wymiarach, nie refaktoryzacji.
+3. Czy refaktoryzacja na pewno jest najlepszym narzędziem wobec celu, który chcę osiągnąć? Zależy mi na wymiarach, nie refaktoryzacji.
 4. Czy w kontekście (otoczeniu), w którym się znajduję - czy to, o czym myślę faktycznie pomoże?
 5. Czy to, nad czym chcę pracować pomoże w jakiś sposób biznesowi? Czy efekty uboczne są akceptowalne?
 6. Czy wiem, po czym poznać sukces? Czy _rozumiem_ wymiar, w kierunku którego próbuję refaktoryzować?
