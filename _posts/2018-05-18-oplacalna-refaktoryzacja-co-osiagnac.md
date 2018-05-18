@@ -20,7 +20,7 @@ Paweł Programista wrócił do pokoju szczęśliwy. Udało mu się przekonać bi
 
 ![Śpiewają ptaki, radość i szczęście. I w ogóle.](/img/1805/180518-happiness.png)
 
-Paweł wiedział co robić. Największym problemem jaki zaobserwował Paweł były monolityczny charakter aplikacji. Wniosek był prosty - trzeba wprowadzić **mikroserwisy**!
+Paweł wiedział co robić. Największym problemem jaki zaobserwował Paweł był monolityczny charakter aplikacji. Wniosek był prosty - trzeba wprowadzić **mikroserwisy**!
 
 Przekonał biznes, że z tym kodem nie da się już pracować; jest za duży, jest to nieczytelne, kod to jedno wielkie spaghetti i jakakolwiek zmiana będzie kosztowna. Słono płacić będzie musiał za to właśnie biznes.
 
