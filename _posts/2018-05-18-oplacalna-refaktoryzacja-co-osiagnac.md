@@ -210,9 +210,9 @@ Sprawdziliśmy więc ile czasu zajmuje dodanie Ekstraktora. 3-5 godzin. Niefart.
 
 Niestety, z uwagi na sytuację refaktoryzacja była najlepszym rozwiązaniem - nie da się ustabilizować danych czy nie dodać nowych funkcjonalności do aplikacji. Więc - działamy.
 
-Zidentyfikowaliśmy główny problem - wyrażenia regularne. Dodanie nowego wyrażenia regularnego, które tylko trochę (acz znacząco) różni się od pozostałych jest żmudne, łatwo popełnić błąd oraz zajmuje sporo czasu. Drugim problemem była konieczność obsługi specjalnych warunków przy podobnym szkielecie, czyli "kopiuj, wklej, trochę zmień". Te dwa miejsca zajmowały najwięcej czasu (no i wymagały napisania testów sprawdzających, czy nic nie zepsuliśmy).
+Zidentyfikowaliśmy główny problem - wyrażenia regularne. Dodanie nowego wyrażenia regularnego, które tylko trochę różni się od pozostałych jest żmudne, łatwo popełnić błąd oraz zajmuje sporo czasu. Drugim problemem była konieczność obsługi specjalnych warunków przy podobnym szkielecie, czyli "kopiuj, wklej, trochę zmień". Te dwa miejsca zajmowały najwięcej czasu (no i wymagały napisania testów sprawdzających, czy nic nie zepsuliśmy).
 
-Po czym poznamy sukces? Ano, jeśli będzie dało się dodać Ekstraktor, powiedzmy, w 45 minut. Aha, i nie będziemy budować wyrażeń regularnych z palca - to był inny warunek nienegocjowalny.
+Po czym poznamy sukces? Ano, jeśli będzie dało się dodać Ekstraktor dużo szybciej. Aha, i nie będziemy budować wyrażeń regularnych z palca - to był inny warunek nienegocjowalny.
 
 Przeprowadziłem refaktoryzację właśnie pod kątem zmniejszenia czasu dodawania Ekstraktorów (i usunięcia budowania regexów). **To jest cel.**
 
