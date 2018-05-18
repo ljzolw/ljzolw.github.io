@@ -188,7 +188,7 @@ To jesteśmy w stanie w miarę sensownie argumentować, że refaktoryzacja była
 
 **Jak tego użyć** - Czy wiemy co jest środkiem a co celem? Czy wiemy jak udowodnić, że osiągnęliśmy sukces zgodnie z celem? Czy wiemy jak zbadać, czy poprawiliśmy sytuację czy ją pogorszyliśmy? Czy znamy punkt startowy i potrafimy go mniej więcej umiejscowić na skali?
 
-## 10. Przykład całościowy - historia innej refaktoryzacji
+## 9. Przykład całościowy - historia innej refaktoryzacji
 
 W styczniu 2018 roku moja ukochana Żona powiedziała, że powoli ma dość implementowania kolejnych modułów ekstraktujących dane z tekstu w naszej aplikacji (dalej zwanych Ekstraktorami).
 
@@ -227,7 +227,7 @@ Jaki był wynik? **Dodawanie Ekstraktora zajmuje do 1 godziny.**
 
 Jak udowodnić, czy się opłacało? Włożyłem w tą refaktoryzację paręnaście godzin, a na każdym Ekstraktorze oszczędzam ~2 godziny. Jako, że zmiana Ekstraktorów też jest dużo szybsza, refaktoryzacja się już dawno zwróciła, patrząc na zmiany na przestrzeni ostatniego roku.
 
-## 9. Podsumowanie
+## 10. Podsumowanie
 
 Refaktoryzacja dla refaktoryzacji jest jak kopanie rowu dla kopania rowu. Sympatyczne ćwiczenie intelektualne (lub fizyczne), które jednak zamiast pomóc - potencjalnie powoduje zgryzotę.
 
@@ -248,7 +248,7 @@ Od razu będzie przyjemniej się pracowało.
 
 Powodzenia!
 
-## 10. Metadane artykułu
+## 11. Metadane artykułu
 
 | Akcja                                                         | Czas lub Ilość |
 |---------------------------------------------------------------|----------------|
