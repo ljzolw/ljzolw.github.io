@@ -64,7 +64,7 @@ Od 2017 roku jestem dodatkowo członkiem działu strategii i analizy rynku w fir
 
 ## Kontakt
 
-Przede wszystkim można mnie złapać przy użyciu maila:
+Przede wszystkim można mnie złapać przy użyciu maila.
 
 lukasz.januszek (w domenie) gmail.com
 

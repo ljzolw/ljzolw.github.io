@@ -1,0 +1,230 @@
+---
+layout: post
+title: "Opłacalna biznesowo refaktoryzacja: co chcemy osiągnąć?"
+date: 2018-05-18
+---
+
+# {{ page.title }}
+
+## 1. Streszczenie myśli przewodniej artykułu
+
+1. Refaktoryzacja jest środkiem do celu, nie celem samym w sobie.
+2. Sukces czy porażka refaktoryzacji są bardzo zależne od zrozumienia kontekstu projektu oraz celów projektu.
+3. Pozytywny wynik dobrze przeprowadzonej refaktoryzacji da się udowodnić w sposób biznesowy.
+4. Refaktoryzacja jest wielowymiarowym problemem. Część wymiarów optymalizujemy kosztem innych wymiarów.
+5. W niektórych kontekstach X jest lepsze, w niektórych Y. Dla Ciebie ważne, co jest lepsze w Twoim kontekście.
+
+## 2. Opowieść o cierpieniu
+
+Chciałbym raz napisać szczęśliwą opowieść. Więc - szczęście.
+
+Paweł Programista wrócił do pokoju szczęśliwy. Udało mu się przekonać biznes do tego, by w ciągu dwóch tygodni zespół mógł posprzątać kod. A biznes się na to zgodził!
+
+![Śpiewają ptaki, radość i szczęście. I w ogóle.](/img/1805/180518-happiness.png)
+
+Paweł wiedział co robić. Największym złem tego świata są _aplikacje monolityczne_ - trzeba wprowadzić **mikroserwisy**! Powiedział więc biznesowi prawdę - z tym kodem nie da się już pracować; jest za duży, jest to nieczytelne, kod to jedno wielkie spaghetti i jakakolwiek zmiana zajmuje za dużo czasu. Zespół prosi o możliwość refaktoryzacji kodu.
+
+![Paweł wie co robić, widzi Prawdę. Jest też rysunek upadającego monolitu i budowanych mikroserwisów](/img/1805/180518-pawel.png)
+
+Refaktoryzacja była oddana na czas. Wszystko się udało.
+
+Dwa lata później do biznesu przyszła Daria Developerka. Powiedziała biznesowi prawdę - z tym kodem nie da się pracować; nie da się niczego znaleźć, jest to nieczytelne, narzuty komunikacyjne są fatalne i jakakolwiek zmiana zajmuje za dużo czasu. Zespół prosi o możliwość refaktoryzacji kodu...
+
+Zaproponowała spojenie _mikroserwisów_ do czegoś bardziej **monolitycznego**.
+
+![Daria wie co robić, widzi Prawdę. Jest też rysunek niszczonych mikroserwisów i budowanego monolitu](/img/1805/180518-daria.png)
+
+Co się tu stało? I jak myślicie - co odpowie biznes na prośbę Darii po tym, jak propozycja Pawła nie rozwiązała problemu?
+
+## 3. Ujawnienie bólu
+
+* Podejrzewam, że widzieliście powyższą sytuację w wielu projektach, choć może w innej skali. Refaktoryzacja, która "miała pomóc", ale czy naprawdę pomogła?
+* Niby wiem, że idę w dobrym kierunku, ale kolega proponował inną refaktoryzację... może to jego rozwiązanie było lepsze?
+* Z tyłu głowy pojawia się często cichy szept - czy niczego nie zepsuję? Czy na pewno idę w dobrą stronę?
+* Jak obronić swoje rozwiązanie przed innymi? Nie chcę, by się ze mnie śmiali czy mnie atakowali...
+* Jak zatem przeprowadzić SKUTECZNĄ refaktoryzację, którą da się obronić? I to w taki sposób, by "nic nie zepsuć"?
+
+## 4. Wielowymiarowość refaktoryzacji
+
+Dlaczego w ogóle próbujemy coś refaktoryzować? (zmieniać kod bez zmieniania obserwowalnego zachowania ze strony użytkownika; zgodnie z tą definicją _optymalizacja_ jest formą _refaktoryzacji_)
+
+* **Użyteczność / czytelność kodu**: "Bo za wolno wprowadzamy zmiany; kilka godzin zajmuje znalezienie miejsca, w którym można coś zmienić"
+* **Utrzymywalność**: "Ech, spróbuj tylko coś zmienić i zaraz pojawi się kilkanaście błędów. Dużo kopiowania i wklejania"
+* **Prędkość wdrożenia**: "Ten kod? Nikt nie wie, jak to działa; nowy programista zaczyna się zwracać po roku"
+* **Wydajność (performance)**: "Cóż; prędkość tej operacji zajmuje kilkanaście minut; w sam raz, by zjeść obiad"
+* **Łatwość zmian kodu**: "W aktualnym systemie nie da się tego TAK zrobić. Mamy hack na hacku, no i używamy refleksji"
+
+Powyższe powody to nie jedyne powody, ale powinny pokazać coś zabawnego - mamy bardzo wiele różnych celów refaktoryzacji. A bardzo wiele z tych celów może wpływać negatywnie na inne cele.
+
+_Przykład: Jedną z typowych metod optymalizacji aplikacji pisanych w C++ jest wprowadzenie fragmentów kodu pisanych w języku Assembler w odpowiednich miejscach. Wpływa to bardzo pozytywnie na wydajność (wszystko działa szybciej), ale utrudnia łatwość zmian (lepiej tego nie dotykać) jak i spowalnia prędkość wdrożenia (nikt poza autorem tego kodu nie rozumie)._
+
+![Część parametrów idzie do góry, część idzie jednocześnie w dół](/img/1805/180518-multiparam.png)
+
+**Jak tego użyć** - zanim zaczniemy refaktoryzować, zastanówmy się, dlaczego próbujemy coś zmienić. Na co próbujemy wpłynąć. Co próbujemy naprawić.
+
+## 5. Refaktoryzacja to Środek, nie Cel
+
+Problem polega na tym, że z mojego doświadczenia programiści rzadko mówią "mamy problem z wdrażaniem nowych ludzi; zróbmy refaktoryzację pod kątem czytelności". Zwykle mówią coś w stylu "zróbmy refaktoryzację". Zupełnie inny komunikat, a druga strona może zrozumieć intencję stojącą za propozycją refaktoryzacji zupełnie inaczej.
+
+Zauważcie, że refaktoryzacja nie jest celem sama w sobie. Refaktoryzacja jest **środkiem** prowadzącym do **jakiegoś celu**.
+
+_Przykład: Mamy do czynienia z dość trudnym do zrozumienia modułem. Jedną ze strategii przyspieszenia wdrożenia nowych ludzi do projektu może być przebudowa tego kodu. Inną strategią może być zbudowanie testów akceptacyjnych w formie testów automatycznych, których jedyną funkcją będzie wdrażanie ludzi._
+
+Oba zaproponowane w przykładzie rozwiązania mają swoje zalety i wady - ale znając cel, jesteśmy w stanie merytorycznie porozmawiać o korzyściach i kosztach. Jesteśmy w stanie wybrać refaktoryzację, bo jest najlepszym rozwiązaniem danego problemu - nie dlatego, bo "trzeba refaktoryzować kod". Racjonalna decyzja na bazie tego, co najlepiej doprowadzi nas do sukcesu.
+
+![Refaktoryzacja czy szkolenie juniorów?](/img/1805/180518-choices.png)
+
+**Jak tego użyć** - zanim zaczniemy refaktoryzować, pomyślmy. Czy na pewno refaktoryzacja jest najlepszą metodą rozwiązania tego problemu? Nie ma innej? Czy rozpatrywaliśmy w ogóle inne możliwości?
+
+## 6. "Skuteczna" Refaktoryzacja jest pochodną kontekstu
+
+Weźmy jako przykład "czytelność kodu". Wydawałoby się, że kod może być "czytelniejszy" lub "mniej czytelny", prawda?
+
+Otóż, ta sama technika może być uznana za czytelniejszą lub mniej czytelną w zależności od tego, jaki zespół pracuje nad kodem.
+
+Przykładowo, rozpatrzmy dwie techniki:
+
+* Technika 1:
+    * Każda czynność (funkcja, metoda) przypisana jest do jakiegoś obiektu.
+    * Stan aplikacji także przypisany jest do jakiegoś obiektu.
+    * Obiekt sam zarządza swoim stanem i czynnościami zmieniającymi ów stan.
+    * Programista chcąc zmienić stan aplikacji, musi użyć danego obiektu oraz wywołać przypisaną doń metodę.
+* Technika 2:
+    * Każda czynność (funkcja, metoda) jest 'luźna'; znajduje się w pliku w folderze Functions.
+    * Stan aplikacji przypisany jest do jakichś struktur, które znajdują się w folderze State.
+    * Do zarządzania stanem aplikacji i czynnościami zmieniającymi ów stan budowane są byty dodatkowe.
+    * Programista chcąc zmienić stan aplikacji, musi wykorzystać właściwą funkcję z Functions na właściwej strukturze ze State.
+
+Obie techniki mają swoje zalety i wady. Ważne jest to, że **dla programistów, którzy przywykli do Techniki 1, Technika 2 jest mniej czytelna - i na odwrót**.
+
+![Rysunek Techniki 1 po lewej, rysunek Techniki 2 po prawej](/img/1805/180518-techniques.png)
+
+**Jak tego użyć** - Czy refaktoryzacja, o której myślimy jest tym, co zespół w którym pracuję uzna za "lepsze"? Może refaktoryzacja o której myślę wymaga dodatkowego doszkolenia członków zespołu. Może technika o której myślę jest "lepsza", ale czy jest "lepsza w moim kontekście użycia"?
+
+## 7. Jak niczego nie zepsuć
+
+Nie da się _niczego_ nie poświęcić. To jest praktycznie niemożliwe.
+
+Nawet najprostsza i najkrótsza refaktoryzacja, która ma dać najwięcej wartości - nawet taka refaktoryzacja najpewniej zmieni część parametrów:
+
+* Wykorzystanie bardziej zaawansowanych technik programowania sprawi, że osoby mniej znające ten język uznają kod za nieczytelny i trudniej im się z nim będzie pracować
+* Wykorzystanie tylko prostych technik programowania sprawi, że zaawansowani programiści są zmuszeni do pracy wolniejszej niż by mogli
+* Stworzenie kodu zawsze prostego do zmiany (np. wszystko na Eventach, Szynie i luźnych obiektach) sprawi, że kod stanie się bardzo trudny do debugowania; też nie będzie widać przyczynowo-skutkowości
+* Zwiększenie bezpieczeństwa aplikacji może wpłynąć negatywnie na interfejs użytkownika
+* Każda zmiana kodu kosztuje czas i pieniądze
+* Skrajnie: nawet zmiana _nazw zmiennych na czytelniejsze dla zespołu_ sprawia, że dla twórcy oryginalnych nazw - te nowe nazwy mogą być mniej czytelne
+
+Wielowymiarowość zadań programistycznych oznacza, że podczas refaktoryzacji musimy określić na czym nam zależy a co jesteśmy w stanie w jakimś stopniu poświęcić.
+
+Nie "po mojej refaktoryzacji wszystko jest lepsze" a "po mojej refaktoryzacji usprawniliśmy X i Y, ale kosztem Z".
+
+![Rysunek przedstawiający aplikację sformowaną z luźnych obiektów, komunikującą się tylko eventami. Obserwator nie ma pojęcia co komunikuje się z czym i kiedy. One po prostu TO ROBIĄ.](/img/1805/180518-szyna.png)
+
+**Jak tego użyć** - Czy zastanowiliśmy się nad tym, jakie skutki uboczne będzie miała ta refaktoryzacja na inne ważne wymiary aplikacji, z którą pracuję? Czy określiliśmy, co jest akceptowalnym kosztem a co nie? Które z tych wymiarów są ważniejsze dla biznesu? Czy usprawniamy jeden z tych wymiarów? A może je pogarszamy?
+
+## 8. Po czym poznamy sukces
+
+### 8.1. Problem zapalonego światła
+
+Wyobraźcie sobie, że znajdujemy się w sali szkoleniowej. Pada deszcz, więc jest lekki półmrok. Proszę o włączenie światła. Kolega po Twojej prawej stronie mówi "zrobione". Ja patrzę na delikwenta i mówię "no nie, nie włączyłeś światła". On się upiera, że włączył.
+
+Skąd Ty wiesz, czy ów kolega włączył światło? Innymi słowy, skąd wiemy, czy zadanie zostało wykonane?
+
+...
+
+**Bo przedtem światło nie świeciło, a teraz świeci.** Ewentualnie, bo przełącznik jest w innej pozycji niż przed przełączeniem przez kolegę ;-).
+
+Powyższy przykład jest dość istotny z dwóch powodów:
+
+* Powiedzieć można wszystko. Inżynier musi umieć udowodnić, że coś zostało zrobione prawidłowo (dostarczyło odpowiednie wyniki).
+* Bardzo ważne jest określenie, czy zależy mi na świecącym świetle, czy na przełączonym przełączniku. Co jest środkiem, co jest celem.
+
+![Prośba o włączenie światła spotyka się ze stwierdzeniem, że nie ma żarówki. Manager jednak twierdzi, że zadanie będzie wykonane, jeśli przełącznik przełączymy; żarówka jest nieważna](/img/1805/180518-lightbulb.png)
+
+### 8.2. Wróćmy może do refaktoryzacji
+
+Zapalenie czy zgaszenie światła jest stosunkowo prosto udowodnić. Jak jednak udowodnić, że refaktoryzacja się udała? Po czym poznamy sukces refaktoryzacji?
+
+_A czemu robimy tą refaktoryzację? Na które parametry chcemy wpłynąć? Na czym nam zależy?_
+
+Pamiętacie kilka powodów refaktoryzacji, które wymieniliśmy?
+
+* Wydajność (performance)
+* Użyteczność / czytelność kodu
+* Utrzymywalność
+* Prędkość wdrożenia
+* Łatwość zmian kodu
+
+Po czym możemy poznać, że to się udało?
+
+Zacznijmy od czegoś prostego - **wydajność**. Załóżmy, że mamy aplikację webową i mamy odpowiedzi sięgające od 500 milisekund do 5 sekund, przy założeniu, że mamy internet. [Za raportem gomez](http://www.mcrinc.com/Documents/Newsletters/201110_why_web_performance_matters.pdf), jeśli odpowiedź strony internetowej przekroczy 3 sekundy, około 40% klientów opuści stronę internetową bez czekania. Więc z perspektywy marketingu, _czas ładowania i reakcji strony_ liczony w sekundach jest _skalą wydajności_.
+
+* **wydajność**: skala = sekundy; czas ładowania i reakcji strony internetowej na działania użytkownika
+
+To może **użyteczność / czytelność kodu**? Hm, czemu zależy nam na czytelności kodu? Czy to _światło_ (wynik) czy _przełącznik_ (środek do celu)? Powiedzmy, że czytelność kodu jest nam potrzebna, by wiedzieć gdzie mamy wprowadzać zmiany oraz by szybciej móc wdrożyć nowych ludzi do projektu.
+
+Szybsze wdrożenie ludzi do projektu ma prostą skalę - czas wdrażania ludzi do projektu, mierzony w godzinach. Ale jak określimy, czy dany programista jest wdrożony? Może... po prędkości przeprowadzania zmian? Wtedy to by było coś w stylu "ile czasu (godziny) nowemu programiście zajmuje wprowadzenie Niewielkiej Zmiany do kodu"? Nie jest to idealne (i da się lepiej rozpisać), ale pokazuje na czym nam zależy.
+
+Jaka jest skala "gdzie mamy wprowadzać zmiany"? Może ilość pytań zadanych innym członkom zespołu? Może czas zmarnowany na szukanie miejsca gdzie wprowadzić zmianę? To drugie brzmi sensowniej.
+
+Czyli:
+
+* **czytelność kodu** jest skalą złożoną:
+    * **szybsze wdrożenie ludzi do projektu**: skala = godziny; ile czasu zajmuje nowemu programiście wprowadzenie Niewielkiej Zmiany do kodu
+    * **gdzie wprowadzić zmianę**: skala = godziny; ile czasu zostało zmarnowane na połapaniu się, gdzie wprowadzić zmianę
+
+![Dekompozycja - skomplikowana wartość rozkłada się na składowe elementy (to, co powyżej opisałem jako tekst)](/img/1805/180518-scale.png)
+
+Czy to powyższe jest perfekcyjne? Nie. Ale jeśli rozmawiam z kolegą o refaktoryzacji i ów mówi "ta zmiana poprawi czytelność kodu", to ja _nie mam pojęcia o czym on mówi_. Moja czytelność kodu i jego czytelność kodu mogą być zupełnie innymi rzeczami.
+
+Nawet tak pobieżne doprecyzowanie tego, co próbuję osiągnąć pozwala mi na upewnienie się, że mówimy o tym samym i dać mi jakieś wytyczne, czy idę w prawidłowym kierunku. 
+
+Posiadanie informacji o stanie aktualnym (średnio marnujemy godzinę, czas odpowiedzi strony to 5 minut, w pokoju jest ciemno...) pozwala PORÓWNAĆ wynik po refaktoryzacji ze stanem sprzed refaktoryzacji. I to wszystko razem pozwala nam dostarczyć prawdziwą wartość odbiorcy i rozmawiać o wartości i obserwowalnych wynikach, nie "czy programowanie funkcyjne jest lepsze czy obiektowe".
+
+**Jak tego użyć** - Czy wiemy co jest środkiem a co celem? Czy wiemy jak udowodnić, że osiągnęliśmy sukces zgodnie z celem? Czy wiemy jak zbadać, czy poprawiliśmy sytuację czy ją pogorszyliśmy? Czy znamy punkt startowy i potrafimy go mniej więcej umiejscowić na skali?
+
+## 9. Podsumowanie
+
+Refaktoryzacja dla refaktoryzacji jest jak kopanie rowu dla kopania rowu. Sympatyczne ćwiczenie intelektualne (lub fizyczne), które jednak zamiast pomóc - powoduje zgryzotę.
+
+Jeżeli chcecie przeprowadzić refaktoryzację, która daje wartość, rozważcie wykorzystanie poniższej procedury:
+
+1. Jakie wymiary ma mój problem? Jakie wymiary w ogóle są ważne w mojej aplikacji?
+2. Na których wymiarach zależy mi najbardziej? W kierunku których wymiarów chcę refaktoryzować?
+3. Czy refaktoryzacja na pewno jest najlepszym środkiem do celu, który chcę osiągnąć?
+4. Czy w kontekście (otoczeniu), w którym się znajduję - czy to, o czym myślę faktycznie pomoże?
+5. Czy to, nad czym chcę pracować pomoże w jakiś sposób biznesowi? Czy efekty uboczne są akceptowalne?
+6. Czy wiem, po czym poznać sukces? Czy _rozumiem_ wymiar, w kierunku którego próbuję refaktoryzować?
+
+Dla większości pytań "czy X jest lepsze czy Y" odpowiedź brzmi "jest taki kontekst, w którym X jest lepsze niż Y. Jest taki kontekst, w którym Y jest lepsze niż X". A naszą rolą jest to, byśmy doprecyzowali w jakim kontekście się znajdujemy i co mamy zrobić.
+
+**Jak zatem obronić refaktoryzację?** Na bazie racjonalnych argumentów. Przedstawcie wymiary które optymalizujecie - oraz przewidywane efekty uboczne. Rozmawiajcie o konkretach, o oczekiwanych wynikach. Nie rozmawiajcie na poziomie dogmatów, tylko obserwowalnych wyników. Uwzględnijcie otoczenie, dane historyczne oraz priorytety biznesu.
+
+Od razu będzie przyjemniej się pracowało.
+
+## 10. Nie poruszone tematy
+
+Nie powiedzieliśmy niczego o tym, jak:
+
+* Wybrać odpowiednią strategię rozwiązującą dany problem
+* Obronić swoją refaktoryzację przed biznesem czy swoim zespołem
+* Przeprowadzić refaktoryzację tak, by wiedzieć jaki jest nasz następny krok
+* Przeprowadzić refaktoryzację do poziomu "skończyliśmy" i umieć to uzasadnić
+
+Powyższe tematy pojawią się w następnych artykułach.
+
+Powodzenia!
+
+## 12. Metadane artykułu
+
+| Akcja                                                         | Czas lub Ilość |
+|---------------------------------------------------------------|----------------|
+| Czas poświęcony na budowę planu artykułu i samego szkicu      |  3 godziny |
+| Liczba osób korygujących szkic (poza autorem)                 |  0 osób   |
+| Ilość zmian szkicu po konsultacjach                           |  0 zmian  |
+| Czas poświęcony na napisanie i korektę artykułu               |  7 godzin |
+| Liczba osób korygujących artykuł (poza autorem)               |  osób   |
+| Czas poświęcony na przebudowę artykułu później                |  godziny |
+| Liczba osób korygujących artykuł po publikacji (poza autorem) |  osoby  |
+| Liczba błędów / modyfikacji artykułu po wydaniu               |  błędów |
+| Czas poświęcony na korekcję błędów                            |  godziny |

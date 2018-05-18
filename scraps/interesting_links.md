@@ -887,6 +887,7 @@ Check this:
 1. https://news.ycombinator.com/item?id=16892211        -> Goodhart's Law, Seddon, Failure Demand
 1. https://news.ycombinator.com/item?id=16891784        -> VS Code can do that
 1. https://www.youtube.com/watch?v=_6pl5GG8RQ4          -> find product-market fit
+1. https://news.ycombinator.com/item?id=17047348        -> desert of profitability, Laws of Tech Economics: Commoditize Your Complement (gwern.net)
 1. 
 
 Epic SupCom:
