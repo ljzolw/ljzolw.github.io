@@ -8,27 +8,29 @@ date: 2018-05-18
 
 ## 1. Streszczenie myśli przewodniej artykułu
 
-1. Refaktoryzacja jest narzędziem prowadzącym do celu, nie celem samym w sobie.
+1. Refaktoryzacja jest TYLKO i wyłącznie narzędziem umożliwiających osiągnięcie celu, nie celem samym w sobie.
 2. Sukces czy porażka refaktoryzacji są bardzo zależne od zrozumienia kontekstu projektu oraz celów projektu.
 3. Pozytywny wynik dobrze przeprowadzonej refaktoryzacji da się udowodnić w sposób biznesowy.
-4. Refaktoryzacja jest wielowymiarowym problemem. Część wymiarów optymalizujemy kosztem innych wymiarów.
-5. W niektórych kontekstach X jest lepsze, w niektórych Y. Dla Ciebie ważne, co jest lepsze w Twoim kontekście.
+4. Refaktoryzacja jest wielowymiarowym problemem. Nie jest możliwa jednoczesna optymalizacja wszystkich wymiarów.
+5. W niektórych kontekstach X jest lepsze, w niektórych Y. Dla Ciebie ważne jest to, co jest lepsze w Twoim kontekście.
 
-## 2. Opowieść o cierpieniu
-
-Chciałbym raz napisać szczęśliwą opowieść. Więc - szczęście.
+## 2. Historia pewnej refaktoryzacji
 
 Paweł Programista wrócił do pokoju szczęśliwy. Udało mu się przekonać biznes do tego, by w ciągu dwóch tygodni zespół mógł posprzątać kod. A biznes się na to zgodził!
 
 ![Śpiewają ptaki, radość i szczęście. I w ogóle.](/img/1805/180518-happiness.png)
 
-Paweł wiedział co robić. Największym złem tego świata są _aplikacje monolityczne_ - trzeba wprowadzić **mikroserwisy**! Powiedział więc biznesowi prawdę - z tym kodem nie da się już pracować; jest za duży, jest to nieczytelne, kod to jedno wielkie spaghetti i jakakolwiek zmiana zajmuje za dużo czasu. Zespół prosi o możliwość refaktoryzacji kodu.
+Paweł wiedział co robić. Największym problemem jaki zaobserwował Paweł były monolityczny charakter aplikacji. Wniosek był prosty - trzeba wprowadzić **mikroserwisy**!
+
+Przekonał biznes, że z tym kodem nie da się już pracować; jest za duży, jest to nieczytelne, kod to jedno wielkie spaghetti i jakakolwiek zmiana będzie kosztowna. Słono płacić będzie musiał za to właśnie biznes.
+
+W tym świetle refaktoryzacja o którą poprosił zespół była logiczną konsekwencją obecnego stanu aplikacji.
 
 ![Paweł wie co robić, widzi Prawdę. Jest też rysunek upadającego monolitu i budowanych mikroserwisów](/img/1805/180518-pawel.png)
 
 Refaktoryzacja była oddana na czas. Wszystko się udało.
 
-Dwa lata później do biznesu przyszła Daria Developerka. Powiedziała biznesowi prawdę - z tym kodem nie da się pracować; nie da się niczego znaleźć, jest to nieczytelne, narzuty komunikacyjne są fatalne i jakakolwiek zmiana zajmuje za dużo czasu. Zespół prosi o możliwość refaktoryzacji kodu...
+Dwa lata później do biznesu przyszła Daria Developerka. Powiedziała biznesowi, że z tym kodem nie da się pracować; nie da się niczego znaleźć, jest to nieczytelne, rozproszone i jakakolwiek zmiana zajmuje za dużo czasu. Zespół prosi o możliwość refaktoryzacji kodu...
 
 Zaproponowała spojenie _mikroserwisów_ do czegoś bardziej **monolitycznego**.
 
@@ -36,27 +38,31 @@ Zaproponowała spojenie _mikroserwisów_ do czegoś bardziej **monolitycznego**.
 
 Co się tu stało? I jak myślicie - co odpowie biznes na prośbę Darii po tym, jak propozycja Pawła nie rozwiązała problemu?
 
-## 3. Ujawnienie bólu
+## 3. Analiza sytuacji
 
-* Podejrzewam, że widzieliście powyższą sytuację w wielu projektach, choć może w innej skali. Refaktoryzacja, która "miała pomóc", ale czy naprawdę pomogła?
+* Czy spotkaliście się z podobną sytuacją w waszych projektach? Refaktoryzacja, która "miała pomóc", ale czy naprawdę pomogła?
 * Niby wiem, że idę w dobrym kierunku, ale kolega proponował inną refaktoryzację... może to jego rozwiązanie było lepsze?
 * Z tyłu głowy pojawia się często cichy szept - czy niczego nie zepsuję? Czy na pewno idę w dobrą stronę?
-* Jak obronić swoje rozwiązanie przed innymi? Nie chcę, by się ze mnie śmiali czy mnie atakowali...
+* Jak udowodnić, że moje rozwiązanie jest faktycznie lepszego od tego co zaproponowała inna osoba? Nie chcę, by się ze mnie śmiali czy mnie atakowali...
 * Jak zatem przeprowadzić SKUTECZNĄ refaktoryzację, którą da się obronić? I to w taki sposób, by "nic nie zepsuć"?
 
 ## 4. Wielowymiarowość refaktoryzacji
 
-Dlaczego w ogóle próbujemy coś refaktoryzować? (zmieniać kod bez zmieniania obserwowalnego zachowania ze strony użytkownika; zgodnie z tą definicją _optymalizacja_ jest formą _refaktoryzacji_)
+Dlaczego w ogóle próbujemy coś refaktoryzować?
 
-* **Użyteczność / czytelność kodu**: "Bo za wolno wprowadzamy zmiany; kilka godzin zajmuje znalezienie miejsca, w którym można coś zmienić"
+Zacznijmy od tego, że refaktoryzacja to zmiana kodu bez zmieniania obserwowalnego zachowania ze strony użytkownika; zgodnie z tą definicją _optymalizacja_ jest formą _refaktoryzacji_.
+
+Więc... po co nam to? Jest kilka potencjalnych powodów...
+
+* **Czytelność kodu**: "Bo za wolno wprowadzamy zmiany; kilka godzin zajmuje znalezienie miejsca, w którym można coś zmienić"
 * **Utrzymywalność**: "Ech, spróbuj tylko coś zmienić i zaraz pojawi się kilkanaście błędów. Dużo kopiowania i wklejania"
 * **Prędkość wdrożenia**: "Ten kod? Nikt nie wie, jak to działa; nowy programista zaczyna się zwracać po roku"
 * **Wydajność (performance)**: "Cóż; prędkość tej operacji zajmuje kilkanaście minut; w sam raz, by zjeść obiad"
 * **Łatwość zmian kodu**: "W aktualnym systemie nie da się tego TAK zrobić. Mamy hack na hacku, no i używamy refleksji"
 
-Powyższe powody to nie jedyne powody, ale powinny pokazać coś zabawnego - mamy bardzo wiele różnych celów refaktoryzacji. A bardzo wiele z tych celów może wpływać negatywnie na inne cele.
+Powyższe powody to nie jedyne powody, ale powinny pokazać coś istotnego - mamy bardzo wiele różnych celów refaktoryzacji. A optymalizacja niektórych z tych celów może wpływać negatywnie na inne.
 
-_Przykład: Jedną z metod optymalizacji aplikacji pisanych w C++ jest wprowadzenie fragmentów kodu pisanych w języku Assembler w odpowiednich miejscach. Wpływa to bardzo pozytywnie na wydajność (krytyczny fragment kodu działa szybciej), ale utrudnia łatwość zmian (lepiej tego nie dotykać) jak i spowalnia prędkość wdrożenia (nikt poza autorem tego kodu nie rozumie)._
+_Przykład: Jedną z metod optymalizacji aplikacji pisanych w C++ jest wprowadzenie fragmentów kodu pisanych w języku Assembler w odpowiednich miejscach. Wpływa to bardzo pozytywnie na wydajność (krytyczny fragment kodu działa szybciej), ale utrudnia czytelność kodu oraz łatwość wprowadzania zmian (lepiej tego nie dotykać) jak i spowalnia prędkość wdrożenia (nikt - poza autorem - tego kodu nie rozumie)._
 
 ![Część parametrów idzie do góry, część idzie jednocześnie w dół](/img/1805/180518-multiparam.png)
 
@@ -64,15 +70,17 @@ _Przykład: Jedną z metod optymalizacji aplikacji pisanych w C++ jest wprowadze
 
 ## 5. Refaktoryzacja to Narzędzie, nie Cel
 
-Problem polega na tym, że z mojego doświadczenia ludzie rzadko mówią "mamy problem z wdrażaniem nowych ludzi; zróbmy refaktoryzację pod kątem czytelności". Zwykle mówią coś w stylu "zróbmy refaktoryzację". Jest to zupełnie inny komunikat, a druga strona może zrozumieć intencję stojącą za propozycją refaktoryzacji w inny sposób.
+Problem polega na tym, że z mojego doświadczenia ludzie rzadko mówią "mamy problem z wdrażaniem nowych ludzi; zróbmy refaktoryzację pod kątem czytelności". Zwykle mówią coś w stylu "zróbmy refaktoryzację". 
 
-Zauważcie, że refaktoryzacja nie jest celem sama w sobie. Refaktoryzacja jest **środkiem** prowadzącym do **jakiegoś celu**.
+Jest to zupełnie inny komunikat, a druga strona może zrozumieć intencję stojącą za propozycją refaktoryzacji w dowolny sposób, albo nie odkryć jej w ogóle.
+
+Zauważcie, że refaktoryzacja nie jest celem sama w sobie. Refaktoryzacja jest tylko **środkiem** prowadzącym do **jakiegoś konkretnego celu**.
 
 _Przykład: Mamy do czynienia z dość trudnym do zrozumienia modułem. Jedną ze strategii przyspieszenia wdrożenia nowych ludzi do projektu może być przebudowa tego kodu. Inną strategią może być zbudowanie testów automatycznych, których jedyną funkcją będzie wdrażanie ludzi._
 
-Oba zaproponowane w przykładzie rozwiązania mają swoje zalety i wady - ale znając cel, jesteśmy w stanie merytorycznie porozmawiać o korzyściach i kosztach.
+Oba zaproponowane w przykładzie rozwiązania mają swoje zalety i wady - ale znając cel, jesteśmy w stanie merytorycznie porozmawiać o korzyściach i kosztach. Następnie wybrać to rozwiązanie, które gwarantuje nam osiągnięcie postawionych celów przy akceptowalnych kosztach.
 
-Jesteśmy w stanie wybrać refaktoryzację, bo jest najlepszym rozwiązaniem danego problemu - nie dlatego, bo "trzeba refaktoryzować kod". Innymi słowy, możemy podjąć racjonalną decyzję na bazie tego, co doprowadzi nas do sukcesu zgodnie z ważnymi dla nas wymiarami.
+Zgodnie z powyższym, jesteśmy w stanie wybrać refaktoryzację, bo jest najlepszym rozwiązaniem danego problemu - nie dlatego, bo "trzeba refaktoryzować kod". Innymi słowy, możemy podjąć racjonalną decyzję na bazie tego, co doprowadzi nas do sukcesu mając na uwadze wcześniej określone cele.
 
 ![Refaktoryzacja czy szkolenie juniorów?](/img/1805/180518-choices.png)
 
@@ -101,30 +109,30 @@ Obie techniki mają swoje zalety i wady. Ważne jest to, że **dla programistów
 
 ![Rysunek Techniki 1 po lewej, rysunek Techniki 2 po prawej](/img/1805/180518-techniques.png)
 
-Co więcej, w niektórych kontekstach wybiorę Technikę 1, w innych Technikę 2. Tak więc "lepsza" jest pochodną celów, wymiarów i kontekstu.
+Co więcej, w niektórych kontekstach wybiorę Technikę 1, w innych Technikę 2. Tak więc "lepsza" jest pochodną celów i kontekstu.
 
 **Jak tego użyć** - Czy refaktoryzacja, o której myślimy jest tym, co zespół w którym pracuję uzna za "lepsze"? Może refaktoryzacja o której myślę wymaga dodatkowego doszkolenia członków zespołu. Może technika o której myślę jest "lepsza", ale czy jest "lepsza w moim kontekście użycia"?
 
 ## 7. Jak niczego nie zepsuć
 
-Nie da się _niczego_ nie poświęcić. To jest praktycznie niemożliwe.
+Nie da się wprowadzić zmiany jednocześnie _niczego_ nie poświęcając. To jest praktycznie niemożliwe.
 
 Nawet najprostsza i najkrótsza refaktoryzacja, która ma dać najwięcej wartości - nawet taka refaktoryzacja najpewniej zmieni część parametrów:
 
-* Wykorzystanie bardziej zaawansowanych technik programowania sprawi, że osoby mniej znające ten język uznają kod za nieczytelny i trudniej im się z nim będzie pracować
-* Wykorzystanie tylko prostych technik programowania sprawi, że zaawansowani programiści są zmuszeni do pracy wolniejszej niż by mogli
-* Stworzenie kodu zawsze prostego do zmiany (np. wszystko na Eventach, Szynie i luźnych obiektach) sprawi, że kod stanie się bardzo trudny do debugowania; też nie będzie widać przyczynowo-skutkowości
-* Zwiększenie bezpieczeństwa aplikacji może wpłynąć negatywnie na interfejs użytkownika
-* Każda zmiana kodu kosztuje czas i pieniądze
-* Skrajnie: nawet zmiana _nazw zmiennych na czytelniejsze dla zespołu_ sprawia, że dla twórcy oryginalnych nazw - te nowe nazwy mogą być mniej czytelne
+* Wykorzystanie bardziej zaawansowanych technik programowania sprawi, że osoby mniej znające ten język uznają kod za nieczytelny i trudniej im się z nim będzie pracować.
+* Wykorzystanie tylko prostych technik programowania sprawi, że zaawansowani programiści są zmuszeni do pracy wolniejszej niż by mogli.
+* Stworzenie kodu zawsze prostego do zmiany (np. wszystko na Eventach, Szynie i luźnych obiektach) sprawi, że kod stanie się bardzo trudny do debugowania; też nie będzie widać przyczynowo-skutkowości.
+* Zwiększenie bezpieczeństwa aplikacji może wpłynąć negatywnie na interfejs użytkownika.
+* Każda zmiana kodu kosztuje czas i pieniądze.
+* Skrajnie: nawet zmiana _nazw zmiennych na czytelniejsze dla zespołu_ sprawia, że dla twórcy oryginalnych nazw - te nowe nazwy mogą być mniej czytelne.
 
-Wielowymiarowość zadań programistycznych oznacza, że podczas refaktoryzacji musimy określić na czym nam zależy a co jesteśmy w stanie w jakimś stopniu poświęcić.
+Wielowymiarowość zadań programistycznych oznacza, że podczas refaktoryzacji musimy określić na czym nam zależy. I, niestety, co jesteśmy w stanie w jakimś stopniu poświęcić.
 
 Nie "po mojej refaktoryzacji wszystko jest lepsze" a "po mojej refaktoryzacji usprawniliśmy X i Y, ale kosztem Z".
 
 ![Rysunek przedstawiający aplikację sformowaną z luźnych obiektów, komunikującą się tylko eventami. Obserwator nie ma pojęcia co komunikuje się z czym i kiedy. One po prostu TO ROBIĄ.](/img/1805/180518-szyna.png)
 
-**Jak tego użyć** - Czy zastanowiliśmy się nad tym, jakie skutki uboczne będzie miała ta refaktoryzacja na inne ważne wymiary aplikacji, z którą pracuję? Czy określiliśmy, co jest akceptowalnym kosztem a co nie? Które z tych wymiarów są ważniejsze dla biznesu? Czy usprawniamy jeden z tych wymiarów? A może je pogarszamy?
+**Jak tego użyć** - Czy zastanowiliśmy się nad tym, w jakim stopniu ta refaktoryzacja wpłynie na różne aspekty aplikacji? Jakie skutki uboczne wprowadzi? Czy określiliśmy, co jest akceptowalnym kosztem a co nie? Czy wzmacniamy coś, co jest ważne dla biznesu?
 
 ## 8. Po czym poznamy sukces
 
