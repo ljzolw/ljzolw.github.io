@@ -159,13 +159,17 @@ Zapalenie czy zgaszenie światła jest stosunkowo prosto udowodnić. Jak jednak 
 
 _A czemu robimy tą refaktoryzację? Na które parametry chcemy wpłynąć? Na czym nam zależy?_
 
-Spójrzmy na taki parametr jak **wydajność**. Tutaj sprawa jest stosunkowo prosta - załóżmy, że mamy aplikację webową i mamy odpowiedzi sięgające od 500 milisekund do 5 sekund, przy założeniu, że mamy internet. [Za raportem gomez z mcrinc.com](http://www.mcrinc.com/Documents/Newsletters/201110_why_web_performance_matters.pdf), jeśli odpowiedź strony internetowej przekroczy 3 sekundy, około 40% klientów opuści stronę internetową bez czekania.
+Spójrzmy więc na taki parametr jak **wydajność**.
+
+Tutaj sprawa jest stosunkowo prosta - załóżmy, że mamy aplikację webową i mamy odpowiedzi sięgające od 500 milisekund do 5 sekund, przy założeniu, że mamy internet. [Za raportem gomez z mcrinc.com](http://www.mcrinc.com/Documents/Newsletters/201110_why_web_performance_matters.pdf), jeśli odpowiedź strony internetowej przekroczy 3 sekundy, około 40% klientów opuści stronę internetową bez czekania.
 
 Więc z perspektywy marketingu, _jak najmniejszy czas ładowania i reakcji strony_ liczony w sekundach jest _skalą wydajności_.
 
 Jak zatem udowodnić sukces refaktoryzacji? Ano, można doprowadzić do tego, że odpowiedź strony będzie trwała nie "do 5 sekund" a "do 2 sekund". W tym momencie mamy prosty, mierzalny, twardy dowód. Nasze działanie przyniosło korzyść biznesową pod kątem wydajności.
 
-Dużo trudniej jest udowodnić coś takiego jak **Łatwość zmian kodu**. Spróbujmy jednak pomyśleć na ten temat.
+Wydajność jest _parametrem prostym_ - da się znaleźć jeden wymiar, który można udowodnić. Nie dla każdego parametru mamy taki luksus.
+
+Dużo trudniej jest udowodnić coś takiego jak **łatwość zmian kodu**. Nie da się określić jednej rzeczy, po której poznamy sukces czegoś takiego - jest to _parametr złożony_. Jednak z jakiegoś powodu nam zależy na tej łatwości zmian, więc jak trochę pomyślimy, powinno dać się to zdekomponować na coś, co możemy już udowodnić.
 
 Gdy ja myślę o łatwości (czy trudności) zmian kodu, widzę takie cztery rzeczy:
 
@@ -206,7 +210,7 @@ Z tego udało się nam wyciągnąć główne cele tej refaktoryzacji:
 1. musi być możliwość szybkiego dodania nowego Ekstraktora
 2. nie możemy zdecydowanie pogorszyć czytelności i elastyczności kodu
 
-Sprawdziliśmy więc ile czasu zajmuje dodanie Ekstraktora. 3-5 godzin. Niefart.
+Sprawdziliśmy więc ile czasu zajmuje dodanie Ekstraktora. 3-5 godzin. To faktycznie nieakceptowalne.
 
 Niestety, z uwagi na sytuację refaktoryzacja była najlepszym rozwiązaniem - nie da się ustabilizować danych czy nie dodać nowych funkcjonalności do aplikacji. Więc - działamy.
 
@@ -258,6 +262,6 @@ Powodzenia!
 | Czas poświęcony na napisanie i korektę artykułu               |  8 godzin |
 | Liczba osób korygujących artykuł (poza autorem)               |  1 osoba  |
 | Czas poświęcony na przebudowę artykułu później                |  2 godziny |
-| Liczba osób korygujących artykuł po publikacji (poza autorem) |  osoby  |
-| Liczba błędów / modyfikacji artykułu po wydaniu               |  błędów |
-| Czas poświęcony na korekcję błędów                            |  godziny |
+| Liczba osób korygujących artykuł po publikacji (poza autorem) |  ? osoby  |
+| Liczba błędów / modyfikacji artykułu po wydaniu               |  ? błędów |
+| Czas poświęcony na korekcję błędów                            |  ? godziny |
