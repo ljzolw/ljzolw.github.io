@@ -7,6 +7,7 @@ title: Mój mały warsztat
 
 ## Artykuły:
 
+* [2018-05-18 : Opłacalna biznesowo refaktoryzacja: co chcemy osiągnąć?](2018/05/18/oplacalna-refaktoryzacja-co-osiagnac)
 * [2018-04-02 : Parking nie na lotnisku](/2018/04/02/parking-nie-na-lotnisku)
 * [2018-02-09 : Refaktoryzacja do celu](/2018/02/09/refaktoryzacja-do-celu)
 * [2018-01-26 : "Warsztatnix", czyli top-down w praktyce](/2018/01/26/warsztatnix-top-down-sef)
