@@ -218,7 +218,7 @@ Przeprowadziłem refaktoryzację właśnie pod kątem zmniejszenia czasu dodawan
 
 By to osiągnąć, sparametryzowałem regexy, dodałem budowanie ich z poziomu kodu oraz ujednoliciłem szkielet, parametryzując specjalne warunki. **To jest środek.**
 
-Jaki był wynik? **Dodawanie Ekstraktora zajmuje do 1 godziny.**
+Jaki był wynik? **Dodawanie Ekstraktora zajmuje do 1 godziny.** Rekordem było 15 minut (łącznie z testami).
 
 * wszystko ma odpowiednie funkcje, więc łatwo je po prostu wywołać; nie ma kopiowania i wklejania -> ogromna oszczędność czasu
 * nie musimy dodawać nowych testów do szkieletów, bo jest jeden (dobrze przetestowany) ujednolicony szkielet -> oszczędność czasu
