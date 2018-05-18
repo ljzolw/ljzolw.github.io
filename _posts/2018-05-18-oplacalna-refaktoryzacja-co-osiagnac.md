@@ -167,13 +167,32 @@ Jak zatem udowodnić sukces refaktoryzacji? Ano, można doprowadzić do tego, ż
 
 Dużo trudniej jest udowodnić coś takiego jak **Łatwość zmian kodu**. Spróbujmy jednak pomyśleć na ten temat.
 
+Gdy ja myślę o łatwości (czy trudności) zmian kodu, widzę takie cztery rzeczy:
 
+* ile czasu zajmuje mi odszukanie miejsca, gdzie chcę wprowadzić zmianę?
+* ile czasu zajmuje mi dostosowanie kodu do tego, bym mógł zacząć pracę nad tym, co chcę zrobić?
+* ile czasu zajmuje mi dopisanie testów i przetestowanie, czy to nadal działa?
+* ile wprowadziłem błędów przy dostarczeniu nowej funkcjonalności?
+
+Jak można na to spojrzeć "całościowo"?
+
+Jeżeli po refaktoryzacji:
+
+* będziemy w stanie udowodnić, że średnia ilość błędów znajdowana po kolejnych zmianach się zmniejszyła
+* będziemy w stanie udowodnić, że podobnej klasy zmiana (np. na bazie zdania eksperta) zajęła zdecydowanie mniej czasu:
+    * na etapie odnalezienia miejsca
+    * na etapie dostosowania kodu
+    * na etapie testowania i dodania analogicznej ilości sensownych testów
+
+To jesteśmy w stanie w miarę sensownie argumentować, że refaktoryzacja była udana pod kątem **łatwości zmian kodu**. Pozwala to obronić naszą refaktoryzację przed kolegami, przełożonymi i klientem na poziomie obserwowalnych wyników, nie "czy ktoś uważa zmianę za ładną, czy nie".
+
+**Jak tego użyć** - Czy wiemy co jest środkiem a co celem? Czy wiemy jak udowodnić, że osiągnęliśmy sukces zgodnie z celem? Czy wiemy jak zbadać, czy poprawiliśmy sytuację czy ją pogorszyliśmy? Czy znamy punkt startowy i potrafimy go mniej więcej umiejscowić na skali?
 
 ## 10. Przykład całościowy - historia innej refaktoryzacji
 
 W styczniu 2018 roku moja ukochana Żona powiedziała, że powoli ma dość implementowania kolejnych modułów ekstraktujących dane z tekstu w naszej aplikacji (dalej zwanych Ekstraktorami).
 
-Ogólnie rzecz biorąc, był to stary fragment aplikacji (gdy jeszcze uczyliśmy się Pythona), zmieniany często "na szybko". Miał trochę kopiowania i wklejania (ze zmianami). Z uwagi na częste zmiany, kod nadgnił - nie był czytelny ani logiczny. Trzeba było zatem coś z tym zrobić, bo przed nami sporo pracy z Ekstraktorami.
+Ogólnie rzecz biorąc, był to stary fragment aplikacji (gdy jeszcze uczyliśmy się Pythona), zmieniany często "na szybko". Miał trochę kopiowania i wklejania (ze zmianami). Z uwagi na częste zmiany, kod nadgnił - nie był czytelny ani logiczny. Trzeba było zatem coś z tym zrobić, bo przed nami było (i będzie) sporo pracy z Ekstraktorami.
 
 Aplikacja miała między innymi następujące cechy:
 
