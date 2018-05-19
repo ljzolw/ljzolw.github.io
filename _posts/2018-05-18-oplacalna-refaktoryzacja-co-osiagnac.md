@@ -222,7 +222,7 @@ Przeprowadziłem refaktoryzację właśnie pod kątem zmniejszenia czasu dodawan
 
 By to osiągnąć, sparametryzowałem regexy, dodałem budowanie ich z poziomu kodu oraz ujednoliciłem szkielet, parametryzując specjalne warunki. **To jest środek.**
 
-Jaki był wynik? **Dodawanie Ekstraktora zajmuje do 1 godziny.** Rekordem było 15 minut (łącznie z testami).
+Jaki był wynik? **Dodawanie Ekstraktora zajmuje nie więcej niż 1 godzinę.** Rekordem było 15 minut (łącznie z testami).
 
 * wszystko ma odpowiednie funkcje, więc łatwo je po prostu wywołać; nie ma kopiowania i wklejania -> ogromna oszczędność czasu
 * nie musimy dodawać nowych testów do szkieletów, bo jest jeden (dobrze przetestowany) ujednolicony szkielet -> oszczędność czasu
@@ -262,6 +262,6 @@ Powodzenia!
 | Czas poświęcony na napisanie i korektę artykułu               |  8 godzin |
 | Liczba osób korygujących artykuł (poza autorem)               |  1 osoba  |
 | Czas poświęcony na przebudowę artykułu później                |  2 godziny |
-| Liczba osób korygujących artykuł po publikacji (poza autorem) |  ? osoby  |
-| Liczba błędów / modyfikacji artykułu po wydaniu               |  ? błędów |
+| Liczba osób korygujących artykuł po publikacji (poza autorem) |  2 osoby  |
+| Liczba błędów / modyfikacji artykułu po wydaniu               |  2 błędy |
 | Czas poświęcony na korekcję błędów                            |  ? godziny |
