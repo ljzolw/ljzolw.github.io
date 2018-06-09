@@ -888,7 +888,18 @@ Check this:
 1. https://news.ycombinator.com/item?id=16891784        -> VS Code can do that
 1. https://www.youtube.com/watch?v=_6pl5GG8RQ4          -> find product-market fit
 1. https://news.ycombinator.com/item?id=17047348        -> desert of profitability, Laws of Tech Economics: Commoditize Your Complement (gwern.net)
-1. 
+1. https://news.ycombinator.com/item?id=17047736        -> Ask HN: How to become a remote contractor?
+1. https://news.ycombinator.com/item?id=17048907        -> Emacs for writers
+1. https://news.ycombinator.com/item?id=17045147        -> First, Let’s Fire All the Managers (hbr.org)
+1. https://www.tedinski.com/2018/03/20/wizarding-vs-engineering.html    -> wizarding, engineering
+1. https://towardsdatascience.com/10-common-software-architectural-patterns-in-a-nutshell-a0b47a1e9013      -> architectural patterns
+1. https://news.ycombinator.com/item?id=17081900        -> start remote work
+1. https://news.ycombinator.com/item?id=17217069        -> good Jupyter AI things
+1. https://news.ycombinator.com/item?id=17217210        -> web technical stack 2018
+1. https://dariusforoux.com/prices-law/                 -> Price's Law (Pareto applied to work)
+1. http://blog.thedigitalcatonline.com/blog/2016/11/14/clean-architectures-in-python-a-step-by-step-example/    -> python clean architecture
+1. https://hbr.org/2015/04/reinventing-performance-management   -> deloitte performance review
+1. https://www.manager-tools.com/all-podcasts           -> podcasts for managers
 
 Epic SupCom:
 1. https://www.youtube.com/watch?v=fBa2noAHYBA

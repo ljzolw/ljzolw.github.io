@@ -71,6 +71,4 @@ Co ważne - musimy mieć informację o stanie aktualnym, sprzed refaktoryzacji:
 
 Posiadanie tej informacji o stanie aktualnym pozwala PORÓWNAĆ wynik po refaktoryzacji ze stanem sprzed refaktoryzacji. Pozwala udowodnić, że to co zrobiliśmy było przydatne i korzystne. Że faktycznie dostarczyliśmy wartość odbiorcy.
 
-Pozwala to obronić naszą refaktoryzację przed kolegami, przełożonymi i klientem na poziomie obserwowalnych wyników, nie "czy ktoś uważa to za ładne, czy nie".
 
-**Jak tego użyć** - Czy wiemy co jest środkiem a co celem? Czy wiemy jak udowodnić, że osiągnęliśmy sukces zgodnie z celem? Czy wiemy jak zbadać, czy poprawiliśmy sytuację czy ją pogorszyliśmy? Czy znamy punkt startowy i potrafimy go mniej więcej umiejscowić na skali?
