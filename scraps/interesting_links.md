@@ -908,6 +908,10 @@ Epic SupCom:
 1. https://www.youtube.com/watch?v=R3ATkWmyl_o  -> TAG_Chosen vs Fefe, Chosen wins, eco tech vs T1 spam1
 1. https://www.youtube.com/watch?v=lMm8k2LH2qs  -> Most epic Setons ever
 1. https://www.youtube.com/watch?v=aSNd900PiKA  -> Yudi, epic comeback after losing water.
+1. https://hbr.org/2017/10/there-are-two-types-of-performance-but-most-organizations-only-focus-on-one
+1. https://hbr.org/2015/11/how-company-culture-shapes-employee-motivation
+
+
 
 Manhwa:
 
