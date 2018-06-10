@@ -48,6 +48,7 @@ date: 2018-06-09
 1. did it actually solve a problem we tried to solve?
 1. can they name what it did?
 1. did we have "you're right" (bad) or "that's right" (good) moment?
+1. did the focus group listen (bad) or ask questions and relate to their issues (good)?
 
 ### 5. Proof
 
