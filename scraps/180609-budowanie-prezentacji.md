@@ -237,4 +237,10 @@ Seems there exists a target group for this one.
 
 ### STEP 2: Design
 
+#### TITLE
+
+[RPG] Zasługujesz na udaną sesję - o ludziach i procesach
+
+#### TODO
+
 TODO

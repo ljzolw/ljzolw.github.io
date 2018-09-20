@@ -5,8 +5,11 @@ title: Mój mały warsztat
 
 # {{ page.title }}
 
-## Artykuły:
+## Artykuły
 
+* [2018-08-04 : Jak pokonać trójkąt czasu, zasobów i zakresu?"](https://thirdalloy.com/jak-pokonac-trojkat-czasu-zasobow-i-zakresu/) : na TAL, współautorstwo z Bartkiem Michalskim
+* [2018-08-03 : Jak dostarczyć to, co jest ważne?"](https://thirdalloy.com/jak-dostarczyc-to-co-jest-wazne/) : na TAL, współautorstwo z Bartkiem Michalskim
+* [2018-08-01 : Co to znaczy "lepsze"](https://thirdalloy.com/co-to-znaczy-lepsze/) : na TAL, współautorstwo z Bartkiem Michalskim
 * [2018-05-18 : Opłacalna biznesowo refaktoryzacja: co chcemy osiągnąć?](2018/05/18/oplacalna-refaktoryzacja-co-osiagnac)
 * [2018-04-02 : Parking nie na lotnisku](/2018/04/02/parking-nie-na-lotnisku)
 * [2018-02-09 : Refaktoryzacja do celu](/2018/02/09/refaktoryzacja-do-celu)

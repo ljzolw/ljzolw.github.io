@@ -900,18 +900,71 @@ Check this:
 1. http://blog.thedigitalcatonline.com/blog/2016/11/14/clean-architectures-in-python-a-step-by-step-example/    -> python clean architecture
 1. https://hbr.org/2015/04/reinventing-performance-management   -> deloitte performance review
 1. https://www.manager-tools.com/all-podcasts           -> podcasts for managers
+1. https://medium.freecodecamp.org/what-can-you-do-with-python-the-3-main-applications-518db9a68a78     -> Python in real world
+1. https://medium.com/@fagnerbrack/the-problem-you-solve-is-more-important-than-the-code-you-write-d0e5493132c6 -> purpose of the software
+1. https://fs.blog/2018/06/succeed-at-work/             -> blocks of energy, prioritization
+1. https://hbr.org/2018/04/the-two-traits-of-the-best-problem-solving-teams     -> problem solving teams, cognitive diversity, psychological safety
+1. https://fs.blog/2018/04/reversible-irreversible-decisions/       -> decision making
+1. https://devrel.net/developer-experience/an-introduction-to-friction-logging  -> friction log, customer journey
+1. https://sdtimes.com/softwaredev/get-happy-developers-to-do-what-you-want/    -> incentive landscape, systems, culture
+1. https://realpython.com/what-can-i-do-with-python/?__s=hwmganfkqghe4xscbdkv   -> things to do with python
+1. https://news.ycombinator.com/item?id=17416676    -> Django
+1. https://news.ycombinator.com/item?id=17408985    -> Git
+1. https://news.ycombinator.com/item?id=17406186    -> dark patterns
+1. https://github.com/kay-is/react-from-zero        -> react
+1. https://en.wikipedia.org/wiki/Fundamental_human_needs    -> RPG, fundamental human needs
+1. http://www.critical-hits.com/blog/author/multiplexer/page/3/     -> multiplexer, rpg economy
+1. https://www.pkc.io/blog/five-red-flags-signaling-your-rebuild-will-fail/ -> rebuild of application will fail
+1. https://news.ycombinator.com/item?id=17517155        -> Web Architecture 101
+1. https://www.smartpassiveincome.com/how-to-launch-a-brand-new-website/    -> important, Pat Flynn, launch website
+1. https://www.youtube.com/watch?v=4K-_ccYsBI0  -> zna się na filmach. Generacja scenariuszy?
+1. https://www.sandimetz.com/blog/2016/1/20/the-wrong-abstraction   -> abstrakcja, programowanie, programming, duplication abstraction, shard-180721
+1. https://product.hubspot.com/blog/bid/7271/premature-flexibilization-is-the-root-of-whatever-evil-is-left -> shard-180721
+1. https://news.ycombinator.com/item?id=17578226    -> what tech stacks are used and why
+1. https://sites.google.com/site/amagigames/the-what-i-like-glossary -> fun theory, rpg theory, types of fun
+1. http://www.darkshire.net/~jhkim/rpg/theory/threefold/ -> rpg theory
+1. https://news.ycombinator.com/item?id=17600088  - rpg theory
+1. https://www.smartpassiveincome.com/the-content-pyramid/  -> blog contents
+1. https://www.smartpassiveincome.com/blog-post-templates/  -> potential blog post templates
+1. https://www.psychotactics.com/write-report/              -> write infoproduct overnight
+1. https://developers.google.com/machine-learning/crash-course/ml-intro     -> machine learning, polecany przez Dzióbka
+1. https://www.netlify.com/about/       -> netlify, miejsce do założenia statycznej strony / serwera
+1. https://hbr.org/2017/10/there-are-two-types-of-performance-but-most-organizations-only-focus-on-one
+1. https://hbr.org/2015/11/how-company-culture-shapes-employee-motivation
+1. https://sivers.org/book      -> świetny opis ciekawych książek do przeczytania, book recommendations
+1. https://docs.google.com/presentation/d/1kSuQyW5DTnkVaZEjGYCkfOxvzCqGEFzWBy4e9Uedd9k/preview?imm_mid=0f9b7e&cmp=em-data-na-na-newsltr_20171213#slide=id.g168a3288f7_0_58
+1. http://randsinrepose.com/archives/the-culture-chart/         -> how to chart the culture
+1. http://rachelbythebay.com/w/2018/02/26/frame/                -> reference point - how people can believe and misunderstand
+1. https://steveblank.com/2009/12/21/the-elves-leave-middle-earth-%E2%80%93-soda%E2%80%99s-are-no-longer-free/  -> how to lose by death of 1000 cuts
+1. https://issendai.livejournal.com/572510.html                 -> wicked systems, Sick systems: How to keep someone with you forever
+1. https://github.com/kitao/pyxel/tree/master/pyxel/examples
+1. https://www.evanmiller.org/how-not-to-sort-by-average-rating.html
+1. http://www.composingprograms.com/    -> functional python 3
+1. https://kierantie.com/burnout/       -> burnout, how to recover etc.
+1. http://zetcode.com/                   -> programming tutorials
+1. https://www.sqlitetutorial.net/sqlite-python/creating-database/
+1. https://www.airpair.com/python/posts/django-flask-pyramid
+1. http://pu.inf.uni-tuebingen.de/users/klaeren/epigrams.html   -> programming epigrams. Programowanie. Poezja melodia logika programowania
+1. https://www.thoughtworks.com/radar/techniques                -> techniki programowania z thoughworks
+1. https://zandercutt.com/2018/08/23/the-approval-economy/      -> mimikra, memetyka
+1. https://librarianshipwreck.wordpress.com/2016/02/25/facebook-reactions-are-no-laughing-matter/   -> wpływ technologii (mechaniki) na zachowania ludzi
+1. https://librarianshipwreck.wordpress.com/2013/02/14/neil-postmans-6-questions-1-from-me/         -> pytania czy technologia jest korzystna czy nie
+1. https://librarianshipwreck.wordpress.com/2014/01/13/technology-does-not-stay-new-for-long-another-question-for-neil-postman/ -> poszerzenie pytań
+1. https://httpsiseasy.com/     -> https, jak dodać
+1. https://news.ycombinator.com/item?id=17892796    -> how to teach yourself hard things
+1. https://unintendedconsequenc.es/the-cobra-effect-redesigned/     -> second order effect, unintended consequences, cobra farm
+1. https://www.connormarkets.com/blog/2016/1/9/vrin-scoring-your-success-prediction         -> vrin, model : value, rarity, imitability, nonsubstitutable
+1. https://trzypoziomy.pl/100-lekcji-ktore-chcialbym-przekazac-sobie-gdy-mialem-20-lat/     -> ciekawy artykuł Mirka Burnejki
+1. https://lethain.com//notes-philosophy-software-design/
 
 Epic SupCom:
+
 1. https://www.youtube.com/watch?v=fBa2noAHYBA
 1. https://www.youtube.com/watch?v=vdNtpNchFgQ  -> Zock vs Turin, Zock wins, set him back, air 
 1. https://www.youtube.com/watch?v=3Orhquz4BSc  -> Turin vs Nexus, Turin wins, air win (gunships, torp bombers)
 1. https://www.youtube.com/watch?v=R3ATkWmyl_o  -> TAG_Chosen vs Fefe, Chosen wins, eco tech vs T1 spam1
 1. https://www.youtube.com/watch?v=lMm8k2LH2qs  -> Most epic Setons ever
 1. https://www.youtube.com/watch?v=aSNd900PiKA  -> Yudi, epic comeback after losing water.
-1. https://hbr.org/2017/10/there-are-two-types-of-performance-but-most-organizations-only-focus-on-one
-1. https://hbr.org/2015/11/how-company-culture-shapes-employee-motivation
-
-
 
 Manhwa:
 
